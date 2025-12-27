@@ -629,7 +629,7 @@ Moon	"Kiethe"
 	{
 		RefPlane        "Equator"
 		PeriodDays      0.13339
-		SemiMajorAxis	0.0005
+		SemiMajorAxis	0.0015
 		Eccentricity    0.0192017898
 		Inclination     0.0762410075
 		AscendingNode   -29.0579609
@@ -833,4 +833,3 @@ Moon	"Alneim"
 		MeanAnomaly     28.5099636
 	}
 }
-
