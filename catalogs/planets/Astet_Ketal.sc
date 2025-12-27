@@ -29,7 +29,7 @@ Planet	"Astet"
 	ParentBody     "Astet & Ketal"
 	Class          "Ferria"
 	Mass            0.0313904323
-	Radius          2200.41532
+	Radius          1973.42592
 	InertiaMoment   0.354743063
 	Obliquity       2.78580983
 	EqAscendNode    -35.4327412
