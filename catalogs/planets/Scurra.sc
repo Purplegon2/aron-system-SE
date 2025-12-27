@@ -270,7 +270,7 @@ Moon	"Ikernu"
 		canyonsMagn     1.07
 		canyonsFreq     573
 		canyonsFraction 0.0611
-		cracksMagn      0.7
+		cracksMagn      0.2
 		cracksFreq      1.92
 		cracksOctaves   2
 		craterMagn      0.64
