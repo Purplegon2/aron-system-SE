@@ -981,7 +981,7 @@ Moon	"Talevia"
 
 Moon	"Nini"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Atira"
 	Mass            1.51107315e-9
@@ -1018,7 +1018,7 @@ Moon	"Nini"
 
 Moon	"Nuyene"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            7.77437855e-11
@@ -1055,7 +1055,7 @@ Moon	"Nuyene"
 
 Moon	"Scanus"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Aten"
 	Mass            1.03109555e-8
@@ -1092,7 +1092,7 @@ Moon	"Scanus"
 
 Moon	"Kiitiit"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Aten"
 	Mass            5.74240753e-9
@@ -1129,7 +1129,7 @@ Moon	"Kiitiit"
 
 Moon	"Lerira"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Atira"
 	Mass            4.35379249e-8
@@ -1166,7 +1166,7 @@ Moon	"Lerira"
 
 Moon	"Chaneim"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Apollo"
 	Mass            1.31729268e-8
@@ -1203,7 +1203,7 @@ Moon	"Chaneim"
 
 Moon	"Tetevie"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Atira"
 	Mass            2.33910321e-9
@@ -1240,7 +1240,7 @@ Moon	"Tetevie"
 
 Moon	"Nayi"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Atira"
 	Mass            5.10557101e-8
@@ -1277,7 +1277,7 @@ Moon	"Nayi"
 
 Moon	"Manus"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            7.03281768e-11
@@ -1314,7 +1314,7 @@ Moon	"Manus"
 
 Moon	"Nalia"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Centaur"
 	Mass            3.75982766e-9
@@ -1351,7 +1351,7 @@ Moon	"Nalia"
 
 Moon	"Sclnu"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            6.61245209e-8
@@ -1388,7 +1388,7 @@ Moon	"Sclnu"
 
 Moon	"Mnus"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Atira"
 	Mass            1.50473585e-8
@@ -1425,7 +1425,7 @@ Moon	"Mnus"
 
 Moon	"Sine"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            8.23402754e-8
@@ -1462,7 +1462,7 @@ Moon	"Sine"
 
 Moon	"Eiyu"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Aten"
 	Mass            2.82822310e-10
@@ -1499,7 +1499,7 @@ Moon	"Eiyu"
 
 Moon	"Tetiyinu"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Centaur"
 	Mass            2.11042739e-8
@@ -1536,7 +1536,7 @@ Moon	"Tetiyinu"
 
 Moon	"Keral"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Aten"
 	Mass            1.77669155e-8
@@ -1573,7 +1573,7 @@ Moon	"Keral"
 
 Moon	"Rucholeyu"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Aten"
 	Mass            5.88064466e-9
@@ -1610,7 +1610,7 @@ Moon	"Rucholeyu"
 
 Moon	"Loteneri"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Aten"
 	Mass            1.11890630e-8
@@ -1647,7 +1647,7 @@ Moon	"Loteneri"
 
 Moon	"Ravia"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Aten"
 	Mass            9.64722146e-8
@@ -1684,7 +1684,7 @@ Moon	"Ravia"
 
 Moon	"Titheta"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Apollo"
 	Mass            3.62827977e-8
@@ -1721,7 +1721,7 @@ Moon	"Titheta"
 
 Moon	"Acalia"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            1.30855078e-8
@@ -1758,7 +1758,7 @@ Moon	"Acalia"
 
 Moon	"Iethe"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Apollo"
 	Mass            1.17578160e-8
@@ -1795,7 +1795,7 @@ Moon	"Iethe"
 
 Moon	"Kachunato"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Aten"
 	Mass            2.68628970e-8
@@ -1832,7 +1832,7 @@ Moon	"Kachunato"
 
 Moon	"Ponalnu"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            4.32442031e-8
@@ -1869,7 +1869,7 @@ Moon	"Ponalnu"
 
 Moon	"Tielia"
 {
-	ParentBody     "Noi"
+	ParentBody     "Scurra"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            7.01691172e-9
