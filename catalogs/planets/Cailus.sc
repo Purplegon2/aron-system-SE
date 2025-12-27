@@ -695,3 +695,142 @@ Moon	"Polia"
 	}
 }
 
+Moon	"Alneim"
+{
+	ParentBody     "Cailus"
+	Class          "Terra"
+	Mass            0.00171033584
+	Radius          912.919983
+	InertiaMoment   0.399339557
+	Oblateness      0.0206106864
+	Obliquity       -1.07209156
+	EqAscendNode    -123.084229
+	TidalLocked     true
+
+	AlbedoBond      0.313
+	AlbedoGeom      0.36
+	Brightness      0.84
+	BrightnessReal  1.3
+
+	Surface
+	{
+		Preset         "terra_airless_ganymede.cfg"
+		SurfStyle       0.151
+		Randomize      (0.596, 0.923, -0.368)
+		colorDistMagn   0.0578
+		colorDistFreq   120
+		detailScale     4.1e+03
+		drivenDarkening 0
+		seaLevel        0.222
+		snowLevel       2
+		tropicLatitude  0.223
+		icecapLatitude  0.829
+		icecapHeight    0.0974
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -0.817
+		climateGrassMin  -1
+		climateGrassMax  -1
+		humidity        0.339
+		heightTempGrad  0.625
+		beachWidth      0.00119
+		tropicWidth     0.07
+		mainFreq        2
+		venusFreq       0.405
+		venusMagn       0
+		mareFreq        0.226
+		mareDensity     0.13
+		terraceProb     0.449
+		erosion         0
+		montesMagn      0.0724
+		montesFreq      36.4
+		montesSpiky     0.892
+		montesFraction  0.619
+		dunesMagn       0.0464
+		dunesFreq       9.14
+		dunesFraction   0.46
+		hillsMagn       0.113
+		hillsFreq       124
+		hillsFraction   0.11
+		hills2Fraction  0
+		riversMagn      57.3
+		riversFreq      2.15
+		riversSin       0
+		riftsMagn       61.3
+		riftsFreq       4.5
+		riftsSin        7.28
+		canyonsMagn     0.422
+		canyonsFreq     0.366
+		canyonsFraction 0
+		cracksMagn      0.382
+		cracksFreq      2.52
+		cracksOctaves   0
+		craterMagn      0.305
+		craterFreq      2.29
+		craterDensity   0.855
+		craterOctaves   18
+		craterRayedFactor 0.534
+		volcanoMagn     0.196
+		volcanoFreq     0.658
+		volcanoDensity  0.273
+		volcanoOctaves  3
+		volcanoActivity 0
+		volcanoFlows    0
+		volcanoRadius   0.156
+		volcanoTemp     0
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      20
+		SpecBrightWater 0
+		SpecBrightIce   0.03
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.8
+		Gamma           1.02
+		Hapke           1
+		SpotBright      2.5
+		SpotWidth       0.05
+		DayAmbient      0.07
+		ModulateColor  (0.865 0.954 0.988)
+	}
+
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
+
+	NoAtmosphere    true
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      5.94380999
+		SemiMajorAxisKm 356714.894
+		Eccentricity    0.0193737529
+		Inclination     -1.07209156
+		AscendingNode   -123.084229
+		ArgOfPericenter 72.1953086
+		MeanAnomaly     28.5099636
+	}
+}
+
