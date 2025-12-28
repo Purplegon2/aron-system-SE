@@ -108,6 +108,42 @@ Planet	"Chressia"
 		TempMapMaxTemp  1.75e+03
 	}
 
+	Rings
+	{
+		InnerRadius     21400
+		OuterRadius     26500
+		EdgeRadius      2.15e+04
+		MeanRadius      1.34e+04
+		Thickness       0.067
+		RocksMaxSize    0.55
+		RocksSpacing    16.6
+		DustDrawDist    201
+		ChartRadius     2.15e+04
+		RotationPeriod  5.76
+		Brightness      1
+		FrontBright     2.95
+		BackBright      4.24
+		Density         0.967
+		Opacity         0.967
+		SelfShadow      0.967
+		PlanetShadow    0.967
+		Hapke           1
+		SpotBright      1
+		SpotWidth       0.02
+		SpotBrightCB    0
+		SpotWidthCB     0.001
+		frequency       1.5e+03
+		densityScale    2.15
+		densityOffset   -1.46
+		densityPower    5.06
+		colorContrast   0.0736
+		FrontColor      (0.700 0.700 0.700)
+		BackThickColor  (0.800 0.600 0.400)
+		BackIceColor    (0.300 0.700 1.000)
+		BackDustColor   (1.000 0.980 0.880)
+	}
+
+
 	Ocean
 	{
 		Depth           7.1
