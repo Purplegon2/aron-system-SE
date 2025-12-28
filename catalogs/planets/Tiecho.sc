@@ -279,8 +279,8 @@ Moon	"Fraeni"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      2.23861981
-		SemiMajorAxisKm 938196.087
+		PeriodDays      0.83861981
+		SemiMajorAxisKm 39137.087
 		Eccentricity    0.00062099041
 		Inclination     -0.762764233
 		AscendingNode   -65.7734549
