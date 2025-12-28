@@ -132,14 +132,14 @@ Planet	"Chressia"
 	{
 		Model          "Earth"
 		Height          1130.92847
-		Density         2.87088156
+		Density         7.87088156
 		Pressure        1.11122382
 		Greenhouse      169.641235
 		Bright          1.68
-		Opacity         0.534
+		Opacity         1.434
 		SkyLight        0
 		Hue             0.5
-		Saturation      0.794
+		Saturation      0.834
 
 		Composition
 		{
