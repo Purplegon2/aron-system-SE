@@ -14,7 +14,7 @@ Barycenter	"Astet & Ketal"
 		Period          0.2507
 		SemiMajorAxis   0.397
 		Eccentricity    0.0957781393
-		Inclination     0
+		Inclination     0.634491329
 		AscendingNode   -35.460334
 		ArgOfPericenter 21.6038207
 		MeanAnomaly     178.703484
