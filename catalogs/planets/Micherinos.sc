@@ -139,3 +139,77 @@ DwarfPlanet	"Micherinos"
 	}
 }
 
+Moon	"Tiachale"
+{
+	ParentBody     "Micherinos"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            1.77315062e-10
+	Radius          4.69
+	InertiaMoment   0.37050976
+	Oblateness      0.110149426
+	RotationPeriod  10.14292
+	Obliquity       306.028047
+	EqAscendNode    -166.236225
+
+	AbsMagn         17.4
+	SlopeParam      0.21
+	Albedo          0.22
+	Brightness      1.64
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      0.396862
+		SemiMajorAxisKm 487.224
+		Eccentricity    0.2197504859
+		Inclination     -0.732777
+		AscendingNode   -108.178819
+		ArgOfPericenter -12.808101
+		MeanAnomaly     132.028427
+	}
+}
+
+Moon	"Kiavia"
+{
+	ParentBody     "Micherinos"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            6.91607811e-8
+	Radius          36.13
+	InertiaMoment   0.373201741
+	Oblateness      0.078537846
+	RotationPeriod  16.13703
+	Obliquity       254.749737
+	EqAscendNode    111.526004
+
+	AbsMagn         17
+	SlopeParam      0.14
+	Albedo          0.13
+	Brightness      1.73
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      0.397922
+		SemiMajorAxisKm 889.159
+		Eccentricity    0.154602468
+		Inclination     -0.614234
+		AscendingNode   -63.50306
+		ArgOfPericenter 136.616689
+		MeanAnomaly     39.000675
+	}
+}
+
