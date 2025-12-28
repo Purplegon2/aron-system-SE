@@ -3,7 +3,7 @@ setlocal EnableExtensions EnableDelayedExpansion
 
 rem --- Settings ---
 set "REPO_URL=https://github.com/Purplegon2/aron-system-SE.git"
-set "GAME_REL=SteamLibrary\steamapps\common\SpaceEngine\Addons"
+set "GAME_REL=steamapps\common\SpaceEngine\Addons"
 
 rem --- Check git ---
 where git >nul 2>&1
@@ -20,24 +20,36 @@ if errorlevel 1 (
   goto :error_pause
 )
 
-rem --- Find SpaceEngine Addons folder under any SteamLibrary drive ---
+rem --- Find SpaceEngine Addons folder under any SteamLibrary OR Steam drive root folder ---
 set "ADDONS_DIR="
+set "STEAMROOT="
+
 for %%D in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
-  if exist "%%D:\%GAME_REL%\" (
-    set "ADDONS_DIR=%%D:\%GAME_REL%"
+  if exist "%%D:\SteamLibrary\%GAME_REL%\" (
+    set "STEAMROOT=%%D:\SteamLibrary"
+    set "ADDONS_DIR=%%D:\SteamLibrary\%GAME_REL%"
+    goto :found_addons
+  )
+  if exist "%%D:\Steam\%GAME_REL%\" (
+    set "STEAMROOT=%%D:\Steam"
+    set "ADDONS_DIR=%%D:\Steam\%GAME_REL%"
     goto :found_addons
   )
 )
 
 :found_addons
 if not defined ADDONS_DIR (
-  echo ERROR: Could not find "%GAME_REL%" on any drive.
-  echo Checked drives C: through Z: for SteamLibrary.
+  echo ERROR: Could not find "%GAME_REL%" under either:
+  echo   ^<Drive^>:\SteamLibrary\%GAME_REL%
+  echo   ^<Drive^>:\Steam\%GAME_REL%
+  echo Checked drives C: through Z:.
   goto :error_pause
 )
 
 echo Found Addons folder:
 echo   "%ADDONS_DIR%"
+echo Using Steam root:
+echo   "%STEAMROOT%"
 
 rem --- Timestamp ---
 for /f "usebackq delims=" %%T in (`powershell -NoProfile -Command "Get-Date -Format 'yyyyMMdd_HHmmss'"`) do set "TS=%%T"
@@ -147,4 +159,3 @@ echo Script stopped due to an error.
 echo Press any key to close this window.
 pause >nul
 exit /b 1
-
