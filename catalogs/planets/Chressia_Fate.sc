@@ -184,7 +184,7 @@ Moon	"Entactrius"
 	Radius          3617.54541
 	InertiaMoment   0.329854131
 	Oblateness      0.00755331991
-	RotationPeriod  9.8622274
+	RotationPeriod  21.8622274
 	RotationEpoch   0
 	Obliquity       -47.9116515
 	EqAscendNode    141.128558
