@@ -224,8 +224,8 @@ Planet	"Chressia"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays          39.907869
-		SemiMajorAxisKm 28962.223
+		PeriodDays      39.907869
+		SemiMajorAxisKm -28962.223
 		Eccentricity    0.00123931874
 		Inclination     -2.2992788
 		AscendingNode   139.494825
@@ -494,7 +494,7 @@ Moon	"Entactrius"
 
 Moon	"Qutaro"
 {
-	ParentBody     "Chressia"
+	ParentBody     "Chressia & Entactrius"
 	Class          "Terra"
 	Mass            8.52406229e-05
 	Radius          321.73999
@@ -632,7 +632,7 @@ Moon	"Qutaro"
 
 Moon	"Chusa"
 {
-	ParentBody     "Chressia"
+	ParentBody     "Chressia & Entactrius"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            5.81990778e-8
