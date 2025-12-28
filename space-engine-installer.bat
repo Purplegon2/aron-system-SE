@@ -111,7 +111,7 @@ if errorlevel 1 (
 
 rem --- Create stars.sc with specified contents ---
 (
-echo StarBarycenter "Hope ^& Fate System"
+echo StarBarycenter "Hope & Fate System"
 echo {
 echo     RA       09 31 14  // right ascension
 echo     Dec      64 16 38  // declination
@@ -147,3 +147,4 @@ echo Script stopped due to an error.
 echo Press any key to close this window.
 pause >nul
 exit /b 1
+
