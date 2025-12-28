@@ -24,7 +24,7 @@ Planet	"Chressia"
 		colorDistFreq   195
 		detailScale     187
 		drivenDarkening 0
-		seaLevel        0.5
+		seaLevel        0.55
 		snowLevel       -0.542
 		tropicLatitude  0.728
 		icecapLatitude  1
@@ -108,8 +108,6 @@ Planet	"Chressia"
 		TempMapMaxTemp  1.75e+03
 	}
 
-	NoOcean         true
-
 	NoClouds        true
 
 	NoLava          true
@@ -120,7 +118,7 @@ Planet	"Chressia"
 		Height          1130.92847
 		Density         2.87088156
 		Pressure        1.11122382
-		Greenhouse      336.641235
+		Greenhouse      169.641235
 		Bright          1.68
 		Opacity         0.534
 		SkyLight        0
@@ -154,8 +152,8 @@ Planet	"Chressia"
 	Orbit
 	{
 		RefPlane	"Equator"
-		Period		0.30136986301
-		SemiMajorAxis	0.3314
+		Period		1.113
+		SemiMajorAxis	0.7914
 		Eccentricity	0.0939481028
 		Inclination	0
 	}
