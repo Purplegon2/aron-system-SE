@@ -243,40 +243,7 @@ Planet	"Aron"
 		BottomColor (0.000 1.000 0.000)
 	}
 
-	Rings
-	{
-		InnerRadius     9.61e+03
-		OuterRadius     1.59e+04
-		EdgeRadius      1.59e+04
-		MeanRadius      1.17e+04
-		Thickness       0.0704
-		RocksMaxSize    0.00282
-		RocksSpacing    1
-		DustDrawDist    211
-		ChartRadius     2.3e+04
-		RotationPeriod  6.33
-		Brightness      1
-		FrontBright     2.84
-		BackBright      4.04
-		Density         0.98
-		Opacity         0.98
-		SelfShadow      0.98
-		PlanetShadow    0.98
-		Hapke           1
-		SpotBright      1
-		SpotWidth       0.02
-		SpotBrightCB    0
-		SpotWidthCB     0.001
-		frequency       719
-		densityScale    2.37
-		densityOffset   -1.59
-		densityPower    5.03
-		colorContrast   0.0827
-		FrontColor      (0.700 0.700 0.700)
-		BackThickColor  (0.800 0.600 0.400)
-		BackIceColor    (0.300 0.700 1.000)
-		BackDustColor   (1.000 0.980 0.880)
-	}
+	NoRings 		true
 
 	NoAccretionDisk true
 
