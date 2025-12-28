@@ -84,15 +84,15 @@ Planet	"Cailus"
 
 	Atmosphere
 	{
-		Model          "Jupiter"
-		Height          144.722626
-		Density         0.00545164431
+		Model          "Earth"
+		Height          2360.17163
+		Density         0.00544297788
 		Pressure        1
-		Bright          3
-		Opacity         1
+		Bright          5.496
+		Opacity         0.229
 		SkyLight        1
-		Hue             -0.00358
-		Saturation      1.17
+		Hue             -0.01145
+		Saturation      2
 
 		Composition
 		{
@@ -831,6 +831,43 @@ Moon	"Alneim"
 		AscendingNode   -123.084229
 		ArgOfPericenter 72.1953086
 		MeanAnomaly     28.5099636
+	}
+}
+
+Moon	"Kiyaaile"
+{
+	ParentBody     "Cailus"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            2.88023587e-8
+	Radius          24.725
+	InertiaMoment   0.38660661
+	Oblateness      0.22854173
+	RotationPeriod  8.63175
+	Obliquity       61.684842
+	EqAscendNode    160.846631
+
+	AbsMagn         16.1
+	SlopeParam      0.17
+	Albedo          0.21
+	Brightness      2.99
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      16.096731
+		SemiMajorAxisKm 1.82646700e+6
+		Eccentricity    0.101722926
+		Inclination     -1.178918
+		AscendingNode   -161.782605
+		ArgOfPericenter 16.212089
+		MeanAnomaly     119.647425
 	}
 }
 
