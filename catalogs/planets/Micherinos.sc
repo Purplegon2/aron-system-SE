@@ -167,7 +167,7 @@ Moon	"Tiachale"
 	{
 		RefPlane        "Equator"
 		PeriodDays      0.396862
-		SemiMajorAxisKm 487.224
+		SemiMajorAxisKm 887.224
 		Eccentricity    0.2197504859
 		Inclination     -0.732777
 		AscendingNode   -108.178819
@@ -204,7 +204,7 @@ Moon	"Kiavia"
 	{
 		RefPlane        "Equator"
 		PeriodDays      0.397922
-		SemiMajorAxisKm 889.159
+		SemiMajorAxisKm 1389.159
 		Eccentricity    0.154602468
 		Inclination     -0.614234
 		AscendingNode   -63.50306
