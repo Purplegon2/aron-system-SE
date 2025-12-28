@@ -5,7 +5,7 @@ Planet	"Noi"
 	Mass            817.71928596
 	Radius          129911.9375
 	InertiaMoment   0.234544456
-	Oblateness      0.0227478612
+	Oblateness      0.054351144
 	RotationPeriod  11.4997609
 	RotationEpoch   0
 	Obliquity       -105.248079
@@ -146,33 +146,34 @@ Planet	"Noi"
 
 	Rings
 	{
-		InnerRadius     2.36e+04
-		OuterRadius     3.81e+04
-		EdgeRadius      3.75e+04
-		MeanRadius      2.82e+04
-		Thickness       0.141
-		RocksMaxSize    0.00564
+		Texture        "Saturn-rings.*"
+		InnerRadius     178000
+		OuterRadius     3328000
+		EdgeRadius      1.37e+05
+		MeanRadius      1.06e+05
+		Thickness       0.15
+		RocksMaxSize    0.008
 		RocksSpacing    1
-		DustDrawDist    423
-		ChartRadius     3.75e+04
-		RotationPeriod  4.73
+		DustDrawDist    450
+		ChartRadius     1.37e+05
+		RotationPeriod  9.06
 		Brightness      1
-		FrontBright     2.47
-		BackBright      4.38
-		Density         0.96
-		Opacity         0.96
-		SelfShadow      0.96
-		PlanetShadow    0.96
+		FrontBright     2
+		BackBright      5
+		Density         1
+		Opacity         1
+		SelfShadow      1
+		PlanetShadow    1
 		Hapke           1
-		SpotBright      1
-		SpotWidth       0.02
-		SpotBrightCB    0
-		SpotWidthCB     0.001
-		frequency       716
-		densityScale    2.26
-		densityOffset   -1.86
-		densityPower    4.88
-		colorContrast   0.0648
+		SpotBright      0.45
+		SpotWidth       0.015
+		SpotBrightCB    1.95
+		SpotWidthCB     0.00245
+		frequency       7.11
+		densityScale    1.68
+		densityOffset   -0.197
+		densityPower    0.993
+		colorContrast   0.053
 		FrontColor      (0.700 0.700 0.700)
 		BackThickColor  (0.800 0.600 0.400)
 		BackIceColor    (0.300 0.700 1.000)
@@ -196,60 +197,23 @@ Planet	"Noi"
 	}
 }
 
-Moon	"Natiata"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Atira"
-	Mass            5.52977764e-11
-	Radius          2.992
-	InertiaMoment   0.396967975
-	Oblateness      0.123307634
-	RotationPeriod  2.54445
-	Obliquity       260.278668
-	EqAscendNode    1.838126
-
-	AbsMagn         18.8
-	SlopeParam      0.11
-	Albedo          0.23
-	Brightness      1.58
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      11.647577
-		SemiMajorAxisKm 1.74090654e+6
-		Eccentricity    0.2887940998
-		Inclination     -0.171164
-		AscendingNode   -153.252793
-		ArgOfPericenter -68.901859
-		MeanAnomaly     137.260672
-	}
-}
-
-Moon	"Molikiaikia"
+MMoon	"Raiarnu"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
 	AsterType      "Centaur"
-	Mass            9.77060833e-8
-	Radius          36.345
-	InertiaMoment   0.385327124
-	Oblateness      0.346347122
-	RotationPeriod  9.18732
-	Obliquity       100.28722
-	EqAscendNode    32.257412
+	Mass            3.51261548e-8
+	Radius          26.981
+	InertiaMoment   0.386513446
+	Oblateness      0.285956068
+	RotationPeriod  17.00671
+	Obliquity       226.232237
+	EqAscendNode    141.407147
 
-	AbsMagn         14.8
-	SlopeParam      0.06
-	Albedo          0.11
-	Brightness      2.52
+	AbsMagn         19.1
+	SlopeParam      0.1
+	Albedo          0.28
+	Brightness      2.59
 	BrightnessReal  1
 
 	NoOcean         true
@@ -260,32 +224,32 @@ Moon	"Molikiaikia"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      11.902872
-		SemiMajorAxisKm 1.76625305e+6
-		Eccentricity    0.208980231
-		Inclination     -3.08421
-		AscendingNode   9.301403
-		ArgOfPericenter 161.986866
-		MeanAnomaly     -125.363178
+		PeriodDays      1.402458
+		SemiMajorAxisKm 494914.078
+		Eccentricity    0.3859037647
+		Inclination     -2.565698
+		AscendingNode   85.615063
+		ArgOfPericenter 129.536834
+		MeanAnomaly     55.056669
 	}
 }
 
-Moon	"Konikoki"
+Moon	"Tareti"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
-	AsterType      "Atira"
-	Mass            6.98663457e-8
-	Radius          33.87
-	InertiaMoment   0.376388337
-	Oblateness      0.211650017
-	RotationPeriod  11.40462
-	Obliquity       314.966273
-	EqAscendNode    -66.854845
+	AsterType      "Centaur"
+	Mass            5.39145694e-9
+	Radius          13.406
+	InertiaMoment   0.401921151
+	Oblateness      0.088342934
+	RotationPeriod  4.34254
+	Obliquity       219.277598
+	EqAscendNode    137.471147
 
-	AbsMagn         14.6
+	AbsMagn         18.6
 	SlopeParam      0.23
-	Albedo          0.3
+	Albedo          0.12
 	Brightness      2.88
 	BrightnessReal  1
 
@@ -297,33 +261,33 @@ Moon	"Konikoki"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      11.919561
-		SemiMajorAxisKm 1.76790365e+6
-		Eccentricity    0.2263801664
-		Inclination     0.187917
-		AscendingNode   23.744505
-		ArgOfPericenter -19.445
-		MeanAnomaly     -29.660143
+		PeriodDays      1.410731
+		SemiMajorAxisKm 496858.457
+		Eccentricity    0.1077143015
+		Inclination     1.215174
+		AscendingNode   67.461912
+		ArgOfPericenter 61.064236
+		MeanAnomaly     -174.308269
 	}
 }
 
-Moon	"Kiaryl"
+Moon	"Niiatile"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
-	AsterType      "Atira"
-	Mass            4.66592394e-8
-	Radius          30.219
-	InertiaMoment   0.396789586
-	Oblateness      0.035282965
-	RotationPeriod  5.74137
-	Obliquity       48.225558
-	EqAscendNode    -19.69327
+	AsterType      "Aten"
+	Mass            3.25878053e-11
+	Radius          2.705
+	InertiaMoment   0.385851496
+	Oblateness      0.130350892
+	RotationPeriod  17.39583
+	Obliquity       201.666659
+	EqAscendNode    -135.952702
 
-	AbsMagn         17.8
-	SlopeParam      0.2
-	Albedo          0.24
-	Brightness      2.64
+	AbsMagn         22.2
+	SlopeParam      0.11
+	Albedo          0.15
+	Brightness      2.6
 	BrightnessReal  1
 
 	NoOcean         true
@@ -334,366 +298,33 @@ Moon	"Kiaryl"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      12.002593
-		SemiMajorAxisKm 1.77610429e+6
-		Eccentricity    0.338370155
-		Inclination     2.607632
-		AscendingNode   -116.50424
-		ArgOfPericenter 11.128287
-		MeanAnomaly     -28.119377
+		PeriodDays      1.4206
+		SemiMajorAxisKm 499173.09
+		Eccentricity    0.0511463297
+		Inclination     -0.724292
+		AscendingNode   -148.022606
+		ArgOfPericenter 58.824897
+		MeanAnomaly     51.826587
 	}
 }
 
-Moon	"Nuneim"
+Moon	"Polvia"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
-	AsterType      "Amor"
-	Mass            1.38549240e-9
-	Radius          8.766
-	InertiaMoment   0.372151485
-	Oblateness      0.142856497
-	RotationPeriod  10.58031
-	Obliquity       298.73072
-	EqAscendNode    -166.077922
+	AsterType      "Aten"
+	Mass            5.82422164e-8
+	Radius          29.856
+	InertiaMoment   0.398427825
+	Oblateness      0.304848292
+	RotationPeriod  16.44428
+	Obliquity       236.121505
+	EqAscendNode    -79.975554
 
 	AbsMagn         16.2
-	SlopeParam      0.13
-	Albedo          0.18
-	Brightness      2
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      50.358818
-		SemiMajorAxisKm 4.62028494e+6
-		Eccentricity    0.3176647646
-		Inclination     1.200704
-		AscendingNode   -159.398817
-		ArgOfPericenter -117.562774
-		MeanAnomaly     -101.968516
-	}
-}
-
-Moon	"Iatara"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Atira"
-	Mass            1.50546799e-8
-	Radius          20.882
-	InertiaMoment   0.386526184
-	Oblateness      0.179731181
-	RotationPeriod  11.67251
-	Obliquity       3.660678
-	EqAscendNode    -118.440944
-
-	AbsMagn         17.4
-	SlopeParam      0.14
-	Albedo          0.23
-	Brightness      1.2
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      50.667372
-		SemiMajorAxisKm 4.63913837e+6
-		Eccentricity    0.3584515126
-		Inclination     0.535383
-		AscendingNode   25.324157
-		ArgOfPericenter -6.522719
-		MeanAnomaly     136.817154
-	}
-}
-
-Moon	"Riti"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Apollo"
-	Mass            6.11402193e-11
-	Radius          3.106
-	InertiaMoment   0.39328295
-	Oblateness      0.128331301
-	RotationPeriod  13.94987
-	Obliquity       96.057397
-	EqAscendNode    46.212554
-
-	AbsMagn         18.4
-	SlopeParam      0.06
-	Albedo          0.3
-	Brightness      2.67
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      50.727712
-		SemiMajorAxisKm 4.64282086e+6
-		Eccentricity    0.3055495727
-		Inclination     -0.723424
-		AscendingNode   155.532654
-		ArgOfPericenter -57.691668
-		MeanAnomaly     152.794986
-	}
-}
-
-Moon	"Iayle"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Amor"
-	Mass            1.05882237e-9
-	Radius          8.305
-	InertiaMoment   0.383999672
-	Oblateness      0.2047118
-	RotationPeriod  3.93013
-	Obliquity       53.790926
-	EqAscendNode    -152.871335
-
-	AbsMagn         14.8
-	SlopeParam      0.22
-	Albedo          0.15
-	Brightness      2.92
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      50.947293
-		SemiMajorAxisKm 4.65620917e+6
-		Eccentricity    0.1580017608
-		Inclination     -3.706083
-		AscendingNode   -143.757137
-		ArgOfPericenter 49.419272
-		MeanAnomaly     -119.350455
-	}
-}
-
-Moon	"Titetuke"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Centaur"
-	Mass            3.12221038e-8
-	Radius          24.064
-	InertiaMoment   0.370866698
-	Oblateness      0.022996046
-	RotationPeriod  3.62468
-	Obliquity       322.36573
-	EqAscendNode    -70.958812
-
-	AbsMagn         21.3
-	SlopeParam      0.17
-	Albedo          0.2
-	Brightness      2.32
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      51.05576
-		SemiMajorAxisKm 4.66281557e+6
-		Eccentricity    0.2905413651
-		Inclination     1.041457
-		AscendingNode   -130.220408
-		ArgOfPericenter -155.235128
-		MeanAnomaly     160.55268
-	}
-}
-
-Moon	"Raketi"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Centaur"
-	Mass            9.17499890e-8
-	Radius          35.684
-	InertiaMoment   0.388269648
-	Oblateness      0.237559935
-	RotationPeriod  17.78382
-	Obliquity       88.572463
-	EqAscendNode    86.79375
-
-	AbsMagn         18.9
-	SlopeParam      0.14
-	Albedo          0.15
-	Brightness      2.66
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      51.586494
-		SemiMajorAxisKm 4.69507372e+6
-		Eccentricity    0.1001990674
-		Inclination     0.43701
-		AscendingNode   -38.357057
-		ArgOfPericenter -176.253967
-		MeanAnomaly     -153.33149
-	}
-}
-
-Moon	"Uiyeresi"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Amor"
-	Mass            4.01291377e-8
-	Radius          26.877
-	InertiaMoment   0.377631047
-	Oblateness      0.164813388
-	RotationPeriod  3.1308
-	Obliquity       163.211664
-	EqAscendNode    137.583999
-
-	AbsMagn         17.3
-	SlopeParam      0.08
-	Albedo          0.25
-	Brightness      1.56
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      51.833487
-		SemiMajorAxisKm 4.71004827e+6
-		Eccentricity    0.403201688
-		Inclination     1.65246
-		AscendingNode   86.343317
-		ArgOfPericenter -78.033566
-		MeanAnomaly     150.095403
-	}
-}
-
-Moon	"Yeiani"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Atira"
-	Mass            1.73156768e-8
-	Radius          23.904
-	InertiaMoment   0.387154758
-	Oblateness      0.27608069
-	RotationPeriod  4.80331
-	Obliquity       326.703129
-	EqAscendNode    -166.814381
-
-	AbsMagn         17.2
-	SlopeParam      0.08
-	Albedo          0.12
-	Brightness      1.51
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      52.047429
-		SemiMajorAxisKm 4.72299981e+6
-		Eccentricity    0.0863810937
-		Inclination     -3.705882
-		AscendingNode   15.704445
-		ArgOfPericenter 61.798656
-		MeanAnomaly     -134.802581
-	}
-}
-
-Moon	"Kiaite"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Apollo"
-	Mass            1.02389285e-9
-	Radius          8.763
-	InertiaMoment   0.409361915
-	Oblateness      0.043395099
-	RotationPeriod  16.31855
-	Obliquity       51.213961
-	EqAscendNode    -95.574677
-
-	AbsMagn         15.6
-	SlopeParam      0.13
-	Albedo          0.16
-	Brightness      1.86
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      52.1347
-		SemiMajorAxisKm 4.72827791e+6
-		Eccentricity    0.0049109499
-		Inclination     -2.174539
-		AscendingNode   105.94006
-		ArgOfPericenter 80.604044
-		MeanAnomaly     -60.917948
-	}
-}
-
-Moon	"Teia"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Aten"
-	Mass            2.66609148e-8
-	Radius          26.362
-	InertiaMoment   0.378891347
-	Oblateness      0.209716691
-	RotationPeriod  16.93597
-	Obliquity       168.999595
-	EqAscendNode    136.71589
-
-	AbsMagn         21.4
 	SlopeParam      0.24
-	Albedo          0.34
-	Brightness      2.62
+	Albedo          0.3
+	Brightness      2.58
 	BrightnessReal  1
 
 	NoOcean         true
@@ -704,33 +335,33 @@ Moon	"Teia"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      52.164078
-		SemiMajorAxisKm 4.73005402e+6
-		Eccentricity    0.3552366418
-		Inclination     -3.464427
-		AscendingNode   115.826976
-		ArgOfPericenter -126.023985
-		MeanAnomaly     -6.180959
+		PeriodDays      1.425283
+		SemiMajorAxisKm 500269.577
+		Eccentricity    0.4306071652
+		Inclination     3.975873
+		AscendingNode   18.207421
+		ArgOfPericenter 150.815378
+		MeanAnomaly     -31.829216
 	}
 }
 
-Moon	"Naraca"
+Moon	"Tasukuke"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
 	AsterType      "Apollo"
-	Mass            2.90302371e-9
-	Radius          11.17
-	InertiaMoment   0.408458441
-	Oblateness      0.292794801
-	RotationPeriod  4.03667
-	Obliquity       325.688344
-	EqAscendNode    -118.350786
+	Mass            7.90708556e-8
+	Radius          36.408
+	InertiaMoment   0.385230555
+	Oblateness      0.053588385
+	RotationPeriod  3.03544
+	Obliquity       122.369336
+	EqAscendNode    -72.179476
 
-	AbsMagn         15.2
-	SlopeParam      0.25
-	Albedo          0.26
-	Brightness      1.23
+	AbsMagn         20.7
+	SlopeParam      0.08
+	Albedo          0.3
+	Brightness      2.55
 	BrightnessReal  1
 
 	NoOcean         true
@@ -741,107 +372,33 @@ Moon	"Naraca"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      52.198302
-		SemiMajorAxisKm 4.73212265e+6
-		Eccentricity    0.195821003
-		Inclination     2.800432
-		AscendingNode   -164.664258
-		ArgOfPericenter -78.430453
-		MeanAnomaly     -44.579435
+		PeriodDays      1.428218
+		SemiMajorAxisKm 500955.962
+		Eccentricity    0.2488312073
+		Inclination     3.785234
+		AscendingNode   -9.34977
+		ArgOfPericenter 42.115845
+		MeanAnomaly     -16.990966
 	}
 }
 
-Moon	"Scalethatiaital"
+Moon	"Mvia"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
-	AsterType      "Atira"
-	Mass            8.50385163e-9
-	Radius          16.135
-	InertiaMoment   0.403034617
-	Oblateness      0.025799783
-	RotationPeriod  9.26521
-	Obliquity       38.18992
-	EqAscendNode    9.204921
-
-	AbsMagn         15.1
-	SlopeParam      0.17
-	Albedo          0.23
-	Brightness      2.19
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      52.798757
-		SemiMajorAxisKm 4.76834356e+6
-		Eccentricity    0.2352295028
-		Inclination     3.478453
-		AscendingNode   -84.723149
-		ArgOfPericenter 96.411257
-		MeanAnomaly     93.202633
-	}
-}
-
-Moon	"Lalelecha"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Centaur"
-	Mass            4.19745664e-10
-	Radius          5.804
-	InertiaMoment   0.387278463
-	Oblateness      0.12812498
-	RotationPeriod  15.91522
-	Obliquity       52.996854
-	EqAscendNode    -152.289976
-
-	AbsMagn         22.5
-	SlopeParam      0.15
-	Albedo          0.21
-	Brightness      2.22
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      68.159265
-		SemiMajorAxisKm 5.65329534e+6
-		Eccentricity    0.0903687029
-		Inclination     -1.646022
-		AscendingNode   16.848099
-		ArgOfPericenter 171.238849
-		MeanAnomaly     40.6362
-	}
-}
-
-Moon	"Maryl"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Centaur"
-	Mass            2.71254273e-11
-	Radius          2.77
-	InertiaMoment   0.396408791
-	Oblateness      0.131662305
-	RotationPeriod  16.51261
-	Obliquity       181.100245
-	EqAscendNode    153.095887
+	AsterType      "Apollo"
+	Mass            5.19625161e-9
+	Radius          14.604
+	InertiaMoment   0.385815947
+	Oblateness      0.199317207
+	RotationPeriod  2.54584
+	Obliquity       268.266739
+	EqAscendNode    95.80315
 
 	AbsMagn         20.8
-	SlopeParam      0.1
-	Albedo          0.22
-	Brightness      1.26
+	SlopeParam      0.07
+	Albedo          0.19
+	Brightness      2.58
 	BrightnessReal  1
 
 	NoOcean         true
@@ -852,255 +409,33 @@ Moon	"Maryl"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      68.524053
-		SemiMajorAxisKm 5.67344833e+6
-		Eccentricity    0.2011271047
-		Inclination     -0.827683
-		AscendingNode   -79.089864
-		ArgOfPericenter 151.60171
-		MeanAnomaly     -18.29109
+		PeriodDays      1.429573
+		SemiMajorAxisKm 501272.696
+		Eccentricity    0.4021983303
+		Inclination     -1.410207
+		AscendingNode   105.583296
+		ArgOfPericenter 38.557769
+		MeanAnomaly     -56.831528
 	}
 }
 
-Moon	"Luseyoei"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Atira"
-	Mass            8.67269278e-9
-	Radius          16.321
-	InertiaMoment   0.390081129
-	Oblateness      0.247924225
-	RotationPeriod  12.1211
-	Obliquity       334.256479
-	EqAscendNode    134.922823
-
-	AbsMagn         21.2
-	SlopeParam      0.1
-	Albedo          0.07
-	Brightness      2.04
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      68.561921
-		SemiMajorAxisKm 5.67553832e+6
-		Eccentricity    0.154590325
-		Inclination     -2.826457
-		AscendingNode   -95.759204
-		ArgOfPericenter -67.220408
-		MeanAnomaly     -29.034636
-	}
-}
-
-Moon	"Nulia"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Atira"
-	Mass            4.89061526e-9
-	Radius          15.079
-	InertiaMoment   0.408251429
-	Oblateness      0.119538215
-	RotationPeriod  2.23188
-	Obliquity       171.984951
-	EqAscendNode    -144.094904
-
-	AbsMagn         19.1
-	SlopeParam      0.11
-	Albedo          0.16
-	Brightness      1.94
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      69.010561
-		SemiMajorAxisKm 5.70027025e+6
-		Eccentricity    0.3379651343
-		Inclination     1.705419
-		AscendingNode   55.262373
-		ArgOfPericenter 138.768054
-		MeanAnomaly     128.33651
-	}
-}
-
-Moon	"Tayu"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Atira"
-	Mass            6.21088114e-10
-	Radius          6.589
-	InertiaMoment   0.388095256
-	Oblateness      0.088793578
-	RotationPeriod  11.16989
-	Obliquity       314.723311
-	EqAscendNode    125.985002
-
-	AbsMagn         21.7
-	SlopeParam      0.22
-	Albedo          0.15
-	Brightness      1.61
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      69.153758
-		SemiMajorAxisKm 5.70815290e+6
-		Eccentricity    0.3184627093
-		Inclination     0.652798
-		AscendingNode   -5.454861
-		ArgOfPericenter 121.248858
-		MeanAnomaly     60.757897
-	}
-}
-
-Moon	"Cathachal"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Aten"
-	Mass            8.36888368e-8
-	Radius          37.208
-	InertiaMoment   0.37428265
-	Oblateness      0.06098119
-	RotationPeriod  6.00662
-	Obliquity       158.03498
-	EqAscendNode    -55.153945
-
-	AbsMagn         18.1
-	SlopeParam      0.05
-	Albedo          0.09
-	Brightness      2.05
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      69.233454
-		SemiMajorAxisKm 5.71253761e+6
-		Eccentricity    0.1265694252
-		Inclination     -2.327357
-		AscendingNode   121.274019
-		ArgOfPericenter 175.571174
-		MeanAnomaly     127.463159
-	}
-}
-
-Moon	"Molna"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Atira"
-	Mass            4.27171867e-8
-	Radius          31.767
-	InertiaMoment   0.374992292
-	Oblateness      0.260449495
-	RotationPeriod  7.10454
-	Obliquity       159.888501
-	EqAscendNode    -78.969263
-
-	AbsMagn         19.1
-	SlopeParam      0.06
-	Albedo          0.11
-	Brightness      1.24
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      69.797445
-		SemiMajorAxisKm 5.74351942e+6
-		Eccentricity    0.3981925319
-		Inclination     -3.123976
-		AscendingNode   87.560578
-		ArgOfPericenter -78.160383
-		MeanAnomaly     15.740309
-	}
-}
-
-Moon	"Ianeim"
-{
-	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Apollo"
-	Mass            2.85619701e-8
-	Radius          28.236
-	InertiaMoment   0.38908526
-	Oblateness      0.2192672
-	RotationPeriod  15.34535
-	Obliquity       112.169615
-	EqAscendNode    90.678769
-
-	AbsMagn         17.3
-	SlopeParam      0.18
-	Albedo          0.32
-	Brightness      2.94
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      70.194795
-		SemiMajorAxisKm 5.76529695e+6
-		Eccentricity    0.1003009468
-		Inclination     2.486136
-		AscendingNode   -172.883232
-		ArgOfPericenter -80.535673
-		MeanAnomaly     121.324086
-	}
-}
-
-Moon	"Arali"
+Moon	"Scherna"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
 	AsterType      "Centaur"
-	Mass            3.01815775e-8
-	Radius          23.954
-	InertiaMoment   0.376176601
-	Oblateness      0.222511859
-	RotationPeriod  7.20551
-	Obliquity       87.270248
-	EqAscendNode    -112.132451
+	Mass            4.57583417e-8
+	Radius          27.503
+	InertiaMoment   0.376965597
+	Oblateness      0.094644738
+	RotationPeriod  5.09024
+	Obliquity       260.054341
+	EqAscendNode    1.491472
 
-	AbsMagn         19.8
-	SlopeParam      0.12
-	Albedo          0.3
-	Brightness      2.19
+	AbsMagn         18.3
+	SlopeParam      0.24
+	Albedo          0.09
+	Brightness      1.63
 	BrightnessReal  1
 
 	NoOcean         true
@@ -1111,104 +446,691 @@ Moon	"Arali"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      70.236687
-		SemiMajorAxisKm 5.76759056e+6
-		Eccentricity    0.0564436084
-		Inclination     1.185333
-		AscendingNode   132.227297
-		ArgOfPericenter -10.927431
-		MeanAnomaly     66.28195
+		PeriodDays      1.432013
+		SemiMajorAxisKm 501842.933
+		Eccentricity    0.3970438251
+		Inclination     3.837646
+		AscendingNode   81.572622
+		ArgOfPericenter 3.613943
+		MeanAnomaly     -46.105046
 	}
 }
 
-Moon	"Tiseyu"
+Moon	"Scheiet"
 {
 	ParentBody     "Noi"
-	Class          "Aquaria"
-	Mass            1.430300035709
-	Radius          10952.931984
-	TidalLocked     true
-	Obliquity       -3.01222909
-	EqAscendNode    40.95043059
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            3.58725036e-9
+	Radius          12.079
+	InertiaMoment   0.403226135
+	Oblateness      0.103599028
+	RotationPeriod  11.24951
+	Obliquity       234.886181
+	EqAscendNode    -73.93309
 
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
-	Brightness      1
+	AbsMagn         18.9
+	SlopeParam      0.1
+	Albedo          0.25
+	Brightness      2.79
 	BrightnessReal  1
-
-	Surface
-	{
-		Preset         "aquaria_airless_white2.cfg"
-		SurfStyle       0.135
-		Randomize      (-0.067, -0.187, -0.158)
-		colorDistMagn   0.0363
-		colorDistFreq   43.73
-		detailScale     3112.22
-		drivenDarkening 0.669
-		seaLevel        0.229
-		snowLevel       2
-		tropicLatitude  0.4
-		humidity        0.305
-		mainFreq        1.536
-		mareFreq        0.024
-		mareDensity     0.097
-		terraceProb     0.335
-		erosion         0
-		riftsMagn       0.403
-		riftsFreq       2.499
-		canyonsMagn     0.206
-		canyonsFreq     247.033
-		craterMagn      0.698
-		craterFreq      8.656
-		craterDensity   0.595
-		craterOctaves   18
-		volcanoMagn     0.848
-		volcanoFreq     1.023
-		volcanoDensity  0.298
-		volcanoOctaves  2
-		volcanoActivity 0.012
-		BumpHeight      16.09
-		DiffMapAlpha   "Ice"
-		SpecBrightWater 0.03
-		SpecBrightIce   0.03
-		RoughnessWater  0.35
-		RoughnessIce    0.45
-		SpecularScale   1
-		RoughnessBias   0.2
-		Hapke           0.5
-		SpotBright      2.34
-		SpotWidth       0.043
-		DayAmbient      0.07
-	}
-
-	NoAtmosphere    true
 
 	NoOcean         true
 	NoClouds        true
 	NoLava          true
+	NoAtmosphere    true
 
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      123.185649
-		SemiMajorAxisKm 8.38800124e+6
-		Eccentricity    0.0066115682
-		Inclination     -2.4939093
-		AscendingNode   107.47371649
-		ArgOfPericenter 56.545139
-		MeanAnomaly     -77.946034
+		PeriodDays      1.438636
+		SemiMajorAxisKm 503389.231
+		Eccentricity    0.2562757382
+		Inclination     -2.94573
+		AscendingNode   -61.78434
+		ArgOfPericenter 137.155949
+		MeanAnomaly     -128.853731
 	}
 }
 
-Moon	"Tiia"
+Moon	"Kaku"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            7.12703757e-11
+	Radius          3.527
+	InertiaMoment   0.400571813
+	Oblateness      0.096840334
+	RotationPeriod  11.76687
+	Obliquity       311.162746
+	EqAscendNode    -147.583709
+
+	AbsMagn         19.3
+	SlopeParam      0.2
+	Albedo          0.31
+	Brightness      1.38
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      1.797737
+		SemiMajorAxisKm 584010.638
+		Eccentricity    0.4485649636
+		Inclination     2.281102
+		AscendingNode   -84.638524
+		ArgOfPericenter 17.438382
+		MeanAnomaly     -13.987771
+	}
+}
+
+Moon	"Luieru"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            3.76270640e-9
+	Radius          14.122
+	InertiaMoment   0.404525709
+	Oblateness      0.111040567
+	RotationPeriod  6.38338
+	Obliquity       46.953726
+	EqAscendNode    82.788562
+
+	AbsMagn         14.5
+	SlopeParam      0.05
+	Albedo          0.17
+	Brightness      2.93
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      1.808067
+		SemiMajorAxisKm 586245.693
+		Eccentricity    0.0064513261
+		Inclination     -0.069559
+		AscendingNode   121.278808
+		ArgOfPericenter -22.915511
+		MeanAnomaly     125.914709
+	}
+}
+
+Moon	"Niru"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            2.82257441e-8
+	Radius          26.342
+	InertiaMoment   0.376212272
+	Oblateness      0.171093303
+	RotationPeriod  10.2096
+	Obliquity       193.384441
+	EqAscendNode    -113.836258
+
+	AbsMagn         17.4
+	SlopeParam      0.23
+	Albedo          0.22
+	Brightness      1.73
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      1.812825
+		SemiMajorAxisKm 587273.735
+		Eccentricity    0.2523048642
+		Inclination     -0.88955
+		AscendingNode   -168.401342
+		ArgOfPericenter -49.615688
+		MeanAnomaly     -174.107829
+	}
+}
+
+Moon	"Kithe"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            7.69658276e-8
+	Radius          34.725
+	InertiaMoment   0.39975772
+	Oblateness      0.098299962
+	RotationPeriod  14.14339
+	Obliquity       354.654919
+	EqAscendNode    -60.708349
+
+	AbsMagn         14.5
+	SlopeParam      0.19
+	Albedo          0.09
+	Brightness      1.85
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      1.821471
+		SemiMajorAxisKm 589139.336
+		Eccentricity    0.4321149375
+		Inclination     -3.74352
+		AscendingNode   -119.196744
+		ArgOfPericenter -30.470497
+		MeanAnomaly     137.476079
+	}
+}
+
+Moon	"Chiyuei"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            9.62788625e-8
+	Radius          35.453
+	InertiaMoment   0.383742844
+	Oblateness      0.072619723
+	RotationPeriod  16.74093
+	Obliquity       52.492343
+	EqAscendNode    -10.943882
+
+	AbsMagn         16.7
+	SlopeParam      0.17
+	Albedo          0.32
+	Brightness      1.32
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      1.832113
+		SemiMajorAxisKm 591431.899
+		Eccentricity    0.441614751
+		Inclination     -0.158286
+		AscendingNode   56.151594
+		ArgOfPericenter -179.59594
+		MeanAnomaly     160.434427
+	}
+}
+
+Moon	"Nale"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Apollo"
+	Mass            5.31583635e-8
+	Radius          31.879
+	InertiaMoment   0.371169971
+	Oblateness      0.271891575
+	RotationPeriod  16.0388
+	Obliquity       181.648395
+	EqAscendNode    128.754453
+
+	AbsMagn         20.1
+	SlopeParam      0.08
+	Albedo          0.34
+	Brightness      1.48
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      1.840513
+		SemiMajorAxisKm 593238.266
+		Eccentricity    0.3066918433
+		Inclination     -2.009167
+		AscendingNode   -7.005619
+		ArgOfPericenter 165.939602
+		MeanAnomaly     33.167764
+	}
+}
+
+Moon	"Kiete"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            3.01840513e-10
+	Radius          5.957
+	InertiaMoment   0.38290891
+	Oblateness      0.11455852
+	RotationPeriod  15.32964
+	Obliquity       278.68376
+	EqAscendNode    22.866388
+
+	AbsMagn         19.4
+	SlopeParam      0.18
+	Albedo          0.33
+	Brightness      2.08
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      1.865704
+		SemiMajorAxisKm 598639.174
+		Eccentricity    0.2388707965
+		Inclination     -3.290638
+		AscendingNode   -51.80969
+		ArgOfPericenter -11.812497
+		MeanAnomaly     -60.628065
+	}
+}
+
+Moon	"Timona"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            3.96784252e-9
+	Radius          13.472
+	InertiaMoment   0.409314794
+	Oblateness      0.275904591
+	RotationPeriod  15.80321
+	Obliquity       323.297614
+	EqAscendNode    -38.278106
+
+	AbsMagn         21.8
+	SlopeParam      0.07
+	Albedo          0.22
+	Brightness      1.93
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      33.536581
+		SemiMajorAxisKm 4.10786135e+6
+		Eccentricity    0.0253440553
+		Inclination     -0.576618
+		AscendingNode   169.881237
+		ArgOfPericenter -0.606003
+		MeanAnomaly     85.397265
+	}
+}
+
+Moon	"Seoayiti"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            8.51189509e-8
+	Radius          35.005
+	InertiaMoment   0.400527005
+	Oblateness      0.089863848
+	RotationPeriod  2.39067
+	Obliquity       33.325661
+	EqAscendNode    -132.192831
+
+	AbsMagn         17.9
+	SlopeParam      0.08
+	Albedo          0.13
+	Brightness      2.47
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      33.77397
+		SemiMajorAxisKm 4.12722357e+6
+		Eccentricity    0.4128582378
+		Inclination     -0.570086
+		AscendingNode   39.558348
+		ArgOfPericenter -10.31261
+		MeanAnomaly     77.283222
+	}
+}
+
+Moon	"Sclna"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            2.23417483e-8
+	Radius          23.179
+	InertiaMoment   0.37845334
+	Oblateness      0.162263951
+	RotationPeriod  8.07218
+	Obliquity       186.845169
+	EqAscendNode    36.050223
+
+	AbsMagn         16.6
+	SlopeParam      0.18
+	Albedo          0.16
+	Brightness      2.58
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      33.850525
+		SemiMajorAxisKm 4.13345796e+6
+		Eccentricity    0.3085865103
+		Inclination     -3.796945
+		AscendingNode   -179.37437
+		ArgOfPericenter 51.322441
+		MeanAnomaly     145.259419
+	}
+}
+
+Moon	"Yina"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            1.05323077e-7
+	Radius          36.671
+	InertiaMoment   0.37356704
+	Oblateness      0.34743567
+	RotationPeriod  8.3792
+	Obliquity       117.226903
+	EqAscendNode    174.96501
+
+	AbsMagn         15.8
+	SlopeParam      0.24
+	Albedo          0.28
+	Brightness      2.07
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      33.967066
+		SemiMajorAxisKm 4.14293969e+6
+		Eccentricity    0.3032559924
+		Inclination     3.562117
+		AscendingNode   -31.010105
+		ArgOfPericenter 82.424416
+		MeanAnomaly     30.275475
+	}
+}
+
+Moon	"Sara"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            1.97256406e-8
+	Radius          22.689
+	InertiaMoment   0.374547757
+	Oblateness      0.244050707
+	RotationPeriod  16.31084
+	Obliquity       335.07106
+	EqAscendNode    -151.342013
+
+	AbsMagn         19.7
+	SlopeParam      0.24
+	Albedo          0.23
+	Brightness      1.81
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      34.06866
+		SemiMajorAxisKm 4.15119652e+6
+		Eccentricity    0.2393487056
+		Inclination     -0.956521
+		AscendingNode   -69.163658
+		ArgOfPericenter 33.957498
+		MeanAnomaly     121.92646
+	}
+}
+
+Moon	"Niyokiso"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            5.34710212e-8
+	Radius          30.102
+	InertiaMoment   0.392050264
+	Oblateness      0.095042942
+	RotationPeriod  6.43398
+	Obliquity       9.287834
+	EqAscendNode    134.426306
+
+	AbsMagn         17.3
+	SlopeParam      0.13
+	Albedo          0.12
+	Brightness      2.56
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      34.11805
+		SemiMajorAxisKm 4.15520755e+6
+		Eccentricity    0.4321617911
+		Inclination     0.362219
+		AscendingNode   -35.019097
+		ArgOfPericenter -48.367954
+		MeanAnomaly     -160.08575
+	}
+}
+
+Moon	"Kachachu"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            9.80478954e-9
+	Radius          18.055
+	InertiaMoment   0.372180809
+	Oblateness      0.264720362
+	RotationPeriod  8.63206
+	Obliquity       196.325126
+	EqAscendNode    42.456763
+
+	AbsMagn         17.5
+	SlopeParam      0.13
+	Albedo          0.06
+	Brightness      1.78
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      34.130992
+		SemiMajorAxisKm 4.15625831e+6
+		Eccentricity    0.3975228044
+		Inclination     3.458641
+		AscendingNode   -177.778397
+		ArgOfPericenter 126.940802
+		MeanAnomaly     2.024731
+	}
+}
+
+Moon	"Tayuiela"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            4.46265450e-10
+	Radius          6.995
+	InertiaMoment   0.397348507
+	Oblateness      0.096438495
+	RotationPeriod  11.02573
+	Obliquity       123.917705
+	EqAscendNode    -26.354716
+
+	AbsMagn         15.7
+	SlopeParam      0.1
+	Albedo          0.15
+	Brightness      2.76
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      34.395867
+		SemiMajorAxisKm 4.17773375e+6
+		Eccentricity    0.0754918217
+		Inclination     3.114232
+		AscendingNode   -68.523024
+		ArgOfPericenter 23.13266
+		MeanAnomaly     61.577901
+	}
+}
+
+Moon	"Kiataik"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Apollo"
+	Mass            6.57507578e-8
+	Radius          35.477
+	InertiaMoment   0.397622063
+	Oblateness      0.275778234
+	RotationPeriod  4.79569
+	Obliquity       266.127398
+	EqAscendNode    -73.691792
+
+	AbsMagn         15.7
+	SlopeParam      0.19
+	Albedo          0.34
+	Brightness      1.34
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      34.587056
+		SemiMajorAxisKm 4.19320077e+6
+		Eccentricity    0.2060699218
+		Inclination     -1.670508
+		AscendingNode   151.419551
+		ArgOfPericenter -46.562678
+		MeanAnomaly     -46.523628
+	}
+}
+
+Moon	"Ponadu"
+{
+	ParentBody     "Noi"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            5.47690030e-8
+	Radius          31.835
+	InertiaMoment   0.3769715
+	Oblateness      0.081370874
+	RotationPeriod  6.57532
+	Obliquity       254.2448
+	EqAscendNode    120.007727
+
+	AbsMagn         16.6
+	SlopeParam      0.17
+	Albedo          0.33
+	Brightness      2.74
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      34.76432
+		SemiMajorAxisKm 4.20751570e+6
+		Eccentricity    0.2091904587
+		Inclination     -0.305619
+		AscendingNode   107.864527
+		ArgOfPericenter -137.462291
+		MeanAnomaly     -48.290317
+	}
+}
+
+Moon	"Yikutiri"
 {
 	ParentBody     "Noi"
 	Class          "Aquaria"
-	Mass            0.584326785285
-	Radius          7351.679353
-	TidalLocked     true
-	Obliquity       -4.99952773
-	EqAscendNode    -20.73814038
+	Mass            0.369117847255
+	Radius          6229.617185
+	RotationPeriod  39.01520904
+	Obliquity       9.04312275
+	EqAscendNode    -59.44406955
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
@@ -1218,35 +1140,35 @@ Moon	"Tiia"
 	Surface
 	{
 		Preset         "aquaria_airless_white2.cfg"
-		SurfStyle       0.105
-		Randomize      (0.778, -0.488, 0.702)
-		colorDistMagn   0.0841
-		colorDistFreq   77.86
-		detailScale     6868.98
-		drivenDarkening 0.684
-		seaLevel        0.155
+		SurfStyle       0.185
+		Randomize      (0.418, -0.072, 0.937)
+		colorDistMagn   0.0744
+		colorDistFreq   44.78
+		detailScale     4016.77
+		drivenDarkening 0.531
+		seaLevel        0.132
 		snowLevel       2
-		tropicLatitude  0.298
-		humidity        0.298
-		mainFreq        1.916
-		mareFreq        0.028
-		mareDensity     0.112
-		terraceProb     0.443
+		tropicLatitude  0.775
+		humidity        0.142
+		mainFreq        1.37
+		mareFreq        0.017
+		mareDensity     0.099
+		terraceProb     0.243
 		erosion         0
-		riftsMagn       0.34
-		riftsFreq       2.88
-		canyonsMagn     0.479
-		canyonsFreq     562.212
-		craterMagn      0.617
-		craterFreq      7.595
-		craterDensity   0.952
-		craterOctaves   2
-		volcanoMagn     0.797
-		volcanoFreq     0.851
-		volcanoDensity  0.141
-		volcanoOctaves  4
-		volcanoActivity 0.083
-		BumpHeight      14.56
+		riftsMagn       1.022
+		riftsFreq       3.035
+		canyonsMagn     0.753
+		canyonsFreq     667.955
+		craterMagn      0.566
+		craterFreq      8.946
+		craterDensity   0.773
+		craterOctaves   14
+		volcanoMagn     0.535
+		volcanoFreq     0.725
+		volcanoDensity  0.212
+		volcanoOctaves  3
+		volcanoActivity 0.138
+		BumpHeight      14.46
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.03
 		SpecBrightIce   0.03
@@ -1255,8 +1177,8 @@ Moon	"Tiia"
 		SpecularScale   1
 		RoughnessBias   0.14
 		Hapke           0.5
-		SpotBright      2.64
-		SpotWidth       0.04
+		SpotBright      2.9
+		SpotWidth       0.059
 		DayAmbient      0.07
 	}
 
@@ -1269,25 +1191,25 @@ Moon	"Tiia"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      150.909118
-		SemiMajorAxisKm 9.60348205e+6
-		Eccentricity    0.0586981743
-		Inclination     2.13595681
-		AscendingNode   -73.43162578
-		ArgOfPericenter 80.334009
-		MeanAnomaly     159.537334
+		PeriodDays      57.208346
+		SemiMajorAxisKm 5.86466012e+6
+		Eccentricity    0.0528858133
+		Inclination     -1.21736084
+		AscendingNode   152.27455468
+		ArgOfPericenter -45.428593
+		MeanAnomaly     -106.304858
 	}
 }
 
-Moon	"Sueiri"
+Moon	"Ianorota"
 {
 	ParentBody     "Noi"
 	Class          "Aquaria"
-	Mass            0.034587490652
-	Radius          2830.198691
+	Mass            0.166600823486
+	Radius          5738.675982
 	TidalLocked     true
-	Obliquity       26.87769511
-	EqAscendNode    150.85801187
+	Obliquity       3.06038452
+	EqAscendNode    95.15228916
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
@@ -1297,123 +1219,123 @@ Moon	"Sueiri"
 	Surface
 	{
 		Preset         "aquaria_airless_white2.cfg"
-		SurfStyle       0.466
-		Randomize      (-0.592, 0.515, 0.359)
-		colorDistMagn   0.0619
-		colorDistFreq   75.97
-		detailScale     5854.99
-		drivenDarkening 0.841
-		seaLevel        0.228
+		SurfStyle       0.617
+		Randomize      (0.762, -0.417, 0.840)
+		colorDistMagn   0.0494
+		colorDistFreq   57.98
+		detailScale     6596.54
+		drivenDarkening 0.379
+		seaLevel        0.339
 		snowLevel       2
-		tropicLatitude  0.362
-		humidity        0.346
-		mainFreq        1.889
-		mareFreq        0.016
-		mareDensity     0.125
-		terraceProb     0.374
+		tropicLatitude  0.24
+		humidity        0.27
+		mainFreq        2.125
+		mareFreq        0.022
+		mareDensity     0.149
+		terraceProb     0.355
 		erosion         0
-		riftsMagn       0.609
-		riftsFreq       4.424
-		canyonsMagn     0.822
-		canyonsFreq     0.984
-		craterMagn      0.289
-		craterFreq      18.603
-		craterDensity   0.839
+		riftsMagn       0.825
+		riftsFreq       4.715
+		canyonsMagn     0.973
+		canyonsFreq     752.231
+		craterMagn      0.513
+		craterFreq      8.398
+		craterDensity   0.74
+		craterOctaves   2
+		volcanoMagn     0.389
+		volcanoFreq     0.752
+		volcanoDensity  0.152
+		volcanoOctaves  2
+		volcanoActivity 0.484
+		BumpHeight      16.55
+		DiffMapAlpha   "Ice"
+		SpecBrightWater 0.03
+		SpecBrightIce   0.03
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.23
+		Hapke           0.5
+		SpotBright      2.83
+		SpotWidth       0.056
+		DayAmbient      0.07
+	}
+
+	NoAtmosphere    true
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      86.8114
+		SemiMajorAxisKm 7.74439972e+6
+		Eccentricity    0.0327098238
+		Inclination     -1.52182002
+		AscendingNode   91.5495958
+		ArgOfPericenter 48.939248
+		MeanAnomaly     65.929065
+	}
+}
+
+Moon	"Yokaya"
+{
+	ParentBody     "Noi"
+	Class          "Aquaria"
+	Mass            0.031897754939
+	Radius          3685.557951
+	TidalLocked     true
+	Obliquity       2.7991863
+	EqAscendNode    -29.68540443
+
+	AlbedoBond      0.3
+	AlbedoGeom      0.36
+	Brightness      1
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "aquaria_airless_white2.cfg"
+		SurfStyle       0.103
+		Randomize      (-0.246, 0.058, 0.190)
+		colorDistMagn   0.0561
+		colorDistFreq   86.41
+		detailScale     3054.59
+		drivenDarkening 0.612
+		seaLevel        0.224
+		snowLevel       2
+		tropicLatitude  0.435
+		humidity        0.426
+		mainFreq        1.935
+		mareFreq        0.028
+		mareDensity     0.179
+		terraceProb     0.494
+		erosion         0
+		riftsMagn       0.504
+		riftsFreq       2.394
+		canyonsMagn     0.743
+		canyonsFreq     839.352
+		craterMagn      0.36
+		craterFreq      1.838
+		craterDensity   0.599
 		craterOctaves   19
-		volcanoMagn     0.14
-		volcanoFreq     0.962
-		volcanoDensity  0.085
-		volcanoOctaves  4
-		volcanoActivity 0.302
-		BumpHeight      19.71
+		volcanoMagn     0.284
+		volcanoFreq     1.041
+		volcanoDensity  0.114
+		volcanoOctaves  2
+		volcanoActivity 0.544
+		BumpHeight      13.04
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.03
 		SpecBrightIce   0.03
 		RoughnessWater  0.35
 		RoughnessIce    0.45
 		SpecularScale   1
-		RoughnessBias   0.27
+		RoughnessBias   0.29
 		Hapke           0.5
-		SpotBright      2.54
-		SpotWidth       0.033
-		DayAmbient      0.07
-	}
-
-	NoAtmosphere    true
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      180.60553
-		SemiMajorAxisKm 1.08252792e+7
-		Eccentricity    0.033362374
-		Inclination     -1.83200561
-		AscendingNode   64.24420713
-		ArgOfPericenter 66.49872
-		MeanAnomaly     -90.415283
-	}
-}
-
-Moon	"Thetitarnathali"
-{
-	ParentBody     "Noi"
-	Class          "Aquaria"
-	Mass            0.292447032612
-	Radius          7018.739514
-	TidalLocked     true
-	Obliquity       19.33135975
-	EqAscendNode    -92.39339462
-
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
-	Brightness      1
-	BrightnessReal  1
-
-	Surface
-	{
-		Preset         "aquaria_airless_white2.cfg"
-		SurfStyle       0.674
-		Randomize      (-0.476, 0.801, 0.684)
-		colorDistMagn   0.0534
-		colorDistFreq   119.78
-		detailScale     6881.56
-		drivenDarkening 0.249
-		seaLevel        0.287
-		snowLevel       2
-		tropicLatitude  0.933
-		humidity        0.421
-		mainFreq        1.448
-		mareFreq        0.007
-		mareDensity     0.169
-		terraceProb     0.469
-		erosion         0
-		riftsMagn       0.317
-		riftsFreq       3.74
-		canyonsMagn     0.224
-		canyonsFreq     432.847
-		craterMagn      0.635
-		craterFreq      9.816
-		craterDensity   0.56
-		craterOctaves   16
-		volcanoMagn     0.378
-		volcanoFreq     0.49
-		volcanoDensity  0.171
-		volcanoOctaves  3
-		volcanoActivity 0.044
-		BumpHeight      16.29
-		DiffMapAlpha   "Ice"
-		SpecBrightWater 0.03
-		SpecBrightIce   0.03
-		RoughnessWater  0.35
-		RoughnessIce    0.45
-		SpecularScale   1
-		RoughnessBias   0.26
-		Hapke           0.5
-		SpotBright      2.33
+		SpotBright      2.25
 		SpotWidth       0.054
 		DayAmbient      0.07
 	}
@@ -1427,25 +1349,25 @@ Moon	"Thetitarnathali"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      207.07521
-		SemiMajorAxisKm 1.18587018e+7
-		Eccentricity    0.068924067
-		Inclination     -2.49767483
-		AscendingNode   -48.20813547
-		ArgOfPericenter 15.706065
-		MeanAnomaly     87.460946
+		PeriodDays      98.282903
+		SemiMajorAxisKm 8.41243856e+6
+		Eccentricity    0.0457329639
+		Inclination     1.02642984
+		AscendingNode   -57.89134989
+		ArgOfPericenter 55.411778
+		MeanAnomaly     8.011189
 	}
 }
 
-Moon	"Chotanu"
+Moon	"Rochatachi"
 {
 	ParentBody     "Noi"
 	Class          "Terra"
-	Mass            1.133937373259
-	Radius          7214.508525
+	Mass            0.194712764683
+	Radius          3836.300249
 	TidalLocked     true
-	Obliquity       21.73105884
-	EqAscendNode    153.16859747
+	Obliquity       -16.00654278
+	EqAscendNode    86.65374166
 
 	AlbedoBond      0.536
 	AlbedoGeom      0.36
@@ -1455,75 +1377,160 @@ Moon	"Chotanu"
 	Surface
 	{
 		Preset         "terra_wet_rusty_green_plants.cfg"
-		SurfStyle       0.717
-		Randomize      (-0.129, -0.275, 0.253)
-		colorDistMagn   0.0874
-		colorDistFreq   332.33
-		detailScale     17081.45
-		drivenDarkening 0.298
-		seaLevel        0.165
+		SurfStyle       0.163
+		Randomize      (0.872, 0.139, -0.880)
+		colorDistMagn   0.0392
+		colorDistFreq   344.08
+		detailScale     59445.79
+		drivenDarkening 0.096
+		seaLevel        0.126
 		snowLevel       2
-		tropicLatitude  0.515
-		humidity        0.117
-		mainFreq        3.825
-		mareFreq        0.008
-		mareDensity     0.096
-		terraceProb     0.339
-		erosion         0.013
-		riftsMagn       1.1
-		riftsFreq       3.427
-		canyonsMagn     0.495
-		canyonsFreq     120.745
-		craterMagn      0.711
-		craterFreq      29.053
-		craterDensity   0.041
-		craterOctaves   4
-		volcanoMagn     0.521
-		volcanoFreq     0.469
-		volcanoDensity  0.123
-		volcanoOctaves  3
-		volcanoActivity 0.002
-		BumpHeight      14.18
+		tropicLatitude  0.429
+		humidity        0.513
+		mainFreq        3.287
+		mareFreq        0.003
+		mareDensity     0.175
+		terraceProb     0.175
+		erosion         0.022
+		riftsMagn       3.528
+		riftsFreq       1.849
+		canyonsMagn     0.403
+		canyonsFreq     766.716
+		craterMagn      0.283
+		craterFreq      21.616
+		craterDensity   0.155
+		craterOctaves   6
+		volcanoMagn     0.681
+		volcanoFreq     0.991
+		volcanoDensity  0.285
+		volcanoOctaves  2
+		volcanoActivity 2.741
+		BumpHeight      12.54
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.65
 		SpecBrightIce   0.85
 		RoughnessWater  0.35
 		RoughnessIce    0.45
 		SpecularScale   1
-		RoughnessBias   0.59
+		RoughnessBias   0.55
 		Hapke           0.5
-		SpotBright      2.94
-		SpotWidth       0.057
+		SpotBright      2.95
+		SpotWidth       0.043
+		DayAmbient      0.07
+	}
+
+	Atmosphere
+	{
+		Model          "Earth"
+		Height          437.746325
+		Density         7.01577258e-11
+		Pressure        1.32143122e-6
+		Greenhouse      12.444087
+		Opacity         0.889
+	}
+
+	NoOcean         true
+	NoClouds        true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      113.296623
+		SemiMajorAxisKm 9.24871149e+6
+		Eccentricity    0.0522003134
+		Inclination     0.2723881
+		AscendingNode   -48.17735896
+		ArgOfPericenter 56.498738
+		MeanAnomaly     -66.572389
+	}
+}
+
+Moon	"Nochenole"
+{
+	ParentBody     "Noi"
+	Class          "Terra"
+	Mass            0.224963308196
+	Radius          4611.040529
+	TidalLocked     true
+	Obliquity       17.16384473
+	EqAscendNode    -174.37798454
+
+	AlbedoBond      0.536
+	AlbedoGeom      0.36
+	Brightness      1
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "terra_wet_rusty_green_plants.cfg"
+		SurfStyle       0.389
+		Randomize      (-0.487, -0.036, 0.221)
+		colorDistMagn   0.0442
+		colorDistFreq   514.6
+		detailScale     58771.66
+		drivenDarkening 0.24
+		seaLevel        -0.178
+		snowLevel       2
+		tropicLatitude  0.999
+		humidity        0.106
+		mainFreq        2.427
+		mareFreq        0.009
+		mareDensity     0.093
+		terraceProb     0.286
+		erosion         0.3
+		riftsMagn       0.045
+		riftsFreq       1.98
+		canyonsMagn     0.519
+		canyonsFreq     692.075
+		craterMagn      0.678
+		craterFreq      2.052
+		craterDensity   0.237
+		craterOctaves   3
+		volcanoMagn     0.428
+		volcanoFreq     0.538
+		volcanoDensity  0.15
+		volcanoOctaves  4
+		volcanoActivity 1.187
+		BumpHeight      17.27
+		DiffMapAlpha   "Water"
+		SpecBrightWater 0.65
+		SpecBrightIce   0.85
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.45
+		Hapke           0.5
+		SpotBright      2.03
+		SpotWidth       0.048
 		DayAmbient      0.07
 	}
 
 	NoAtmosphere    true
 
-	NoOcean         true
 	NoLava          true
 
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      250.189988
-		SemiMajorAxisKm 1.34523562e+7
-		Eccentricity    0.0012998371
-		Inclination     2.05217149
-		AscendingNode   -45.38352253
-		ArgOfPericenter 166.946539
-		MeanAnomaly     144.486274
+		PeriodDays      133.879132
+		SemiMajorAxisKm 1.03374125e+7
+		Eccentricity    0.072959003
+		Inclination     0.44891022
+		AscendingNode   22.5280668
+		ArgOfPericenter 111.207711
+		MeanAnomaly     40.17828
 	}
 }
 
-Moon	"Kenasesi"
+Moon	"Nora"
 {
 	ParentBody     "Noi"
 	Class          "Aquaria"
-	Mass            0.20589627154
-	Radius          6040.321276
+	Mass            0.374643134094
+	Radius          6942.105877
 	TidalLocked     true
-	Obliquity       24.3128842
-	EqAscendNode    32.52408455
+	Obliquity       15.92258414
+	EqAscendNode    23.16163994
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
@@ -1533,45 +1540,45 @@ Moon	"Kenasesi"
 	Surface
 	{
 		Preset         "aquaria_airless_white2.cfg"
-		SurfStyle       0.698
-		Randomize      (0.833, 0.695, -0.037)
-		colorDistMagn   0.0397
-		colorDistFreq   89.83
-		detailScale     5917.75
-		drivenDarkening 0.166
-		seaLevel        0.246
+		SurfStyle       0.373
+		Randomize      (-0.403, -0.326, 0.105)
+		colorDistMagn   0.0436
+		colorDistFreq   76.58
+		detailScale     4684.56
+		drivenDarkening 0.676
+		seaLevel        0.296
 		snowLevel       2
-		tropicLatitude  0.987
-		humidity        0.315
-		mainFreq        1.973
-		mareFreq        0.025
-		mareDensity     0.152
-		terraceProb     0.384
+		tropicLatitude  0.474
+		humidity        0.126
+		mainFreq        1.741
+		mareFreq        0.001
+		mareDensity     0.081
+		terraceProb     0.253
 		erosion         0
-		riftsMagn       0.729
-		riftsFreq       3.511
-		canyonsMagn     0.607
-		canyonsFreq     536.481
-		craterMagn      0.418
-		craterFreq      4.11
-		craterDensity   0.99
-		craterOctaves   12
-		volcanoMagn     0.5
-		volcanoFreq     0.987
-		volcanoDensity  0.182
-		volcanoOctaves  4
-		volcanoActivity 0.52
-		BumpHeight      21.87
+		riftsMagn       0.061
+		riftsFreq       3.58
+		canyonsMagn     1.164
+		canyonsFreq     744.578
+		craterMagn      0.6
+		craterFreq      26.304
+		craterDensity   0.608
+		craterOctaves   14
+		volcanoMagn     0.324
+		volcanoFreq     1.047
+		volcanoDensity  0.21
+		volcanoOctaves  2
+		volcanoActivity 0.263
+		BumpHeight      14.91
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.03
 		SpecBrightIce   0.03
 		RoughnessWater  0.35
 		RoughnessIce    0.45
 		SpecularScale   1
-		RoughnessBias   0.24
+		RoughnessBias   0.27
 		Hapke           0.5
-		SpotBright      2.31
-		SpotWidth       0.038
+		SpotBright      2.48
+		SpotWidth       0.056
 		DayAmbient      0.07
 	}
 
@@ -1584,25 +1591,25 @@ Moon	"Kenasesi"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      334.110574
-		SemiMajorAxisKm 1.63134277e+7
-		Eccentricity    0.0436542172
-		Inclination     1.23554675
-		AscendingNode   -18.94954794
-		ArgOfPericenter 116.705802
-		MeanAnomaly     158.99315
+		PeriodDays      269.548889
+		SemiMajorAxisKm 1.64826974e+7
+		Eccentricity    0.0250909623
+		Inclination     2.46054976
+		AscendingNode   -24.1540722
+		ArgOfPericenter -114.986779
+		MeanAnomaly     27.446346
 	}
 }
 
-Moon	"Royari"
+Moon	"Chiuili"
 {
 	ParentBody     "Noi"
 	Class          "Terra"
-	Mass            0.004573504026
-	Radius          1105.246727
+	Mass            0.142057278637
+	Radius          3990.850789
 	TidalLocked     true
-	Obliquity       25.37225459
-	EqAscendNode    178.79974751
+	Obliquity       12.40738953
+	EqAscendNode    119.53716461
 
 	AlbedoBond      0.536
 	AlbedoGeom      0.36
@@ -1612,35 +1619,280 @@ Moon	"Royari"
 	Surface
 	{
 		Preset         "terra_wet_rusty_green_plants.cfg"
-		SurfStyle       0.628
-		Randomize      (0.171, -0.168, 0.047)
-		colorDistMagn   0.0614
-		colorDistFreq   225.94
-		detailScale     43648.61
-		drivenDarkening 0.118
-		seaLevel        -0.957
+		SurfStyle       0.339
+		Randomize      (0.597, -0.839, -0.300)
+		colorDistMagn   0.0784
+		colorDistFreq   1306.36
+		detailScale     53243.67
+		drivenDarkening 0.14
+		seaLevel        -0.674
 		snowLevel       2
-		tropicLatitude  0.624
-		humidity        0.406
-		mainFreq        4.236
-		mareFreq        0.006
-		mareDensity     0.118
-		terraceProb     0.215
-		erosion         0.273
-		riftsMagn       1.518
-		riftsFreq       2.166
-		canyonsMagn     0.11
-		canyonsFreq     23.435
-		craterMagn      0.546
-		craterFreq      11.407
-		craterDensity   0.172
-		craterOctaves   1
-		volcanoMagn     0.612
-		volcanoFreq     1.081
-		volcanoDensity  0.188
+		tropicLatitude  0.947
+		humidity        0.509
+		mainFreq        3.46
+		mareFreq        0.008
+		mareDensity     0.097
+		terraceProb     0.328
+		erosion         0.338
+		riftsMagn       1.359
+		riftsFreq       4.093
+		canyonsMagn     1.074
+		canyonsFreq     273.084
+		craterMagn      0.26
+		craterFreq      4.392
+		craterDensity   0.236
+		craterOctaves   3
+		volcanoMagn     0.166
+		volcanoFreq     0.545
+		volcanoDensity  0.091
 		volcanoOctaves  4
-		volcanoActivity 0.386
-		BumpHeight      21.42
+		volcanoActivity 0.301
+		BumpHeight      20.23
+		DiffMapAlpha   "Water"
+		SpecBrightWater 0.65
+		SpecBrightIce   0.85
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.63
+		Hapke           0.5
+		SpotBright      2.38
+		SpotWidth       0.06
+		DayAmbient      0.07
+		ModulateColor  (0.637 0.626 0.406)
+	}
+
+	Atmosphere
+	{
+		Model          "Earth"
+		Height          265.593263
+		Density         4.69278676e-10
+		Pressure        4.10498546e-7
+		Greenhouse      175.222169
+		Opacity         0.91
+	}
+
+	NoOcean         true
+	NoLava          true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      348.348944
+		SemiMajorAxisKm 1.95559801e+7
+		Eccentricity    0.0074151938
+		Inclination     1.03763222
+		AscendingNode   22.41267121
+		ArgOfPericenter -158.225917
+		MeanAnomaly     -167.279359
+	}
+}
+
+Moon	"Chieilo"
+{
+	ParentBody     "Noi"
+	Class          "Aquaria"
+	Mass            0.341945835855
+	Radius          8000.744572
+	TidalLocked     true
+	Obliquity       6.5282029
+	EqAscendNode    66.99716443
+
+	AlbedoBond      0.3
+	AlbedoGeom      0.36
+	Brightness      1
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "aquaria_airless_white2.cfg"
+		SurfStyle       0.677
+		Randomize      (-0.349, 0.120, -0.854)
+		colorDistMagn   0.0676
+		colorDistFreq   76.76
+		detailScale     6557.14
+		drivenDarkening 0.252
+		seaLevel        0.229
+		snowLevel       2
+		tropicLatitude  0.538
+		humidity        0.118
+		mainFreq        1.931
+		mareFreq        0.011
+		mareDensity     0.162
+		terraceProb     0.411
+		erosion         0
+		riftsMagn       0.881
+		riftsFreq       2.004
+		canyonsMagn     0.432
+		canyonsFreq     112.806
+		craterMagn      0.581
+		craterFreq      18.986
+		craterDensity   0.978
+		craterOctaves   15
+		volcanoMagn     0.208
+		volcanoFreq     0.659
+		volcanoDensity  0.148
+		volcanoOctaves  2
+		volcanoActivity 0.488
+		BumpHeight      13.63
+		DiffMapAlpha   "Ice"
+		SpecBrightWater 0.03
+		SpecBrightIce   0.03
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.28
+		Hapke           0.5
+		SpotBright      2.45
+		SpotWidth       0.06
+		DayAmbient      0.07
+	}
+
+	NoAtmosphere    true
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      438.617114
+		SemiMajorAxisKm 2.28030866e+7
+		Eccentricity    0.0083024628
+		Inclination     -2.08676354
+		AscendingNode   4.96004309
+		ArgOfPericenter -50.473017
+		MeanAnomaly     30.597098
+	}
+}
+
+Moon	"Chevial"
+{
+	ParentBody     "Noi"
+	Class          "Aquaria"
+	Mass            0.081269972587
+	Radius          4390.97262
+	RotationPeriod  12.7418673
+	Obliquity       26.61505858
+	EqAscendNode    -62.61287486
+
+	AlbedoBond      0.3
+	AlbedoGeom      0.36
+	Brightness      1
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "aquaria_airless_white2.cfg"
+		SurfStyle       0.511
+		Randomize      (-0.324, -0.532, -0.405)
+		colorDistMagn   0.0391
+		colorDistFreq   52.24
+		detailScale     7675.72
+		drivenDarkening 0.373
+		seaLevel        0.114
+		snowLevel       2
+		tropicLatitude  0.587
+		humidity        0.304
+		mainFreq        1.746
+		mareFreq        0.006
+		mareDensity     0.158
+		terraceProb     0.229
+		erosion         0
+		riftsMagn       0.693
+		riftsFreq       2.997
+		canyonsMagn     1.004
+		canyonsFreq     117.024
+		craterMagn      0.465
+		craterFreq      0.988
+		craterDensity   0.8
+		craterOctaves   2
+		volcanoMagn     0.469
+		volcanoFreq     0.898
+		volcanoDensity  0.187
+		volcanoOctaves  4
+		volcanoActivity 0.276
+		BumpHeight      14.54
+		DiffMapAlpha   "Ice"
+		SpecBrightWater 0.03
+		SpecBrightIce   0.03
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.11
+		Hapke           0.5
+		SpotBright      2.62
+		SpotWidth       0.04
+		DayAmbient      0.07
+	}
+
+	NoAtmosphere    true
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      527.58269
+		SemiMajorAxisKm 2.57907287e+7
+		Eccentricity    0.0309518542
+		Inclination     0.61982554
+		AscendingNode   166.44906037
+		ArgOfPericenter 111.454623
+		MeanAnomaly     -8.5416
+	}
+}
+
+Moon	"Imai"
+{
+	ParentBody     "Noi"
+	Class          "Terra"
+	Mass            0.030090617022
+	Radius          2134.867552
+	TidalLocked     true
+	Obliquity       5.98997026
+	EqAscendNode    149.47414474
+
+	AlbedoBond      0.536
+	AlbedoGeom      0.36
+	Brightness      1
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "terra_wet_rusty_green_plants.cfg"
+		SurfStyle       0.713
+		Randomize      (-0.602, 0.440, -0.043)
+		colorDistMagn   0.0401
+		colorDistFreq   384.34
+		detailScale     12729.75
+		drivenDarkening 0.162
+		seaLevel        0.047
+		snowLevel       2
+		tropicLatitude  0.412
+		humidity        0.107
+		mainFreq        4.406
+		mareFreq        0.004
+		mareDensity     0.176
+		terraceProb     0.399
+		erosion         0.02
+		riftsMagn       3.47
+		riftsFreq       3.054
+		canyonsMagn     0.321
+		canyonsFreq     590.339
+		craterMagn      0.407
+		craterFreq      3.855
+		craterDensity   0.013
+		craterOctaves   5
+		volcanoMagn     0.159
+		volcanoFreq     0.467
+		volcanoDensity  0.269
+		volcanoOctaves  2
+		volcanoActivity 2.201
+		BumpHeight      19.96
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.65
 		SpecBrightIce   0.85
@@ -1650,190 +1902,31 @@ Moon	"Royari"
 		RoughnessBias   0.54
 		Hapke           0.5
 		SpotBright      2.07
-		SpotWidth       0.032
+		SpotWidth       0.055
 		DayAmbient      0.07
-		ModulateColor  (0.701 0.631 0.388)
 	}
 
 	Atmosphere
 	{
 		Model          "Earth"
-		Height          314.148429
-		Density         1.05936939e-9
-		Pressure        1.05997386e-6
-		Greenhouse      156.792718
-		Opacity         0.944
+		Height          422.828876
+		Density         4.91426119e-10
+		Pressure        1.60111209e-6
+		Greenhouse      33.243426
+		Opacity         0.852
 	}
 
-	NoClouds        true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      414.506447
-		SemiMajorAxisKm 1.88353026e+7
-		Eccentricity    0.0552669582
-		Inclination     0.938106
-		AscendingNode   28.60166785
-		ArgOfPericenter -99.069677
-		MeanAnomaly     75.06452
-	}
-}
-
-Moon	"Aikurire"
-{
-	ParentBody     "Noi"
-	Class          "Aquaria"
-	Mass            1.470786042666
-	Radius          10125.542501
-	TidalLocked     true
-	Obliquity       -22.33841607
-	EqAscendNode    -141.35996031
-
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
-	Brightness      1
-	BrightnessReal  1
-
-	Surface
-	{
-		Preset         "aquaria_airless_white2.cfg"
-		SurfStyle       0.388
-		Randomize      (-0.746, 0.969, 0.050)
-		colorDistMagn   0.0603
-		colorDistFreq   93.16
-		detailScale     7935.79
-		drivenDarkening 0.405
-		seaLevel        0.289
-		snowLevel       2
-		tropicLatitude  0.726
-		humidity        0.279
-		mainFreq        1.467
-		mareFreq        0.003
-		mareDensity     0.142
-		terraceProb     0.249
-		erosion         0
-		riftsMagn       0.775
-		riftsFreq       4.452
-		canyonsMagn     0.718
-		canyonsFreq     287.588
-		craterMagn      0.283
-		craterFreq      10.285
-		craterDensity   0.939
-		craterOctaves   13
-		volcanoMagn     0.661
-		volcanoFreq     0.915
-		volcanoDensity  0.266
-		volcanoOctaves  3
-		volcanoActivity 0.092
-		BumpHeight      13.35
-		DiffMapAlpha   "Ice"
-		SpecBrightWater 0.03
-		SpecBrightIce   0.03
-		RoughnessWater  0.35
-		RoughnessIce    0.45
-		SpecularScale   1
-		RoughnessBias   0.1
-		Hapke           0.5
-		SpotBright      2.81
-		SpotWidth       0.033
-		DayAmbient      0.07
-	}
-
-	NoAtmosphere    true
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      485.123322
-		SemiMajorAxisKm 2.09179848e+7
-		Eccentricity    0.0773620399
-		Inclination     -0.19078648
-		AscendingNode   34.44794264
-		ArgOfPericenter 88.282895
-		MeanAnomaly     63.507349
-	}
-}
-
-Moon	"Ainooaro"
-{
-	ParentBody     "Noi"
-	Class          "Aquaria"
-	Mass            1.049116375278
-	Radius          10002.766509
-	TidalLocked     true
-	Obliquity       -8.6598702
-	EqAscendNode    144.0311576
-
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
-	Brightness      1
-	BrightnessReal  1
-
-	Surface
-	{
-		Preset         "aquaria_airless_white2.cfg"
-		SurfStyle       0.293
-		Randomize      (0.923, 0.668, 0.195)
-		colorDistMagn   0.0652
-		colorDistFreq   56.11
-		detailScale     6213.11
-		drivenDarkening 0.693
-		seaLevel        0.346
-		snowLevel       2
-		tropicLatitude  0.465
-		humidity        0.388
-		mainFreq        1.549
-		mareFreq        0.014
-		mareDensity     0.098
-		terraceProb     0.393
-		erosion         0
-		riftsMagn       1.119
-		riftsFreq       2.199
-		canyonsMagn     0.821
-		canyonsFreq     658.384
-		craterMagn      0.28
-		craterFreq      3.781
-		craterDensity   0.518
-		craterOctaves   15
-		volcanoMagn     0.813
-		volcanoFreq     1.043
-		volcanoDensity  0.269
-		volcanoOctaves  3
-		volcanoActivity 0.243
-		BumpHeight      19.12
-		DiffMapAlpha   "Ice"
-		SpecBrightWater 0.03
-		SpecBrightIce   0.03
-		RoughnessWater  0.35
-		RoughnessIce    0.45
-		SpecularScale   1
-		RoughnessBias   0.3
-		Hapke           0.5
-		SpotBright      2.17
-		SpotWidth       0.044
-		DayAmbient      0.07
-	}
-
-	NoAtmosphere    true
-
-	NoOcean         true
-	NoClouds        true
 	NoLava          true
 
 	Orbit
 	{
 		RefPlane        "Equator"
 		PeriodDays      541.441393
-		SemiMajorAxisKm 2.25070916e+7
-		Eccentricity    0.0669719284
-		Inclination     1.37585175
-		AscendingNode   152.94985327
-		ArgOfPericenter -43.749718
-		MeanAnomaly     -41.170478
+		SemiMajorAxisKm 2.62404266e+7
+		Eccentricity    0.020116836
+		Inclination     1.35263885
+		AscendingNode   152.6094682
+		ArgOfPericenter 63.61001
+		MeanAnomaly     10.163901
 	}
 }
