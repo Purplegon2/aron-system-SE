@@ -298,7 +298,7 @@ Moon	"Entactrius"
 
 		Composition
 		{
-			H20        	86.52
+			H2O        	86.52
 			SO2		7.38
 			N2		6.1
 		}
