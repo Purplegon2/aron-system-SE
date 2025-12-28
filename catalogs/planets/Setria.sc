@@ -127,7 +127,7 @@ DwarfPlanet	"Setria"
 		RefPlane        "Equator"
 		Period      	756.03829
 		SemiMajorAxis   83.0128389
-		Eccentricity    0.078217692773
+		Eccentricity    0.378217692773
 		Inclination     -9.680506983
 		AscendingNode   -116.434222
 		ArgOfPericenter -82.7188695
