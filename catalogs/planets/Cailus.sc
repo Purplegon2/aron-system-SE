@@ -1136,7 +1136,7 @@ Moon	"Uilutite"
 	Class          "Asteroid"
 	AsterType      "Atira"
 	Mass            9.53801857e-8
-	Radius          37.891
+	Radius          109.891
 	InertiaMoment   0.393010936
 	Oblateness      0.026620469
 	RotationPeriod  5.09492
@@ -1284,7 +1284,7 @@ Moon	"Iasu"
 	Class          "Asteroid"
 	AsterType      "Centaur"
 	Mass            6.89402079e-8
-	Radius          37.048
+	Radius          212.048
 	InertiaMoment   0.40928245
 	Oblateness      0.081014144
 	RotationPeriod  3.82971
@@ -1913,7 +1913,7 @@ Moon	"Mneim"
 	Class          "Asteroid"
 	AsterType      "Atira"
 	Mass            1.00174794e-7
-	Radius          39.982
+	Radius          62.982
 	InertiaMoment   0.396137176
 	Oblateness      0.114834417
 	RotationPeriod  15.06102
@@ -2320,7 +2320,7 @@ Moon	"Kakuchuti"
 	Class          "Asteroid"
 	AsterType      "Centaur"
 	Mass            1.02727277e-7
-	Radius          37.659
+	Radius          156.659
 	InertiaMoment   0.377694896
 	Oblateness      0.150006427
 	RotationPeriod  5.84775
@@ -3208,7 +3208,7 @@ Moon	"Scatie"
 	Class          "Asteroid"
 	AsterType      "Centaur"
 	Mass            1.22625432e-7
-	Radius          38.104
+	Radius          91.104
 	InertiaMoment   0.386931685
 	Oblateness      0.277413713
 	RotationPeriod  17.57702
@@ -3393,7 +3393,7 @@ Moon	"Kochachasa"
 	Class          "Asteroid"
 	AsterType      "Apollo"
 	Mass            1.10146003e-7
-	Radius          39.574
+	Radius          71.574
 	InertiaMoment   0.409553892
 	Oblateness      0.050063369
 	RotationPeriod  11.89227
@@ -3467,7 +3467,7 @@ Moon	"Mata"
 	Class          "Asteroid"
 	AsterType      "Apollo"
 	Mass            9.12849062e-8
-	Radius          38.581
+	Radius          81.581
 	InertiaMoment   0.390965037
 	Oblateness      0.284231244
 	RotationPeriod  15.36799
@@ -3606,5 +3606,325 @@ Moon	"Loro"
 		AscendingNode   -132.412353
 		ArgOfPericenter 177.876378
 		MeanAnomaly     -48.787345
+	}
+}
+Moon	"Serendai"
+{
+	ParentBody     "Cailus"
+	Class          "Aquaria"
+	Mass            0.092191218378
+	Radius          1897.107972
+	RotationPeriod  38.14478844
+	Obliquity       -13.67124192
+	EqAscendNode    -71.72199438
+
+	AlbedoBond      0.3
+	AlbedoGeom      0.36
+	Brightness      1
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "aquaria_airless_white2.cfg"
+		SurfStyle       0.598
+		Randomize      (0.164, -0.161, -0.972)
+		colorDistMagn   0.0708
+		colorDistFreq   115.64
+		detailScale     6934.05
+		drivenDarkening 0.616
+		seaLevel        0.333
+		snowLevel       2
+		tropicLatitude  0.932
+		humidity        0.218
+		mainFreq        1.998
+		mareFreq        0.026
+		mareDensity     0.124
+		terraceProb     0.475
+		erosion         0
+		riftsMagn       0.235
+		riftsFreq       3.707
+		canyonsMagn     0.658
+		canyonsFreq     311.298
+		craterMagn      0.634
+		craterFreq      2.326
+		craterDensity   0.965
+		craterOctaves   14
+		volcanoMagn     0.75
+		volcanoFreq     0.961
+		volcanoDensity  0.293
+		volcanoOctaves  3
+		volcanoActivity 0.333
+		BumpHeight      15.96
+		DiffMapAlpha   "Ice"
+		SpecBrightWater 0.03
+		SpecBrightIce   0.03
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.29
+		Hapke           0.5
+		SpotBright      2.52
+		SpotWidth       0.042
+		DayAmbient      0.07
+	}
+
+	NoAtmosphere    true
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      24.515018
+		SemiMajorAxisKm 2.41919329e+6
+		Eccentricity    0.050856972
+		Inclination     -0.00565257
+		AscendingNode   91.85532915
+		ArgOfPericenter -167.362029
+		MeanAnomaly     12.516608
+	}
+}
+
+Moon	"Yelomai"
+{
+	ParentBody     "Cailus"
+	Class          "Terra"
+	Mass            0.199578058899
+	Radius          803.859962
+	TidalLocked     true
+	Obliquity       -17.59334349
+	EqAscendNode    -18.15053816
+
+	AlbedoBond      0.536
+	AlbedoGeom      0.36
+	Brightness      1
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "terra_wet_rusty_green_plants.cfg"
+		SurfStyle       0.691
+		Randomize      (0.912, 0.085, -0.812)
+		colorDistMagn   0.0467
+		colorDistFreq   997.81
+		detailScale     42038.14
+		drivenDarkening 0.131
+		seaLevel        -0.589
+		snowLevel       2
+		tropicLatitude  0.303
+		humidity        0.415
+		mainFreq        4.28
+		mareFreq        0.004
+		mareDensity     0.136
+		terraceProb     0.241
+		erosion         0.175
+		riftsMagn       0.442
+		riftsFreq       2.899
+		canyonsMagn     0.498
+		canyonsFreq     404.14
+		craterMagn      0.389
+		craterFreq      1.791
+		craterDensity   0.286
+		craterOctaves   5
+		volcanoMagn     0.807
+		volcanoFreq     0.889
+		volcanoDensity  0.129
+		volcanoOctaves  3
+		volcanoActivity 0.969
+		BumpHeight      13.47
+		DiffMapAlpha   "Water"
+		SpecBrightWater 0.65
+		SpecBrightIce   0.85
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.61
+		Hapke           0.5
+		SpotBright      2.89
+		SpotWidth       0.042
+		DayAmbient      0.07
+	}
+
+	NoAtmosphere    true
+
+	NoOcean         true
+	NoLava          true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      150.920346
+		SemiMajorAxisKm 8.12607735e+6
+		Eccentricity    0.0478155924
+		Inclination     -0.51659298
+		AscendingNode   29.36444376
+		ArgOfPericenter 15.917574
+		MeanAnomaly     163.986605
+	}
+}
+
+Moon	"Iare"
+{
+	ParentBody     "Cailus"
+	Class          "Terra"
+	Mass            0.263640674229
+	Radius          1064.70977
+	TidalLocked     true
+	Obliquity       8.63168974
+	EqAscendNode    27.50422494
+
+	AlbedoBond      0.536
+	AlbedoGeom      0.36
+	Brightness      1
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "terra_wet_rusty_green_plants.cfg"
+		SurfStyle       0.299
+		Randomize      (0.707, -0.196, 0.739)
+		colorDistMagn   0.0488
+		colorDistFreq   776.77
+		detailScale     44497.79
+		drivenDarkening 0.178
+		seaLevel        -0.825
+		snowLevel       2
+		tropicLatitude  0.854
+		humidity        0.145
+		mainFreq        1.504
+		mareFreq        0.005
+		mareDensity     0.125
+		terraceProb     0.263
+		erosion         0.135
+		riftsMagn       0.314
+		riftsFreq       2.682
+		canyonsMagn     1.182
+		canyonsFreq     720.617
+		craterMagn      0.615
+		craterFreq      27.631
+		craterDensity   0.114
+		craterOctaves   1
+		volcanoMagn     0.671
+		volcanoFreq     0.903
+		volcanoDensity  0.069
+		volcanoOctaves  3
+		volcanoActivity 0.365
+		BumpHeight      14.94
+		DiffMapAlpha   "Water"
+		SpecBrightWater 0.65
+		SpecBrightIce   0.85
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.62
+		Hapke           0.5
+		SpotBright      2.61
+		SpotWidth       0.037
+		DayAmbient      0.07
+		ModulateColor  (0.695 0.598 0.599)
+	}
+
+	NoAtmosphere    true
+
+	NoLava          true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      185.333609
+		SemiMajorAxisKm 9.31862594e+6
+		Eccentricity    0.0158887047
+		Inclination     1.28355265
+		AscendingNode   -137.06575633
+		ArgOfPericenter 160.491743
+		MeanAnomaly     -100.054398
+	}
+}
+
+Moon	"Ise"
+{
+	ParentBody     "Cailus"
+	Class          "Terra"
+	Mass            0.114905813716
+	Radius          2026.838793
+	TidalLocked     true
+	Obliquity       4.07661146
+	EqAscendNode    -132.00500426
+
+	AlbedoBond      0.536
+	AlbedoGeom      0.36
+	Brightness      1
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "terra_wet_rusty_green_plants.cfg"
+		SurfStyle       0.833
+		Randomize      (-0.099, -0.230, 0.598)
+		colorDistMagn   0.0674
+		colorDistFreq   1167.91
+		detailScale     38527.94
+		drivenDarkening 0.298
+		seaLevel        0.041
+		snowLevel       2
+		tropicLatitude  0.345
+		humidity        0.543
+		mainFreq        1.717
+		mareFreq        0.009
+		mareDensity     0.172
+		terraceProb     0.203
+		erosion         0.251
+		riftsMagn       0.378
+		riftsFreq       3.184
+		canyonsMagn     0.229
+		canyonsFreq     218.971
+		craterMagn      0.737
+		craterFreq      12.702
+		craterDensity   0.149
+		craterOctaves   6
+		volcanoMagn     0.353
+		volcanoFreq     0.517
+		volcanoDensity  0.134
+		volcanoOctaves  2
+		volcanoActivity 0.632
+		BumpHeight      21.15
+		DiffMapAlpha   "Water"
+		SpecBrightWater 0.65
+		SpecBrightIce   0.85
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.37
+		Hapke           0.5
+		SpotBright      2.51
+		SpotWidth       0.057
+		DayAmbient      0.07
+	}
+
+	Atmosphere
+	{
+		Model          "Earth"
+		Height          514.896986
+		Density         3.00306260e-10
+		Pressure        3.17062818e-7
+		Greenhouse      123.281334
+		Opacity         0.986
+	}
+
+	NoClouds        true
+	NoLava          true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      214.088201
+		SemiMajorAxisKm 1.02591390e+7
+		Eccentricity    0.0375550348
+		Inclination     -1.20227261
+		AscendingNode   144.06830192
+		ArgOfPericenter -41.313335
+		MeanAnomaly     -5.709258
 	}
 }
