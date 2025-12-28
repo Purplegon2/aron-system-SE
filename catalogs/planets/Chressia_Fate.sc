@@ -1,6 +1,27 @@
-Planet	"Chressia"
+Barycenter	"Chressia & Entactrius"
 {
 	ParentBody     "Fate"
+	Mass            0.03230204
+	Radius          23805.6523
+	RotationPeriod  24
+	RotationEpoch   0
+	Obliquity       0
+	EqAscendNode    0
+
+
+	Orbit
+	{
+		RefPlane	"Equator"
+		Period		1.813
+		SemiMajorAxis	1.5114
+		Eccentricity	0.0939481028
+		Inclination	0
+	}
+}
+
+Planet	"Chressia"
+{
+	ParentBody     "Chressia & Entactrius"
 	Class          "Terra"
 	Mass            1.84000003
 	Radius          9654.56738
@@ -202,17 +223,20 @@ Planet	"Chressia"
 
 	Orbit
 	{
-		RefPlane	"Equator"
-		Period		1.813
-		SemiMajorAxis	1.5114
-		Eccentricity	0.0939481028
-		Inclination	0
+		RefPlane        "Equator"
+		PeriodDays          39.907869
+		SemiMajorAxisKm 28962.223
+		Eccentricity    0.00123931874
+		Inclination     -2.2992788
+		AscendingNode   139.494825
+		ArgOfPericenter 344.130316
+		MeanAnomaly     307.434889
 	}
 }
 
 Moon	"Entactrius"
 {
-	ParentBody     "Chressia"
+	ParentBody     "Chressia & Entactrius"
 	Class          "Terra"
 	Mass            0.681920452
 	Radius          3617.54541
@@ -460,7 +484,7 @@ Moon	"Entactrius"
 		RefPlane        "Equator"
 		PeriodDays          39.907869
 		SemiMajorAxisKm 472893.223
-		Eccentricity    0.123931874
+		Eccentricity    0.00123931874
 		Inclination     -2.2992788
 		AscendingNode   139.494825
 		ArgOfPericenter 344.130316
