@@ -1,4 +1,4 @@
-Moon	"Micherinos"
+DwarfPlanet	"Micherinos"
 {
 	ParentBody     "Hope"
 	Class          "Terra"
@@ -91,7 +91,7 @@ Moon	"Micherinos"
 		volcanoTemp     1.08e+03
 		lavaCoverTidal  0
 		lavaCoverSun    0
-		lavaCoverYoung  0.382
+		lavaCoverYoung  0
 		BumpHeight      18.9
 		SpecBrightWater 0
 		SpecBrightIce   0.03
