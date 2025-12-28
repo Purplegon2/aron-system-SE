@@ -108,6 +108,22 @@ Planet	"Chressia"
 		TempMapMaxTemp  1.75e+03
 	}
 
+	Ocean
+	{
+		Depth           7.1
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.06
+		DayAmbient      0.07
+		ModulateBright  1
+
+		Composition
+		{
+			H2O       	89.73
+			SO2		10.37
+		}
+	}
+
 	NoClouds        true
 
 	NoLava          true
@@ -127,8 +143,9 @@ Planet	"Chressia"
 
 		Composition
 		{
-			SO2       	85
-			N2		10.1
+			SO2       	75
+			CH4			10
+			N2			10.1
 			Kr        	4.68
 			C8H18     	0.206
 			Cl2       	0.0429
