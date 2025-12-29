@@ -197,40 +197,141 @@ Planet	"Noi"
 	}
 }
 
-MMoon	"Raiarnu"
+Moon	"Sotrre"
 {
 	ParentBody     "Noi"
-	Class          "Asteroid"
-	AsterType      "Centaur"
-	Mass            3.51261548e-8
-	Radius          26.981
-	InertiaMoment   0.386513446
-	Oblateness      0.285956068
-	RotationPeriod  17.00671
-	Obliquity       226.232237
-	EqAscendNode    141.407147
+	Class          "Terra"
+	Mass            0.194712758
+	Radius          829.22998
+	InertiaMoment   0.328328669
+	Oblateness     (0.000, 0.300, 0.300)
+	Obliquity       0.2723881
+	EqAscendNode    -48.177359
+	TidalLocked     true
 
-	AbsMagn         19.1
-	SlopeParam      0.1
-	Albedo          0.28
-	Brightness      2.59
+	AlbedoBond      0.536
+	AlbedoGeom      0.36
+	Brightness      1
 	BrightnessReal  1
 
+	Surface
+	{
+		Preset         "terra_arid_rocky_black.cfg"
+		SurfStyle       0.58
+		Randomize      (0.872, 0.139, -0.880)
+		colorDistMagn   0.0392
+		colorDistFreq   344
+		detailScale     1.05e+09
+		drivenDarkening 0.096
+		seaLevel        -1
+		snowLevel       -1
+		tropicLatitude  0.429
+		icecapLatitude  0.948
+		icecapHeight    0.0394
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
+		humidity        0.513
+		heightTempGrad  0.625
+		beachWidth      0.000701
+		tropicWidth     0.07
+		mainFreq        3.29
+		venusFreq       0.88
+		venusMagn       0
+		mareFreq        0.003
+		mareDensity     0.175
+		terraceProb     0.175
+		erosion         0.022
+		montesMagn      0.216
+		montesFreq      203
+		montesSpiky     0.945
+		montesFraction  0.845
+		dunesMagn       0.0378
+		dunesFreq       30.5
+		dunesFraction   0.87
+		hillsMagn       0.127
+		hillsFreq       416
+		hillsFraction   0.716
+		hills2Fraction  0
+		riversMagn      56.2
+		riversFreq      2.44
+		riversSin       7.23
+		riftsMagn       3.53
+		riftsFreq       1.85
+		riftsSin        5.05
+		canyonsMagn     0.403
+		canyonsFreq     767
+		canyonsFraction 0.444
+		cracksMagn      0.0653
+		cracksFreq      1.9
+		cracksOctaves   0
+		craterMagn      0.283
+		craterFreq      21.6
+		craterDensity   0.155
+		craterOctaves   6
+		craterRayedFactor 0.105
+		volcanoMagn     0.681
+		volcanoFreq     2
+		volcanoDensity  0.285
+		volcanoOctaves  2
+		volcanoActivity 2
+		volcanoFlows    0.112
+		volcanoRadius   0.492
+		volcanoTemp     369
+		lavaCoverTidal  0.107
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      12.5
+		DiffMapAlpha   "Water"
+		SpecBrightWater 0.65
+		SpecBrightIce   0.85
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.55
+		Hapke           0.5
+		SpotBright      2.95
+		SpotWidth       0.043
+		DayAmbient      0.07
+	}
+
 	NoOcean         true
+
 	NoClouds        true
+
 	NoLava          true
+
 	NoAtmosphere    true
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
 
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      1.402458
-		SemiMajorAxisKm 494914.078
-		Eccentricity    0.3859037647
-		Inclination     -2.565698
-		AscendingNode   85.615063
-		ArgOfPericenter 129.536834
-		MeanAnomaly     55.056669
+		PeriodDays      17.1327439
+		SemiMajorAxisKm 2625428.66
+		Eccentricity    0.93129771
+		Inclination     41.221374
+		AscendingNode   -48.177359
+		ArgOfPericenter 56.498738
+		MeanAnomaly     -66.572389
 	}
 }
 
