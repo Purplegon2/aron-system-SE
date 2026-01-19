@@ -120,7 +120,7 @@ Comet	"Meginaro"
 	{
 		RefPlane        "Ecliptic"
 		Epoch           2449400.5
-		Period          78.3158907
+		Period          94.3158907
 		SemiMajorAxis   29.8341443
 		Eccentricity    0.967142908
 		Inclination     162.262691
