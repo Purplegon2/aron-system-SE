@@ -188,7 +188,7 @@ Planet	"Cosumbt"
 		Height          67.6384201
 		Density         1.09621489
 		Pressure        0.323349476
-		Greenhouse      4.04158497
+		Greenhouse      16.04158497
 		Bright          10
 		Opacity         1
 		SkyLight        3.33
@@ -250,7 +250,7 @@ Planet	"Cosumbt"
 		RefPlane        "Equator"
 		Epoch           2443911.41
 		Period          31.901918
-		SemiMajorAxis   6.54572622
+		SemiMajorAxis   2.54572622
 		Eccentricity    0.00079569064
 		Inclination     0.844555411
 		AscendingNode   -121.396633
