@@ -238,7 +238,7 @@ Moon	"Entactrius"
 {
 	ParentBody     "Chressia & Entactrius"
 	Class          "Terra"
-	Mass            0.681920452
+	Mass            0.681920469
 	Radius          3617.54541
 	InertiaMoment   0.329854131
 	Oblateness      0.00755331991
@@ -252,7 +252,7 @@ Moon	"Entactrius"
 	Brightness      1
 	BrightnessReal  1
 
-Life
+	Life
 	{
 		Class   "Organic"
 		Type    "Multicellular"
@@ -268,11 +268,11 @@ Life
 		colorDistFreq   850
 		detailScale     7.13e+05
 		drivenDarkening 0
-		seaLevel        0.25
+		seaLevel        0.45
 		snowLevel       1.34
 		tropicLatitude  0.832
-		icecapLatitude  1
-		icecapHeight    4.69e-05
+		icecapLatitude  1.01
+		icecapHeight    0
 		climatePole     0.938
 		climateTropic   0.313
 		climateEquator  0.688
@@ -363,45 +363,9 @@ Life
 
 		Composition
 		{
-			H2O        	90.52
-			SO2		7.38
-			C2H5OH		2.1
+			H2O       	90.5
+			SO2       	7.38
 		}
-	}
-
-	Rings
-	{
-		InnerRadius     2.54e+04
-		OuterRadius     2.15e+04
-		EdgeRadius      2.15e+04
-		MeanRadius      1.34e+04
-		Thickness       0.067
-		RocksMaxSize    0.55
-		RocksSpacing    16.6
-		DustDrawDist    201
-		ChartRadius     2.15e+04
-		RotationPeriod  5.76
-		Brightness      1
-		FrontBright     2.95
-		BackBright      4.24
-		Density         0.967
-		Opacity         0.967
-		SelfShadow      0.967
-		PlanetShadow    0.967
-		Hapke           1
-		SpotBright      1
-		SpotWidth       0.02
-		SpotBrightCB    0
-		SpotWidthCB     0.001
-		frequency       1.5e+03
-		densityScale    2.15
-		densityOffset   -1.46
-		densityPower    5.06
-		colorContrast   0.0736
-		FrontColor      (0.700 0.700 0.700)
-		BackThickColor  (0.800 0.600 0.400)
-		BackIceColor    (0.300 0.700 1.000)
-		BackDustColor   (1.000 0.980 0.880)
 	}
 
 	Clouds
@@ -440,13 +404,12 @@ Life
 
 		Composition
 		{
-			N2        	81.02
-			O2			17.46
-			CO2			0.9
-			H20			0.5
-			H2			0.07
+			N2        	81
+			O2        	17.5
+			CO2       	0.9
+			H2        	0.07
 			CO        	0.0374
-			Cl2			0.0045
+			Cl2       	0.0045
 			Ne        	0.000178
 			Ar        	3.47e-05
 		}
@@ -472,7 +435,7 @@ Life
 		SouthLat       -62.9
 		SouthLon       -111
 		SouthRadius    2.13e+03
-		SouthWidth     4.59e+03
+		SouthWidth     -nan(ind)
 		SouthRings     3
 		SouthBright    0.3
 		SouthFlashFreq 75.4
@@ -491,7 +454,7 @@ Life
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays          39.907869
+		PeriodDays      39.907869
 		SemiMajorAxisKm 472893.223
 		Eccentricity    0.00123931874
 		Inclination     -2.2992788
@@ -500,219 +463,6 @@ Life
 		MeanAnomaly     307.434889
 	}
 }
-
-Moon	"Qutaro"
-{
-	ParentBody     "Chressia & Entactrius"
-	Class          "Terra"
-	Mass            8.52406229e-05
-	Radius          321.73999
-	InertiaMoment   0.399399668
-	Oblateness      0.00341975084
-	Obliquity       0.417924303
-	EqAscendNode    -84.4593706
-	TidalLocked     true
-
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
-	Brightness      1.22
-	BrightnessReal  1
-
-	Surface
-	{
-		Preset         "aquaria_airless_white.cfg"
-		SurfStyle       0.421
-		Randomize      (-0.750, -0.015, 0.807)
-		colorDistMagn   0.0586
-		colorDistFreq   63.9
-		detailScale     1.02e+03
-		drivenDarkening 0.7
-		seaLevel        0.223
-		snowLevel       2
-		tropicLatitude  0.032
-		icecapLatitude  1.22
-		icecapHeight    0.427
-		climatePole     0.938
-		climateTropic   0.313
-		climateEquator  0.688
-		climateSteppeMin -1
-		climateSteppeMax -1
-		climateForestMin -1
-		climateForestMax -1
-		climateGrassMin  -1
-		climateGrassMax  -1
-		humidity        0.481
-		heightTempGrad  0.625
-		beachWidth      0.00115
-		tropicWidth     0.07
-		mainFreq        1.52
-		venusFreq       1.52
-		venusMagn       0
-		mareFreq        0
-		mareDensity     0.198
-		terraceProb     0.173
-		erosion         0
-		montesMagn      0.0605
-		montesFreq      20.7
-		montesSpiky     0.969
-		montesFraction  0.846
-		dunesMagn       0.0257
-		dunesFreq       3.93
-		dunesFraction   0.172
-		hillsMagn       0.137
-		hillsFreq       11.4
-		hillsFraction   0.154
-		hills2Fraction  0.134
-		riversMagn      3.82
-		riversFreq      3.78
-		riversSin       4.76
-		riftsMagn       0
-		riftsFreq       2.69
-		riftsSin        4.28
-		canyonsMagn     4.43
-		canyonsFreq     710
-		canyonsFraction 0
-		cracksMagn      0.001
-		cracksFreq      6.3
-		cracksOctaves   1
-		craterMagn      0.591
-		craterFreq      3.05
-		craterDensity   0.837
-		craterOctaves   17
-		craterRayedFactor 0.168
-		volcanoMagn     0.2
-		volcanoFreq     0.728
-		volcanoDensity  0.273
-		volcanoOctaves  3
-		volcanoActivity 0.174
-		volcanoFlows    0.199
-		volcanoRadius   0.131
-		volcanoTemp     191
-		lavaCoverTidal  0
-		lavaCoverSun    0
-		lavaCoverYoung  0
-		BumpHeight      20
-		DiffMapAlpha   "Ice"
-		SpecBrightWater 0.03
-		SpecBrightIce   0.03
-		RoughnessWater  0.35
-		RoughnessIce    0.45
-		SpecularScale   1
-		RoughnessBias   0.2
-		Hapke           0.5
-		SpotBright      2.5
-		SpotWidth       0.05
-		DayAmbient      0.07
-	}
-
-	NoOcean         true
-
-	NoClouds        true
-
-	NoLava          true
-
-	NoAtmosphere    true
-
-	Climate
-	{
-		GlobalWindSpeed  0
-	}
-
-	NoAurora        true
-
-	NoRings         true
-
-	NoAccretionDisk true
-
-	NoCometTail     true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      7.99234697
-		SemiMajorAxisKm 312493.05
-		Eccentricity    0.093931874
-		Inclination     -2.9392788
-		AscendingNode   -84.4593706
-		ArgOfPericenter -6.28193828
-		MeanAnomaly     31.0619959
-	}
-}
-
-Moon	"Chusa"
-{
-	ParentBody     "Chressia & Entactrius"
-	Class          "Asteroid"
-	AsterType      "Amor"
-	Mass            5.81990778e-8
-	Radius          34.124
-	InertiaMoment   0.385922407
-	Oblateness      0.118889497
-	RotationPeriod  2.15364
-	Obliquity       27.360018
-	EqAscendNode    -60.216232
-
-	AbsMagn         17.6
-	SlopeParam      0.17
-	Albedo          0.2
-	Brightness      1.25
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      24.930203
-		SemiMajorAxisKm 511324.15
-		Eccentricity    0.213847649
-		Inclination     9.486615
-		AscendingNode   -115.771433
-		ArgOfPericenter -24.588399
-		MeanAnomaly     128.291375
-	}
-}
-
-Moon	"Telia"
-{
-	ParentBody     "Chressia"
-	Class          "Asteroid"
-	AsterType      "Amor"
-	Mass            1.09031835e-7
-	Radius          37.785
-	InertiaMoment   0.398436684
-	Oblateness      0.054203942
-	RotationPeriod  10.5444
-	Obliquity       196.6402
-	EqAscendNode    -97.813297
-
-	AbsMagn         20.5
-	SlopeParam      0.17
-	Albedo          0.29
-	Brightness      1.22
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      0.961604
-		SemiMajorAxisKm 71428.033
-		Eccentricity    0.4012454642
-		Inclination     -0.513066
-		AscendingNode   67.799307
-		ArgOfPericenter -17.918839
-		MeanAnomaly     -40.295308
-	}
-}
-
 
 
 
