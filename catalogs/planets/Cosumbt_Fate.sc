@@ -385,7 +385,7 @@ Moon	"Geostatu"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      1.82492513
+		Period     	0.32492513
 		SemiMajorAxis 	0.48383
 		Eccentricity    0.00079569064
 		Inclination     0.844555411
