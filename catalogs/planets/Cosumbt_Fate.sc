@@ -250,7 +250,7 @@ Planet	"Cosumbt"
 		RefPlane        "Equator"
 		Epoch           2443911.41
 		Period          31.901918
-		SemiMajorAxis   7.74572622
+		SemiMajorAxis   6.54572622
 		Eccentricity    0.00079569064
 		Inclination     0.844555411
 		AscendingNode   -121.396633
