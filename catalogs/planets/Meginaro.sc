@@ -107,13 +107,13 @@ Comet	"Meginaro"
 
 	CometTail
 	{
-		MaxLength   0.0732
+		MaxLength   3.37
 		GasToDust   0
-		Particles   3166
-		GasBright   0.0476
-		DustBright  0.122
-		GasColor   (0.002 0.006 0.010)
-		DustColor  (0.050 0.050 0.050)
+		Particles   7000
+		GasBright   0.0782
+		DustBright  0.0782
+		GasColor   (0.692 0.760 0.828)
+		DustColor  (0.484 0.564 0.656)
 	}
 
 	Orbit
