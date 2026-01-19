@@ -107,22 +107,22 @@ Comet	"Meginaro"
 
 	CometTail
 	{
-		MaxLength   0.115
-		GasToDust   0.191
-		Particles   6700
-		GasBright   0.0206
-		DustBright  0.158
-		GasColor   (0.786 0.846 0.906)
-		DustColor  (0.668 0.676 0.707)
+		MaxLength   0.0732
+		GasToDust   0
+		Particles   3166
+		GasBright   0.0476
+		DustBright  0.122
+		GasColor   (0.002 0.006 0.010)
+		DustColor  (0.050 0.050 0.050)
 	}
 
 	Orbit
 	{
 		RefPlane        "Ecliptic"
 		Epoch           2449400.5
-		Period          94.3158907
-		SemiMajorAxis   29.8341443
-		Eccentricity    0.967142908
+		Period          75.3158907
+		SemiMajorAxis   19.8341443
+		Eccentricity    0.947142908
 		Inclination     162.262691
 		AscendingNode   58.420081
 		ArgOfPericenter 111.332485
