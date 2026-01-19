@@ -3,7 +3,7 @@ Comet	"Meginaro"
 	ParentBody     "Hope"
 	Class          "Asteroid"
 	Mass            2.37350024e-15
-	Radius          2.09223604
+	Radius          7.09223604
 	InertiaMoment   0.398437023
 	Oblateness     (0.330, 0.206, 0.213)
 	RotationPeriod  52.8
@@ -105,7 +105,16 @@ Comet	"Meginaro"
 
 	NoAccretionDisk true
 
-	NoCometTail     true
+	CometTail
+	{
+		MaxLength   0.0732
+		GasToDust   0
+		Particles   3166
+		GasBright   0.0476
+		DustBright  0.122
+		GasColor   (0.002 0.006 0.010)
+		DustColor  (0.050 0.050 0.050)
+	}
 
 	Orbit
 	{
