@@ -464,6 +464,218 @@ Moon	"Entactrius"
 	}
 }
 
+Moon	"Qutaro"
+{
+	ParentBody     "Chressia"
+	Class          "Terra"
+	Mass            8.52406229e-05
+	Radius          321.73999
+	InertiaMoment   0.399399668
+	Oblateness      0.00341975084
+	Obliquity       0.417924303
+	EqAscendNode    -84.4593706
+	TidalLocked     true
+
+	AlbedoBond      0.3
+	AlbedoGeom      0.36
+	Brightness      1.22
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "aquaria_airless_white.cfg"
+		SurfStyle       0.421
+		Randomize      (-0.750, -0.015, 0.807)
+		colorDistMagn   0.0586
+		colorDistFreq   63.9
+		detailScale     1.02e+03
+		drivenDarkening 0.7
+		seaLevel        0.223
+		snowLevel       2
+		tropicLatitude  0.032
+		icecapLatitude  1.22
+		icecapHeight    0.427
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
+		humidity        0.481
+		heightTempGrad  0.625
+		beachWidth      0.00115
+		tropicWidth     0.07
+		mainFreq        1.52
+		venusFreq       1.52
+		venusMagn       0
+		mareFreq        0
+		mareDensity     0.198
+		terraceProb     0.173
+		erosion         0
+		montesMagn      0.0605
+		montesFreq      20.7
+		montesSpiky     0.969
+		montesFraction  0.846
+		dunesMagn       0.0257
+		dunesFreq       3.93
+		dunesFraction   0.172
+		hillsMagn       0.137
+		hillsFreq       11.4
+		hillsFraction   0.154
+		hills2Fraction  0.134
+		riversMagn      3.82
+		riversFreq      3.78
+		riversSin       4.76
+		riftsMagn       0
+		riftsFreq       2.69
+		riftsSin        4.28
+		canyonsMagn     4.43
+		canyonsFreq     710
+		canyonsFraction 0
+		cracksMagn      0.001
+		cracksFreq      6.3
+		cracksOctaves   1
+		craterMagn      0.591
+		craterFreq      3.05
+		craterDensity   0.837
+		craterOctaves   17
+		craterRayedFactor 0.168
+		volcanoMagn     0.2
+		volcanoFreq     0.728
+		volcanoDensity  0.273
+		volcanoOctaves  3
+		volcanoActivity 0.174
+		volcanoFlows    0.199
+		volcanoRadius   0.131
+		volcanoTemp     191
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      20
+		DiffMapAlpha   "Ice"
+		SpecBrightWater 0.03
+		SpecBrightIce   0.03
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.2
+		Hapke           0.5
+		SpotBright      2.5
+		SpotWidth       0.05
+		DayAmbient      0.07
+	}
+
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
+
+	NoAtmosphere    true
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      7.99234697
+		SemiMajorAxisKm 312493.05
+		Eccentricity    0.093931874
+		Inclination     -2.9392788
+		AscendingNode   -84.4593706
+		ArgOfPericenter -6.28193828
+		MeanAnomaly     31.0619959
+	}
+}
+
+Moon	"Chusa"
+{
+	ParentBody     "Chressia"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            5.81990778e-8
+	Radius          34.124
+	InertiaMoment   0.385922407
+	Oblateness      0.118889497
+	RotationPeriod  2.15364
+	Obliquity       27.360018
+	EqAscendNode    -60.216232
+
+	AbsMagn         17.6
+	SlopeParam      0.17
+	Albedo          0.2
+	Brightness      1.25
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      24.930203
+		SemiMajorAxisKm 511324.15
+		Eccentricity    0.213847649
+		Inclination     9.486615
+		AscendingNode   -115.771433
+		ArgOfPericenter -24.588399
+		MeanAnomaly     128.291375
+	}
+}
+
+Moon	"Telia"
+{
+	ParentBody     "Chressia"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            1.09031835e-7
+	Radius          37.785
+	InertiaMoment   0.398436684
+	Oblateness      0.054203942
+	RotationPeriod  10.5444
+	Obliquity       196.6402
+	EqAscendNode    -97.813297
+
+	AbsMagn         20.5
+	SlopeParam      0.17
+	Albedo          0.29
+	Brightness      1.22
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      0.961604
+		SemiMajorAxisKm 71428.033
+		Eccentricity    0.4012454642
+		Inclination     -0.513066
+		AscendingNode   67.799307
+		ArgOfPericenter -17.918839
+		MeanAnomaly     -40.295308
+	}
+}
+
 
 
 
