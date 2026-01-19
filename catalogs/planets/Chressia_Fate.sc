@@ -252,6 +252,13 @@ Moon	"Entactrius"
 	Brightness      1
 	BrightnessReal  1
 
+Life
+	{
+		Class   "Organic"
+		Type    "Multicellular"
+		Biome   "Marine"
+	}
+
 	Surface
 	{
 		Preset         "terra_wet_earth_blue.cfg"
