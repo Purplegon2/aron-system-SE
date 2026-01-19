@@ -1,4 +1,4 @@
-Planet	"Cosumbt"
+Dwarf Planet	"Cosumbt"
 {
 	ParentBody     "Fate"
 	Class          "Aquaria"
