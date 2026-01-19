@@ -387,7 +387,7 @@ Moon    "Geostatu"
     {
         RefPlane        "Equator"
         Period         0.32492513
-        SemiMajorAxis     0.48383
+        SemiMajorAxiskm     31325.8383
         Eccentricity    0.00079569064
         Inclination     0.844555411
         AscendingNode   -121.396633
