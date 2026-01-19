@@ -256,7 +256,7 @@ Life
 	{
 		Class   "Organic"
 		Type    "Multicellular"
-		Biome   "Marine"
+		Biome   "Marine/Terrestrial"
 	}
 
 	Surface
