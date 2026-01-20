@@ -647,7 +647,7 @@ Moon	"Entactrius"
 		SouthLat       -62.9
 		SouthLon       -111
 		SouthRadius    2.13e+03
-		SouthWidth     -nan(ind)
+		SouthWidth     734
 		SouthRings     3
 		SouthBright    0.3
 		SouthFlashFreq 75.4
@@ -675,6 +675,4 @@ Moon	"Entactrius"
 		MeanAnomaly     307.434889
 	}
 }
-
-
 
