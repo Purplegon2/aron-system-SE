@@ -468,7 +468,7 @@ Moon	"Entactrius"
 	{
 		Class   "Organic"
 		Type    "Multicellular"
-		Biome   "Marine/Terrestrial"
+		Biome   "Marine"
 	}
 
 	Surface
