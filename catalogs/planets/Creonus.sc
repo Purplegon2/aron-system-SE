@@ -6,13 +6,14 @@ DwarfPlanet	"Creonus"
 	Radius          508.615631
 	InertiaMoment   0.39802888
 	Oblateness      0.00512297498
+	RotationPeriod  58.7227859
+	RotationEpoch   0
 	Obliquity       0.346432202
 	EqAscendNode    -150.150113
-	TidalLocked     true
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
-	Brightness      1.41
+	Brightness      1.424
 	BrightnessReal  1.45
 
 	Surface
@@ -130,7 +131,7 @@ DwarfPlanet	"Creonus"
 		Period      6.38321745
 		SemiMajorAxis 2.63536
 		Eccentricity    0.026707032319
-		Inclination     4.346432202
+		Inclination     11.346432202
 		AscendingNode   -150.150113
 		ArgOfPericenter -29.9984853
 		MeanAnomaly     28.2151154
