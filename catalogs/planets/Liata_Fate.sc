@@ -1,4 +1,4 @@
-Planet	"Liata"
+DwarfPlanet	"Liata"
 {
 	ParentBody     "Fate"
 	Class          "Aquaria"
