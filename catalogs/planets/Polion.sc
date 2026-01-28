@@ -173,8 +173,8 @@ Planet	"Polion"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          39.642374
-		SemiMajorAxis   11.583
+		Period          24.642374
+		SemiMajorAxis   7.583
 		Eccentricity    0.0860883375
 		Inclination     0
 		AscendingNode   161.116099
