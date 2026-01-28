@@ -188,7 +188,7 @@ Planet	"Scurra"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          43.937
+		Period          53.937
 		SemiMajorAxis   14.191
 		Eccentricity    0.0468576972
 		Inclination     0
