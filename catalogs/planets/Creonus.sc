@@ -12,7 +12,7 @@ DwarfPlanet	"Creonus"
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
-	Brightness      1.3
+	Brightness      1.41
 	BrightnessReal  1.45
 
 	Surface
@@ -95,7 +95,7 @@ DwarfPlanet	"Creonus"
 		RoughnessIce    0.45
 		SpecularScale   1
 		RoughnessBias   0.8
-		Gamma           1.13
+		Gamma           1.23
 		Hapke           1
 		SpotBright      2.5
 		SpotWidth       0.05
@@ -129,8 +129,8 @@ DwarfPlanet	"Creonus"
 		RefPlane        "Equator"
 		Period      6.38321745
 		SemiMajorAxis 2.63536
-		Eccentricity    0.020707032319
-		Inclination     0.346432202
+		Eccentricity    0.026707032319
+		Inclination     4.346432202
 		AscendingNode   -150.150113
 		ArgOfPericenter -29.9984853
 		MeanAnomaly     28.2151154
