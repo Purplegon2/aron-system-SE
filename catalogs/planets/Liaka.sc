@@ -126,8 +126,8 @@ DwarfPlanet	"Liaka"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period		342.95
-		SemiMajorAxis	49.916
+		Period		262.95
+		SemiMajorAxis	39.916
 		Eccentricity    0.20243081901
 		Inclination     0.887225691
 		AscendingNode   -107.027698
