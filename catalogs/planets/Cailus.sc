@@ -159,8 +159,8 @@ Planet	"Cailus"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          14.7535576
-		SemiMajorAxis   6.06
+		Period          9.7535576
+		SemiMajorAxis   4.06
 		Eccentricity    0.149552395
 		Inclination     0
 		AscendingNode   57.7844348
