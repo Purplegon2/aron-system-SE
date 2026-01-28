@@ -141,8 +141,8 @@ DwarfPlanet	"Tiecho"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          207.9276
-		SemiMajorAxis   35.77
+		Period          177.9276
+		SemiMajorAxis   26.77
 		Eccentricity    0.0957781393
 		Inclination     2.74320525
 		AscendingNode   -35.460334
