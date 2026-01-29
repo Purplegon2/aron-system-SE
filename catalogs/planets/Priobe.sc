@@ -128,7 +128,7 @@ DwarfPlanet	"Priobe"
 		RefPlane        "Equator"
 		PeriodDays      2.93962298
 		SemiMajorAxis 932.881
-		Eccentricity    0.722890856
+		Eccentricity    0.892890856
 		Inclination     43.856781819
 		AscendingNode   38.5249899
 		ArgOfPericenter 154.498203
