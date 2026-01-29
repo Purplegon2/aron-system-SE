@@ -1212,49 +1212,92 @@ Moon	"Eichana"
 {
 	ParentBody     "Giras"
 	Class          "Terra"
-	Mass            0.023629022035
-	Radius          1049.158651
+	Mass            0.0097195711
+	Radius          1984.7688
+	InertiaMoment   0.378329813
+	Obliquity       2.09588425
+	EqAscendNode    143.354448
 	TidalLocked     true
-	Obliquity       -3.60558264
-	EqAscendNode    104.31830806
 
 	AlbedoBond      0.536
 	AlbedoGeom      0.36
-	Brightness      1
+	Brightness      0.687
 	BrightnessReal  1
 
 	Surface
 	{
-		Preset         "terra_wet_rusty_green_plants.cfg"
-		SurfStyle       0.101
+		Preset         "aquaria_wet_titan_yellow_seas.cfg"
+		SurfStyle       0
 		Randomize      (0.077, -0.753, 0.306)
 		colorDistMagn   0.062
-		colorDistFreq   1137.4
-		detailScale     32529.34
+		colorDistFreq   1.14e+03
+		detailScale     6.08e+05
 		drivenDarkening 0.068
-		seaLevel        -0.067
+		seaLevel        0.282
 		snowLevel       2
 		tropicLatitude  0.913
+		icecapLatitude  1
+		icecapHeight    0
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
 		humidity        0.346
-		mainFreq        2.508
+		heightTempGrad  0.625
+		beachWidth      0.00137
+		tropicWidth     0.07
+		mainFreq        2.51
+		venusFreq       0.895
+		venusMagn       0
 		mareFreq        0.001
 		mareDensity     0.087
 		terraceProb     0.329
 		erosion         0.106
-		riftsMagn       1.083
-		riftsFreq       2.497
+		montesMagn      0.0575
+		montesFreq      64
+		montesSpiky     0.876
+		montesFraction  0.345
+		dunesMagn       0.0338
+		dunesFreq       10
+		dunesFraction   0.77
+		hillsMagn       0.131
+		hillsFreq       119
+		hillsFraction   0.758
+		hills2Fraction  0
+		riversMagn      66.6
+		riversFreq      3.13
+		riversSin       7.58
+		riftsMagn       1.08
+		riftsFreq       2.5
+		riftsSin        6.45
 		canyonsMagn     1.12
-		canyonsFreq     680.441
+		canyonsFreq     680
+		canyonsFraction 0.886
+		cracksMagn      0.0273
+		cracksFreq      0.3
+		cracksOctaves   0
 		craterMagn      0.456
-		craterFreq      18.619
+		craterFreq      18.6
 		craterDensity   0.186
 		craterOctaves   1
+		craterRayedFactor 0.0611
 		volcanoMagn     0.277
 		volcanoFreq     0.427
 		volcanoDensity  0.263
 		volcanoOctaves  4
-		volcanoActivity 1.577
-		BumpHeight      18.25
+		volcanoActivity 1.58
+		volcanoFlows    0.229
+		volcanoRadius   0.146
+		volcanoTemp     242
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      18.3
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.65
 		SpecBrightIce   0.85
@@ -1269,19 +1312,78 @@ Moon	"Eichana"
 		ModulateColor  (0.779 0.474 0.375)
 	}
 
-	Atmosphere
+	Ocean
 	{
-		Model          "Earth"
-		Height          176.957568
-		Density         5.23895658e-10
-		Pressure        1.72772047e-6
-		Greenhouse      103.593527
-		Opacity         0.936
+		Depth           4
+		Hapke           0
+		SpotBright      1.9
+		SpotWidth       0.06
+		DayAmbient      0.09
+		ModulateBright  1
+
+		Composition
+		{
+			CH4       	83.5
+			C2H6       	16.5
+		}
 	}
 
-	NoOcean         true
-	NoClouds        true
+	Clouds
+	{
+		Height          5.2
+		Velocity        48.7
+		BumpHeight      3.31
+		Gamma           1.09
+		Hapke           0
+		SpotBright      5.95
+		SpotWidth       0.0644
+		DayAmbient      0.07
+		ModulateColor  (0.762 0.491 0.253)
+		ModulateBright  0.486
+		Opacity         0.963
+		mainFreq        0.75
+		mainOctaves     10
+		Coverage        0.537
+		stripeZones     1.47
+		stripeTwist     0.16
+	}
+
 	NoLava          true
+
+	Atmosphere
+	{
+		Model          "Titan"
+		Height          127.89991
+		Density         248.353149
+		Pressure        216.709457
+		Greenhouse      160.305344
+		Bright          4.89
+		Opacity         0
+		SkyLight        0
+		Hue             -0.5
+		Saturation      1.11
+		
+		Composition
+		{
+			N2        	96
+			CH4		3.8
+			Ar		0.2
+		}
+
+	}
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
 
 	Orbit
 	{
@@ -1290,11 +1392,13 @@ Moon	"Eichana"
 		SemiMajorAxisKm 845539.541
 		Eccentricity    0.0374724166
 		Inclination     2.09588425
-		AscendingNode   143.35444816
+		AscendingNode   143.354448
 		ArgOfPericenter 170.917565
 		MeanAnomaly     -106.240101
 	}
 }
+
+
 
 Moon	"Yolalutu"
 {
