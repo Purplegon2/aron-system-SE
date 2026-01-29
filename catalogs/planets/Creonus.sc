@@ -128,7 +128,7 @@ DwarfPlanet	"Creonus"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period      6.38321745
+		Period      4.38321745
 		SemiMajorAxis 2.63536
 		Eccentricity    0.026707032319
 		Inclination     8.346432202
