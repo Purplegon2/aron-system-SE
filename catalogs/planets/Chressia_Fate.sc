@@ -236,7 +236,7 @@ Planet	"Chressia"
 
 Moon	"Qutaro"
 {
-	ParentBody     "Chressia"
+	ParentBody     "Chressia & Entactrius"
 	Class          "Terra"
 	Mass            8.52406229e-05
 	Radius          321.73999
@@ -374,7 +374,7 @@ Moon	"Qutaro"
 
 Moon	"Chusa"
 {
-	ParentBody     "Chressia"
+	ParentBody     "Chressia & Entactrius"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            5.81990778e-8
@@ -411,7 +411,7 @@ Moon	"Chusa"
 
 Moon	"Telia"
 {
-	ParentBody     "Chressia"
+	ParentBody     "Chressia & Entactrius"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            1.09031835e-7
