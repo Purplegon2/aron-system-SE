@@ -126,7 +126,7 @@ DwarfPlanet	"Priobe"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      2.93962298
+		Period      11649.93962298
 		SemiMajorAxis 932.881
 		Eccentricity    0.892890856
 		Inclination     43.856781819
@@ -244,7 +244,7 @@ Moon	"Brinos"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period      11649.372661
+		Perioddays      .5372661
 		SemiMajorAxisKm 9230.1
 		Eccentricity    0.214532463
 		Inclination     16.7269063
