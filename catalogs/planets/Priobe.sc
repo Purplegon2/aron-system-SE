@@ -244,7 +244,7 @@ Moon	"Brinos"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      0.372661
+		Period      11649.372661
 		SemiMajorAxisKm 9230.1
 		Eccentricity    0.214532463
 		Inclination     16.7269063
