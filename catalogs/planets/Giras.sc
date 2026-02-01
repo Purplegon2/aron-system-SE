@@ -167,8 +167,8 @@ Planet	"Giras"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          262.108469
-		SemiMajorAxis   29.07 
+		Period          212.108469
+		SemiMajorAxis   25.07 
 		Eccentricity    0.0781956299
 		Inclination     0
 		AscendingNode   25.3283104
