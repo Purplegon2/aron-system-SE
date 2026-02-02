@@ -2,7 +2,7 @@ Planet	"Noi"
 {
 	ParentBody     "Fate"
 	Class          "Neptune"
-	Mass            817.71928596
+	Mass            787.71928596
 	Radius          129911.9375
 	InertiaMoment   0.234544456
 	Oblateness      0.054351144
