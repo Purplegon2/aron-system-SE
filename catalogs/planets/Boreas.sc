@@ -172,3 +172,141 @@ Planet	"Boreas"
 	}
 }
 
+Moon	"Setez"
+{
+	ParentBody     "Boreas"
+	Class          "Terra"
+	Mass            0.00382062187
+	Radius          1203.70227
+	InertiaMoment   0.397442311
+	Obliquity       0.320028633
+	EqAscendNode    20.9782623
+	TidalLocked     true
+
+	AlbedoBond      0.3
+	AlbedoGeom      0.36
+	Brightness      0.84
+	BrightnessReal  0.534
+
+	Surface
+	{
+		Preset         "terra_airless_io2.cfg"
+		SurfStyle       0.444
+		Randomize      (0.995, -0.212, 0.245)
+		colorDistMagn   0.0654
+		colorDistFreq   122
+		detailScale     4.1e+03
+		drivenDarkening 0
+		seaLevel        0.258
+		snowLevel       2
+		tropicLatitude  0.428
+		icecapLatitude  1
+		icecapHeight    0
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
+		humidity        0.154
+		heightTempGrad  0.625
+		beachWidth      0.00102
+		tropicWidth     0.07
+		mainFreq        1.87
+		venusFreq       1.76
+		venusMagn       0
+		mareFreq        0.524
+		mareDensity     0.164
+		terraceProb     0.15
+		erosion         0
+		montesMagn      0.0461
+		montesFreq      70
+		montesSpiky     0.862
+		montesFraction  0.0802
+		dunesMagn       0.0344
+		dunesFreq       9.09
+		dunesFraction   0.16
+		hillsMagn       0.121
+		hillsFreq       152
+		hillsFraction   0.713
+		hills2Fraction  0
+		riversMagn      65.8
+		riversFreq      3.23
+		riversSin       7.36
+		riftsMagn       63.2
+		riftsFreq       2.69
+		riftsSin        4.74
+		canyonsMagn     0.47
+		canyonsFreq     0.375
+		canyonsFraction 0.319
+		cracksMagn      0.0368
+		cracksFreq      0.261
+		cracksOctaves   0
+		craterMagn      0.559
+		craterFreq      3.2
+		craterDensity   0.851
+		craterOctaves   19
+		craterRayedFactor 0.224
+		volcanoMagn     0.217
+		volcanoFreq     0.841
+		volcanoDensity  0.373
+		volcanoOctaves  3
+		volcanoActivity 1
+		volcanoFlows    0.377
+		volcanoRadius   0.155
+		volcanoTemp     1.04e+03
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      20
+		SpecBrightWater 0
+		SpecBrightIce   0.03
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.8
+		Hapke           1
+		SpotBright      2.5
+		SpotWidth       0.05
+		DayAmbient      0.07
+	}
+
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
+
+	NoAtmosphere    true
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      2.80966583
+		SemiMajorAxisKm 318544.189
+		Eccentricity    0.0458015267
+		Inclination     -353
+		AscendingNode   20.9782623
+		ArgOfPericenter -166.397051
+		MeanAnomaly     7.02953012
+	}
+}
+
+
+
