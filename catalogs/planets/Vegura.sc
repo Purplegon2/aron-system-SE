@@ -92,7 +92,7 @@ Planet	"Vegura"
 		Pressure        5.40535736
 		Greenhouse      0.8244286
 		Bright          2.9
-		Opacity         1
+		Opacity         0.9
 		SkyLight        0.611
 		Hue             0.00382
 		Saturation      0.687
