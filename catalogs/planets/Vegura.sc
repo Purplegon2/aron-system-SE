@@ -162,8 +162,8 @@ Planet	"Vegura"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          7657.9102879
-		SemiMajorAxis   649.93045375
+		Period          2457.9102879
+		SemiMajorAxis   349.93045375
 		Eccentricity    0.0958284087
 		Inclination     3.61741774
 		AscendingNode   -140.822219
