@@ -2,7 +2,7 @@ Planet	"Cailus"
 {
 	ParentBody     "Hope"
 	Class          "Jupiter"
-	Mass            312.56601
+	Mass            282.56601
 	Radius          69985.7969
 	InertiaMoment   0.221257299
 	Oblateness      0.034351144
