@@ -299,7 +299,7 @@ Moon	"Setez"
 	{
 		RefPlane        "Equator"
 		PeriodDays      2.80966583
-		SemiMajorAxisKm 318544.189
+		SemiMajorAxisKm 488544.189
 		Eccentricity    0.0458015267
 		Inclination     -353
 		AscendingNode   20.9782623
