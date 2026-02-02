@@ -298,7 +298,7 @@ Moon	"Setez"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      4.66966583
+		PeriodDays      5.56966583
 		SemiMajorAxisKm 488544.189
 		Eccentricity    0.0458015267
 		Inclination     -353
