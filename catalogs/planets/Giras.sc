@@ -2,7 +2,7 @@ Planet	"Giras"
 {
 	ParentBody     "Hope"
 	Class          "Jupiter"
-	Mass            14.5
+	Mass            13.5
 	Radius          25362.7
 	InertiaMoment   0.190386653
 	Oblateness      0.0312461052
