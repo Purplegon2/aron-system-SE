@@ -163,8 +163,8 @@ Planet	"Boreas"
 	{
 		RefPlane        "Equator"
 		Period          2457.9102879
-		SemiMajorAxis   349.93045375
-		Eccentricity    0.1458284087
+		SemiMajorAxis   319.93045375
+		Eccentricity    0.1758284087
 		Inclination     3.61741774
 		AscendingNode   -140.822219
 		ArgOfPericenter 68.597272
