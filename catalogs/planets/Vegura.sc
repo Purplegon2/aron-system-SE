@@ -90,7 +90,7 @@ Planet	"Vegura"
 		Height          982.576599
 		Density         0.00538909854
 		Pressure        5.40535736
-		Greenhouse      -32.8244286
+		Greenhouse      0.8244286
 		Bright          2.9
 		Opacity         1
 		SkyLight        0.611
@@ -164,7 +164,7 @@ Planet	"Vegura"
 		RefPlane        "Equator"
 		Period          2457.9102879
 		SemiMajorAxis   349.93045375
-		Eccentricity    0.0958284087
+		Eccentricity    0.1458284087
 		Inclination     3.61741774
 		AscendingNode   -140.822219
 		ArgOfPericenter 68.597272
