@@ -2,7 +2,7 @@ Planet	"Scurra"
 {
 	ParentBody     "Hope"
 	Class          "Neptune"
-	Mass            81.4246216
+	Mass            76.4246216
 	Radius          57446.646
 	InertiaMoment   0.183730915
 	Oblateness      0.0543512069
