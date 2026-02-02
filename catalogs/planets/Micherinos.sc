@@ -129,7 +129,7 @@ DwarfPlanet	"Micherinos"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period      	1.01312028
+		Period      	1986.01312028
 		SemiMajorAxis	141.3184
 		Eccentricity    0.5756850734
 		Inclination     -19.40124269
