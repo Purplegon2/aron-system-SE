@@ -1,4 +1,4 @@
-Planet	"Vegura"
+Planet	"Boreas"
 {
 	ParentBody     "Hope"
 	Class          "Neptune"
