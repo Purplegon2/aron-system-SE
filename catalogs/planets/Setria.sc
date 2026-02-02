@@ -2,7 +2,7 @@ DwarfPlanet	"Setria"
 {
 	ParentBody     "Hope"
 	Class          "Terra"
-	Mass            0.000125836392
+	Mass            0.000725836392
 	Radius          531.117798
 	InertiaMoment   0.399109244
 	Oblateness     (0.000, 0.007, 0.014)
