@@ -162,7 +162,7 @@ Planet	"Boreas"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          2457.9102879
+		Period          3457.9102879
 		SemiMajorAxis   319.93045375
 		Eccentricity    0.1758284087
 		Inclination     3.61741774
