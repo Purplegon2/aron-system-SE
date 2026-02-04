@@ -162,7 +162,7 @@ Planet	"Cailus"
 		Period          10.7535576
 		SemiMajorAxis   4.06
 		Eccentricity    0.149552395
-		Inclination     0
+		Inclination     0.1283
 		AscendingNode   57.7844348
 		ArgOfPericenter 257.768765
 		MeanAnomaly     287.502448
