@@ -267,7 +267,7 @@ Moon	"Nyx"
 {
 	ParentBody     "Aron"
 	Class          "Aquaria"
-	Mass            0.053217791
+	Mass            0.038217791
 	Radius          1735.12231
 	InertiaMoment   0.34665674
 	Oblateness      0.00151114922
