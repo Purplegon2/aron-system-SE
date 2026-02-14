@@ -263,7 +263,7 @@ Moon    "Geostatu"
 {
     ParentBody     "Cosumbt"
     Class          "Terra"
-    Mass            0.00118452656
+    Mass            0.00048452656
     Radius          583.40845
     InertiaMoment   0.386849195
     Oblateness      0.00241025281
