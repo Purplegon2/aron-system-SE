@@ -2,7 +2,7 @@ Planet	"Hadea"
 {
 	ParentBody     "Fate"
 	Class          "Terra"
-	Mass            3.59617186
+	Mass            2.59617186
 	Radius          8750.58887
 	InertiaMoment   0.330291718
 	RotationPeriod  273.248168
