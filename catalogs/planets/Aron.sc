@@ -267,7 +267,7 @@ Moon	"Nyx"
 {
 	ParentBody     "Aron"
 	Class          "Aquaria"
-	Mass            0.038217791
+	Mass            0.019217791
 	Radius          1735.12231
 	InertiaMoment   0.34665674
 	Oblateness      0.00151114922
@@ -429,7 +429,7 @@ Moon	"Parvus"
 {
 	ParentBody     "Aron"
 	Class          "Terra"
-	Mass            0.0219889849
+	Mass            0.0089889849
 	Radius          1337.992
 	InertiaMoment   0.334994197
 	Obliquity       -0.793275735
