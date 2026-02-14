@@ -2,7 +2,7 @@ DwarfPlanet	"Liaka"
 {
 	ParentBody     "Hope"
 	Class          "Aquaria"
-	Mass            0.000276038569
+	Mass            0.000576038569
 	Radius          664.911499
 	InertiaMoment   0.397296816
 	Oblateness      0.00249899435
