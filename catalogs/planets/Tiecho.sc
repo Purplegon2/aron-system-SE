@@ -155,7 +155,7 @@ Moon	"Fraeni"
 {
 	ParentBody     "Tiecho"
 	Class          "Terra"
-	Mass            0.000501514829
+	Mass            0.000201514829
 	Radius          408.025238
 	InertiaMoment   0.399506241
 	Oblateness     (0.007, 0.021, 0.000)
