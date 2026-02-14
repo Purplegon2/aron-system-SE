@@ -699,8 +699,8 @@ Moon	"Alneim"
 {
 	ParentBody     "Cailus"
 	Class          "Terra"
-	Mass            0.04171033584
-	Radius          2112.919983
+	Mass            0.03111033584
+	Radius          2912.919983
 	InertiaMoment   0.399339557
 	Oblateness      0.0206106864
 	Obliquity       -1.07209156
@@ -825,7 +825,7 @@ Moon	"Alneim"
 	{
 		RefPlane        "Equator"
 		PeriodDays      5.94380999
-		SemiMajorAxisKm 371714.894
+		SemiMajorAxisKm 671714.894
 		Eccentricity    0.0193737529
 		Inclination     -1.07209156
 		AscendingNode   -123.084229
@@ -3613,7 +3613,7 @@ Moon	"Serendai"
 {
 	ParentBody     "Cailus"
 	Class          "Aquaria"
-	Mass            0.092191218378
+	Mass            0.009191218378
 	Radius          1897.107972
 	RotationPeriod  38.14478844
 	Obliquity       -13.67124192
@@ -3812,8 +3812,8 @@ Moon	"Ise"
 
 		Composition
 		{
-			N2        	53.6
-			CO        	24.5
+			SO2        	53.6
+			N2        	24.5
 			C2H4      	16.6
 			CO2       	3.36
 			C2H6      	1.76
@@ -3822,7 +3822,7 @@ Moon	"Ise"
 			NH3       	0.0209
 			C3H8      	0.0104
 			H2S       	0.00165
-			Ne        	4.24e-05
+			CO        	4.24e-05
 			Ar        	3.16e-05
 			Kr        	1.54e-05
 		}
