@@ -450,7 +450,7 @@ Moon	"Entactrius"
 {
 	ParentBody     "Chressia & Entactrius"
 	Class          "Terra"
-	Mass            0.481920469
+	Mass            0.281920469
 	Radius          3617.54541
 	InertiaMoment   0.329854131
 	Oblateness      0.00755331991
