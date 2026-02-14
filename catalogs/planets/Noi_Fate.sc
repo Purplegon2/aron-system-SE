@@ -201,7 +201,7 @@ Moon	"Sotrre"
 {
 	ParentBody     "Noi"
 	Class          "Terra"
-	Mass            0.194712758
+	Mass            0.0044712758
 	Radius          829.22998
 	InertiaMoment   0.328328669
 	Oblateness     (0.000, 0.300, 0.300)
