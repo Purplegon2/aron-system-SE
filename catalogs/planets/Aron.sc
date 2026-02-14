@@ -429,7 +429,7 @@ Moon	"Parvus"
 {
 	ParentBody     "Aron"
 	Class          "Terra"
-	Mass            0.0719889849
+	Mass            0.0219889849
 	Radius          1337.992
 	InertiaMoment   0.334994197
 	Obliquity       -0.793275735
