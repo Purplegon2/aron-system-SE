@@ -2,7 +2,7 @@ DwarfPlanet	"Tiecho"
 {
 	ParentBody     "Hope"
 	Class          "Ferria"
-	Mass            0.0313904323
+	Mass            0.00613904323
 	Radius          1270.07532
 	InertiaMoment   0.354743063
 	Obliquity       2.78580983
