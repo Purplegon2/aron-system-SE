@@ -826,7 +826,7 @@ Moon	"Alneim"
 		RefPlane        "Equator"
 		PeriodDays      5.94380999
 		SemiMajorAxisKm 571714.894
-		Eccentricity    0.0193737529
+		Eccentricity    0.0693737529
 		Inclination     -1.07209156
 		AscendingNode   -123.084229
 		ArgOfPericenter 72.1953086
