@@ -3692,11 +3692,12 @@ Moon	"Ise"
 {
 	ParentBody     "Cailus"
 	Class          "Terra"
-	Mass            0.114905813716
-	Radius          2026.838793
+	Mass            0.034905812
+	Radius          2026.83875
+	InertiaMoment   0.329225302
+	Obliquity       -1.20227261
+	EqAscendNode    144.068302
 	TidalLocked     true
-	Obliquity       4.07661146
-	EqAscendNode    -132.00500426
 
 	AlbedoBond      0.536
 	AlbedoGeom      0.36
@@ -3709,32 +3710,74 @@ Moon	"Ise"
 		SurfStyle       0.833
 		Randomize      (-0.099, -0.230, 0.598)
 		colorDistMagn   0.0674
-		colorDistFreq   1167.91
-		detailScale     38527.94
+		colorDistFreq   1.17e+03
+		detailScale     3.85e+04
 		drivenDarkening 0.298
 		seaLevel        0.041
 		snowLevel       2
 		tropicLatitude  0.345
+		icecapLatitude  2
+		icecapHeight    0.623
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
 		humidity        0.543
-		mainFreq        1.717
+		heightTempGrad  0.625
+		beachWidth      0.000453
+		tropicWidth     0.07
+		mainFreq        1.72
+		venusFreq       1.18
+		venusMagn       0
 		mareFreq        0.009
 		mareDensity     0.172
 		terraceProb     0.203
 		erosion         0.251
+		montesMagn      0.103
+		montesFreq      88.1
+		montesSpiky     0.883
+		montesFraction  0.134
+		dunesMagn       0.0481
+		dunesFreq       20.5
+		dunesFraction   0.742
+		hillsMagn       0.104
+		hillsFreq       270
+		hillsFraction   0.547
+		hills2Fraction  0
+		riversMagn      62.6
+		riversFreq      2.65
+		riversSin       7.57
 		riftsMagn       0.378
-		riftsFreq       3.184
+		riftsFreq       3.18
+		riftsSin        7.28
 		canyonsMagn     0.229
-		canyonsFreq     218.971
+		canyonsFreq     219
+		canyonsFraction 0.865
+		cracksMagn      0.065
+		cracksFreq      1.18
+		cracksOctaves   0
 		craterMagn      0.737
-		craterFreq      12.702
+		craterFreq      12.7
 		craterDensity   0.149
 		craterOctaves   6
+		craterRayedFactor 0.205
 		volcanoMagn     0.353
 		volcanoFreq     0.517
 		volcanoDensity  0.134
 		volcanoOctaves  2
 		volcanoActivity 0.632
-		BumpHeight      21.15
+		volcanoFlows    0.205
+		volcanoRadius   0.227
+		volcanoTemp     216
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      21.1
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.65
 		SpecBrightIce   0.85
@@ -3748,28 +3791,67 @@ Moon	"Ise"
 		DayAmbient      0.07
 	}
 
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
+
 	Atmosphere
 	{
 		Model          "Earth"
-		Height          514.896986
-		Density         3.00306260e-10
-		Pressure        3.17062818e-7
+		Height          103.577919
+		Density         6.11307227e-09
+		Pressure        0.000185001627
 		Greenhouse      123.281334
-		Opacity         0.986
+		Bright          0.795
+		Opacity         1.07
+		SkyLight        0.265
+		Hue             0.485
+		Saturation      0.519
+
+		Composition
+		{
+			N2        	53.6
+			CO        	24.5
+			C2H4      	16.6
+			CO2       	3.36
+			C2H6      	1.76
+			CH4       	0.226
+			C2H2      	0.0299
+			NH3       	0.0209
+			C3H8      	0.0104
+			H2S       	0.00165
+			Ne        	4.24e-05
+			Ar        	3.16e-05
+			Kr        	1.54e-05
+		}
 	}
 
-	NoClouds        true
-	NoLava          true
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
 
 	Orbit
 	{
 		RefPlane        "Equator"
 		PeriodDays      214.088201
-		SemiMajorAxisKm 1.02591390e+7
+		SemiMajorAxisKm 10259139
 		Eccentricity    0.0375550348
 		Inclination     -1.20227261
-		AscendingNode   144.06830192
+		AscendingNode   144.068302
 		ArgOfPericenter -41.313335
 		MeanAnomaly     -5.709258
 	}
 }
+
+
