@@ -202,11 +202,12 @@ Moon	"Ikernu"
 {
 	ParentBody     "Scurra"
 	Class          "Terra"
-	Mass            0.11513598
+	Mass            0.115135983
 	Radius          4117.6001
 	InertiaMoment   0.331860512
 	Oblateness      0.00240523578
 	RotationPeriod  27.7977429
+	RotationEpoch   1451545
 	Obliquity       28.2500932
 	EqAscendNode    19.9272691
 
@@ -277,6 +278,7 @@ Moon	"Ikernu"
 		craterFreq      25
 		craterDensity   0
 		craterOctaves   0
+		craterRayedFactor 0.174
 		volcanoMagn     0.787
 		volcanoFreq     0.962
 		volcanoDensity  0.359
@@ -368,12 +370,14 @@ Moon	"Ikernu"
 		stripeTwist     0.16
 	}
 
+	NoLava          true
+
 	Atmosphere
 	{
 		Model          "Earth"
 		Height          422.624054
-		Density         8.53685123e-10
-		Pressure        7.28778275e-07
+		Density         1.27899909e-06
+		Pressure        0.0469629876
 		Greenhouse      151.908401
 		Bright          1.07
 		Opacity         0.992
@@ -413,7 +417,7 @@ Moon	"Ikernu"
 		NorthLat       72.6
 		NorthLon       -82.4
 		NorthRadius    1.33e+03
-		NorthWidth     5.13e+03
+		NorthWidth     -nan(ind)
 		NorthRings     2
 		NorthBright    0.687
 		NorthFlashFreq 67.7
@@ -441,8 +445,8 @@ Moon	"Ikernu"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      17.284
-		SemiMajorAxisKm 1221850.22
+		PeriodDays      15.9883009
+		SemiMajorAxisKm 1138265.61
 		Eccentricity    0.0459930403
 		Inclination     -1.17193275
 		AscendingNode   16.0924829
