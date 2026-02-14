@@ -2,7 +2,7 @@ DwarfPlanet	"Cosumbt"
 {
 	ParentBody     "Fate"
 	Class          "Aquaria"
-	Mass            0.0149133373
+	Mass            0.0049133373
 	Radius          1164.01758
 	InertiaMoment   0.329919845
 	Oblateness      0.109923661
@@ -263,7 +263,7 @@ Moon    "Geostatu"
 {
     ParentBody     "Cosumbt"
     Class          "Terra"
-    Mass            0.00518452656
+    Mass            0.00118452656
     Radius          583.40845
     InertiaMoment   0.386849195
     Oblateness      0.00241025281
