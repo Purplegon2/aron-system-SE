@@ -1306,7 +1306,7 @@ Moon	"Ianorota"
 {
 	ParentBody     "Noi"
 	Class          "Aquaria"
-	Mass            0.166600823486
+	Mass            0.366600823486
 	Radius          5738.675982
 	TidalLocked     true
 	Obliquity       3.06038452
@@ -1385,7 +1385,7 @@ Moon	"Yokaya"
 {
 	ParentBody     "Noi"
 	Class          "Aquaria"
-	Mass            0.031897754939
+	Mass            0.094897754939
 	Radius          3685.557951
 	TidalLocked     true
 	Obliquity       2.7991863
