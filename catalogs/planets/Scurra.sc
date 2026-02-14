@@ -220,7 +220,7 @@ Moon	"Ikernu"
 	{
 		Preset         "terra_wet_rusty_green_plants.cfg"
 		SurfStyle       0.779
-		Randomize      (-0.354, 0.957, -0.457)
+		Randomize      (-0.229, 0.957, -0.809)
 		colorDistMagn   0.0554
 		colorDistFreq   1.02e+03
 		detailScale     3.28e+04
@@ -284,10 +284,10 @@ Moon	"Ikernu"
 		volcanoDensity  0.359
 		volcanoOctaves  3
 		volcanoActivity 2
-		volcanoFlows    0.931
-		volcanoRadius   0.802
+		volcanoFlows    0.962
+		volcanoRadius   0.924
 		volcanoTemp     3e+03
-		lavaCoverTidal  0.0763
+		lavaCoverTidal  0.298
 		lavaCoverSun    0
 		lavaCoverYoung  0
 		stripeZones     1.47
@@ -309,7 +309,7 @@ Moon	"Ikernu"
 		SpotBright      2.02
 		SpotWidth       0.05
 		DayAmbient      0.07
-		ModulateColor  (0.750 0.603 0.495)
+		ModulateColor  (0.684 0.531 0.419)
 	}
 
 	Ocean
@@ -343,12 +343,12 @@ Moon	"Ikernu"
 		SpotBright      5.95
 		SpotWidth       0.0644
 		DayAmbient      0.07
-		ModulateColor  (0.762 0.491 0.253)
+		ModulateColor  (0.203 0.146 0.095)
 		ModulateBright  0.486
 		Opacity         0.763
 		mainFreq        0.75
 		mainOctaves     10
-		Coverage        0.237
+		Coverage        0.458
 		stripeZones     1.47
 		stripeTwist     0.16
 	}
@@ -365,7 +365,7 @@ Moon	"Ikernu"
 		ModulateBright  1
 		mainFreq        0.75
 		mainOctaves     10
-		Coverage        0.237
+		Coverage        0.458
 		stripeZones     1.47
 		stripeTwist     0.16
 	}
@@ -375,15 +375,15 @@ Moon	"Ikernu"
 	Atmosphere
 	{
 		Model          "Earth"
-		Height          422.624054
+		Height          319.019165
 		Density         1.27899909e-06
 		Pressure        0.0469629876
-		Greenhouse      151.908401
+		Greenhouse      177.099243
 		Bright          1.07
-		Opacity         0.992
+		Opacity         0.916
 		SkyLight        8.55
 		Hue             0.5
-		Saturation      0.458
+		Saturation      0.565
 
 		Composition
 		{
@@ -417,7 +417,7 @@ Moon	"Ikernu"
 		NorthLat       72.6
 		NorthLon       -82.4
 		NorthRadius    1.33e+03
-		NorthWidth     -nan(ind)
+		NorthWidth     391
 		NorthRings     2
 		NorthBright    0.687
 		NorthFlashFreq 67.7
