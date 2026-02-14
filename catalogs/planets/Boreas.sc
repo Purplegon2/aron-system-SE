@@ -2,7 +2,7 @@ Planet	"Boreas"
 {
 	ParentBody     "Hope"
 	Class          "Neptune"
-	Mass            8.4343729
+	Mass            8.0343729
 	Radius          21293.3652
 	InertiaMoment   0.238852918
 	RotationPeriod  11.2857048
