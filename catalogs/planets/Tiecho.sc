@@ -2,7 +2,7 @@ DwarfPlanet	"Tiecho"
 {
 	ParentBody     "Hope"
 	Class          "Ferria"
-	Mass            0.00613904323
+	Mass            0.00513904323
 	Radius          1270.07532
 	InertiaMoment   0.354743063
 	Obliquity       2.78580983
@@ -155,7 +155,7 @@ Moon	"Fraeni"
 {
 	ParentBody     "Tiecho"
 	Class          "Terra"
-	Mass            0.000201514829
+	Mass            0.000101514829
 	Radius          408.025238
 	InertiaMoment   0.399506241
 	Oblateness     (0.007, 0.021, 0.000)
