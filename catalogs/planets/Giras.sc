@@ -1566,15 +1566,16 @@ Moon	"Tyrulious"
 	}
 }
 
-Moon	"Rnadusc"
+Moon	"Radonus"
 {
 	ParentBody     "Giras"
 	Class          "Aquaria"
-	Mass            0.011671825309
-	Radius          2247.480791
+	Mass            0.0116718253
+	Radius          1843
+	InertiaMoment   0.373757631
+	Obliquity       -0.90306703
+	EqAscendNode    38.4507081
 	TidalLocked     true
-	Obliquity       14.39228091
-	EqAscendNode    147.96283378
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
@@ -1587,36 +1588,78 @@ Moon	"Rnadusc"
 		SurfStyle       0.147
 		Randomize      (-0.989, -0.793, 0.535)
 		colorDistMagn   0.089
-		colorDistFreq   59.64
-		detailScale     5977.73
+		colorDistFreq   59.6
+		detailScale     5.98e+03
 		drivenDarkening 0.589
 		seaLevel        0.058
 		snowLevel       2
 		tropicLatitude  0.718
+		icecapLatitude  1
+		icecapHeight    0
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
 		humidity        0.164
-		mainFreq        1.933
+		heightTempGrad  0.625
+		beachWidth      0.000766
+		tropicWidth     0.07
+		mainFreq        1.93
+		venusFreq       0.557
+		venusMagn       0
 		mareFreq        0.005
 		mareDensity     0.103
 		terraceProb     0.15
 		erosion         0
+		montesMagn      0.118
+		montesFreq      104
+		montesSpiky     0.891
+		montesFraction  0.108
+		dunesMagn       0.04
+		dunesFreq       25.3
+		dunesFraction   0.0378
+		hillsMagn       0.123
+		hillsFreq       75.8
+		hillsFraction   0.376
+		hills2Fraction  0.288
+		riversMagn      0
+		riversFreq      3.5
+		riversSin       5.24
 		riftsMagn       0.616
-		riftsFreq       4.888
+		riftsFreq       4.89
+		riftsSin        4.83
 		canyonsMagn     0.777
-		canyonsFreq     41.727
+		canyonsFreq     41.7
+		canyonsFraction 0
+		cracksMagn      0.0272
+		cracksFreq      1.42
+		cracksOctaves   2
 		craterMagn      0.509
-		craterFreq      24.226
+		craterFreq      24.2
 		craterDensity   0.755
 		craterOctaves   17
+		craterRayedFactor 0.123
 		volcanoMagn     0.146
 		volcanoFreq     0.479
 		volcanoDensity  0.185
 		volcanoOctaves  4
 		volcanoActivity 0.206
-		BumpHeight      16.99
+		volcanoFlows    0.233
+		volcanoRadius   0.352
+		volcanoTemp     326
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      17
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.03
 		SpecBrightIce   0.03
-		RoughnessWater  0.35
+		RoughnessWater  0.389
 		RoughnessIce    0.45
 		SpecularScale   1
 		RoughnessBias   0.17
@@ -1626,21 +1669,37 @@ Moon	"Rnadusc"
 		DayAmbient      0.07
 	}
 
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
+
 	NoAtmosphere    true
 
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
 
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      38.478999
-		SemiMajorAxisKm 1.41618275e+6
-		Eccentricity    0.0651294249
-		Inclination     -0.90306703
-		AscendingNode   38.45070809
+		PeriodDays      25.8572008
+		SemiMajorAxisKm 857509.955
+		Eccentricity    0.27480916
+		Inclination     8.24427481
+		AscendingNode   38.4507081
 		ArgOfPericenter -79.588278
 		MeanAnomaly     72.564411
 	}
 }
+
