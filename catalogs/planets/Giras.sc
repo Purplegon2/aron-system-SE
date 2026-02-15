@@ -1398,55 +1398,102 @@ Moon	"Eichana"
 	}
 }
 
-
-
-Moon	"Yolalutu"
+Moon	"Tyrulious"
 {
 	ParentBody     "Giras"
 	Class          "Terra"
-	Mass            0.009360708995
-	Radius          1433.821993
-	RotationPeriod  32.60237182
-	Obliquity       10.40448822
-	EqAscendNode    11.63332564
+	Mass            0.00636070923
+	Radius          1433.82202
+	InertiaMoment   0.374045223
+	Oblateness      0.0025680149
+	RotationPeriod  32.6023718
+	RotationEpoch   0
+	Obliquity       10.4044882
+	EqAscendNode    11.6333256
 
 	AlbedoBond      0.536
 	AlbedoGeom      0.36
-	Brightness      1
+	Brightness      0.992
 	BrightnessReal  1
 
 	Surface
 	{
 		Preset         "terra_wet_rusty_green_plants.cfg"
 		SurfStyle       0.639
-		Randomize      (0.836, 0.519, 0.857)
+		Randomize      (0.290, 1.450, 0.290)
 		colorDistMagn   0.0386
-		colorDistFreq   569.13
-		detailScale     38949.99
+		colorDistFreq   569
+		detailScale     3.89e+04
 		drivenDarkening 0.198
 		seaLevel        -0.957
 		snowLevel       2
 		tropicLatitude  0.319
+		icecapLatitude  1
+		icecapHeight    0
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
 		humidity        0.161
-		mainFreq        3.899
+		heightTempGrad  0.625
+		beachWidth      0.000215
+		tropicWidth     0.07
+		mainFreq        3.9
+		venusFreq       1.33
+		venusMagn       0
 		mareFreq        0.005
 		mareDensity     0.117
 		terraceProb     0.219
-		erosion         0.282
+		erosion         0.42
+		montesMagn      0.0667
+		montesFreq      405
+		montesSpiky     0.918
+		montesFraction  0.382
+		dunesMagn       0.0304
+		dunesFreq       14
+		dunesFraction   0.563
+		hillsMagn       0.137
+		hillsFreq       151
+		hillsFraction   0.31
+		hills2Fraction  0
+		riversMagn      59.9
+		riversFreq      1.32
+		riversSin       6.23
 		riftsMagn       0.484
-		riftsFreq       1.837
-		canyonsMagn     0.177
-		canyonsFreq     198.228
+		riftsFreq       5.42
+		riftsSin        6.47
+		eqridgeMagn     0.403
+		eqridgeWidth    0.0216
+		eqridgeModMagn  2.41
+		eqridgeModFreq  9.38
+		canyonsMagn     0.153
+		canyonsFreq     817
+		canyonsFraction 0.84
+		cracksMagn      0.0327
+		cracksFreq      0.664
+		cracksOctaves   0
 		craterMagn      0.368
-		craterFreq      2.268
+		craterFreq      15.3
 		craterDensity   0.228
 		craterOctaves   2
-		volcanoMagn     0.438
-		volcanoFreq     1.076
-		volcanoDensity  0.249
+		craterRayedFactor 0.0527
+		volcanoMagn     0
+		volcanoFreq     0
+		volcanoDensity  0.0611
 		volcanoOctaves  3
-		volcanoActivity 1.524
-		BumpHeight      19.48
+		volcanoActivity 1.52
+		volcanoFlows    0.166
+		volcanoRadius   0.135
+		volcanoTemp     296
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      19.5
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.65
 		SpecBrightIce   0.85
@@ -1458,29 +1505,50 @@ Moon	"Yolalutu"
 		SpotBright      2.33
 		SpotWidth       0.056
 		DayAmbient      0.07
-		ModulateColor  (0.754 0.647 0.555)
+		ModulateColor  (0.856 0.867 0.891)
 	}
+
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
 
 	Atmosphere
 	{
 		Model          "Earth"
-		Height          133.704377
-		Density         1.72725438e-9
-		Pressure        1.80553904e-6
-		Greenhouse      81.398783
-		Opacity         0.956
+		Height          33.6292801
+		Density         2.09223611e-10
+		Pressure        3.54501685e-06
+		Greenhouse      0.763358772
+		Bright          1.83
+		Opacity         0
+		SkyLight        0.375
+		Hue             -0.00382
+		Saturation      0.656
 	}
 
-	NoLava          true
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
 
 	Orbit
 	{
 		RefPlane        "Equator"
 		PeriodDays      27.171811
-		SemiMajorAxisKm 1.12300713e+6
+		SemiMajorAxisKm 1123007.13
 		Eccentricity    0.0616698993
 		Inclination     -1.34271891
-		AscendingNode   -91.54041359
+		AscendingNode   -91.5404136
 		ArgOfPericenter 161.672312
 		MeanAnomaly     4.248012
 	}
