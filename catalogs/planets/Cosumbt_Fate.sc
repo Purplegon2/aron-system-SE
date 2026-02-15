@@ -1,16 +1,6 @@
-Barycenter	"Cosumbt & Geostatu"
-{
-	ParentBody     "Fate"
-	Mass            0.03230204
-	Radius          13805.6523
-	RotationPeriod  14
-	RotationEpoch   0
-	Obliquity       0
-	EqAscendNode    0
-
 DwarfPlanet	"Cosumbt"
 {
-	ParentBody     "Cosumbt & Geostatu"
+	ParentBody     "Fate"
 	Class          "Aquaria"
 	Mass            0.0049133373
 	Radius          1164.01758
@@ -271,7 +261,7 @@ DwarfPlanet	"Cosumbt"
 
 Moon    "Geostatu"
 {
-    ParentBody     "Cosumbt & Geostatu"
+    ParentBody     "Cosumbt"
     Class          "Terra"
     Mass            0.00048452656
     Radius          583.40845
