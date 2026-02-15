@@ -1532,6 +1532,12 @@ Moon	"Tyrulious"
 		SkyLight        0.375
 		Hue             -0.00382
 		Saturation      0.656
+
+		Composition
+		{
+			N2        	92
+			CO       	6.8
+		}
 	}
 
 	Climate
