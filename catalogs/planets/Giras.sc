@@ -1233,7 +1233,7 @@ Moon	"Eichana"
 		colorDistFreq   1.14e+03
 		detailScale     6.08e+05
 		drivenDarkening 0.068
-		seaLevel        0.282
+		seaLevel        0.219
 		snowLevel       2
 		tropicLatitude  0.913
 		icecapLatitude  1
@@ -1297,7 +1297,14 @@ Moon	"Eichana"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
+		stripeZones     1.47
+		stripeTwist     0.16
+		cycloneMagn     2.78
+		cycloneFreq     0.833
+		cycloneDensity  0.342
+		cycloneOctaves  2
 		BumpHeight      18.3
+		BumpOffset      4
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.65
 		SpecBrightIce   0.85
@@ -1324,7 +1331,7 @@ Moon	"Eichana"
 		Composition
 		{
 			CH4       	83.5
-			C2H6       	16.5
+			C2H6      	16.5
 		}
 	}
 
@@ -1352,24 +1359,23 @@ Moon	"Eichana"
 
 	Atmosphere
 	{
-		Model          "Titan"
-		Height          127.89991
+		Model          "Thick"
+		Height          209.223602
 		Density         248.353149
-		Pressure        216.709457
-		Greenhouse      160.305344
-		Bright          4.89
-		Opacity         0
-		SkyLight        0
+		Pressure        166.484589
+		Greenhouse      42.7480927
+		Bright          7.63
+		Opacity         1
+		SkyLight        2.67
 		Hue             -0.5
-		Saturation      1.11
-		
+		Saturation      1.25
+
 		Composition
 		{
 			N2        	96
-			CH4		3.8
-			Ar		0.2
+			CH4       	3.8
+			Ar        	0.2
 		}
-
 	}
 
 	Climate
