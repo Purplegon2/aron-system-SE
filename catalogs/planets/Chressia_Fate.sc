@@ -364,8 +364,8 @@ Moon	"Qutaro"
 		RefPlane        "Equator"
 		PeriodDays      7.99234697
 		SemiMajorAxisKm 312493.05
-		Eccentricity    0.093931874
-		Inclination     -2.9392788
+		Eccentricity    0.193931874
+		Inclination     -3.9392788
 		AscendingNode   -84.4593706
 		ArgOfPericenter -6.28193828
 		MeanAnomaly     31.0619959
