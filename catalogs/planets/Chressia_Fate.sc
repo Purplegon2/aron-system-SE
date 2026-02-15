@@ -446,7 +446,7 @@ Moon	"Telia"
 	}
 }
 
-Moon	"Entactrius"
+Planet	"Entactrius"
 {
 	ParentBody     "Chressia & Entactrius"
 	Class          "Terra"
