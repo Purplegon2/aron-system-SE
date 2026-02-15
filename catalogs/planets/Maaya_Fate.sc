@@ -92,7 +92,7 @@ Planet	"Maaya"
 		stripeZones     1.96
 		stripeTwist     0.0976
 		cycloneMagn     2.86
-		cycloneFreq     0.764
+		cycloneFreq     0.611
 		cycloneDensity  0.376
 		cycloneOctaves  4
 		BumpHeight      14
@@ -123,7 +123,7 @@ Planet	"Maaya"
 		ModulateBright  1
 		mainFreq        1.01
 		mainOctaves     10
-		Coverage        0.296
+		Coverage        0
 		stripeZones     1.96
 		stripeTwist     0.0976
 	}
@@ -133,20 +133,20 @@ Planet	"Maaya"
 	Atmosphere
 	{
 		Model          "Jupiter"
-		Height          28.0433407
-		Density         115.663147
-		Pressure        48.3586845
-		Greenhouse      39.6063995
-		Bright          10
-		Opacity         1
-		SkyLight        3.33
-		Hue             0.5
-		Saturation      1.5
+		Height          691.344727
+		Density         342.256073
+		Pressure        75.4853363
+		Greenhouse      336.641235
+		Bright          8.7
+		Opacity         1.15
+		SkyLight        0
+		Hue             -0.5
+		Saturation      0
 
 		Composition
 		{
-			N2        	89.5
-			CO        	9.85
+			CO        	59.85
+			N2        	39.5
 			CO2       	0.671
 			Ar        	0.000262
 			Ne        	3.31e-05
@@ -157,7 +157,7 @@ Planet	"Maaya"
 
 	Climate
 	{
-		GlobalWindSpeed  2.05
+		GlobalWindSpeed  96.9
 	}
 
 	Aurora
