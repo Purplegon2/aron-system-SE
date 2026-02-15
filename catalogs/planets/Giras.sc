@@ -274,7 +274,7 @@ Moon	"Matha"
 	{
 		RefPlane        "Equator"
 		Period		236.634
-		SemiMajorAxis	0.0071
+		SemiMajorAxisKm	472901
 		Eccentricity    0.00243081901
 		Inclination     0.887225691
 		AscendingNode   -107.027698
@@ -1395,7 +1395,7 @@ Moon	"Eichana"
 	{
 		RefPlane        "Equator"
 		PeriodDays      17.751935
-		SemiMajorAxisKm 845539.541
+		SemiMajorAxisKm 645539.541
 		Eccentricity    0.0374724166
 		Inclination     2.09588425
 		AscendingNode   143.354448
@@ -1557,7 +1557,7 @@ Moon	"Tyrulious"
 	{
 		RefPlane        "Equator"
 		PeriodDays      27.171811
-		SemiMajorAxisKm 1123007.13
+		SemiMajorAxisKm 323007.13
 		Eccentricity    0.0616698993
 		Inclination     -1.34271891
 		AscendingNode   -91.5404136
