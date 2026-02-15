@@ -188,7 +188,7 @@ Moon	"Charayl"
 
 	Surface
 	{
-		Preset         "aquaria_airless_white2.cfg"
+		Preset         "aquaria_arid_triton.cfg"
 		SurfStyle       0.788
 		Randomize      (0.875, 0.347, 0.192)
 		colorDistMagn   0.0598
@@ -199,7 +199,7 @@ Moon	"Charayl"
 		snowLevel       2
 		tropicLatitude  0.998
 		icecapLatitude  1
-		icecapHeight    0
+		icecapHeight    0.397
 		climatePole     0.938
 		climateTropic   0.313
 		climateEquator  0.688
@@ -216,46 +216,46 @@ Moon	"Charayl"
 		mainFreq        1.72
 		venusFreq       1.07
 		venusMagn       0
-		mareFreq        0.0283
-		mareDensity     0.138
+		mareFreq        0.001
+		mareDensity     0
 		terraceProb     0.299
-		erosion         0
-		montesMagn      0.0701
-		montesFreq      41.1
-		montesSpiky     0.936
-		montesFraction  0.268
-		dunesMagn       0.0337
-		dunesFreq       6.8
-		dunesFraction   0.438
-		hillsMagn       0.122
-		hillsFreq       68.7
-		hillsFraction   0.109
-		hills2Fraction  0.225
-		riversMagn      0
-		riversFreq      2.69
+		erosion         0.13
+		montesMagn      0
+		montesFreq      0
+		montesSpiky     0
+		montesFraction  0
+		dunesMagn       0
+		dunesFreq       0
+		dunesFraction   0
+		hillsMagn       0
+		hillsFreq       0
+		hillsFraction   0
+		hills2Fraction  0
+		riversMagn      2.29
+		riversFreq      0
 		riversSin       7.7
 		riftsMagn       0
-		riftsFreq       3.78
+		riftsFreq       0
 		riftsSin        4.78
 		canyonsMagn     0.453
-		canyonsFreq     0.229
-		canyonsFraction 0
-		cracksMagn      0.0571
-		cracksFreq      0.295
+		canyonsFreq     168
+		canyonsFraction 0.748
+		cracksMagn      0.0763
+		cracksFreq      15
 		cracksOctaves   0
-		craterMagn      0.525
-		craterFreq      2.3
-		craterDensity   0.988
-		craterOctaves   17
-		craterRayedFactor 0.104
-		volcanoMagn     0.17
-		volcanoFreq     0.655
-		volcanoDensity  0.254
-		volcanoOctaves  3
-		volcanoActivity 0.447
-		volcanoFlows    0.287
-		volcanoRadius   0.127
-		volcanoTemp     378
+		craterMagn      0
+		craterFreq      0
+		craterDensity   0
+		craterOctaves   0
+		craterRayedFactor 0
+		volcanoMagn     0
+		volcanoFreq     0.0153
+		volcanoDensity  0
+		volcanoOctaves  0
+		volcanoActivity 0
+		volcanoFlows    0
+		volcanoRadius   0
+		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
@@ -271,6 +271,7 @@ Moon	"Charayl"
 		SpotBright      2.5
 		SpotWidth       0.05
 		DayAmbient      0.07
+		ModulateColor  (0.954 0.970 0.977)
 	}
 
 	NoOcean         true
@@ -298,7 +299,7 @@ Moon	"Charayl"
 	{
 		RefPlane        "Equator"
 		PeriodDays      0.872902974
-		SemiMajorAxis	0.00753
+		SemiMajorAxisKm 1126471.97
 		Eccentricity    0.000260206178
 		Inclination     0.0327196321
 		AscendingNode   -144.786967
