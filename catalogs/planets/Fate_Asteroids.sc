@@ -2105,7 +2105,7 @@ Asteroid	"Lichu"
 		MeanAnomaly     78.026398
 	}
 }
-Moon	"Sneim"
+Asteroid	"Sneim"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2142,7 +2142,7 @@ Moon	"Sneim"
 	}
 }
 
-Moon	"Kikiteiayle"
+Asteroid	"Kikiteiayle"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2179,7 +2179,7 @@ Moon	"Kikiteiayle"
 	}
 }
 
-Moon	"Yenitota"
+Asteroid	"Yenitota"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2216,7 +2216,7 @@ Moon	"Yenitota"
 	}
 }
 
-Moon	"Clevia"
+Asteroid	"Clevia"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2253,7 +2253,7 @@ Moon	"Clevia"
 	}
 }
 
-Moon	"Choeitu"
+Asteroid	"Choeitu"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2290,7 +2290,7 @@ Moon	"Choeitu"
 	}
 }
 
-Moon	"Uicholo"
+Asteroid	"Uicholo"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2327,7 +2327,7 @@ Moon	"Uicholo"
 	}
 }
 
-Moon	"Oasetora"
+Asteroid	"Oasetora"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2364,7 +2364,7 @@ Moon	"Oasetora"
 	}
 }
 
-Moon	"Chieite"
+Asteroid	"Chieite"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2401,7 +2401,7 @@ Moon	"Chieite"
 	}
 }
 
-Moon	"Souichuni"
+Asteroid	"Souichuni"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2438,7 +2438,7 @@ Moon	"Souichuni"
 	}
 }
 
-Moon	"Toraroyu"
+Asteroid	"Toraroyu"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2475,7 +2475,7 @@ Moon	"Toraroyu"
 	}
 }
 
-Moon	"Neienichi"
+Asteroid	"Neienichi"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2512,7 +2512,7 @@ Moon	"Neienichi"
 	}
 }
 
-Moon	"Poli"
+Asteroid	"Poli"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2549,7 +2549,7 @@ Moon	"Poli"
 	}
 }
 
-Moon	"Ialnaimolialera"
+Asteroid	"Ialnaimolialera"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
