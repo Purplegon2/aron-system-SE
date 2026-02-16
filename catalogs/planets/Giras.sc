@@ -220,7 +220,7 @@ Moon	"Mairelia"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period		236.634
+		PeriodDays		32.634
 		SemiMajorAxis	0.0041
 		Eccentricity    0.20243081901
 		Inclination     0.887225691
@@ -234,8 +234,8 @@ Moon	"Matha"
 {
 	ParentBody     "Giras"
 	Class          "Aquaria"
-	Mass            0.000276038569
-	Radius          564.911499
+	Mass            0.000096038569
+	Radius          264.911499
 	InertiaMoment   0.397296816
 	Oblateness      0.00249899435
 	Obliquity       0.887225691
@@ -244,7 +244,7 @@ Moon	"Matha"
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
-	Brightness      1
+	Brightness      0.9
 	BrightnessReal  1
 
 	
@@ -273,8 +273,8 @@ Moon	"Matha"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period		236.634
-		SemiMajorAxisKm	472901
+		PeriodDays		41.634
+		SemiMajorAxisKm	592904
 		Eccentricity    0.00243081901
 		Inclination     0.887225691
 		AscendingNode   -107.027698
@@ -283,7 +283,7 @@ Moon	"Matha"
 	}
 }
 
-Moon	"Choli"
+DwarfMoon	"Choli"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -320,7 +320,7 @@ Moon	"Choli"
 	}
 }
 
-Moon	"Sasu"
+DwarfMoon	"Sasu"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -357,7 +357,7 @@ Moon	"Sasu"
 	}
 }
 
-Moon	"Chule"
+DwarfMoon	"Chule"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -394,7 +394,7 @@ Moon	"Chule"
 	}
 }
 
-Moon	"Looaseta"
+DwarfMoon	"Looaseta"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -431,7 +431,7 @@ Moon	"Looaseta"
 	}
 }
 
-Moon	"Tethe"
+DwarfMoon	"Tethe"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -468,7 +468,7 @@ Moon	"Tethe"
 	}
 }
 
-Moon	"Yinu"
+DwarfMoon	"Yinu"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -505,7 +505,7 @@ Moon	"Yinu"
 	}
 }
 
-Moon	"Yuyeya"
+DwarfMoon	"Yuyeya"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -542,7 +542,7 @@ Moon	"Yuyeya"
 	}
 }
 
-Moon	"Yanasi"
+DwarfMoon	"Yanasi"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -579,7 +579,7 @@ Moon	"Yanasi"
 	}
 }
 
-Moon	"Malikia"
+DwarfMoon	"Malikia"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -616,7 +616,7 @@ Moon	"Malikia"
 	}
 }
 
-Moon	"Kiaryl"
+DwarfMoon	"Kiaryl"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -653,7 +653,7 @@ Moon	"Kiaryl"
 	}
 }
 
-Moon	"Kiathe"
+DwarfMoon	"Kiathe"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -690,7 +690,7 @@ Moon	"Kiathe"
 	}
 }
 
-Moon	"Chethe"
+DwarfMoon	"Chethe"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -727,7 +727,7 @@ Moon	"Chethe"
 	}
 }
 
-Moon	"Keiaiti"
+DwarfMoon	"Keiaiti"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -764,7 +764,7 @@ Moon	"Keiaiti"
 	}
 }
 
-Moon	"Sike"
+DwarfMoon	"Sike"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -801,7 +801,7 @@ Moon	"Sike"
 	}
 }
 
-Moon	"Teri"
+DwarfMoon	"Teri"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -838,7 +838,7 @@ Moon	"Teri"
 	}
 }
 
-Moon	"Soiayute"
+DwarfMoon	"Soiayute"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -875,7 +875,7 @@ Moon	"Soiayute"
 	}
 }
 
-Moon	"Cailia"
+DwarfMoon	"Cailia"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -912,7 +912,7 @@ Moon	"Cailia"
 	}
 }
 
-Moon	"Chusanare"
+DwarfMoon	"Chusanare"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -949,7 +949,7 @@ Moon	"Chusanare"
 	}
 }
 
-Moon	"Chorutetu"
+DwarfMoon	"Chorutetu"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -986,7 +986,7 @@ Moon	"Chorutetu"
 	}
 }
 
-Moon	"Yaresu"
+DwarfMoon	"Yaresu"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -1023,7 +1023,7 @@ Moon	"Yaresu"
 	}
 }
 
-Moon	"Chino"
+DwarfMoon	"Chino"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -1060,7 +1060,7 @@ Moon	"Chino"
 	}
 }
 
-Moon	"Ietosoia"
+DwarfMoon	"Ietosoia"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -1097,7 +1097,7 @@ Moon	"Ietosoia"
 	}
 }
 
-Moon	"Aitokeie"
+DwarfMoon	"Aitokeie"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -1134,7 +1134,7 @@ Moon	"Aitokeie"
 	}
 }
 
-Moon	"Chaei"
+DwarfMoon	"Chaei"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
@@ -1171,7 +1171,7 @@ Moon	"Chaei"
 	}
 }
 
-Moon	"Ponal"
+DwarfMoon	"Ponal"
 {
 	ParentBody     "Giras"
 	Class          "Asteroid"
