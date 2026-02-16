@@ -2919,7 +2919,7 @@ Asteroid	"Tevia"
 		MeanAnomaly     -70.263132
 	}
 }
-DwarfDwarfDwarfMoon	"Male"
+DwarfDwarfAsteroid	"Male"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -2956,7 +2956,7 @@ DwarfDwarfDwarfMoon	"Male"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Liuiyi"
+DwarfDwarfAsteroid	"Liuiyi"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -2993,7 +2993,7 @@ DwarfDwarfDwarfMoon	"Liuiyi"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Mavia"
+DwarfDwarfAsteroid	"Mavia"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3030,7 +3030,7 @@ DwarfDwarfDwarfMoon	"Mavia"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Polna"
+DwarfDwarfAsteroid	"Polna"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3067,7 +3067,7 @@ DwarfDwarfDwarfMoon	"Polna"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Tolela"
+DwarfDwarfAsteroid	"Tolela"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3104,7 +3104,7 @@ DwarfDwarfDwarfMoon	"Tolela"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Anus"
+DwarfDwarfAsteroid	"Anus"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3141,7 +3141,7 @@ DwarfDwarfDwarfMoon	"Anus"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Neia"
+DwarfDwarfAsteroid	"Neia"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3178,7 +3178,7 @@ DwarfDwarfDwarfMoon	"Neia"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Pona"
+DwarfDwarfAsteroid	"Pona"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3215,7 +3215,7 @@ DwarfDwarfDwarfMoon	"Pona"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Raseso"
+DwarfDwarfAsteroid	"Raseso"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3252,7 +3252,7 @@ DwarfDwarfDwarfMoon	"Raseso"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Naleitetiaieiki"
+DwarfDwarfAsteroid	"Naleitetiaieiki"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3289,7 +3289,7 @@ DwarfDwarfDwarfMoon	"Naleitetiaieiki"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Tosa"
+DwarfDwarfAsteroid	"Tosa"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3327,7 +3327,7 @@ DwarfDwarfDwarfMoon	"Tosa"
 }
 
 
-DwarfDwarfDwarfMoon	"Nethe"
+DwarfDwarfAsteroid	"Nethe"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3364,7 +3364,7 @@ DwarfDwarfDwarfMoon	"Nethe"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Cheyo"
+DwarfDwarfAsteroid	"Cheyo"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3401,7 +3401,7 @@ DwarfDwarfDwarfMoon	"Cheyo"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Ponatiera"
+DwarfDwarfAsteroid	"Ponatiera"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3438,7 +3438,7 @@ DwarfDwarfDwarfMoon	"Ponatiera"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Athe"
+DwarfDwarfAsteroid	"Athe"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3475,7 +3475,7 @@ DwarfDwarfDwarfMoon	"Athe"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Siluiaku"
+DwarfDwarfAsteroid	"Siluiaku"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3512,7 +3512,7 @@ DwarfDwarfDwarfMoon	"Siluiaku"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Sato"
+DwarfDwarfAsteroid	"Sato"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3549,7 +3549,7 @@ DwarfDwarfDwarfMoon	"Sato"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Uitisi"
+DwarfDwarfAsteroid	"Uitisi"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3586,7 +3586,7 @@ DwarfDwarfDwarfMoon	"Uitisi"
 	}
 }
 
-DwarfDwarfDwarfMoon	"Tulaai"
+DwarfDwarfAsteroid	"Tulaai"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3622,7 +3622,7 @@ DwarfDwarfDwarfMoon	"Tulaai"
 		MeanAnomaly     162.102521
 	}
 }
-DwarfMoon	"Loku"
+Asteroid	"Loku"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3659,7 +3659,7 @@ DwarfMoon	"Loku"
 	}
 }
 
-DwarfMoon	"Sneim"
+Asteroid	"Sneim"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3696,7 +3696,7 @@ DwarfMoon	"Sneim"
 	}
 }
 
-DwarfMoon	"Roluri"
+Asteroid	"Roluri"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3733,7 +3733,7 @@ DwarfMoon	"Roluri"
 	}
 }
 
-DwarfMoon	"Keneim"
+Asteroid	"Keneim"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3770,7 +3770,7 @@ DwarfMoon	"Keneim"
 	}
 }
 
-DwarfMoon	"Talera"
+Asteroid	"Talera"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3807,7 +3807,7 @@ DwarfMoon	"Talera"
 	}
 }
 
-DwarfMoon	"Caneim"
+Asteroid	"Caneim"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3844,7 +3844,7 @@ DwarfMoon	"Caneim"
 	}
 }
 
-DwarfMoon	"Kerate"
+Asteroid	"Kerate"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3881,7 +3881,7 @@ DwarfMoon	"Kerate"
 	}
 }
 
-DwarfMoon	"Ruyi"
+Asteroid	"Ruyi"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3918,7 +3918,7 @@ DwarfMoon	"Ruyi"
 	}
 }
 
-DwarfMoon	"Kethe"
+Asteroid	"Kethe"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3955,7 +3955,7 @@ DwarfMoon	"Kethe"
 	}
 }
 
-DwarfMoon	"Iale"
+Asteroid	"Iale"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3992,7 +3992,7 @@ DwarfMoon	"Iale"
 	}
 }
 
-DwarfMoon	"Seianiri"
+Asteroid	"Seianiri"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -4029,7 +4029,7 @@ DwarfMoon	"Seianiri"
 	}
 }
 
-DwarfMoon	"Thadu"
+Asteroid	"Thadu"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -4066,7 +4066,7 @@ DwarfMoon	"Thadu"
 	}
 }
 
-DwarfMoon	"Yoluye"
+Asteroid	"Yoluye"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -4103,7 +4103,7 @@ DwarfMoon	"Yoluye"
 	}
 }
 
-DwarfMoon	"Mthe"
+Asteroid	"Mthe"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -4140,7 +4140,7 @@ DwarfMoon	"Mthe"
 	}
 }
 
-DwarfMoon	"Mathe"
+Asteroid	"Mathe"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
