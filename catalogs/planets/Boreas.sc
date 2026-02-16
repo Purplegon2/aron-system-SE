@@ -308,7 +308,7 @@ Moon	"Setez"
 	}
 }
 
-Moon	"Rosakuto"
+DwarfMoon	"Rosakuto"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -345,7 +345,7 @@ Moon	"Rosakuto"
 	}
 }
 
-Moon	"Kolina"
+DwarfMoon	"Kolina"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -382,7 +382,7 @@ Moon	"Kolina"
 	}
 }
 
-Moon	"Thaikim"
+DwarfMoon	"Thaikim"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -419,7 +419,7 @@ Moon	"Thaikim"
 	}
 }
 
-Moon	"Rarayu"
+DwarfMoon	"Rarayu"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -456,7 +456,7 @@ Moon	"Rarayu"
 	}
 }
 
-Moon	"Nulia"
+DwarfMoon	"Nulia"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -493,7 +493,7 @@ Moon	"Nulia"
 	}
 }
 
-Moon	"Atinus"
+DwarfMoon	"Atinus"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -530,7 +530,7 @@ Moon	"Atinus"
 	}
 }
 
-Moon	"Nureru"
+DwarfMoon	"Nureru"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -644,7 +644,7 @@ Moon	"Loia"
 	}
 }
 
-Moon	"Arnu"
+DwarfMoon	"Arnu"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -681,7 +681,7 @@ Moon	"Arnu"
 	}
 }
 
-Moon	"Rnatevia"
+DwarfMoon	"Rnatevia"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -718,7 +718,7 @@ Moon	"Rnatevia"
 	}
 }
 
-Moon	"Kioasuri"
+DwarfMoon	"Kioasuri"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -755,7 +755,7 @@ Moon	"Kioasuri"
 	}
 }
 
-Moon	"Kenus"
+DwarfMoon	"Kenus"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -792,7 +792,7 @@ Moon	"Kenus"
 	}
 }
 
-Moon	"Ataylia"
+DwarfMoon	"Ataylia"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -829,7 +829,7 @@ Moon	"Ataylia"
 	}
 }
 
-Moon	"Ponalevikia"
+DwarfMoon	"Ponalevikia"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -866,7 +866,7 @@ Moon	"Ponalevikia"
 	}
 }
 
-Moon	"Tenuli"
+DwarfMoon	"Tenuli"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -903,7 +903,7 @@ Moon	"Tenuli"
 	}
 }
 
-Moon	"Kernaylnaite"
+DwarfMoon	"Kernaylnaite"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -940,7 +940,7 @@ Moon	"Kernaylnaite"
 	}
 }
 
-Moon	"Rose"
+DwarfMoon	"Rose"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -977,7 +977,7 @@ Moon	"Rose"
 	}
 }
 
-Moon	"Nukonako"
+DwarfMoon	"Nukonako"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1014,7 +1014,7 @@ Moon	"Nukonako"
 	}
 }
 
-Moon	"Ianeim"
+DwarfMoon	"Ianeim"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1051,7 +1051,7 @@ Moon	"Ianeim"
 	}
 }
 
-Moon	"Chonuloyu"
+DwarfMoon	"Chonuloyu"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1088,7 +1088,7 @@ Moon	"Chonuloyu"
 	}
 }
 
-Moon	"Chichu"
+DwarfMoon	"Chichu"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1125,7 +1125,7 @@ Moon	"Chichu"
 	}
 }
 
-Moon	"Molneim"
+DwarfMoon	"Molneim"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1162,7 +1162,7 @@ Moon	"Molneim"
 	}
 }
 
-Moon	"Scalevima"
+DwarfMoon	"Scalevima"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1199,7 +1199,7 @@ Moon	"Scalevima"
 	}
 }
 
-Moon	"Ralimadus"
+DwarfMoon	"Ralimadus"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1236,7 +1236,7 @@ Moon	"Ralimadus"
 	}
 }
 
-Moon	"Aisuoa"
+DwarfMoon	"Aisuoa"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1273,7 +1273,7 @@ Moon	"Aisuoa"
 	}
 }
 
-Moon	"Thaneim"
+DwarfMoon	"Thaneim"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1310,7 +1310,7 @@ Moon	"Thaneim"
 	}
 }
 
-Moon	"Aneim"
+DwarfMoon	"Aneim"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1347,7 +1347,7 @@ Moon	"Aneim"
 	}
 }
 
-Moon	"Sthe"
+DwarfMoon	"Sthe"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1384,7 +1384,7 @@ Moon	"Sthe"
 	}
 }
 
-Moon	"Kera"
+DwarfMoon	"Kera"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1421,7 +1421,7 @@ Moon	"Kera"
 	}
 }
 
-Moon	"Itiiate"
+DwarfMoon	"Itiiate"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1458,7 +1458,7 @@ Moon	"Itiiate"
 	}
 }
 
-Moon	"Chochile"
+DwarfMoon	"Chochile"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1495,7 +1495,7 @@ Moon	"Chochile"
 	}
 }
 
-Moon	"Yaiayi"
+DwarfMoon	"Yaiayi"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1532,7 +1532,7 @@ Moon	"Yaiayi"
 	}
 }
 
-Moon	"Chaiaie"
+DwarfMoon	"Chaiaie"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1569,7 +1569,7 @@ Moon	"Chaiaie"
 	}
 }
 
-Moon	"Snus"
+DwarfMoon	"Snus"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1606,7 +1606,7 @@ Moon	"Snus"
 	}
 }
 
-Moon	"Nernalnale"
+DwarfMoon	"Nernalnale"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1643,7 +1643,7 @@ Moon	"Nernalnale"
 	}
 }
 
-Moon	"Eirochi"
+DwarfMoon	"Eirochi"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1680,7 +1680,7 @@ Moon	"Eirochi"
 	}
 }
 
-Moon	"Schei"
+DwarfMoon	"Schei"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1717,7 +1717,7 @@ Moon	"Schei"
 	}
 }
 
-Moon	"Mnus"
+DwarfMoon	"Mnus"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1754,7 +1754,7 @@ Moon	"Mnus"
 	}
 }
 
-Moon	"Monus"
+DwarfMoon	"Monus"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1791,7 +1791,7 @@ Moon	"Monus"
 	}
 }
 
-Moon	"Kitera"
+DwarfMoon	"Kitera"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1828,7 +1828,7 @@ Moon	"Kitera"
 	}
 }
 
-Moon	"Monevial"
+DwarfMoon	"Monevial"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1865,7 +1865,7 @@ Moon	"Monevial"
 	}
 }
 
-Moon	"Seku"
+DwarfMoon	"Seku"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1902,7 +1902,7 @@ Moon	"Seku"
 	}
 }
 
-Moon	"Callia"
+DwarfMoon	"Callia"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1939,7 +1939,7 @@ Moon	"Callia"
 	}
 }
 
-Moon	"Laoachi"
+DwarfMoon	"Laoachi"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
@@ -1976,7 +1976,7 @@ Moon	"Laoachi"
 	}
 }
 
-Moon	"Nalialnus"
+DwarfMoon	"Nalialnus"
 {
 	ParentBody     "Boreas"
 	Class          "Asteroid"
