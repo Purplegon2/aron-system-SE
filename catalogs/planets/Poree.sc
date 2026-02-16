@@ -242,7 +242,7 @@ Planet	"Poree"
 	}
 }
 
-Moon	"Paite"
+DwarfMoon	"Paite"
 {
 	ParentBody     "Poree"
 	Class          "Asteroid"
