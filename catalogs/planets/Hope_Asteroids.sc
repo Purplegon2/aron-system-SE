@@ -2919,7 +2919,7 @@ Asteroid	"Tevia"
 		MeanAnomaly     -70.263132
 	}
 }
-Moon	"Male"
+DwarfDwarfMoon	"Male"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -2956,7 +2956,7 @@ Moon	"Male"
 	}
 }
 
-Moon	"Liuiyi"
+DwarfDwarfMoon	"Liuiyi"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -2993,7 +2993,7 @@ Moon	"Liuiyi"
 	}
 }
 
-Moon	"Mavia"
+DwarfDwarfMoon	"Mavia"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3030,7 +3030,7 @@ Moon	"Mavia"
 	}
 }
 
-Moon	"Polna"
+DwarfDwarfMoon	"Polna"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3067,7 +3067,7 @@ Moon	"Polna"
 	}
 }
 
-Moon	"Tolela"
+DwarfDwarfMoon	"Tolela"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3104,7 +3104,7 @@ Moon	"Tolela"
 	}
 }
 
-Moon	"Anus"
+DwarfDwarfMoon	"Anus"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3141,7 +3141,7 @@ Moon	"Anus"
 	}
 }
 
-Moon	"Neia"
+DwarfDwarfMoon	"Neia"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3178,7 +3178,7 @@ Moon	"Neia"
 	}
 }
 
-Moon	"Pona"
+DwarfDwarfMoon	"Pona"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3215,7 +3215,7 @@ Moon	"Pona"
 	}
 }
 
-Moon	"Raseso"
+DwarfDwarfMoon	"Raseso"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3252,7 +3252,7 @@ Moon	"Raseso"
 	}
 }
 
-Moon	"Naleitetiaieiki"
+DwarfDwarfMoon	"Naleitetiaieiki"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3289,7 +3289,7 @@ Moon	"Naleitetiaieiki"
 	}
 }
 
-Moon	"Tosa"
+DwarfDwarfMoon	"Tosa"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3327,7 +3327,7 @@ Moon	"Tosa"
 }
 
 
-Moon	"Nethe"
+DwarfDwarfMoon	"Nethe"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3364,7 +3364,7 @@ Moon	"Nethe"
 	}
 }
 
-Moon	"Cheyo"
+DwarfDwarfMoon	"Cheyo"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3401,7 +3401,7 @@ Moon	"Cheyo"
 	}
 }
 
-Moon	"Ponatiera"
+DwarfDwarfMoon	"Ponatiera"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3438,7 +3438,7 @@ Moon	"Ponatiera"
 	}
 }
 
-Moon	"Athe"
+DwarfDwarfMoon	"Athe"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3475,7 +3475,7 @@ Moon	"Athe"
 	}
 }
 
-Moon	"Siluiaku"
+DwarfDwarfMoon	"Siluiaku"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3512,7 +3512,7 @@ Moon	"Siluiaku"
 	}
 }
 
-Moon	"Sato"
+DwarfDwarfMoon	"Sato"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3549,7 +3549,7 @@ Moon	"Sato"
 	}
 }
 
-Moon	"Uitisi"
+DwarfDwarfMoon	"Uitisi"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3586,7 +3586,7 @@ Moon	"Uitisi"
 	}
 }
 
-Moon	"Tulaai"
+DwarfDwarfMoon	"Tulaai"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
