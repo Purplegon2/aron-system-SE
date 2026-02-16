@@ -136,7 +136,7 @@ DwarfPlanet	"Priobe"
 	}
 }
 
-Moon	"Brinos"
+DwarfMoon	"Brinos"
 {
 	ParentBody     "Priobe"
 	Class          "Asteroid"
