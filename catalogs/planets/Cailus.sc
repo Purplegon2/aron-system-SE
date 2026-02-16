@@ -308,7 +308,7 @@ Moon	"Charayl"
 	}
 }
 
-Moon	"Kiatiate"
+DwarfMoon	"Kiatiate"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -639,7 +639,7 @@ Moon	"Kiethe"
 	}
 }
 
-Moon	"Polia"
+DwarfMoon	"Polia"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -835,7 +835,7 @@ Moon	"Alneim"
 	}
 }
 
-Moon	"Kiyaaile"
+DwarfMoon	"Kiyaaile"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -872,7 +872,7 @@ Moon	"Kiyaaile"
 	}
 }
 
-Moon	"Chiro"
+DwarfMoon	"Chiro"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -909,7 +909,7 @@ Moon	"Chiro"
 	}
 }
 
-Moon	"Keneim"
+DwarfMoon	"Keneim"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -946,7 +946,7 @@ Moon	"Keneim"
 	}
 }
 
-Moon	"Kiaylia"
+DwarfMoon	"Kiaylia"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -983,7 +983,7 @@ Moon	"Kiaylia"
 	}
 }
 
-Moon	"Tuniyu"
+DwarfMoon	"Tuniyu"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1020,7 +1020,7 @@ Moon	"Tuniyu"
 	}
 }
 
-Moon	"Mathadu"
+DwarfMoon	"Mathadu"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1057,7 +1057,7 @@ Moon	"Mathadu"
 	}
 }
 
-Moon	"Kimlia"
+DwarfMoon	"Kimlia"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1094,7 +1094,7 @@ Moon	"Kimlia"
 	}
 }
 
-Moon	"Keiale"
+DwarfMoon	"Keiale"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1131,7 +1131,7 @@ Moon	"Keiale"
 	}
 }
 
-Moon	"Uilutite"
+DwarfMoon	"Uilutite"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1168,7 +1168,7 @@ Moon	"Uilutite"
 	}
 }
 
-Moon	"Aduvia"
+DwarfMoon	"Aduvia"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1205,7 +1205,7 @@ Moon	"Aduvia"
 	}
 }
 
-Moon	"Uiti"
+DwarfMoon	"Uiti"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1242,7 +1242,7 @@ Moon	"Uiti"
 	}
 }
 
-Moon	"Netochi"
+DwarfMoon	"Netochi"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1279,7 +1279,7 @@ Moon	"Netochi"
 	}
 }
 
-Moon	"Iasu"
+DwarfMoon	"Iasu"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1316,7 +1316,7 @@ Moon	"Iasu"
 	}
 }
 
-Moon	"Kicho"
+DwarfMoon	"Kicho"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1353,7 +1353,7 @@ Moon	"Kicho"
 	}
 }
 
-Moon	"Rnatiai"
+DwarfMoon	"Rnatiai"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1390,7 +1390,7 @@ Moon	"Rnatiai"
 	}
 }
 
-Moon	"Aiyuyioa"
+DwarfMoon	"Aiyuyioa"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1427,7 +1427,7 @@ Moon	"Aiyuyioa"
 	}
 }
 
-Moon	"Chiso"
+DwarfMoon	"Chiso"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1464,7 +1464,7 @@ Moon	"Chiso"
 	}
 }
 
-Moon	"Sayu"
+DwarfMoon	"Sayu"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1501,7 +1501,7 @@ Moon	"Sayu"
 	}
 }
 
-Moon	"Rina"
+DwarfMoon	"Rina"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1538,7 +1538,7 @@ Moon	"Rina"
 	}
 }
 
-Moon	"Nika"
+DwarfMoon	"Nika"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1575,7 +1575,7 @@ Moon	"Nika"
 	}
 }
 
-Moon	"Keviaia"
+DwarfMoon	"Keviaia"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1612,7 +1612,7 @@ Moon	"Keviaia"
 	}
 }
 
-Moon	"Kitiara"
+DwarfMoon	"Kitiara"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1649,7 +1649,7 @@ Moon	"Kitiara"
 	}
 }
 
-Moon	"Eiyukaki"
+DwarfMoon	"Eiyukaki"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1686,7 +1686,7 @@ Moon	"Eiyukaki"
 	}
 }
 
-Moon	"Chiai"
+DwarfMoon	"Chiai"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1723,7 +1723,7 @@ Moon	"Chiai"
 	}
 }
 
-Moon	"Kikimal"
+DwarfMoon	"Kikimal"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1760,7 +1760,7 @@ Moon	"Kikimal"
 	}
 }
 
-Moon	"Iateli"
+DwarfMoon	"Iateli"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1797,7 +1797,7 @@ Moon	"Iateli"
 	}
 }
 
-Moon	"Yasa"
+DwarfMoon	"Yasa"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1834,7 +1834,7 @@ Moon	"Yasa"
 	}
 }
 
-Moon	"Cleraln"
+DwarfMoon	"Cleraln"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1871,7 +1871,7 @@ Moon	"Cleraln"
 	}
 }
 
-Moon	"Taylial"
+DwarfMoon	"Taylial"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1908,7 +1908,7 @@ Moon	"Taylial"
 	}
 }
 
-Moon	"Mneim"
+DwarfMoon	"Mneim"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1945,7 +1945,7 @@ Moon	"Mneim"
 	}
 }
 
-Moon	"Tiadu"
+DwarfMoon	"Tiadu"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -1982,7 +1982,7 @@ Moon	"Tiadu"
 	}
 }
 
-Moon	"Yiteoa"
+DwarfMoon	"Yiteoa"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2019,7 +2019,7 @@ Moon	"Yiteoa"
 	}
 }
 
-Moon	"Aleteii"
+DwarfMoon	"Aleteii"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2056,7 +2056,7 @@ Moon	"Aleteii"
 	}
 }
 
-Moon	"Kiterna"
+DwarfMoon	"Kiterna"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2093,7 +2093,7 @@ Moon	"Kiterna"
 	}
 }
 
-Moon	"Iaraiia"
+DwarfMoon	"Iaraiia"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2130,7 +2130,7 @@ Moon	"Iaraiia"
 	}
 }
 
-Moon	"Rere"
+DwarfMoon	"Rere"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2167,7 +2167,7 @@ Moon	"Rere"
 	}
 }
 
-Moon	"Monu"
+DwarfMoon	"Monu"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2204,7 +2204,7 @@ Moon	"Monu"
 	}
 }
 
-Moon	"Scherad"
+DwarfMoon	"Scherad"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2241,7 +2241,7 @@ Moon	"Scherad"
 	}
 }
 
-Moon	"Noneresi"
+DwarfMoon	"Noneresi"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2278,7 +2278,7 @@ Moon	"Noneresi"
 	}
 }
 
-Moon	"Scayle"
+DwarfMoon	"Scayle"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2315,7 +2315,7 @@ Moon	"Scayle"
 	}
 }
 
-Moon	"Kakuchuti"
+DwarfMoon	"Kakuchuti"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2352,7 +2352,7 @@ Moon	"Kakuchuti"
 	}
 }
 
-Moon	"Cheko"
+DwarfMoon	"Cheko"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2389,7 +2389,7 @@ Moon	"Cheko"
 	}
 }
 
-Moon	"Aduthe"
+DwarfMoon	"Aduthe"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2426,7 +2426,7 @@ Moon	"Aduthe"
 	}
 }
 
-Moon	"Rechu"
+DwarfMoon	"Rechu"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2463,7 +2463,7 @@ Moon	"Rechu"
 	}
 }
 
-Moon	"Moneima"
+DwarfMoon	"Moneima"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2500,7 +2500,7 @@ Moon	"Moneima"
 	}
 }
 
-Moon	"Scaneim"
+DwarfMoon	"Scaneim"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2537,7 +2537,7 @@ Moon	"Scaneim"
 	}
 }
 
-Moon	"Nuluaiki"
+DwarfMoon	"Nuluaiki"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2574,7 +2574,7 @@ Moon	"Nuluaiki"
 	}
 }
 
-Moon	"Nateyi"
+DwarfMoon	"Nateyi"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2611,7 +2611,7 @@ Moon	"Nateyi"
 	}
 }
 
-Moon	"Chal"
+DwarfMoon	"Chal"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2648,7 +2648,7 @@ Moon	"Chal"
 	}
 }
 
-Moon	"Luyate"
+DwarfMoon	"Luyate"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2685,7 +2685,7 @@ Moon	"Luyate"
 	}
 }
 
-Moon	"Rnatevi"
+DwarfMoon	"Rnatevi"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2722,7 +2722,7 @@ Moon	"Rnatevi"
 	}
 }
 
-Moon	"Malievi"
+DwarfMoon	"Malievi"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2759,7 +2759,7 @@ Moon	"Malievi"
 	}
 }
 
-Moon	"Lareko"
+DwarfMoon	"Lareko"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2796,7 +2796,7 @@ Moon	"Lareko"
 	}
 }
 
-Moon	"Liroru"
+DwarfMoon	"Liroru"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2833,7 +2833,7 @@ Moon	"Liroru"
 	}
 }
 
-Moon	"Tacha"
+DwarfMoon	"Tacha"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2870,7 +2870,7 @@ Moon	"Tacha"
 	}
 }
 
-Moon	"Lakato"
+DwarfMoon	"Lakato"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2907,7 +2907,7 @@ Moon	"Lakato"
 	}
 }
 
-Moon	"Svia"
+DwarfMoon	"Svia"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2944,7 +2944,7 @@ Moon	"Svia"
 	}
 }
 
-Moon	"Siye"
+DwarfMoon	"Siye"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -2981,7 +2981,7 @@ Moon	"Siye"
 	}
 }
 
-Moon	"Kerara"
+DwarfMoon	"Kerara"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3018,7 +3018,7 @@ Moon	"Kerara"
 	}
 }
 
-Moon	"Koro"
+DwarfMoon	"Koro"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3055,7 +3055,7 @@ Moon	"Koro"
 	}
 }
 
-Moon	"Catacli"
+DwarfMoon	"Catacli"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3092,7 +3092,7 @@ Moon	"Catacli"
 	}
 }
 
-Moon	"Choso"
+DwarfMoon	"Choso"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3129,7 +3129,7 @@ Moon	"Choso"
 	}
 }
 
-Moon	"Neui"
+DwarfMoon	"Neui"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3166,7 +3166,7 @@ Moon	"Neui"
 	}
 }
 
-Moon	"Kesi"
+DwarfMoon	"Kesi"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3203,7 +3203,7 @@ Moon	"Kesi"
 	}
 }
 
-Moon	"Scatie"
+DwarfMoon	"Scatie"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3240,7 +3240,7 @@ Moon	"Scatie"
 	}
 }
 
-Moon	"Nero"
+DwarfMoon	"Nero"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3277,7 +3277,7 @@ Moon	"Nero"
 	}
 }
 
-Moon	"Arnu"
+DwarfMoon	"Arnu"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3314,7 +3314,7 @@ Moon	"Arnu"
 	}
 }
 
-Moon	"Royi"
+DwarfMoon	"Royi"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3351,7 +3351,7 @@ Moon	"Royi"
 	}
 }
 
-Moon	"Schayln"
+DwarfMoon	"Schayln"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3388,7 +3388,7 @@ Moon	"Schayln"
 	}
 }
 
-Moon	"Kochachasa"
+DwarfMoon	"Kochachasa"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3425,7 +3425,7 @@ Moon	"Kochachasa"
 	}
 }
 
-Moon	"Maylete"
+DwarfMoon	"Maylete"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3462,7 +3462,7 @@ Moon	"Maylete"
 	}
 }
 
-Moon	"Mata"
+DwarfMoon	"Mata"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3499,7 +3499,7 @@ Moon	"Mata"
 	}
 }
 
-Moon	"Iasarutu"
+DwarfMoon	"Iasarutu"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3536,7 +3536,7 @@ Moon	"Iasarutu"
 	}
 }
 
-Moon	"Choronoyu"
+DwarfMoon	"Choronoyu"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
@@ -3573,7 +3573,7 @@ Moon	"Choronoyu"
 	}
 }
 
-Moon	"Loro"
+DwarfMoon	"Loro"
 {
 	ParentBody     "Cailus"
 	Class          "Asteroid"
