@@ -2105,3 +2105,483 @@ DwarfMoon	"Lichu"
 		MeanAnomaly     78.026398
 	}
 }
+Moon	"Sneim"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Apollo"
+	Mass            4.85835449e-9
+	Radius          13.592
+	InertiaMoment   0.402687208
+	Oblateness      0.1220105
+	RotationPeriod  4.3274
+	Obliquity       170.816514
+	EqAscendNode    51.442301
+
+	AbsMagn         22
+	SlopeParam      0.17
+	Albedo          0.22
+	Brightness      2.57
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      144.327223
+		SemiMajorAxisKm 1.73617533e+9
+		Eccentricity    0.404600427
+		Inclination     -0.706996
+		AscendingNode   -114.830701
+		ArgOfPericenter 161.593724
+		MeanAnomaly     139.538385
+	}
+}
+
+Moon	"Kikiteiayle"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            1.14833846e-8
+	Radius          19.327
+	InertiaMoment   0.394092161
+	Oblateness      0.027368057
+	RotationPeriod  13.77924
+	Obliquity       304.899032
+	EqAscendNode    164.918608
+
+	AbsMagn         15.6
+	SlopeParam      0.14
+	Albedo          0.18
+	Brightness      1.32
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      144.954569
+		SemiMajorAxisKm 1.74120277e+9
+		Eccentricity    0.1261496513
+		Inclination     -1.917204
+		AscendingNode   -21.168668
+		ArgOfPericenter 55.289612
+		MeanAnomaly     -150.919585
+	}
+}
+
+Moon	"Yenitota"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            2.25879341e-8
+	Radius          25.616
+	InertiaMoment   0.398759041
+	Oblateness      0.321426698
+	RotationPeriod  2.08006
+	Obliquity       283.485478
+	EqAscendNode    -130.041601
+
+	AbsMagn         20.1
+	SlopeParam      0.08
+	Albedo          0.12
+	Brightness      1.54
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      146.027888
+		SemiMajorAxisKm 1.74978738e+9
+		Eccentricity    0.3294040715
+		Inclination     2.178472
+		AscendingNode   -62.836362
+		ArgOfPericenter 163.980077
+		MeanAnomaly     -144.364862
+	}
+}
+
+Moon	"Clevia"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            1.22202556e-8
+	Radius          19.425
+	InertiaMoment   0.393563237
+	Oblateness      0.102477852
+	RotationPeriod  9.91185
+	Obliquity       242.90359
+	EqAscendNode    -19.466553
+
+	AbsMagn         20.9
+	SlopeParam      0.17
+	Albedo          0.32
+	Brightness      2.74
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      344.455963
+		SemiMajorAxisKm 3.10063431e+9
+		Eccentricity    0.3085563221
+		Inclination     -2.571639
+		AscendingNode   4.847685
+		ArgOfPericenter 38.669724
+		MeanAnomaly     123.053159
+	}
+}
+
+Moon	"Choeitu"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            9.06224533e-8
+	Radius          36.211
+	InertiaMoment   0.388611075
+	Oblateness      0.222482228
+	RotationPeriod  17.1953
+	Obliquity       80.529251
+	EqAscendNode    9.050131
+
+	AbsMagn         20.8
+	SlopeParam      0.21
+	Albedo          0.28
+	Brightness      2.72
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      347.207465
+		SemiMajorAxisKm 3.11712424e+9
+		Eccentricity    0.3373684077
+		Inclination     3.977704
+		AscendingNode   -87.447396
+		ArgOfPericenter -143.899688
+		MeanAnomaly     8.004681
+	}
+}
+
+Moon	"Uicholo"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            1.43453264e-8
+	Radius          21.913
+	InertiaMoment   0.393549028
+	Oblateness      0.123634697
+	RotationPeriod  11.45605
+	Obliquity       306.04615
+	EqAscendNode    -24.21989
+
+	AbsMagn         21.1
+	SlopeParam      0.15
+	Albedo          0.09
+	Brightness      1.71
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      348.395772
+		SemiMajorAxisKm 3.12423236e+9
+		Eccentricity    0.1402795066
+		Inclination     -1.152856
+		AscendingNode   74.175886
+		ArgOfPericenter -138.094538
+		MeanAnomaly     -52.734631
+	}
+}
+
+Moon	"Oasetora"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            1.67659333e-8
+	Radius          23.614
+	InertiaMoment   0.373662648
+	Oblateness      0.106829436
+	RotationPeriod  6.6929
+	Obliquity       117.646472
+	EqAscendNode    -141.429382
+
+	AbsMagn         17.4
+	SlopeParam      0.12
+	Albedo          0.33
+	Brightness      1.78
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      2576.22793
+		SemiMajorAxisKm 1.18581680e+10
+		Eccentricity    0.2866320347
+		Inclination     1.657248
+		AscendingNode   -118.494956
+		ArgOfPericenter 113.577624
+		MeanAnomaly     -1.135722
+	}
+}
+
+Moon	"Chieite"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            1.48465392e-8
+	Radius          19.546
+	InertiaMoment   0.382128266
+	Oblateness      0.119275218
+	RotationPeriod  17.75338
+	Obliquity       280.741408
+	EqAscendNode    -118.760587
+
+	AbsMagn         18.9
+	SlopeParam      0.21
+	Albedo          0.12
+	Brightness      2.8
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      2576.565167
+		SemiMajorAxisKm 1.18592028e+10
+		Eccentricity    0.332341993
+		Inclination     -2.703132
+		AscendingNode   -143.684978
+		ArgOfPericenter -102.940924
+		MeanAnomaly     -171.283758
+	}
+}
+
+Moon	"Souichuni"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            4.69702664e-11
+	Radius          3.144
+	InertiaMoment   0.407745687
+	Oblateness      0.270556875
+	RotationPeriod  11.21842
+	Obliquity       293.608673
+	EqAscendNode    175.31222
+
+	AbsMagn         15.5
+	SlopeParam      0.18
+	Albedo          0.28
+	Brightness      2.21
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      2576.98293
+		SemiMajorAxisKm 1.18604847e+10
+		Eccentricity    0.1029325024
+		Inclination     0.560113
+		AscendingNode   -161.620865
+		ArgOfPericenter 142.398062
+		MeanAnomaly     -99.113561
+	}
+}
+
+Moon	"Toraroyu"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            4.42656412e-8
+	Radius          31.207
+	InertiaMoment   0.387624257
+	Oblateness      0.035476195
+	RotationPeriod  9.37777
+	Obliquity       38.264399
+	EqAscendNode    122.07223
+
+	AbsMagn         17.6
+	SlopeParam      0.1
+	Albedo          0.09
+	Brightness      2.1
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      2587.056089
+		SemiMajorAxisKm 1.18913722e+10
+		Eccentricity    0.2073468165
+		Inclination     -1.567837
+		AscendingNode   -160.505809
+		ArgOfPericenter 129.950152
+		MeanAnomaly     172.772094
+	}
+}
+
+Moon	"Neienichi"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            4.36967445e-10
+	Radius          6.121
+	InertiaMoment   0.399830287
+	Oblateness      0.34217193
+	RotationPeriod  5.71407
+	Obliquity       141.966935
+	EqAscendNode    -175.990267
+
+	AbsMagn         17.7
+	SlopeParam      0.07
+	Albedo          0.06
+	Brightness      1.45
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      2588.247228
+		SemiMajorAxisKm 1.18950220e+10
+		Eccentricity    0.1211557498
+		Inclination     1.54939
+		AscendingNode   -3.085084
+		ArgOfPericenter 136.888929
+		MeanAnomaly     -145.378034
+	}
+}
+
+Moon	"Poli"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Apollo"
+	Mass            1.30770528e-9
+	Radius          8.966
+	InertiaMoment   0.383409209
+	Oblateness      0.315450389
+	RotationPeriod  2.14917
+	Obliquity       190.388842
+	EqAscendNode    -42.958635
+
+	AbsMagn         16.2
+	SlopeParam      0.23
+	Albedo          0.14
+	Brightness      1.44
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      2613.717368
+		SemiMajorAxisKm 1.19729314e+10
+		Eccentricity    0.0129721571
+		Inclination     1.272052
+		AscendingNode   116.054335
+		ArgOfPericenter -3.957476
+		MeanAnomaly     87.822403
+	}
+}
+
+Moon	"Ialnaimolialera"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            6.45187174e-9
+	Radius          14.295
+	InertiaMoment   0.406501655
+	Oblateness      0.316517903
+	RotationPeriod  12.97853
+	Obliquity       328.638728
+	EqAscendNode    64.866776
+
+	AbsMagn         15.8
+	SlopeParam      0.1
+	Albedo          0.35
+	Brightness      1.94
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      2615.359068
+		SemiMajorAxisKm 1.19779444e+10
+		Eccentricity    0.448873199
+		Inclination     0.457296
+		AscendingNode   -19.860177
+		ArgOfPericenter -106.151803
+		MeanAnomaly     167.18328
+	}
+}
