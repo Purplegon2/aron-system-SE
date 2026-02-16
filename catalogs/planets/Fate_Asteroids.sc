@@ -1403,7 +1403,7 @@ Asteroid "Acaia"
 		MeanAnomaly     -13.801292
 	}
 }
-DwarfMoon	"Rakanori"
+Asteroid	"Rakanori"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1440,7 +1440,7 @@ DwarfMoon	"Rakanori"
 	}
 }
 
-DwarfMoon	"Kesa"
+Asteroid	"Kesa"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1477,7 +1477,7 @@ DwarfMoon	"Kesa"
 	}
 }
 
-DwarfMoon	"Yueise"
+Asteroid	"Yueise"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1514,7 +1514,7 @@ DwarfMoon	"Yueise"
 	}
 }
 
-DwarfMoon	"Chochi"
+Asteroid	"Chochi"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1551,7 +1551,7 @@ DwarfMoon	"Chochi"
 	}
 }
 
-DwarfMoon	"Uilulune"
+Asteroid	"Uilulune"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1588,7 +1588,7 @@ DwarfMoon	"Uilulune"
 	}
 }
 
-DwarfMoon	"Ruruko"
+Asteroid	"Ruruko"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1625,7 +1625,7 @@ DwarfMoon	"Ruruko"
 	}
 }
 
-DwarfMoon	"Chaieike"
+Asteroid	"Chaieike"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1662,7 +1662,7 @@ DwarfMoon	"Chaieike"
 	}
 }
 
-DwarfMoon	"Cavia"
+Asteroid	"Cavia"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1699,7 +1699,7 @@ DwarfMoon	"Cavia"
 	}
 }
 
-DwarfMoon	"Maiteialeia"
+Asteroid	"Maiteialeia"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1736,7 +1736,7 @@ DwarfMoon	"Maiteialeia"
 	}
 }
 
-DwarfMoon	"Silauiro"
+Asteroid	"Silauiro"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1773,7 +1773,7 @@ DwarfMoon	"Silauiro"
 	}
 }
 
-DwarfMoon	"Polia"
+Asteroid	"Polia"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1810,7 +1810,7 @@ DwarfMoon	"Polia"
 	}
 }
 
-DwarfMoon	"Keral"
+Asteroid	"Keral"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1847,7 +1847,7 @@ DwarfMoon	"Keral"
 	}
 }
 
-DwarfMoon	"Rnaitetevimole"
+Asteroid	"Rnaitetevimole"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1884,7 +1884,7 @@ DwarfMoon	"Rnaitetevimole"
 	}
 }
 
-DwarfMoon	"Chayanu"
+Asteroid	"Chayanu"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1921,7 +1921,7 @@ DwarfMoon	"Chayanu"
 	}
 }
 
-DwarfMoon	"Kiruyosu"
+Asteroid	"Kiruyosu"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1958,7 +1958,7 @@ DwarfMoon	"Kiruyosu"
 	}
 }
 
-DwarfMoon	"Retuta"
+Asteroid	"Retuta"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -1995,7 +1995,7 @@ DwarfMoon	"Retuta"
 	}
 }
 
-DwarfMoon	"Kelasato"
+Asteroid	"Kelasato"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2032,7 +2032,7 @@ DwarfMoon	"Kelasato"
 	}
 }
 
-DwarfMoon	"Iarate"
+Asteroid	"Iarate"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
@@ -2069,7 +2069,7 @@ DwarfMoon	"Iarate"
 	}
 }
 
-DwarfMoon	"Lichu"
+Asteroid	"Lichu"
 {
 	ParentBody     "Fate"
 	Class          "Asteroid"
