@@ -335,7 +335,7 @@ Moon	"Sotrre"
 	}
 }
 
-Moon	"Tareti"
+DwarfMoon	"Tareti"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -372,7 +372,7 @@ Moon	"Tareti"
 	}
 }
 
-Moon	"Niiatile"
+DwarfMoon	"Niiatile"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -409,7 +409,7 @@ Moon	"Niiatile"
 	}
 }
 
-Moon	"Polvia"
+DwarfMoon	"Polvia"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -446,7 +446,7 @@ Moon	"Polvia"
 	}
 }
 
-Moon	"Tasukuke"
+DwarfMoon	"Tasukuke"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -483,7 +483,7 @@ Moon	"Tasukuke"
 	}
 }
 
-Moon	"Mvia"
+DwarfMoon	"Mvia"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -520,7 +520,7 @@ Moon	"Mvia"
 	}
 }
 
-Moon	"Scherna"
+DwarfMoon	"Scherna"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -557,7 +557,7 @@ Moon	"Scherna"
 	}
 }
 
-Moon	"Scheiet"
+DwarfMoon	"Scheiet"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -594,7 +594,7 @@ Moon	"Scheiet"
 	}
 }
 
-Moon	"Kaku"
+DwarfMoon	"Kaku"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -631,7 +631,7 @@ Moon	"Kaku"
 	}
 }
 
-Moon	"Luieru"
+DwarfMoon	"Luieru"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -668,7 +668,7 @@ Moon	"Luieru"
 	}
 }
 
-Moon	"Niru"
+DwarfMoon	"Niru"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -705,7 +705,7 @@ Moon	"Niru"
 	}
 }
 
-Moon	"Kithe"
+DwarfMoon	"Kithe"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -742,7 +742,7 @@ Moon	"Kithe"
 	}
 }
 
-Moon	"Chiyuei"
+DwarfMoon	"Chiyuei"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -779,7 +779,7 @@ Moon	"Chiyuei"
 	}
 }
 
-Moon	"Nale"
+DwarfMoon	"Nale"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -816,7 +816,7 @@ Moon	"Nale"
 	}
 }
 
-Moon	"Kiete"
+DwarfMoon	"Kiete"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -853,7 +853,7 @@ Moon	"Kiete"
 	}
 }
 
-Moon	"Timona"
+DwarfMoon	"Timona"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -890,7 +890,7 @@ Moon	"Timona"
 	}
 }
 
-Moon	"Seoayiti"
+DwarfMoon	"Seoayiti"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -927,7 +927,7 @@ Moon	"Seoayiti"
 	}
 }
 
-Moon	"Sclna"
+DwarfMoon	"Sclna"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -964,7 +964,7 @@ Moon	"Sclna"
 	}
 }
 
-Moon	"Yina"
+DwarfMoon	"Yina"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -1001,7 +1001,7 @@ Moon	"Yina"
 	}
 }
 
-Moon	"Sara"
+DwarfMoon	"Sara"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -1038,7 +1038,7 @@ Moon	"Sara"
 	}
 }
 
-Moon	"Niyokiso"
+DwarfMoon	"Niyokiso"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -1075,7 +1075,7 @@ Moon	"Niyokiso"
 	}
 }
 
-Moon	"Kachachu"
+DwarfMoon	"Kachachu"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -1112,7 +1112,7 @@ Moon	"Kachachu"
 	}
 }
 
-Moon	"Tayuiela"
+DwarfMoon	"Tayuiela"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -1149,7 +1149,7 @@ Moon	"Tayuiela"
 	}
 }
 
-Moon	"Kiataik"
+DwarfMoon	"Kiataik"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -1186,7 +1186,7 @@ Moon	"Kiataik"
 	}
 }
 
-Moon	"Ponadu"
+DwarfMoon	"Ponadu"
 {
 	ParentBody     "Noi"
 	Class          "Asteroid"
@@ -1620,8 +1620,8 @@ Moon	"Chieilo"
 {
 	ParentBody     "Noi"
 	Class          "Aquaria"
-	Mass            0.541945835855
-	Radius          8000.744572
+	Mass            0.009945835855
+	Radius          2301.744572
 	TidalLocked     true
 	Obliquity       6.5282029
 	EqAscendNode    66.99716443
