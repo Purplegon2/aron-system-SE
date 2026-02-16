@@ -139,7 +139,7 @@ DwarfPlanet	"Micherinos"
 	}
 }
 
-Moon	"Tiachale"
+DwarfMoon	"Tiachale"
 {
 	ParentBody     "Micherinos"
 	Class          "Asteroid"
@@ -176,7 +176,7 @@ Moon	"Tiachale"
 	}
 }
 
-Moon	"Kiavia"
+DwarfMoon	"Kiavia"
 {
 	ParentBody     "Micherinos"
 	Class          "Asteroid"
