@@ -1403,3 +1403,705 @@ Asteroid "Acaia"
 		MeanAnomaly     -13.801292
 	}
 }
+DwarfMoon	"Rakanori"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            1.13597150e-9
+	Radius          9.429
+	InertiaMoment   0.385402864
+	Oblateness      0.195510878
+	RotationPeriod  5.53702
+	Obliquity       285.307097
+	EqAscendNode    83.028033
+
+	AbsMagn         16.4
+	SlopeParam      0.14
+	Albedo          0.31
+	Brightness      1.91
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      63.013397
+		SemiMajorAxisKm 9.99194436e+8
+		Eccentricity    0.2572493645
+		Inclination     -3.342749
+		AscendingNode   122.476326
+		ArgOfPericenter 90.338325
+		MeanAnomaly     -126.622511
+	}
+}
+
+DwarfMoon	"Kesa"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            6.68749578e-9
+	Radius          16.714
+	InertiaMoment   0.397147935
+	Oblateness      0.209220799
+	RotationPeriod  7.67895
+	Obliquity       61.945706
+	EqAscendNode    -36.696555
+
+	AbsMagn         17.8
+	SlopeParam      0.19
+	Albedo          0.17
+	Brightness      1.52
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      63.25798
+		SemiMajorAxisKm 1.00177830e+9
+		Eccentricity    0.257316229
+		Inclination     0.095517
+		AscendingNode   -88.334024
+		ArgOfPericenter -45.115173
+		MeanAnomaly     168.840758
+	}
+}
+
+DwarfMoon	"Yueise"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            1.88908621e-11
+	Radius          2.424
+	InertiaMoment   0.388039664
+	Oblateness      0.188163703
+	RotationPeriod  2.25418
+	Obliquity       309.380941
+	EqAscendNode    49.099327
+
+	AbsMagn         21.2
+	SlopeParam      0.15
+	Albedo          0.11
+	Brightness      1.7
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      63.61335
+		SemiMajorAxisKm 1.00552666e+9
+		Eccentricity    0.1972138819
+		Inclination     -1.341672
+		AscendingNode   -164.511069
+		ArgOfPericenter 76.348388
+		MeanAnomaly     -51.922657
+	}
+}
+
+DwarfMoon	"Chochi"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            9.19139603e-8
+	Radius          36.988
+	InertiaMoment   0.398741509
+	Oblateness      0.054686177
+	RotationPeriod  5.42121
+	Obliquity       79.316953
+	EqAscendNode    114.851844
+
+	AbsMagn         15.2
+	SlopeParam      0.23
+	Albedo          0.23
+	Brightness      1.26
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      63.747189
+		SemiMajorAxisKm 1.00693655e+9
+		Eccentricity    0.2731095797
+		Inclination     -2.367667
+		AscendingNode   50.885873
+		ArgOfPericenter 40.726942
+		MeanAnomaly     26.975391
+	}
+}
+
+DwarfMoon	"Uilulune"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            3.61221666e-8
+	Radius          28.998
+	InertiaMoment   0.378930703
+	Oblateness      0.1804372
+	RotationPeriod  11.17939
+	Obliquity       136.045456
+	EqAscendNode    -38.053864
+
+	AbsMagn         20.6
+	SlopeParam      0.05
+	Albedo          0.24
+	Brightness      1.45
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      63.950787
+		SemiMajorAxisKm 1.00907940e+9
+		Eccentricity    0.1728236702
+		Inclination     0.93695
+		AscendingNode   163.139918
+		ArgOfPericenter -57.615639
+		MeanAnomaly     -134.644111
+	}
+}
+
+DwarfMoon	"Ruruko"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            3.49862548e-9
+	Radius          12.432
+	InertiaMoment   0.399656331
+	Oblateness      0.249136154
+	RotationPeriod  16.16972
+	Obliquity       109.717741
+	EqAscendNode    -9.349359
+
+	AbsMagn         20.5
+	SlopeParam      0.12
+	Albedo          0.2
+	Brightness      2.44
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      64.113742
+		SemiMajorAxisKm 1.01079285e+9
+		Eccentricity    0.2817364055
+		Inclination     0.433512
+		AscendingNode   49.627872
+		ArgOfPericenter -29.800942
+		MeanAnomaly     -82.843895
+	}
+}
+
+DwarfMoon	"Chaieike"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            6.76513651e-10
+	Radius          7.1
+	InertiaMoment   0.391706881
+	Oblateness      0.046717779
+	RotationPeriod  12.5043
+	Obliquity       328.098957
+	EqAscendNode    2.717718
+
+	AbsMagn         22.4
+	SlopeParam      0.08
+	Albedo          0.2
+	Brightness      2.24
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      64.201824
+		SemiMajorAxisKm 1.01171842e+9
+		Eccentricity    0.4025876107
+		Inclination     -0.376071
+		AscendingNode   -106.696568
+		ArgOfPericenter -115.974777
+		MeanAnomaly     -81.037913
+	}
+}
+
+DwarfMoon	"Cavia"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            3.67610229e-10
+	Radius          6.125
+	InertiaMoment   0.407995634
+	Oblateness      0.117225563
+	RotationPeriod  4.06723
+	Obliquity       144.826558
+	EqAscendNode    -145.841043
+
+	AbsMagn         17.9
+	SlopeParam      0.2
+	Albedo          0.17
+	Brightness      2.13
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      306.708413
+		SemiMajorAxisKm 2.86975752e+9
+		Eccentricity    0.3029249589
+		Inclination     -3.821778
+		AscendingNode   -176.636627
+		ArgOfPericenter 172.165828
+		MeanAnomaly     98.543909
+	}
+}
+
+DwarfMoon	"Maiteialeia"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            4.67002754e-8
+	Radius          28.941
+	InertiaMoment   0.380385902
+	Oblateness      0.045023125
+	RotationPeriod  14.81903
+	Obliquity       330.163953
+	EqAscendNode    88.258065
+
+	AbsMagn         17.5
+	SlopeParam      0.08
+	Albedo          0.07
+	Brightness      1.27
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      307.154908
+		SemiMajorAxisKm 2.87254197e+9
+		Eccentricity    0.1561506426
+		Inclination     0.703755
+		AscendingNode   -97.555978
+		ArgOfPericenter 178.843443
+		MeanAnomaly     165.394609
+	}
+}
+
+DwarfMoon	"Silauiro"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Apollo"
+	Mass            3.80497255e-10
+	Radius          5.627
+	InertiaMoment   0.406119644
+	Oblateness      0.093265963
+	RotationPeriod  16.81938
+	Obliquity       282.124381
+	EqAscendNode    121.6823
+
+	AbsMagn         16.6
+	SlopeParam      0.19
+	Albedo          0.27
+	Brightness      1.77
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      307.580992
+		SemiMajorAxisKm 2.87519788e+9
+		Eccentricity    0.0671151406
+		Inclination     3.604639
+		AscendingNode   -25.40468
+		ArgOfPericenter -7.595363
+		MeanAnomaly     19.102931
+	}
+}
+
+DwarfMoon	"Polia"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            1.69655211e-12
+	Radius          1.077
+	InertiaMoment   0.402752372
+	Oblateness      0.205837229
+	RotationPeriod  15.9658
+	Obliquity       323.524383
+	EqAscendNode    30.681635
+
+	AbsMagn         16.8
+	SlopeParam      0.22
+	Albedo          0.35
+	Brightness      2.89
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      307.981157
+		SemiMajorAxisKm 2.87769110e+9
+		Eccentricity    0.2890800535
+		Inclination     -1.272448
+		AscendingNode   -137.064053
+		ArgOfPericenter -26.31039
+		MeanAnomaly     -172.858266
+	}
+}
+
+DwarfMoon	"Keral"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            1.16592593e-10
+	Radius          3.903
+	InertiaMoment   0.397026484
+	Oblateness      0.229920241
+	RotationPeriod  5.49244
+	Obliquity       83.170528
+	EqAscendNode    65.291359
+
+	AbsMagn         21.7
+	SlopeParam      0.16
+	Albedo          0.32
+	Brightness      2.79
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      309.442526
+		SemiMajorAxisKm 2.88678700e+9
+		Eccentricity    0.3633567486
+		Inclination     2.318647
+		AscendingNode   -0.692211
+		ArgOfPericenter -8.859555
+		MeanAnomaly     53.403217
+	}
+}
+
+DwarfMoon	"Rnaitetevimole"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            3.76177099e-8
+	Radius          25.676
+	InertiaMoment   0.398157803
+	Oblateness      0.130985433
+	RotationPeriod  15.73524
+	Obliquity       344.93948
+	EqAscendNode    139.332525
+
+	AbsMagn         15.1
+	SlopeParam      0.09
+	Albedo          0.15
+	Brightness      1.2
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      310.57139
+		SemiMajorAxisKm 2.89380352e+9
+		Eccentricity    0.0049287492
+		Inclination     -3.273611
+		AscendingNode   113.915367
+		ArgOfPericenter 170.197439
+		MeanAnomaly     -132.476388
+	}
+}
+
+DwarfMoon	"Chayanu"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            5.51959870e-9
+	Radius          15.65
+	InertiaMoment   0.398363161
+	Oblateness      0.294679225
+	RotationPeriod  14.48087
+	Obliquity       342.984729
+	EqAscendNode    112.806295
+
+	AbsMagn         19.5
+	SlopeParam      0.23
+	Albedo          0.32
+	Brightness      2.15
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      311.020718
+		SemiMajorAxisKm 2.89659397e+9
+		Eccentricity    0.2165628674
+		Inclination     -1.362531
+		AscendingNode   -28.764314
+		ArgOfPericenter -119.605018
+		MeanAnomaly     111.250828
+	}
+}
+
+DwarfMoon	"Kiruyosu"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            2.64130265e-9
+	Radius          10.912
+	InertiaMoment   0.400033122
+	Oblateness      0.236953449
+	RotationPeriod  7.62687
+	Obliquity       47.928403
+	EqAscendNode    -21.781697
+
+	AbsMagn         17.8
+	SlopeParam      0.24
+	Albedo          0.08
+	Brightness      2.29
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      311.149016
+		SemiMajorAxisKm 2.89739050e+9
+		Eccentricity    0.4444390066
+		Inclination     -3.650526
+		AscendingNode   -4.437482
+		ArgOfPericenter 15.087251
+		MeanAnomaly     67.584397
+	}
+}
+
+DwarfMoon	"Retuta"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            9.22717148e-9
+	Radius          18.715
+	InertiaMoment   0.401357687
+	Oblateness      0.171134203
+	RotationPeriod  3.53501
+	Obliquity       305.518847
+	EqAscendNode    10.173267
+
+	AbsMagn         17.6
+	SlopeParam      0.17
+	Albedo          0.23
+	Brightness      1.76
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      311.906017
+		SemiMajorAxisKm 2.90208801e+9
+		Eccentricity    0.0303774981
+		Inclination     -0.045268
+		AscendingNode   -167.77928
+		ArgOfPericenter -86.391751
+		MeanAnomaly     25.487563
+	}
+}
+
+DwarfMoon	"Kelasato"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Apollo"
+	Mass            1.61106279e-8
+	Radius          21.965
+	InertiaMoment   0.383971817
+	Oblateness      0.123350294
+	RotationPeriod  10.75282
+	Obliquity       246.574702
+	EqAscendNode    -88.919112
+
+	AbsMagn         16.3
+	SlopeParam      0.17
+	Albedo          0.07
+	Brightness      1.48
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      315.185795
+		SemiMajorAxisKm 2.92239669e+9
+		Eccentricity    0.0406557384
+		Inclination     0.884718
+		AscendingNode   150.246969
+		ArgOfPericenter 123.201859
+		MeanAnomaly     83.924421
+	}
+}
+
+DwarfMoon	"Iarate"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            2.45652589e-8
+	Radius          24.942
+	InertiaMoment   0.399200455
+	Oblateness      0.14017948
+	RotationPeriod  16.56758
+	Obliquity       22.066079
+	EqAscendNode    -140.245215
+
+	AbsMagn         18.2
+	SlopeParam      0.19
+	Albedo          0.22
+	Brightness      2.79
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      316.401941
+		SemiMajorAxisKm 2.92990925e+9
+		Eccentricity    0.0563874295
+		Inclination     -3.282396
+		AscendingNode   176.098599
+		ArgOfPericenter -74.676134
+		MeanAnomaly     -153.600259
+	}
+}
+
+DwarfMoon	"Lichu"
+{
+	ParentBody     "Fate"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            9.10673558e-8
+	Radius          38.801
+	InertiaMoment   0.391861368
+	Oblateness      0.07308444
+	RotationPeriod  4.48693
+	Obliquity       57.938612
+	EqAscendNode    -42.470852
+
+	AbsMagn         21.3
+	SlopeParam      0.1
+	Albedo          0.3
+	Brightness      2.1
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      445.193858
+		SemiMajorAxisKm 3.67898078e+9
+		Eccentricity    0.4250775501
+		Inclination     -0.270135
+		AscendingNode   -140.26134
+		ArgOfPericenter -141.079105
+		MeanAnomaly     78.026398
+	}
+}
