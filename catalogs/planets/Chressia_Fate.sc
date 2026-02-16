@@ -372,7 +372,7 @@ Moon	"Qutaro"
 	}
 }
 
-Moon	"Chusa"
+DwarfMoon	"Chusa"
 {
 	ParentBody     "Chressia & Entactrius"
 	Class          "Asteroid"
@@ -409,7 +409,7 @@ Moon	"Chusa"
 	}
 }
 
-Moon	"Telia"
+DwarfMoon	"Telia"
 {
 	ParentBody     "Chressia & Entactrius"
 	Class          "Asteroid"
