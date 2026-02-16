@@ -2919,7 +2919,7 @@ Asteroid	"Tevia"
 		MeanAnomaly     -70.263132
 	}
 }
-DwarfDwarfMoon	"Male"
+DwarfDwarfDwarfMoon	"Male"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -2956,7 +2956,7 @@ DwarfDwarfMoon	"Male"
 	}
 }
 
-DwarfDwarfMoon	"Liuiyi"
+DwarfDwarfDwarfMoon	"Liuiyi"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -2993,7 +2993,7 @@ DwarfDwarfMoon	"Liuiyi"
 	}
 }
 
-DwarfDwarfMoon	"Mavia"
+DwarfDwarfDwarfMoon	"Mavia"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3030,7 +3030,7 @@ DwarfDwarfMoon	"Mavia"
 	}
 }
 
-DwarfDwarfMoon	"Polna"
+DwarfDwarfDwarfMoon	"Polna"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3067,7 +3067,7 @@ DwarfDwarfMoon	"Polna"
 	}
 }
 
-DwarfDwarfMoon	"Tolela"
+DwarfDwarfDwarfMoon	"Tolela"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3104,7 +3104,7 @@ DwarfDwarfMoon	"Tolela"
 	}
 }
 
-DwarfDwarfMoon	"Anus"
+DwarfDwarfDwarfMoon	"Anus"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3141,7 +3141,7 @@ DwarfDwarfMoon	"Anus"
 	}
 }
 
-DwarfDwarfMoon	"Neia"
+DwarfDwarfDwarfMoon	"Neia"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3178,7 +3178,7 @@ DwarfDwarfMoon	"Neia"
 	}
 }
 
-DwarfDwarfMoon	"Pona"
+DwarfDwarfDwarfMoon	"Pona"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3215,7 +3215,7 @@ DwarfDwarfMoon	"Pona"
 	}
 }
 
-DwarfDwarfMoon	"Raseso"
+DwarfDwarfDwarfMoon	"Raseso"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3252,7 +3252,7 @@ DwarfDwarfMoon	"Raseso"
 	}
 }
 
-DwarfDwarfMoon	"Naleitetiaieiki"
+DwarfDwarfDwarfMoon	"Naleitetiaieiki"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3289,7 +3289,7 @@ DwarfDwarfMoon	"Naleitetiaieiki"
 	}
 }
 
-DwarfDwarfMoon	"Tosa"
+DwarfDwarfDwarfMoon	"Tosa"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3327,7 +3327,7 @@ DwarfDwarfMoon	"Tosa"
 }
 
 
-DwarfDwarfMoon	"Nethe"
+DwarfDwarfDwarfMoon	"Nethe"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3364,7 +3364,7 @@ DwarfDwarfMoon	"Nethe"
 	}
 }
 
-DwarfDwarfMoon	"Cheyo"
+DwarfDwarfDwarfMoon	"Cheyo"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3401,7 +3401,7 @@ DwarfDwarfMoon	"Cheyo"
 	}
 }
 
-DwarfDwarfMoon	"Ponatiera"
+DwarfDwarfDwarfMoon	"Ponatiera"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3438,7 +3438,7 @@ DwarfDwarfMoon	"Ponatiera"
 	}
 }
 
-DwarfDwarfMoon	"Athe"
+DwarfDwarfDwarfMoon	"Athe"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3475,7 +3475,7 @@ DwarfDwarfMoon	"Athe"
 	}
 }
 
-DwarfDwarfMoon	"Siluiaku"
+DwarfDwarfDwarfMoon	"Siluiaku"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3512,7 +3512,7 @@ DwarfDwarfMoon	"Siluiaku"
 	}
 }
 
-DwarfDwarfMoon	"Sato"
+DwarfDwarfDwarfMoon	"Sato"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3549,7 +3549,7 @@ DwarfDwarfMoon	"Sato"
 	}
 }
 
-DwarfDwarfMoon	"Uitisi"
+DwarfDwarfDwarfMoon	"Uitisi"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3586,7 +3586,7 @@ DwarfDwarfMoon	"Uitisi"
 	}
 }
 
-DwarfDwarfMoon	"Tulaai"
+DwarfDwarfDwarfMoon	"Tulaai"
 {
 	ParentBody     "Hope"
 	Class          "Asteroid"
@@ -3620,5 +3620,559 @@ DwarfDwarfMoon	"Tulaai"
 		AscendingNode   -74.49384
 		ArgOfPericenter -16.343287
 		MeanAnomaly     162.102521
+	}
+}
+DwarfMoon	"Loku"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            3.55875497e-8
+	Radius          25.811
+	InertiaMoment   0.373652142
+	Oblateness      0.108642103
+	RotationPeriod  12.23862
+	Obliquity       351.710736
+	EqAscendNode    41.510539
+
+	AbsMagn         20
+	SlopeParam      0.23
+	Albedo          0.13
+	Brightness      1.99
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      3043.714974
+		SemiMajorAxisKm 1.32524873e+10
+		Eccentricity    0.3921742121
+		Inclination     3.683539
+		AscendingNode   -132.746174
+		ArgOfPericenter -147.089908
+		MeanAnomaly     -17.836004
+	}
+}
+
+DwarfMoon	"Sneim"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            1.56585545e-8
+	Radius          21.05
+	InertiaMoment   0.394238941
+	Oblateness      0.099709659
+	RotationPeriod  10.06395
+	Obliquity       98.684435
+	EqAscendNode    34.648865
+
+	AbsMagn         17.7
+	SlopeParam      0.07
+	Albedo          0.16
+	Brightness      2.93
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      3066.684604
+		SemiMajorAxisKm 1.33190777e+10
+		Eccentricity    0.2996576765
+		Inclination     1.926849
+		AscendingNode   49.016735
+		ArgOfPericenter -119.906544
+		MeanAnomaly     -21.686332
+	}
+}
+
+DwarfMoon	"Roluri"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            6.78460971e-10
+	Radius          6.946
+	InertiaMoment   0.376577509
+	Oblateness      0.144060691
+	RotationPeriod  11.15934
+	Obliquity       305.24545
+	EqAscendNode    60.326528
+
+	AbsMagn         18.8
+	SlopeParam      0.19
+	Albedo          0.31
+	Brightness      1.25
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      3093.664611
+		SemiMajorAxisKm 1.33970824e+10
+		Eccentricity    0.3121828373
+		Inclination     0.060116
+		AscendingNode   65.768551
+		ArgOfPericenter 86.39545
+		MeanAnomaly     -45.935373
+	}
+}
+
+DwarfMoon	"Keneim"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            9.77674565e-8
+	Radius          37.82
+	InertiaMoment   0.406669909
+	Oblateness      0.048917104
+	RotationPeriod  3.87864
+	Obliquity       341.783422
+	EqAscendNode    -36.894172
+
+	AbsMagn         16.1
+	SlopeParam      0.1
+	Albedo          0.19
+	Brightness      2.35
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      3973.341502
+		SemiMajorAxisKm 1.58294323e+10
+		Eccentricity    0.2105854847
+		Inclination     0.847996
+		AscendingNode   -170.782075
+		ArgOfPericenter 42.629339
+		MeanAnomaly     -86.025183
+	}
+}
+
+DwarfMoon	"Talera"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            6.24979264e-9
+	Radius          14.86
+	InertiaMoment   0.397160699
+	Oblateness      0.259239838
+	RotationPeriod  3.67174
+	Obliquity       359.966624
+	EqAscendNode    97.480825
+
+	AbsMagn         15.7
+	SlopeParam      0.15
+	Albedo          0.16
+	Brightness      2.92
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      3993.292331
+		SemiMajorAxisKm 1.58823762e+10
+		Eccentricity    0.0302716871
+		Inclination     2.896919
+		AscendingNode   156.401975
+		ArgOfPericenter -167.771724
+		MeanAnomaly     128.892562
+	}
+}
+
+DwarfMoon	"Caneim"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            6.64813597e-8
+	Radius          36.502
+	InertiaMoment   0.404393046
+	Oblateness      0.103541896
+	RotationPeriod  8.58905
+	Obliquity       337.612928
+	EqAscendNode    -72.467043
+
+	AbsMagn         20.3
+	SlopeParam      0.16
+	Albedo          0.16
+	Brightness      2.57
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4003.416084
+		SemiMajorAxisKm 1.59092081e+10
+		Eccentricity    0.1918141027
+		Inclination     -1.368412
+		AscendingNode   73.495984
+		ArgOfPericenter 138.038033
+		MeanAnomaly     8.735455
+	}
+}
+
+DwarfMoon	"Kerate"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            3.72919516e-9
+	Radius          12.523
+	InertiaMoment   0.409221947
+	Oblateness      0.141561801
+	RotationPeriod  10.0605
+	Obliquity       111.3614
+	EqAscendNode    53.174505
+
+	AbsMagn         15.9
+	SlopeParam      0.12
+	Albedo          0.15
+	Brightness      2.15
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4005.30821
+		SemiMajorAxisKm 1.59142205e+10
+		Eccentricity    0.3455450904
+		Inclination     1.588264
+		AscendingNode   9.192101
+		ArgOfPericenter 56.423709
+		MeanAnomaly     169.677921
+	}
+}
+
+DwarfMoon	"Ruyi"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Apollo"
+	Mass            5.71635497e-8
+	Radius          29.977
+	InertiaMoment   0.404278261
+	Oblateness      0.312619853
+	RotationPeriod  9.21252
+	Obliquity       79.95785
+	EqAscendNode    -66.407096
+
+	AbsMagn         20.6
+	SlopeParam      0.24
+	Albedo          0.14
+	Brightness      1.48
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4100.003994
+		SemiMajorAxisKm 1.61640777e+10
+		Eccentricity    0.3838653906
+		Inclination     -2.980536
+		AscendingNode   -51.01057
+		ArgOfPericenter -114.029313
+		MeanAnomaly     -49.470024
+	}
+}
+
+DwarfMoon	"Kethe"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            2.53299395e-9
+	Radius          10.52
+	InertiaMoment   0.407808514
+	Oblateness      0.202142365
+	RotationPeriod  8.47575
+	Obliquity       226.208746
+	EqAscendNode    -54.467514
+
+	AbsMagn         18.1
+	SlopeParam      0.18
+	Albedo          0.12
+	Brightness      2.16
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4204.187147
+		SemiMajorAxisKm 1.64367558e+10
+		Eccentricity    0.0342456146
+		Inclination     -2.996386
+		AscendingNode   -146.272052
+		ArgOfPericenter 128.325934
+		MeanAnomaly     -56.657413
+	}
+}
+
+DwarfMoon	"Iale"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            5.98137430e-8
+	Radius          33.359
+	InertiaMoment   0.409610372
+	Oblateness      0.131886226
+	RotationPeriod  4.09012
+	Obliquity       331.386448
+	EqAscendNode    27.36178
+
+	AbsMagn         17
+	SlopeParam      0.19
+	Albedo          0.32
+	Brightness      2.62
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4240.072226
+		SemiMajorAxisKm 1.65301545e+10
+		Eccentricity    0.2498929598
+		Inclination     -3.035036
+		AscendingNode   83.477675
+		ArgOfPericenter -73.203168
+		MeanAnomaly     -163.504221
+	}
+}
+
+DwarfMoon	"Seianiri"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            7.60353501e-10
+	Radius          8.332
+	InertiaMoment   0.404886632
+	Oblateness      0.145293402
+	RotationPeriod  8.46022
+	Obliquity       167.234249
+	EqAscendNode    133.63261
+
+	AbsMagn         17.2
+	SlopeParam      0.08
+	Albedo          0.11
+	Brightness      1.8
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4242.74783
+		SemiMajorAxisKm 1.65371078e+10
+		Eccentricity    0.2227752809
+		Inclination     -2.934934
+		AscendingNode   -4.888726
+		ArgOfPericenter -29.736037
+		MeanAnomaly     -9.266533
+	}
+}
+
+DwarfMoon	"Thadu"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Apollo"
+	Mass            3.27632635e-10
+	Radius          5.96
+	InertiaMoment   0.378749954
+	Oblateness      0.262568723
+	RotationPeriod  6.86528
+	Obliquity       83.575346
+	EqAscendNode    92.151289
+
+	AbsMagn         21.9
+	SlopeParam      0.05
+	Albedo          0.19
+	Brightness      2.21
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4266.75377
+		SemiMajorAxisKm 1.65994283e+10
+		Eccentricity    0.2204130054
+		Inclination     -2.696497
+		AscendingNode   -149.096794
+		ArgOfPericenter 125.934505
+		MeanAnomaly     -112.521152
+	}
+}
+
+DwarfMoon	"Yoluye"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Apollo"
+	Mass            2.41522115e-8
+	Radius          22.562
+	InertiaMoment   0.406937365
+	Oblateness      0.25719324
+	RotationPeriod  12.54201
+	Obliquity       189.923738
+	EqAscendNode    -159.314909
+
+	AbsMagn         18.5
+	SlopeParam      0.2
+	Albedo          0.07
+	Brightness      1.82
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4267.538455
+		SemiMajorAxisKm 1.66014634e+10
+		Eccentricity    0.0064065121
+		Inclination     0.450242
+		AscendingNode   164.497372
+		ArgOfPericenter 10.865715
+		MeanAnomaly     -41.648051
+	}
+}
+
+DwarfMoon	"Mthe"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            7.87665647e-8
+	Radius          36.735
+	InertiaMoment   0.389803066
+	Oblateness      0.28998784
+	RotationPeriod  4.49606
+	Obliquity       155.758808
+	EqAscendNode    -119.083071
+
+	AbsMagn         15.3
+	SlopeParam      0.17
+	Albedo          0.18
+	Brightness      2.43
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4276.668176
+		SemiMajorAxisKm 1.66251324e+10
+		Eccentricity    0.077893093
+		Inclination     3.895391
+		AscendingNode   64.122333
+		ArgOfPericenter -70.181309
+		MeanAnomaly     124.832831
+	}
+}
+
+DwarfMoon	"Mathe"
+{
+	ParentBody     "Hope"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            3.48498706e-9
+	Radius          11.886
+	InertiaMoment   0.406408841
+	Oblateness      0.142068839
+	RotationPeriod  17.65194
+	Obliquity       39.811556
+	EqAscendNode    -106.786952
+
+	AbsMagn         22.3
+	SlopeParam      0.13
+	Albedo          0.31
+	Brightness      1.61
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4346.371947
+		SemiMajorAxisKm 1.68052897e+10
+		Eccentricity    0.2571962179
+		Inclination     3.728674
+		AscendingNode   -53.411226
+		ArgOfPericenter -39.143458
+		MeanAnomaly     65.083824
 	}
 }
