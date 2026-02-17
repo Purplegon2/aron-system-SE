@@ -1527,11 +1527,14 @@ Moon	"Chevial"
 {
 	ParentBody     "Noi"
 	Class          "Aquaria"
-	Mass            0.081269972587
-	Radius          4390.97262
+	Mass            0.081269972
+	Radius          4390.97266
+	InertiaMoment   0.334297866
+	Oblateness      0.0480078273
 	RotationPeriod  12.7418673
-	Obliquity       26.61505858
-	EqAscendNode    -62.61287486
+	RotationEpoch   0
+	Obliquity       26.6150586
+	EqAscendNode    -62.6128749
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
@@ -1544,32 +1547,74 @@ Moon	"Chevial"
 		SurfStyle       0.511
 		Randomize      (-0.324, -0.532, -0.405)
 		colorDistMagn   0.0391
-		colorDistFreq   52.24
-		detailScale     7675.72
+		colorDistFreq   52.2
+		detailScale     7.68e+03
 		drivenDarkening 0.373
 		seaLevel        0.114
 		snowLevel       2
 		tropicLatitude  0.587
+		icecapLatitude  1
+		icecapHeight    0
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
 		humidity        0.304
-		mainFreq        1.746
+		heightTempGrad  0.625
+		beachWidth      0.000955
+		tropicWidth     0.07
+		mainFreq        1.75
+		venusFreq       0.642
+		venusMagn       0
 		mareFreq        0.006
 		mareDensity     0.158
 		terraceProb     0.229
 		erosion         0
+		montesMagn      0.186
+		montesFreq      167
+		montesSpiky     0.994
+		montesFraction  0.289
+		dunesMagn       0.0506
+		dunesFreq       52.1
+		dunesFraction   0.287
+		hillsMagn       0.132
+		hillsFreq       142
+		hillsFraction   0.696
+		hills2Fraction  0.11
+		riversMagn      0
+		riversFreq      2.69
+		riversSin       6.29
 		riftsMagn       0.693
-		riftsFreq       2.997
-		canyonsMagn     1.004
-		canyonsFreq     117.024
+		riftsFreq       3
+		riftsSin        4.78
+		canyonsMagn     1
+		canyonsFreq     117
+		canyonsFraction 0
+		cracksMagn      0.0583
+		cracksFreq      2.6
+		cracksOctaves   4
 		craterMagn      0.465
 		craterFreq      0.988
 		craterDensity   0.8
 		craterOctaves   2
+		craterRayedFactor 0.236
 		volcanoMagn     0.469
 		volcanoFreq     0.898
 		volcanoDensity  0.187
 		volcanoOctaves  4
 		volcanoActivity 0.276
-		BumpHeight      14.54
+		volcanoFlows    0.303
+		volcanoRadius   0.524
+		volcanoTemp     367
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      14.5
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.03
 		SpecBrightIce   0.03
@@ -1583,20 +1628,35 @@ Moon	"Chevial"
 		DayAmbient      0.07
 	}
 
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
+
 	NoAtmosphere    true
 
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
 
 	Orbit
 	{
 		RefPlane        "Equator"
 		PeriodDays      527.58269
-		SemiMajorAxisKm 2.57907287e+7
+		SemiMajorAxisKm 25790728.7
 		Eccentricity    0.0309518542
 		Inclination     0.61982554
-		AscendingNode   166.44906037
+		AscendingNode   166.44906
 		ArgOfPericenter 111.454623
 		MeanAnomaly     -8.5416
 	}
