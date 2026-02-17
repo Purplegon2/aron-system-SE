@@ -1306,11 +1306,12 @@ Moon	"Yokaya"
 {
 	ParentBody     "Noi"
 	Class          "Aquaria"
-	Mass            0.094897754939
-	Radius          3385.557951
+	Mass            0.0948977545
+	Radius          3385.55786
+	InertiaMoment   0.333898365
+	Obliquity       1.02642984
+	EqAscendNode    -57.8913499
 	TidalLocked     true
-	Obliquity       2.7991863
-	EqAscendNode    -29.68540443
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
@@ -1319,36 +1320,82 @@ Moon	"Yokaya"
 
 	Surface
 	{
-		Preset         "aquaria_airless_white2.cfg"
+		Preset         "terra_airless_moon.cfg"
 		SurfStyle       0.103
 		Randomize      (-0.246, 0.058, 0.190)
 		colorDistMagn   0.0561
-		colorDistFreq   86.41
-		detailScale     3054.59
+		colorDistFreq   86.4
+		detailScale     3.05e+03
 		drivenDarkening 0.612
 		seaLevel        0.224
 		snowLevel       2
 		tropicLatitude  0.435
+		icecapLatitude  1
+		icecapHeight    0
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
 		humidity        0.426
-		mainFreq        1.935
+		heightTempGrad  0.625
+		beachWidth      0.00106
+		tropicWidth     0.07
+		mainFreq        1.93
+		venusFreq       0.982
+		venusMagn       0
 		mareFreq        0.028
 		mareDensity     0.179
 		terraceProb     0.494
 		erosion         0
+		montesMagn      0.259
+		montesFreq      197
+		montesSpiky     0.965
+		montesFraction  0.468
+		dunesMagn       0.027
+		dunesFreq       28.8
+		dunesFraction   0.824
+		hillsMagn       0.116
+		hillsFreq       82.3
+		hillsFraction   0.156
+		hills2Fraction  0.104
+		riversMagn      0
+		riversFreq      3.16
+		riversSin       5.35
 		riftsMagn       0.504
-		riftsFreq       2.394
+		riftsFreq       2.39
+		riftsSin        6.48
+		eqridgeMagn     0.378
+		eqridgeWidth    0.0335
+		eqridgeModMagn  2.47
+		eqridgeModFreq  9.54
 		canyonsMagn     0.743
-		canyonsFreq     839.352
-		craterMagn      0.36
-		craterFreq      1.838
-		craterDensity   0.599
-		craterOctaves   19
-		volcanoMagn     0.284
-		volcanoFreq     1.041
+		canyonsFreq     839
+		canyonsFraction 0
+		cracksMagn      0
+		cracksFreq      0
+		cracksOctaves   0
+		craterMagn      5.88
+		craterFreq      25.2
+		craterDensity   0.107
+		craterOctaves   2
+		craterRayedFactor 0.191
+		volcanoMagn     0
+		volcanoFreq     0
 		volcanoDensity  0.114
 		volcanoOctaves  2
 		volcanoActivity 0.544
-		BumpHeight      13.04
+		volcanoFlows    0.205
+		volcanoRadius   0
+		volcanoTemp     282
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      13
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.03
 		SpecBrightIce   0.03
@@ -1360,101 +1407,40 @@ Moon	"Yokaya"
 		SpotBright      2.25
 		SpotWidth       0.054
 		DayAmbient      0.07
+		ModulateColor  (0.543 0.543 0.543)
 	}
+
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
 
 	NoAtmosphere    true
 
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
 
 	Orbit
 	{
 		RefPlane        "Equator"
 		PeriodDays      98.282903
-		SemiMajorAxisKm 8.41243856e+6
+		SemiMajorAxisKm 8412438.56
 		Eccentricity    0.0457329639
 		Inclination     1.02642984
-		AscendingNode   -57.89134989
+		AscendingNode   -57.8913499
 		ArgOfPericenter 55.411778
 		MeanAnomaly     8.011189
-	}
-}
-
-Moon	"Nochenole"
-{
-	ParentBody     "Noi"
-	Class          "Terra"
-	Mass            0.224963308196
-	Radius          4611.040529
-	TidalLocked     true
-	Obliquity       17.16384473
-	EqAscendNode    -174.37798454
-
-	AlbedoBond      0.536
-	AlbedoGeom      0.36
-	Brightness      1
-	BrightnessReal  1
-
-	Surface
-	{
-		Preset         "terra_wet_rusty_green_plants.cfg"
-		SurfStyle       0.389
-		Randomize      (-0.487, -0.036, 0.221)
-		colorDistMagn   0.0442
-		colorDistFreq   514.6
-		detailScale     58771.66
-		drivenDarkening 0.24
-		seaLevel        -0.178
-		snowLevel       2
-		tropicLatitude  0.999
-		humidity        0.106
-		mainFreq        2.427
-		mareFreq        0.009
-		mareDensity     0.093
-		terraceProb     0.286
-		erosion         0.3
-		riftsMagn       0.045
-		riftsFreq       1.98
-		canyonsMagn     0.519
-		canyonsFreq     692.075
-		craterMagn      0.678
-		craterFreq      2.052
-		craterDensity   0.237
-		craterOctaves   3
-		volcanoMagn     0.428
-		volcanoFreq     0.538
-		volcanoDensity  0.15
-		volcanoOctaves  4
-		volcanoActivity 1.187
-		BumpHeight      17.27
-		DiffMapAlpha   "Water"
-		SpecBrightWater 0.65
-		SpecBrightIce   0.85
-		RoughnessWater  0.35
-		RoughnessIce    0.45
-		SpecularScale   1
-		RoughnessBias   0.45
-		Hapke           0.5
-		SpotBright      2.03
-		SpotWidth       0.048
-		DayAmbient      0.07
-	}
-
-	NoAtmosphere    true
-
-	NoLava          true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      133.879132
-		SemiMajorAxisKm 1.03374125e+7
-		Eccentricity    0.072959003
-		Inclination     0.44891022
-		AscendingNode   22.5280668
-		ArgOfPericenter 111.207711
-		MeanAnomaly     40.17828
 	}
 }
 
