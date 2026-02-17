@@ -1223,86 +1223,7 @@ DwarfMoon	"Ponadu"
 	}
 }
 
-Moon	"Yikutiri"
-{
-	ParentBody     "Noi"
-	Class          "Aquaria"
-	Mass            0.369117847255
-	Radius          6229.617185
-	RotationPeriod  39.01520904
-	Obliquity       9.04312275
-	EqAscendNode    -59.44406955
-
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
-	Brightness      1
-	BrightnessReal  1
-
-	Surface
-	{
-		Preset         "aquaria_airless_white2.cfg"
-		SurfStyle       0.185
-		Randomize      (0.418, -0.072, 0.937)
-		colorDistMagn   0.0744
-		colorDistFreq   44.78
-		detailScale     4016.77
-		drivenDarkening 0.531
-		seaLevel        0.132
-		snowLevel       2
-		tropicLatitude  0.775
-		humidity        0.142
-		mainFreq        1.37
-		mareFreq        0.017
-		mareDensity     0.099
-		terraceProb     0.243
-		erosion         0
-		riftsMagn       1.022
-		riftsFreq       3.035
-		canyonsMagn     0.753
-		canyonsFreq     667.955
-		craterMagn      0.566
-		craterFreq      8.946
-		craterDensity   0.773
-		craterOctaves   14
-		volcanoMagn     0.535
-		volcanoFreq     0.725
-		volcanoDensity  0.212
-		volcanoOctaves  3
-		volcanoActivity 0.138
-		BumpHeight      14.46
-		DiffMapAlpha   "Ice"
-		SpecBrightWater 0.03
-		SpecBrightIce   0.03
-		RoughnessWater  0.35
-		RoughnessIce    0.45
-		SpecularScale   1
-		RoughnessBias   0.14
-		Hapke           0.5
-		SpotBright      2.9
-		SpotWidth       0.059
-		DayAmbient      0.07
-	}
-
-	NoAtmosphere    true
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      57.208346
-		SemiMajorAxisKm 5.86466012e+6
-		Eccentricity    0.0528858133
-		Inclination     -1.21736084
-		AscendingNode   152.27455468
-		ArgOfPericenter -45.428593
-		MeanAnomaly     -106.304858
-	}
-}
-
-Moon	"Ianorota"
+Moon	"Nora"
 {
 	ParentBody     "Noi"
 	Class          "Aquaria"
@@ -1386,7 +1307,7 @@ Moon	"Yokaya"
 	ParentBody     "Noi"
 	Class          "Aquaria"
 	Mass            0.094897754939
-	Radius          3685.557951
+	Radius          3385.557951
 	TidalLocked     true
 	Obliquity       2.7991863
 	EqAscendNode    -29.68540443
@@ -1534,85 +1455,6 @@ Moon	"Nochenole"
 		AscendingNode   22.5280668
 		ArgOfPericenter 111.207711
 		MeanAnomaly     40.17828
-	}
-}
-
-Moon	"Nora"
-{
-	ParentBody     "Noi"
-	Class          "Aquaria"
-	Mass            0.374643134094
-	Radius          6942.105877
-	TidalLocked     true
-	Obliquity       15.92258414
-	EqAscendNode    23.16163994
-
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
-	Brightness      1
-	BrightnessReal  1
-
-	Surface
-	{
-		Preset         "aquaria_airless_white2.cfg"
-		SurfStyle       0.373
-		Randomize      (-0.403, -0.326, 0.105)
-		colorDistMagn   0.0436
-		colorDistFreq   76.58
-		detailScale     4684.56
-		drivenDarkening 0.676
-		seaLevel        0.296
-		snowLevel       2
-		tropicLatitude  0.474
-		humidity        0.126
-		mainFreq        1.741
-		mareFreq        0.001
-		mareDensity     0.081
-		terraceProb     0.253
-		erosion         0
-		riftsMagn       0.061
-		riftsFreq       3.58
-		canyonsMagn     1.164
-		canyonsFreq     744.578
-		craterMagn      0.6
-		craterFreq      26.304
-		craterDensity   0.608
-		craterOctaves   14
-		volcanoMagn     0.324
-		volcanoFreq     1.047
-		volcanoDensity  0.21
-		volcanoOctaves  2
-		volcanoActivity 0.263
-		BumpHeight      14.91
-		DiffMapAlpha   "Ice"
-		SpecBrightWater 0.03
-		SpecBrightIce   0.03
-		RoughnessWater  0.35
-		RoughnessIce    0.45
-		SpecularScale   1
-		RoughnessBias   0.27
-		Hapke           0.5
-		SpotBright      2.48
-		SpotWidth       0.056
-		DayAmbient      0.07
-	}
-
-	NoAtmosphere    true
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      269.548889
-		SemiMajorAxisKm 1.64826974e+7
-		Eccentricity    0.0250909623
-		Inclination     2.46054976
-		AscendingNode   -24.1540722
-		ArgOfPericenter -114.986779
-		MeanAnomaly     27.446346
 	}
 }
 
