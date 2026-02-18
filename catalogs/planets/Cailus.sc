@@ -3694,7 +3694,7 @@ Moon	"Ise"
 	ParentBody     "Cailus"
 	Class          "Terra"
 	Mass            0.034905812
-	Radius          2026.83875
+	Radius          2826.83875
 	InertiaMoment   0.329225302
 	Obliquity       -1.20227261
 	EqAscendNode    144.068302
