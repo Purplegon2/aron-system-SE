@@ -6,6 +6,7 @@ DwarfPlanet	"Cuenive"
 	Radius          564.911499
 	InertiaMoment   0.397296816
 	Oblateness      0.00249899435
+	RotationPeriod  66.0982844
 	Obliquity       0.887225691
 	EqAscendNode    -107.027698
 	TidalLocked     false
