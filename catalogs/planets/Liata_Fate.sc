@@ -7,7 +7,6 @@ DwarfPlanet	"Liata"
 	InertiaMoment   0.399612546
 	Obliquity       -0.954299814
 	EqAscendNode    3.39840601
-	TidalLocked     true
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
