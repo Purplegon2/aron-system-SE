@@ -1,9 +1,9 @@
 Planet	"Giras"
 {
 	ParentBody     "Hope"
-	Class          "Jupiter"
+	Class          "Neptune"
 	Mass            12.5
-	Radius          25362.7
+	Radius          25362.6992
 	InertiaMoment   0.190386653
 	Oblateness      0.0312461052
 	RotationPeriod  8.54682398
@@ -74,6 +74,7 @@ Planet	"Giras"
 	{
 		Height          54.5
 		Velocity        1.1e+03
+		BumpHeight      9.96
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
@@ -168,7 +169,7 @@ Planet	"Giras"
 	{
 		RefPlane        "Equator"
 		Period          118.108469
-		SemiMajorAxis   23.07 
+		SemiMajorAxis   23.07
 		Eccentricity    0.0781956299
 		Inclination     0
 		AscendingNode   25.3283104
