@@ -6,6 +6,7 @@ DwarfPlanet	"Micherinos"
 	Radius          397.382904
 	InertiaMoment   0.397417963
 	Oblateness     (0.069, 0.000, 0.000)
+	RotationPeriod  16.0982844
 	Obliquity       -1.40124269
 	EqAscendNode    145.123031
 	TidalLocked     false
