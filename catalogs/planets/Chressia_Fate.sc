@@ -23,7 +23,7 @@ Planet	"Chressia"
 {
 	ParentBody     "Chressia & Entactrius"
 	Class          "Terra"
-	Mass            1.98704003
+	Mass            3.88704003
 	Radius          9654.56738
 	InertiaMoment   0.35393545
 	Oblateness      0.00155683537
