@@ -8,6 +8,7 @@ Planet	"Hadea"
 	RotationPeriod  273.248168
 	Obliquity       0.496464778
 	EqAscendNode    148.02263
+  	TidalLocked     true
 
 	AbsMagn         -4.5
 	SlopeParam      2.97
