@@ -136,3 +136,41 @@ Planet	"Aratae"
 	}
 }
 
+DwarfMoon	"Sarannu"
+{
+	ParentBody     "Aratae"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            2.19498004e-8
+	Radius          24.101
+	InertiaMoment   0.382679911
+	Oblateness      0.18955678
+	RotationPeriod  9.80114
+	Obliquity       96.765452
+	EqAscendNode    -36.136881
+
+	AbsMagn         16.7
+	SlopeParam      0.14
+	Albedo          0.33
+	Brightness      1.83
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      0.249578
+		SemiMajorAxisKm 6291.324
+		Eccentricity    0.3939167551
+		Inclination     1.661753
+		AscendingNode   -94.832402
+		ArgOfPericenter -100.913763
+		MeanAnomaly     21.137732
+	}
+}
+
+
