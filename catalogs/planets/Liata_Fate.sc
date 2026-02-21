@@ -5,6 +5,7 @@ DwarfPlanet	"Liata"
 	Mass            0.000532478385
 	Radius          662.006958
 	InertiaMoment   0.399612546
+	RotationPeriod  33.09642844
 	Obliquity       -0.954299814
 	EqAscendNode    3.39840601
 
