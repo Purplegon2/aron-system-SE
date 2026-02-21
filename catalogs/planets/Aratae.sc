@@ -2,7 +2,7 @@ Planet	"Aratae"
 {
 	ParentBody     "Fate"
 	Class          "Terra"
-	Mass            0.0230404194
+	Mass            0.0530404194
 	Radius          2642.19971
 	InertiaMoment   0.357732505
 	Oblateness      0.0027937945
