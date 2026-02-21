@@ -7,7 +7,6 @@ DwarfPlanet	"Sienten"
 	InertiaMoment   0.399773806
 	Obliquity       -0.637955273
 	EqAscendNode    175.412029
-	TidalLocked     true
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
