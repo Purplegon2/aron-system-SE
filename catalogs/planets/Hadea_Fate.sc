@@ -5,7 +5,6 @@ Planet	"Hadea"
 	Mass            2.59617186
 	Radius          8750.58887
 	InertiaMoment   0.330291718
-	RotationPeriod  273.248168
 	Obliquity       0.496464778
 	EqAscendNode    148.02263
   	TidalLocked     true
