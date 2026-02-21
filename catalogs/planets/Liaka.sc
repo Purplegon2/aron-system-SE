@@ -8,7 +8,6 @@ DwarfPlanet	"Liaka"
 	Oblateness      0.00249899435
 	Obliquity       0.887225691
 	EqAscendNode    -107.027698
-	TidalLocked     true
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
