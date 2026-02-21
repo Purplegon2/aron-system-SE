@@ -6,6 +6,7 @@ DwarfPlanet	"Setria"
 	Radius          531.117798
 	InertiaMoment   0.399109244
 	Oblateness     (0.000, 0.007, 0.014)
+	RotationPeriod  16.9982844
 	Obliquity       -0.680506983
 	EqAscendNode    -116.434222
 	TidalLocked     false
