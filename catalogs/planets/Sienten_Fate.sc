@@ -5,6 +5,7 @@ DwarfPlanet	"Sienten"
 	Mass            0.000292507873
 	Radius          629.200012
 	InertiaMoment   0.399773806
+	RotationPeriod  42.0982844
 	Obliquity       -0.637955273
 	EqAscendNode    175.412029
 
