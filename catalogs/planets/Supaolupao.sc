@@ -2,7 +2,7 @@ DwarfPlanet	"Supaolupao"
 {
 	ParentBody     "Hope"
 	Class          "Aquaria"
-	Mass            4.79944674e-03
+	Mass          	0.00034493
 	Radius          329.399994
 	InertiaMoment   0.399072528
 	Oblateness     (0.000, 0.000, 0.117)
