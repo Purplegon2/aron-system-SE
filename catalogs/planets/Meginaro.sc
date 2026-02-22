@@ -2,7 +2,7 @@ Comet	"Meginaro"
 {
 	ParentBody     "Hope"
 	Class          "Comet"
-	Mass           	0.000000348382
+	Mass           	0.0000000000348382
 	Radius          7.09223604
 	InertiaMoment   0.398437023
 	Oblateness     (0.330, 0.206, 0.213)
