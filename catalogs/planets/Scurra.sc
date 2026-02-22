@@ -202,7 +202,7 @@ Moon	"Ikernu"
 {
 	ParentBody     "Scurra"
 	Class          "Terra"
-	Mass            0.202135983
+	Mass            0.191135983
 	Radius          3717.6001
 	InertiaMoment   0.331860512
 	Oblateness      0.00240523578
