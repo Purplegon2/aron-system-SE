@@ -450,7 +450,7 @@ Planet	"Entactrius"
 {
 	ParentBody     "Chressia & Entactrius"
 	Class          "Terra"
-	Mass            0.211920469
+	Mass            0.21192047
 	Radius          3617.54541
 	InertiaMoment   0.329854131
 	Oblateness      0.00755331991
@@ -482,9 +482,9 @@ Planet	"Entactrius"
 		drivenDarkening 0
 		seaLevel        0.45
 		snowLevel       1.34
-		tropicLatitude  0.832
-		icecapLatitude  1.01
-		icecapHeight    0
+		tropicLatitude  0.664
+		icecapLatitude  0.763
+		icecapHeight    0.0916
 		climatePole     0.938
 		climateTropic   0.313
 		climateEquator  0.688
@@ -497,7 +497,7 @@ Planet	"Entactrius"
 		humidity        0.202
 		heightTempGrad  0.625
 		beachWidth      0.00165
-		tropicWidth     0.07
+		tropicWidth     0.0611
 		mainFreq        0.829
 		venusFreq       1.5
 		venusMagn       0
@@ -666,8 +666,8 @@ Planet	"Entactrius"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      39.907869
-		SemiMajorAxisKm 472893.223
+		Period          0.109264127
+		SemiMajorAxis   0.00316109595
 		Eccentricity    0.00123931874
 		Inclination     -2.2992788
 		AscendingNode   139.494825
@@ -675,4 +675,6 @@ Planet	"Entactrius"
 		MeanAnomaly     307.434889
 	}
 }
+
+
 
