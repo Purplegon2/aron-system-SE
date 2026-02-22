@@ -1213,7 +1213,7 @@ Moon	"Eichana"
 {
 	ParentBody     "Giras"
 	Class          "Terra"
-	Mass            0.0097195711
+	Mass            0.0177195711
 	Radius          1984.7688
 	InertiaMoment   0.378329813
 	Obliquity       2.09588425
