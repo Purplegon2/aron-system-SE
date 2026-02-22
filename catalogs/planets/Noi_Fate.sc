@@ -1448,7 +1448,7 @@ Moon	"Chieilo"
 {
 	ParentBody     "Noi"
 	Class          "Aquaria"
-	Mass            0.009945835855
+	Mass            0.019945835855
 	Radius          2301.744572
 	TidalLocked     true
 	Obliquity       6.5282029
