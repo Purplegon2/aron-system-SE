@@ -1409,7 +1409,7 @@ Moon	"Tyrulious"
 {
 	ParentBody     "Giras"
 	Class          "Terra"
-	Mass            0.00636070923
+	Mass            0.0063607092
 	Radius          1433.82202
 	InertiaMoment   0.374045223
 	Oblateness      0.0025680149
@@ -1484,8 +1484,8 @@ Moon	"Tyrulious"
 		cracksMagn      0.0327
 		cracksFreq      0.664
 		cracksOctaves   0
-		craterMagn      0.368
-		craterFreq      15.3
+		craterMagn      0
+		craterFreq      0
 		craterDensity   0.228
 		craterOctaves   2
 		craterRayedFactor 0.0527
@@ -1537,7 +1537,7 @@ Moon	"Tyrulious"
 		Composition
 		{
 			N2        	92
-			CO       	6.8
+			CO        	6.8
 		}
 	}
 
