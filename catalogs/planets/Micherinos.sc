@@ -3,10 +3,10 @@ DwarfPlanet	"Micherinos"
 	ParentBody     "Hope"
 	Class          "Terra"
 	Mass            0.000108261222
-	Radius          397.382904
+	Radius          687.382904
 	InertiaMoment   0.397417963
 	Oblateness     (0.069, 0.000, 0.000)
-	RotationPeriod  16.0982844
+	RotationPeriod  5.0982844
 	Obliquity       -1.40124269
 	EqAscendNode    145.123031
 	TidalLocked     false
@@ -121,7 +121,40 @@ DwarfPlanet	"Micherinos"
 
 	NoAurora        true
 
-	NoRings         true
+	Rings
+	{
+		InnerRadius     2.25e+03
+		OuterRadius     2.32e+03
+		EdgeRadius      4.56e+03
+		MeanRadius      3.02e+03
+		Thickness       0.0148
+		RocksMaxSize    0.000594
+		RocksSpacing    1
+		DustDrawDist    44.5
+		ChartRadius     4.56e+03
+		RotationPeriod  21.4
+		Brightness      1
+		FrontBright     2.83
+		BackBright      4.2
+		Density         0.967
+		Opacity         0.967
+		SelfShadow      0.967
+		PlanetShadow    0.967
+		Hapke           1
+		SpotBright      2.37
+		SpotWidth       0.0199
+		SpotBrightCB    0
+		SpotWidthCB     0.001
+		frequency       6.6
+		densityScale    1.35
+		densityOffset   -0.281
+		densityPower    0.995
+		colorContrast   0.0755
+		FrontColor      (0.700 0.700 0.700)
+		BackThickColor  (0.800 0.600 0.400)
+		BackIceColor    (0.300 0.700 1.000)
+		BackDustColor   (1.000 0.980 0.880)
+	}
 
 	NoAccretionDisk true
 
