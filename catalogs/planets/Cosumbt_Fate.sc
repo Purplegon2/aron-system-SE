@@ -249,8 +249,8 @@ DwarfPlanet	"Cosumbt"
 	{
 		RefPlane        "Equator"
 		Epoch           2443911.41
-		Period          2.801918
-		SemiMajorAxis   2.34572622
+		Period          2.3014
+		SemiMajorAxis   1.34572622
 		Eccentricity    0.00079569064
 		Inclination     0.844555411
 		AscendingNode   -121.396633
