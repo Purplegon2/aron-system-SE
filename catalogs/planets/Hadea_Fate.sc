@@ -164,7 +164,7 @@ Planet	"Hadea"
 		RefPlane        "Equator"
 		Period          0.0036722
 		SemiMajorAxis   0.018330651
-		Eccentricity    0.1803157627
+		Eccentricity    0.2503157627
 		Inclination     1.796464778
 		AscendingNode   148.02263
 		ArgOfPericenter 265.470908
