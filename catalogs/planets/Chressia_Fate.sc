@@ -466,7 +466,7 @@ Planet	"Entactrius"
 
 	Life
 	{
-		Class   "Organic"
+		Class   "Exotic"
 		Type    "Multicellular"
 		Biome   "Marine"
 	}
