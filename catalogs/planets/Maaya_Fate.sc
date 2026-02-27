@@ -13,7 +13,7 @@ Planet	"Maaya"
 
 	AlbedoBond      0.6
 	AlbedoGeom      0.36
-	Brightness      1
+	Brightness      1.35
 	BrightnessReal  1
 
 	Surface
@@ -194,8 +194,8 @@ Planet	"Maaya"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.21864
-		SemiMajorAxis   0.280190706
+		Period          0.23045
+		SemiMajorAxis   0.290190706
 		Eccentricity    0.0327229392
 		Inclination     -1.67281318
 		AscendingNode   24.7044535
