@@ -2,7 +2,7 @@ DwarfPlanet	"Micherinos"
 {
 	ParentBody     "Hope"
 	Class          "Terra"
-	Mass            0.000108261222
+	Mass            0.000408261222
 	Radius          687.382874
 	InertiaMoment   0.397417963
 	Oblateness      0.185496181
