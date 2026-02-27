@@ -136,7 +136,7 @@ Planet	"Maaya"
 		Height          691.344727
 		Density         342.256073
 		Pressure        75.4853363
-		Greenhouse      236.641235
+		Greenhouse      436.641235
 		Bright          8.7
 		Opacity         1.15
 		SkyLight        0
