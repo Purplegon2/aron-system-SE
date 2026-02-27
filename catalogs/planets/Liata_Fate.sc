@@ -125,8 +125,8 @@ DwarfPlanet	"Liata"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          7.3478674
-		SemiMajorAxis	3.993
+		Period          1.1017
+		SemiMajorAxis	0.823489389
 		Eccentricity    0.0411527995
 		Inclination     -0.954299814
 		AscendingNode   3.39840601
