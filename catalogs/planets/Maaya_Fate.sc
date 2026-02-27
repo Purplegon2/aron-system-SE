@@ -13,7 +13,7 @@ Planet	"Maaya"
 
 	AlbedoBond      0.6
 	AlbedoGeom      0.36
-	Brightness      1.35
+	Brightness      1.15
 	BrightnessReal  1
 
 	Surface
