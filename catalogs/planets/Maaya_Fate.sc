@@ -195,7 +195,7 @@ Planet	"Maaya"
 	{
 		RefPlane        "Equator"
 		Period          0.98425
-		SemiMajorAxis   0.310190706
+		SemiMajorAxis   0.370190706
 		Eccentricity    0.0327229392
 		Inclination     -1.67281318
 		AscendingNode   24.7044535
