@@ -2,7 +2,7 @@ Planet	"Poree"
 {
 	ParentBody     "Hope"
 	Class          "Aquaria"
-	Mass            0.314805036
+	Mass            0.204805036
 	Radius          4337.04
 	InertiaMoment   0.334263504
 	Oblateness      0.00883827172
