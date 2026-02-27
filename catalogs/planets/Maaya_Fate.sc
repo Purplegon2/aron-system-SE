@@ -136,7 +136,7 @@ Planet	"Maaya"
 		Height          691.344727
 		Density         342.256073
 		Pressure        75.4853363
-		Greenhouse      336.641235
+		Greenhouse      296.641235
 		Bright          8.7
 		Opacity         1.15
 		SkyLight        0
@@ -195,7 +195,7 @@ Planet	"Maaya"
 	{
 		RefPlane        "Equator"
 		Period          0.98425
-		SemiMajorAxis   0.590190706
+		SemiMajorAxis   0.390190706
 		Eccentricity    0.0327229392
 		Inclination     -1.67281318
 		AscendingNode   24.7044535
