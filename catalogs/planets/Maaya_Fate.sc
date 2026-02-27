@@ -194,7 +194,7 @@ Planet	"Maaya"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.98425
+		Period          0.33204
 		SemiMajorAxis   0.370190706
 		Eccentricity    0.0327229392
 		Inclination     -1.67281318
