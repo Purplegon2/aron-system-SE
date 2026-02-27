@@ -187,8 +187,8 @@ Planet	"Noi"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          3.5733
-		SemiMajorAxis   4.8819306
+		Period          4.7557
+		SemiMajorAxis   2.183248
 		Eccentricity    0.0320770373
 		Inclination     -0.163891729
 		AscendingNode   67.0212759
