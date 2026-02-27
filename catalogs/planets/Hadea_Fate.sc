@@ -2,7 +2,7 @@ Planet	"Hadea"
 {
 	ParentBody     "Fate"
 	Class          "Terra"
-	Mass            2.59617186
+	Mass            3.59617186
 	Radius          8750.58887
 	InertiaMoment   0.330291718
 	Obliquity       0.496464778
@@ -164,8 +164,8 @@ Planet	"Hadea"
 		RefPlane        "Equator"
 		Period          0.0036722
 		SemiMajorAxis   0.018330651
-		Eccentricity    0.0603157627
-		Inclination     0.496464778
+		Eccentricity    0.1603157627
+		Inclination     1.196464778
 		AscendingNode   148.02263
 		ArgOfPericenter 265.470908
 		MeanAnomaly     309.843962
