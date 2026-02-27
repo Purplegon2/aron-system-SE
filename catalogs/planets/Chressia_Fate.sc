@@ -607,7 +607,7 @@ Planet	"Entactrius"
 		Height          59.0190697
 		Density         1.71691537
 		Pressure        0.853685081
-		Greenhouse      116.099243
+		Greenhouse      136.099243
 		Bright          10.4
 		Opacity         2.21
 		SkyLight        3.33
