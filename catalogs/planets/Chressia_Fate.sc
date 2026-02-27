@@ -13,7 +13,7 @@ Barycenter	"Chressia & Entactrius"
 	{
 		RefPlane	"Equator"
 		Period		0.4321
-		SemiMajorAxis	0.53216366
+		SemiMajorAxis	0.48216366
 		Eccentricity	0.0939481028
 		Inclination	0
 	}
