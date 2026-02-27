@@ -282,7 +282,7 @@ Planet	"Maiy"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period            0.074196
+		Period            0.093972
 		SemiMajorAxis    0.1595737
 		Eccentricity    0.0586196817
 		Inclination     -0.0638566811
