@@ -190,7 +190,7 @@ Planet	"Maiy"
 		Height          87.7483597
 		Density         1.464249
 		Pressure        1.26091
-		Greenhouse      120.098236
+		Greenhouse      70.098236
 		Bright          10
 		Opacity         1
 		SkyLight        3.33
@@ -283,7 +283,7 @@ Planet	"Maiy"
 	{
 		RefPlane        "Equator"
 		Period            0.14196
-		SemiMajorAxis    0.2095737
+		SemiMajorAxis    0.1595737
 		Eccentricity    0.0586196817
 		Inclination     -0.0638566811
 		AscendingNode   31.3334873
