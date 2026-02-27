@@ -175,7 +175,7 @@ Planet	"Polion"
 		RefPlane        "Equator"
 		Period          24.642374
 		SemiMajorAxis   7.583
-		Eccentricity    0.0860883375
+		Eccentricity    0.1860883375
 		Inclination     0
 		AscendingNode   161.116099
 		ArgOfPericenter 140.435029
