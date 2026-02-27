@@ -165,7 +165,7 @@ Planet	"Hadea"
 		Period          0.0036722
 		SemiMajorAxis   0.018330651
 		Eccentricity    0.2503157627
-		Inclination     1.796464778
+		Inclination     2.696464778
 		AscendingNode   148.02263
 		ArgOfPericenter 265.470908
 		MeanAnomaly     309.843962
