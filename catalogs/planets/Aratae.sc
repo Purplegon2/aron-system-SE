@@ -126,8 +126,8 @@ Planet	"Aratae"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period           0.88195
-		SemiMajorAxis   0.712838128
+		Period           0.54141
+		SemiMajorAxis   0.512838128
 		Eccentricity    0.115537816
 		Inclination     -1.56509341
 		AscendingNode   178.580461
