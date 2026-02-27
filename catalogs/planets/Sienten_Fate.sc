@@ -125,8 +125,8 @@ DwarfPlanet	"Sienten"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period     	57.4077038
-		SemiMajorAxis	11.226
+		Period     	11.517
+		SemiMajorAxis	3.937223421
 		Eccentricity    0.1266218817
 		Inclination     -3.637955273
 		AscendingNode   175.412029
