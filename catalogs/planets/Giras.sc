@@ -1363,7 +1363,7 @@ Moon	"Eichana"
 		Model          "Thick"
 		Height          209.223602
 		Density         248.353149
-		Pressure        166.484589
+		Pressure        1.684589
 		Greenhouse      42.7480927
 		Bright          7.63
 		Opacity         1
