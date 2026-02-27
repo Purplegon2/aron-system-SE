@@ -460,7 +460,7 @@ Moon	"Malia"
 	ParentBody     "Scurra"
 	Class          "Aquaria"
 	Mass            0.000149627987
-	Radius          423.783112
+	Radius          408.025238
 	InertiaMoment   0.39993149
 	Oblateness      0.00907221623
 	Obliquity       1.38022411
@@ -469,12 +469,12 @@ Moon	"Malia"
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
-	Brightness      1
+	Brightness      0.84
 	BrightnessReal  1
 
 	Surface
 	{
-		Preset         "aquaria_airless_white2.cfg"
+		Preset         "aquaria_arid_europa.cfg"
 		SurfStyle       0.797
 		Randomize      (-0.020, -0.731, -0.176)
 		colorDistMagn   0.0405
@@ -482,9 +482,9 @@ Moon	"Malia"
 		detailScale     2.05e+03
 		drivenDarkening 0.7
 		seaLevel        0.31
-		snowLevel       2
+		snowLevel       -1
 		tropicLatitude  0.216
-		icecapLatitude  1
+		icecapLatitude  0.0153
 		icecapHeight    0
 		climatePole     0.438
 		climateTropic   0.313
@@ -517,17 +517,21 @@ Moon	"Malia"
 		hillsFreq       46.5
 		hillsFraction   0.715
 		hills2Fraction  0.134
-		riversMagn      0
-		riversFreq      4.29
+		riversMagn      16.8
+		riversFreq      8.17
 		riversSin       8.66
 		riftsMagn       0
 		riftsFreq       3.9
 		riftsSin        7.16
+		eqridgeMagn     0.457
+		eqridgeWidth    0.023
+		eqridgeModMagn  2.37
+		eqridgeModFreq  9.04
 		canyonsMagn     0.502
-		canyonsFreq     0.147
+		canyonsFreq     321
 		canyonsFraction 0
-		cracksMagn      0.0514
-		cracksFreq      0.291
+		cracksMagn      0.305
+		cracksFreq      5.15
 		cracksOctaves   0
 		craterMagn      0.521
 		craterFreq      0.875
@@ -583,7 +587,7 @@ Moon	"Malia"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays       0.68844
+		PeriodDays      0.68844
 		SemiMajorAxisKm 142506.707
 		Eccentricity    0.00021459288
 		Inclination     1.38022411
