@@ -6,9 +6,9 @@ DwarfPlanet	"Enquitu"
 	Radius          931.213013
 	InertiaMoment   0.394333899
 	Oblateness      0.0104338266
+	RotationPeriod  182.302919
 	Obliquity       0.539289648
 	EqAscendNode    127.33906
-	TidalLocked     true
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
