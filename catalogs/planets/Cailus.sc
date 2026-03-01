@@ -3693,13 +3693,14 @@ Moon	"Ise"
 {
 	ParentBody     "Cailus"
 	Class          "Terra"
-	Mass            0.054905812
-	Radius          2826.83875
+	Mass            0.0649058132
+	Radius          2826.83887
 	InertiaMoment   0.329225302
 	Obliquity       -1.20227261
 	EqAscendNode    144.068302
 	TidalLocked     true
 
+	EndogenousHeating 122
 	AlbedoBond      0.536
 	AlbedoGeom      0.36
 	Brightness      1
@@ -3714,7 +3715,7 @@ Moon	"Ise"
 		colorDistFreq   1.17e+03
 		detailScale     3.85e+04
 		drivenDarkening 0.298
-		seaLevel        0.041
+		seaLevel        0.122
 		snowLevel       2
 		tropicLatitude  0.345
 		icecapLatitude  2
@@ -3792,7 +3793,24 @@ Moon	"Ise"
 		DayAmbient      0.07
 	}
 
-	NoOcean         true
+	Ocean
+	{
+		Depth           18.27
+		Hapke           0
+		SpotBright      0.89
+		SpotWidth       0.06
+		DayAmbient      0.07
+		ModulateBright  0.92
+
+		Composition
+		{
+			H2O     59.73
+			HCL		16.21
+			SO2		10.72
+			NH3		8.39
+			C2H4	1.28
+		}
+	}
 
 	NoClouds        true
 
@@ -3803,7 +3821,7 @@ Moon	"Ise"
 		Model          "Earth"
 		Height          103.577919
 		Density         6.11307227e-09
-		Pressure        0.0185001627
+		Pressure        0.65583396
 		Greenhouse      123.281334
 		Bright          0.795
 		Opacity         1.07
@@ -3813,7 +3831,7 @@ Moon	"Ise"
 
 		Composition
 		{
-			SO2        	53.6
+			SO2       	53.6
 			N2        	24.5
 			C2H4      	16.6
 			CO2       	3.36
