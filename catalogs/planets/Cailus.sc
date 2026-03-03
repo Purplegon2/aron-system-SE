@@ -3715,10 +3715,10 @@ Moon	"Ise"
 		colorDistFreq   1.17e+03
 		detailScale     3.85e+04
 		drivenDarkening 0.298
-		seaLevel        0.122
+		seaLevel        0.43292123
 		snowLevel       2
 		tropicLatitude  0.345
-		icecapLatitude  2
+		icecapLatitude  1.0238372
 		icecapHeight    0.623
 		climatePole     0.938
 		climateTropic   0.313
