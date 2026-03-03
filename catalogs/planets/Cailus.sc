@@ -3694,7 +3694,7 @@ Moon	"Ise"
 	ParentBody     "Cailus"
 	Class          "Terra"
 	Mass            0.0649058132
-	Radius          2826.83887
+	Radius          3126.83887
 	InertiaMoment   0.329225302
 	Obliquity       -1.20227261
 	EqAscendNode    144.068302
@@ -3811,9 +3811,24 @@ Moon	"Ise"
 			C2H4	1.28
 		}
 	}
-
-	NoClouds        true
-
+	
+	Clouds
+	{
+		Height          15
+		Velocity        73.9
+		BumpHeight      4
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		mainFreq        1.01
+		mainOctaves     10
+		Coverage        0
+		stripeZones     1.96
+		stripeTwist     0.0976
+	}
+	
 	NoLava          true
 
 	Atmosphere
