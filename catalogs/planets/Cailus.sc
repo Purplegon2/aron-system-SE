@@ -3811,7 +3811,7 @@ Moon	"Ise"
 
 		Composition
 		{
-			H2O       	59.7
+			H2O       	66.7
 			SO2       	10.7
 			NH3       	8.39
 			C2H4      	1.28
