@@ -3693,7 +3693,7 @@ Moon	"Ise"
 {
 	ParentBody     "Cailus"
 	Class          "Terra"
-	Mass            0.0649058132
+	Mass            0.0649058148
 	Radius          3126.83887
 	InertiaMoment   0.329225302
 	Obliquity       -1.20227261
@@ -3708,18 +3708,18 @@ Moon	"Ise"
 
 	Surface
 	{
-		Preset         "terra_wet_rusty_green_plants.cfg"
+		Preset         "terra_arid_mars_green_plants.cfg"
 		SurfStyle       0.833
 		Randomize      (-0.099, -0.230, 0.598)
 		colorDistMagn   0.0674
 		colorDistFreq   1.17e+03
 		detailScale     3.85e+04
 		drivenDarkening 0.298
-		seaLevel        0.43292123
-		snowLevel       2
-		tropicLatitude  0.345
-		icecapLatitude  1.0238372
-		icecapHeight    0.623
+		seaLevel        0.443
+		snowLevel       0.557
+		tropicLatitude  0.435
+		icecapLatitude  0.733
+		icecapHeight    0.0916
 		climatePole     0.938
 		climateTropic   0.313
 		climateEquator  0.688
@@ -3779,7 +3779,14 @@ Moon	"Ise"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
+		stripeZones     1.96
+		stripeTwist     0.0976
+		cycloneMagn     2.32
+		cycloneFreq     0.724
+		cycloneDensity  0.416
+		cycloneOctaves  2
 		BumpHeight      21.1
+		BumpOffset      18.3
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.65
 		SpecBrightIce   0.85
@@ -3795,7 +3802,7 @@ Moon	"Ise"
 
 	Ocean
 	{
-		Depth           18.27
+		Depth           9.34
 		Hapke           0
 		SpotBright      0.89
 		SpotWidth       0.06
@@ -3804,14 +3811,13 @@ Moon	"Ise"
 
 		Composition
 		{
-			H2O     59.73
-			HCL		16.21
-			SO2		10.72
-			NH3		8.39
-			C2H4	1.28
+			H2O       	59.7
+			SO2       	10.7
+			NH3       	8.39
+			C2H4      	1.28
 		}
 	}
-	
+
 	Clouds
 	{
 		Height          15
@@ -3822,13 +3828,14 @@ Moon	"Ise"
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
-		mainFreq        1.01
+		Opacity         1.13
+		mainFreq        0.595
 		mainOctaves     10
-		Coverage        0
+		Coverage        0.267
 		stripeZones     1.96
 		stripeTwist     0.0976
 	}
-	
+
 	NoLava          true
 
 	Atmosphere
@@ -3837,7 +3844,7 @@ Moon	"Ise"
 		Height          103.577919
 		Density         6.11307227e-09
 		Pressure        0.65583396
-		Greenhouse      123.281334
+		Greenhouse      143.511444
 		Bright          0.795
 		Opacity         1.07
 		SkyLight        0.265
@@ -3887,7 +3894,5 @@ Moon	"Ise"
 		MeanAnomaly     -5.709258
 	}
 }
-
-
 
 
