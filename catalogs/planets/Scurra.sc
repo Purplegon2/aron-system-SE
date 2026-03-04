@@ -90,8 +90,9 @@ Planet	"Scurra"
 
 		Composition
 		{
-			H2        	91.9
-			He        	7.74
+			H2        	92.9
+			He        	4.74
+			H2O       	1.382
 			CH4       	0.32
 			N2        	0.0401
 			NH3       	0.0243
@@ -103,7 +104,6 @@ Planet	"Scurra"
 			C2H6      	0.00061
 			C8H18     	0.000303
 			C3H8      	0.000286
-			H2O       	3.34e-06
 			H2S       	1.71e-06
 			CO2       	1.42e-06
 			Kr        	3.57e-07
@@ -116,7 +116,7 @@ Planet	"Scurra"
 
 	Climate
 	{
-		GlobalWindSpeed  493
+		GlobalWindSpeed  936
 	}
 
 	Aurora
