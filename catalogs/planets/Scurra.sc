@@ -116,7 +116,7 @@ Planet	"Scurra"
 
 	Climate
 	{
-		GlobalWindSpeed  368
+		GlobalWindSpeed  493
 	}
 
 	Aurora
