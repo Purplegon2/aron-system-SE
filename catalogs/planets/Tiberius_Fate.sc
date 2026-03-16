@@ -18,7 +18,7 @@ Planet	"Tiberius"
 
 	Surface
 	{
-		Preset         "neptune_cold_saturn.cfg"
+		Preset         "neptune_cool_default.cfg"
 		SurfStyle       0.535
 		Randomize      (-0.848, -0.295, 0.418)
 		detailScale     256
@@ -85,6 +85,7 @@ Planet	"Tiberius"
 	{
 		Height          90.1
 		Velocity        1.33e+03
+		BumpHeight      18.8
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
@@ -214,7 +215,7 @@ Planet	"Tiberius"
 		RefPlane        "Equator"
 		Period          3.923324
 		SemiMajorAxis   2.482343
-		Eccentricity    0.01641209961
+		Eccentricity    0.0164120996
 		Inclination     0.774368029
 		AscendingNode   -165.642303
 		ArgOfPericenter 75.5421467
