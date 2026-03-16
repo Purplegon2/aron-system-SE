@@ -13,7 +13,7 @@ Planet	"Tiberius"
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
-	Brightness      1.37
+	Brightness      1.68
 	BrightnessReal  1.5
 
 	Surface
@@ -173,17 +173,17 @@ Planet	"Tiberius"
 
 	Rings
 	{
-		InnerRadius     3.25e+04
+		InnerRadius     2.54e+04
 		OuterRadius     1.02e+05
 		EdgeRadius      6.02e+04
 		MeanRadius      3.9e+04
-		Thickness       0.0791
+		Thickness       0.367
 		RocksMaxSize    0.00316
 		RocksSpacing    1
 		DustDrawDist    237
 		ChartRadius     6.02e+04
 		RotationPeriod  5.46
-		Brightness      1
+		Brightness      0.916
 		FrontBright     2.9
 		BackBright      6.03
 		Density         0.964
@@ -200,10 +200,10 @@ Planet	"Tiberius"
 		densityOffset   -0.157
 		densityPower    0.998
 		colorContrast   0.168
-		FrontColor      (0.700 0.700 0.700)
-		BackThickColor  (0.800 0.600 0.400)
+		FrontColor      (0.513 0.622 0.738)
+		BackThickColor  (0.652 0.556 0.459)
 		BackIceColor    (0.300 0.700 1.000)
-		BackDustColor   (1.000 0.980 0.880)
+		BackDustColor   (0.533 0.699 0.637)
 	}
 
 	NoAccretionDisk true
@@ -213,10 +213,10 @@ Planet	"Tiberius"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          3.923324
-		SemiMajorAxis   2.482343
-		Eccentricity    0.0164120996
-		Inclination     0.774368029
+		Period          1.92619931
+		SemiMajorAxis   1.19216366
+		Eccentricity    0.106870229
+		Inclination     7.23212312
 		AscendingNode   -165.642303
 		ArgOfPericenter 75.5421467
 		MeanAnomaly     51.2263922
