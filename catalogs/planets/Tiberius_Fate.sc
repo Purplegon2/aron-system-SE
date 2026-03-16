@@ -6,7 +6,7 @@ Planet	"Tiberius"
 	Radius          19543.6484
 	InertiaMoment   0.194705158
 	Oblateness      0.0302526616
-	RotationPeriod  8.85036311
+	RotationPeriod  1.85036311
 	RotationEpoch   0
 	Obliquity       -68.1207531
 	EqAscendNode    -102.378115
@@ -180,7 +180,7 @@ Planet	"Tiberius"
 		Thickness       0.367
 		RocksMaxSize    0.00316
 		RocksSpacing    1
-		DustDrawDist    237
+		DustDrawDist    1.1e+03
 		ChartRadius     6.02e+04
 		RotationPeriod  5.46
 		Brightness      0.916
@@ -213,10 +213,10 @@ Planet	"Tiberius"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          1.92619931
-		SemiMajorAxis   1.19216366
-		Eccentricity    0.106870229
-		Inclination     7.23212312
+		Period          1.62323586
+		SemiMajorAxis   1.06362732
+		Eccentricity    0.0610687023
+		Inclination     4.34232
 		AscendingNode   -165.642303
 		ArgOfPericenter 75.5421467
 		MeanAnomaly     51.2263922
