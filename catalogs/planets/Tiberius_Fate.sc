@@ -2,7 +2,7 @@ Planet	"Tiberius"
 {
 	ParentBody     "Fate"
 	Class          "Neptune"
-	Mass            18.3444271
+	Mass            6.444271
 	Radius          19543.6484
 	InertiaMoment   0.194705158
 	Oblateness      0.0302526616
