@@ -223,7 +223,7 @@ Planet	"Tiberius"
 	}
 }
 
-moon	"Varelia"
+Moon	"Varelia"
 {
 	ParentBody     "Tiberius"
 	Class          "Terra"
@@ -376,7 +376,7 @@ moon	"Varelia"
 	}
 }
 
-dwarfmoon	"Theral"
+DwarfMoon	"Theral"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -413,7 +413,7 @@ dwarfmoon	"Theral"
 	}
 }
 
-dwarfmoon	"Nikise"
+DwarfMoon	"Nikise"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -450,7 +450,7 @@ dwarfmoon	"Nikise"
 	}
 }
 
-dwarfmoon	"Tokoyuia"
+DwarfMoon	"Tokoyuia"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -487,7 +487,7 @@ dwarfmoon	"Tokoyuia"
 	}
 }
 
-dwarfmoon	"Maikiaiayliaiat"
+DwarfMoon	"Maikiaiayliaiat"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -524,7 +524,7 @@ dwarfmoon	"Maikiaiayliaiat"
 	}
 }
 
-dwarfmoon	"Naryl"
+DwarfMoon	"Naryl"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -561,7 +561,7 @@ dwarfmoon	"Naryl"
 	}
 }
 
-dwarfmoon	"Mneim"
+DwarfMoon	"Mneim"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -598,7 +598,7 @@ dwarfmoon	"Mneim"
 	}
 }
 
-dwarfmoon	"Maia"
+DwarfMoon	"Maia"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -635,7 +635,7 @@ dwarfmoon	"Maia"
 	}
 }
 
-dwarfmoon	"Susilecho"
+DwarfMoon	"Susilecho"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -672,7 +672,7 @@ dwarfmoon	"Susilecho"
 	}
 }
 
-dwarfmoon	"Uiuiyayo"
+DwarfMoon	"Uiuiyayo"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -709,7 +709,7 @@ dwarfmoon	"Uiuiyayo"
 	}
 }
 
-dwarfmoon	"Nekioacho"
+DwarfMoon	"Nekioacho"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -746,7 +746,7 @@ dwarfmoon	"Nekioacho"
 	}
 }
 
-dwarfmoon	"Yucharioa"
+DwarfMoon	"Yucharioa"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -783,7 +783,7 @@ dwarfmoon	"Yucharioa"
 	}
 }
 
-dwarfmoon	"Tiricho"
+DwarfMoon	"Tiricho"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -820,7 +820,7 @@ dwarfmoon	"Tiricho"
 	}
 }
 
-dwarfmoon	"Keleru"
+DwarfMoon	"Keleru"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -857,7 +857,7 @@ dwarfmoon	"Keleru"
 	}
 }
 
-dwarfmoon	"Rachioasa"
+DwarfMoon	"Rachioasa"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -894,7 +894,7 @@ dwarfmoon	"Rachioasa"
 	}
 }
 
-dwarfmoon	"Tuchakaya"
+DwarfMoon	"Tuchakaya"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -931,7 +931,7 @@ dwarfmoon	"Tuchakaya"
 	}
 }
 
-dwarfmoon	"Tacho"
+DwarfMoon	"Tacho"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -968,7 +968,7 @@ dwarfmoon	"Tacho"
 	}
 }
 
-dwarfmoon	"Rele"
+DwarfMoon	"Rele"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -1005,7 +1005,7 @@ dwarfmoon	"Rele"
 	}
 }
 
-dwarfmoon	"Poneviaylnuscha"
+DwarfMoon	"Poneviaylnuscha"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
@@ -1042,7 +1042,7 @@ dwarfmoon	"Poneviaylnuscha"
 	}
 }
 
-dwarfmoon	"Neikima"
+DwarfMoon	"Neikima"
 {
 	ParentBody     "Tiberius"
 	Class          "Asteroid"
