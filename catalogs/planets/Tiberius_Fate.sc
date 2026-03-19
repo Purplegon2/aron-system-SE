@@ -223,3 +223,158 @@ Planet	"Tiberius"
 	}
 }
 
+Moon	"Varelia"
+{
+	ParentBody     "Tiberius"
+	Class          "Terra"
+	Mass            0.017510578
+	Radius          1834.09375
+	InertiaMoment   0.369014353
+	Obliquity       0.75172051
+	EqAscendNode    152.056478
+	TidalLocked     true
+
+	AlbedoBond      0.15
+	AlbedoGeom      0.36
+	Brightness      1
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "terra_airless_mercury.cfg"
+		SurfStyle       0.841
+		Randomize      (0.551, 0.747, -0.659)
+		colorDistMagn   0.0772
+		colorDistFreq   189
+		detailScale     8.19e+03
+		drivenDarkening 0
+		seaLevel        0.206
+		snowLevel       2
+		tropicLatitude  0.203
+		icecapLatitude  2
+		icecapHeight    0.486
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
+		humidity        0.219
+		heightTempGrad  0.625
+		beachWidth      0.000701
+		tropicWidth     0.07
+		mainFreq        1.64
+		venusFreq       0.222
+		venusMagn       0
+		mareFreq        0.807
+		mareDensity     0.107
+		terraceProb     0.454
+		erosion         0
+		montesMagn      0.0801
+		montesFreq      87.2
+		montesSpiky     0.985
+		montesFraction  0.0987
+		dunesMagn       0.0343
+		dunesFreq       17.1
+		dunesFraction   0.987
+		hillsMagn       0.108
+		hillsFreq       177
+		hillsFraction   0.212
+		hills2Fraction  0
+		riversMagn      60.9
+		riversFreq      2.72
+		riversSin       4.89
+		riftsMagn       66.9
+		riftsFreq       3.38
+		riftsSin        7.06
+		canyonsMagn     0.715
+		canyonsFreq     0.642
+		canyonsFraction 0.507
+		cracksMagn      0.0288
+		cracksFreq      0.995
+		cracksOctaves   0
+		craterMagn      0.553
+		craterFreq      4.17
+		craterDensity   0.828
+		craterOctaves   19
+		craterRayedFactor 0.24
+		volcanoMagn     0.296
+		volcanoFreq     0.868
+		volcanoDensity  0.4
+		volcanoOctaves  3
+		volcanoActivity 2
+		volcanoFlows    0.211
+		volcanoRadius   0.263
+		volcanoTemp     1.24e+03
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      20
+		SpecBrightWater 0
+		SpecBrightIce   0.03
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.8
+		Hapke           1
+		SpotBright      2.5
+		SpotWidth       0.05
+		DayAmbient      0.07
+	}
+
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
+
+	Atmosphere
+	{
+		Model          "Pluto"
+		Height          137.652496
+		Density         5.68312771e-06
+		Pressure        9.78700427e-07
+		Bright          0.996
+		Opacity         0
+		SkyLight        0.332
+		Hue             -0.0128
+		Saturation      0.866
+
+		Composition
+		{
+			C8H18     	64
+			Xe        	36
+		}
+	}
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      16.7717006
+		SemiMajorAxisKm 410154.792
+		Eccentricity    0.0273717032
+		Inclination     0.75172051
+		AscendingNode   152.056478
+		ArgOfPericenter -123.136839
+		MeanAnomaly     -66.2341558
+	}
+}
+
+
+
