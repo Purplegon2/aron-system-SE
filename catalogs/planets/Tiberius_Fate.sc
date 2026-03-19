@@ -223,7 +223,7 @@ Planet	"Tiberius"
 	}
 }
 
-Moon	"Varelia"
+moon	"Varelia"
 {
 	ParentBody     "Tiberius"
 	Class          "Terra"
@@ -376,7 +376,7 @@ Moon	"Varelia"
 	}
 }
 
-Moon	"Theral"
+dwarfmoon	"Theral"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -413,7 +413,7 @@ Moon	"Theral"
 	}
 }
 
-Moon	"Nikise"
+dwarfmoon	"Nikise"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -450,7 +450,7 @@ Moon	"Nikise"
 	}
 }
 
-Moon	"Tokoyuia"
+dwarfmoon	"Tokoyuia"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -487,7 +487,7 @@ Moon	"Tokoyuia"
 	}
 }
 
-Moon	"Maikiaiayliaiat"
+dwarfmoon	"Maikiaiayliaiat"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -524,7 +524,7 @@ Moon	"Maikiaiayliaiat"
 	}
 }
 
-Moon	"Naryl"
+dwarfmoon	"Naryl"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -561,7 +561,7 @@ Moon	"Naryl"
 	}
 }
 
-Moon	"Mneim"
+dwarfmoon	"Mneim"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -598,7 +598,7 @@ Moon	"Mneim"
 	}
 }
 
-Moon	"Maia"
+dwarfmoon	"Maia"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -635,7 +635,7 @@ Moon	"Maia"
 	}
 }
 
-Moon	"Susilecho"
+dwarfmoon	"Susilecho"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -672,7 +672,7 @@ Moon	"Susilecho"
 	}
 }
 
-Moon	"Uiuiyayo"
+dwarfmoon	"Uiuiyayo"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -709,7 +709,7 @@ Moon	"Uiuiyayo"
 	}
 }
 
-Moon	"Nekioacho"
+dwarfmoon	"Nekioacho"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -746,7 +746,7 @@ Moon	"Nekioacho"
 	}
 }
 
-Moon	"Yucharioa"
+dwarfmoon	"Yucharioa"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -783,7 +783,7 @@ Moon	"Yucharioa"
 	}
 }
 
-Moon	"Tiricho"
+dwarfmoon	"Tiricho"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -820,7 +820,7 @@ Moon	"Tiricho"
 	}
 }
 
-Moon	"Keleru"
+dwarfmoon	"Keleru"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -857,7 +857,7 @@ Moon	"Keleru"
 	}
 }
 
-Moon	"Rachioasa"
+dwarfmoon	"Rachioasa"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -894,7 +894,7 @@ Moon	"Rachioasa"
 	}
 }
 
-Moon	"Tuchakaya"
+dwarfmoon	"Tuchakaya"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -931,7 +931,7 @@ Moon	"Tuchakaya"
 	}
 }
 
-Moon	"Tacho"
+dwarfmoon	"Tacho"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -968,7 +968,7 @@ Moon	"Tacho"
 	}
 }
 
-Moon	"Rele"
+dwarfmoon	"Rele"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -1005,7 +1005,7 @@ Moon	"Rele"
 	}
 }
 
-Moon	"Poneviaylnuscha"
+dwarfmoon	"Poneviaylnuscha"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
@@ -1042,7 +1042,7 @@ Moon	"Poneviaylnuscha"
 	}
 }
 
-Moon	"Neikima"
+dwarfmoon	"Neikima"
 {
 	ParentBody     "Scurra"
 	Class          "Asteroid"
