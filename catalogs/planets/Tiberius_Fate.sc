@@ -366,7 +366,7 @@ Moon	"Varelia"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      16.7717006
+		PeriodDays      6.7717006
 		SemiMajorAxisKm 310154.792
 		Eccentricity    0.0273717032
 		Inclination     0.75172051
