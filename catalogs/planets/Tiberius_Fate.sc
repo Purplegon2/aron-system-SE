@@ -367,7 +367,7 @@ Moon	"Varelia"
 	{
 		RefPlane        "Equator"
 		PeriodDays      16.7717006
-		SemiMajorAxisKm 410154.792
+		SemiMajorAxisKm 310154.792
 		Eccentricity    0.0273717032
 		Inclination     0.75172051
 		AscendingNode   152.056478
@@ -376,5 +376,707 @@ Moon	"Varelia"
 	}
 }
 
+Moon	"Theral"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Apollo"
+	Mass            9.87508590e-10
+	Radius          7.707
+	InertiaMoment   0.381104393
+	Oblateness      0.296233346
+	RotationPeriod  7.77216
+	Obliquity       66.787114
+	EqAscendNode    -75.474714
+
+	AbsMagn         16.7
+	SlopeParam      0.11
+	Albedo          0.25
+	Brightness      2.35
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4.093045
+		SemiMajorAxisKm 201136.441
+		Eccentricity    0.2411671379
+		Inclination     3.074276
+		AscendingNode   55.857214
+		ArgOfPericenter -21.028447
+		MeanAnomaly     82.629384
+	}
+}
+
+Moon	"Nikise"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            3.47352974e-11
+	Radius          2.741
+	InertiaMoment   0.382183591
+	Oblateness      0.161929977
+	RotationPeriod  15.04124
+	Obliquity       50.821218
+	EqAscendNode    137.75046
+
+	AbsMagn         17.1
+	SlopeParam      0.24
+	Albedo          0.05
+	Brightness      2.45
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4.116191
+		SemiMajorAxisKm 201894.029
+		Eccentricity    0.0013324667
+		Inclination     -1.991167
+		AscendingNode   158.36172
+		ArgOfPericenter -170.324957
+		MeanAnomaly     -119.64258
+	}
+}
+
+Moon	"Tokoyuia"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            3.92068371e-10
+	Radius          5.699
+	InertiaMoment   0.403125616
+	Oblateness      0.272472921
+	RotationPeriod  8.76605
+	Obliquity       130.906591
+	EqAscendNode    -69.680952
+
+	AbsMagn         17
+	SlopeParam      0.2
+	Albedo          0.31
+	Brightness      2.77
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4.146341
+		SemiMajorAxisKm 202878.684
+		Eccentricity    0.3784584614
+		Inclination     1.489758
+		AscendingNode   -13.334745
+		ArgOfPericenter -147.907967
+		MeanAnomaly     -130.607008
+	}
+}
+
+Moon	"Maikiaiayliaiat"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            5.00785357e-14
+	Radius          0.315
+	InertiaMoment   0.38131213
+	Oblateness      0.168697804
+	RotationPeriod  13.95406
+	Obliquity       264.774873
+	EqAscendNode    165.151876
+
+	AbsMagn         15
+	SlopeParam      0.08
+	Albedo          0.18
+	Brightness      2.36
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4.168588
+		SemiMajorAxisKm 203603.751
+		Eccentricity    0.3438738145
+		Inclination     -2.023001
+		AscendingNode   59.370649
+		ArgOfPericenter 102.687182
+		MeanAnomaly     -38.57657
+	}
+}
+
+Moon	"Naryl"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            8.14095024e-9
+	Radius          16.762
+	InertiaMoment   0.392876647
+	Oblateness      0.057406385
+	RotationPeriod  13.34453
+	Obliquity       327.368938
+	EqAscendNode    77.746653
+
+	AbsMagn         21.9
+	SlopeParam      0.19
+	Albedo          0.17
+	Brightness      2.6
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4.186292
+		SemiMajorAxisKm 204179.801
+		Eccentricity    0.2072852775
+		Inclination     2.263707
+		AscendingNode   159.935243
+		ArgOfPericenter -174.683995
+		MeanAnomaly     128.516271
+	}
+}
+
+Moon	"Mneim"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            3.55109236e-8
+	Radius          26.021
+	InertiaMoment   0.382065841
+	Oblateness      0.317981621
+	RotationPeriod  13.05632
+	Obliquity       263.610059
+	EqAscendNode    -127.787175
+
+	AbsMagn         20.1
+	SlopeParam      0.23
+	Albedo          0.29
+	Brightness      2.66
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4.208703
+		SemiMajorAxisKm 204907.875
+		Eccentricity    0.0295446404
+		Inclination     -1.300285
+		AscendingNode   47.116379
+		ArgOfPericenter 127.768876
+		MeanAnomaly     -131.859066
+	}
+}
+
+Moon	"Maia"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            5.30935264e-8
+	Radius          28.968
+	InertiaMoment   0.37482597
+	Oblateness      0.291089874
+	RotationPeriod  8.31342
+	Obliquity       127.071755
+	EqAscendNode    -133.260785
+
+	AbsMagn         15.3
+	SlopeParam      0.12
+	Albedo          0.19
+	Brightness      1.84
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      4.241969
+		SemiMajorAxisKm 205986.195
+		Eccentricity    0.4496488024
+		Inclination     2.961317
+		AscendingNode   -166.740361
+		ArgOfPericenter 156.784406
+		MeanAnomaly     157.271938
+	}
+}
+
+Moon	"Susilecho"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            1.61316508e-10
+	Radius          4.432
+	InertiaMoment   0.390788051
+	Oblateness      0.23412183
+	RotationPeriod  16.0503
+	Obliquity       15.283054
+	EqAscendNode    82.317838
+
+	AbsMagn         21.2
+	SlopeParam      0.16
+	Albedo          0.21
+	Brightness      2.54
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      5.214449
+		SemiMajorAxisKm 236373.453
+		Eccentricity    0.0531553897
+		Inclination     0.528772
+		AscendingNode   -114.348174
+		ArgOfPericenter 51.448671
+		MeanAnomaly     -10.69655
+	}
+}
+
+Moon	"Uiuiyayo"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            8.86503934e-11
+	Radius          3.658
+	InertiaMoment   0.370434965
+	Oblateness      0.028140149
+	RotationPeriod  8.68526
+	Obliquity       275.44039
+	EqAscendNode    114.317997
+
+	AbsMagn         17.1
+	SlopeParam      0.22
+	Albedo          0.19
+	Brightness      1.73
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      5.228324
+		SemiMajorAxisKm 236792.578
+		Eccentricity    0.3495522776
+		Inclination     2.814358
+		AscendingNode   -89.033049
+		ArgOfPericenter 131.686167
+		MeanAnomaly     108.555712
+	}
+}
+
+Moon	"Nekioacho"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Apollo"
+	Mass            1.94194695e-8
+	Radius          21.292
+	InertiaMoment   0.403047686
+	Oblateness      0.115832531
+	RotationPeriod  9.96781
+	Obliquity       56.583344
+	EqAscendNode    -158.197335
+
+	AbsMagn         22.4
+	SlopeParam      0.19
+	Albedo          0.08
+	Brightness      1.68
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      5.250579
+		SemiMajorAxisKm 237464.056
+		Eccentricity    0.228623956
+		Inclination     1.361204
+		AscendingNode   157.4564
+		ArgOfPericenter -161.987988
+		MeanAnomaly     -173.846141
+	}
+}
+
+Moon	"Yucharioa"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            1.30995783e-8
+	Radius          21.69
+	InertiaMoment   0.382341053
+	Oblateness      0.264758755
+	RotationPeriod  17.21122
+	Obliquity       58.300016
+	EqAscendNode    66.303877
+
+	AbsMagn         22.1
+	SlopeParam      0.17
+	Albedo          0.25
+	Brightness      2.48
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      5.256089
+		SemiMajorAxisKm 237630.172
+		Eccentricity    0.3574937457
+		Inclination     -1.520443
+		AscendingNode   63.059828
+		ArgOfPericenter 31.315604
+		MeanAnomaly     61.435643
+	}
+}
+
+Moon	"Tiricho"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            4.53483501e-9
+	Radius          12.99
+	InertiaMoment   0.387799587
+	Oblateness      0.345965632
+	RotationPeriod  12.43237
+	Obliquity       240.404058
+	EqAscendNode    54.712282
+
+	AbsMagn         19
+	SlopeParam      0.12
+	Albedo          0.27
+	Brightness      2.83
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      5.276777
+		SemiMajorAxisKm 238253.315
+		Eccentricity    0.3148102252
+		Inclination     0.890496
+		AscendingNode   7.593572
+		ArgOfPericenter 74.421856
+		MeanAnomaly     -101.678091
+	}
+}
+
+Moon	"Keleru"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            3.66373070e-10
+	Radius          6.23
+	InertiaMoment   0.394770523
+	Oblateness      0.142698528
+	RotationPeriod  3.50642
+	Obliquity       266.716915
+	EqAscendNode    -146.845846
+
+	AbsMagn         20.3
+	SlopeParam      0.16
+	Albedo          0.17
+	Brightness      1.2
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      5.301888
+		SemiMajorAxisKm 239008.576
+		Eccentricity    0.229878114
+		Inclination     -2.685304
+		AscendingNode   3.145894
+		ArgOfPericenter 130.07639
+		MeanAnomaly     -144.717604
+	}
+}
+
+Moon	"Rachioasa"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Apollo"
+	Mass            1.35296460e-8
+	Radius          19.488
+	InertiaMoment   0.395983394
+	Oblateness      0.079955733
+	RotationPeriod  17.16406
+	Obliquity       16.484737
+	EqAscendNode    155.718731
+
+	AbsMagn         17.1
+	SlopeParam      0.11
+	Albedo          0.34
+	Brightness      2.94
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      5.327818
+		SemiMajorAxisKm 239787.222
+		Eccentricity    0.4429498011
+		Inclination     -2.445592
+		AscendingNode   129.289708
+		ArgOfPericenter -63.627784
+		MeanAnomaly     46.041279
+	}
+}
+
+Moon	"Tuchakaya"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            8.97887745e-9
+	Radius          17.109
+	InertiaMoment   0.375973812
+	Oblateness      0.195102587
+	RotationPeriod  8.60756
+	Obliquity       132.781068
+	EqAscendNode    92.439428
+
+	AbsMagn         19.1
+	SlopeParam      0.08
+	Albedo          0.25
+	Brightness      1.95
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      5.336849
+		SemiMajorAxisKm 240058.11
+		Eccentricity    0.1122902057
+		Inclination     -1.090349
+		AscendingNode   116.091101
+		ArgOfPericenter 139.818945
+		MeanAnomaly     66.093408
+	}
+}
+
+Moon	"Tacho"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Aten"
+	Mass            5.97946035e-8
+	Radius          34.164
+	InertiaMoment   0.396909974
+	Oblateness      0.139277296
+	RotationPeriod  9.7572
+	Obliquity       294.246041
+	EqAscendNode    -125.004635
+
+	AbsMagn         16.4
+	SlopeParam      0.23
+	Albedo          0.29
+	Brightness      1.68
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      7.140094
+		SemiMajorAxisKm 291471.261
+		Eccentricity    0.1458620802
+		Inclination     0.927061
+		AscendingNode   -124.720841
+		ArgOfPericenter -7.848712
+		MeanAnomaly     57.936951
+	}
+}
+
+Moon	"Rele"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Centaur"
+	Mass            7.71724655e-8
+	Radius          35.965
+	InertiaMoment   0.379445117
+	Oblateness      0.344690822
+	RotationPeriod  15.18348
+	Obliquity       295.07839
+	EqAscendNode    107.376491
+
+	AbsMagn         19.1
+	SlopeParam      0.12
+	Albedo          0.31
+	Brightness      2.45
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      7.165699
+		SemiMajorAxisKm 292167.669
+		Eccentricity    0.3587293849
+		Inclination     -3.314173
+		AscendingNode   -33.126846
+		ArgOfPericenter -115.573614
+		MeanAnomaly     74.612291
+	}
+}
+
+Moon	"Poneviaylnuscha"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Apollo"
+	Mass            1.01520657e-11
+	Radius          1.812
+	InertiaMoment   0.387344306
+	Oblateness      0.165763943
+	RotationPeriod  13.27168
+	Obliquity       303.248059
+	EqAscendNode    -163.715019
+
+	AbsMagn         22.1
+	SlopeParam      0.2
+	Albedo          0.23
+	Brightness      2.29
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      7.288207
+		SemiMajorAxisKm 295488.263
+		Eccentricity    0.0330997532
+		Inclination     3.75696
+		AscendingNode   -39.769334
+		ArgOfPericenter 133.914658
+		MeanAnomaly     -110.435953
+	}
+}
+
+Moon	"Neikima"
+{
+	ParentBody     "Scurra"
+	Class          "Asteroid"
+	AsterType      "Atira"
+	Mass            9.00269902e-8
+	Radius          36.533
+	InertiaMoment   0.397714838
+	Oblateness      0.229268617
+	RotationPeriod  2.96587
+	Obliquity       267.254393
+	EqAscendNode    72.977661
+
+	AbsMagn         15.9
+	SlopeParam      0.07
+	Albedo          0.29
+	Brightness      1.34
+	BrightnessReal  1
+
+	NoOcean         true
+	NoClouds        true
+	NoLava          true
+	NoAtmosphere    true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      7.328068
+		SemiMajorAxisKm 296564.684
+		Eccentricity    0.2551493142
+		Inclination     -1.49407
+		AscendingNode   -163.964862
+		ArgOfPericenter 102.685858
+		MeanAnomaly     -77.544691
+	}
+}
 
 
