@@ -378,7 +378,7 @@ moon	"Varelia"
 
 dwarfmoon	"Theral"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Apollo"
 	Mass            9.87508590e-10
@@ -415,7 +415,7 @@ dwarfmoon	"Theral"
 
 dwarfmoon	"Nikise"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            3.47352974e-11
@@ -452,7 +452,7 @@ dwarfmoon	"Nikise"
 
 dwarfmoon	"Tokoyuia"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Centaur"
 	Mass            3.92068371e-10
@@ -489,7 +489,7 @@ dwarfmoon	"Tokoyuia"
 
 dwarfmoon	"Maikiaiayliaiat"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Aten"
 	Mass            5.00785357e-14
@@ -526,7 +526,7 @@ dwarfmoon	"Maikiaiayliaiat"
 
 dwarfmoon	"Naryl"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Centaur"
 	Mass            8.14095024e-9
@@ -563,7 +563,7 @@ dwarfmoon	"Naryl"
 
 dwarfmoon	"Mneim"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            3.55109236e-8
@@ -600,7 +600,7 @@ dwarfmoon	"Mneim"
 
 dwarfmoon	"Maia"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            5.30935264e-8
@@ -637,7 +637,7 @@ dwarfmoon	"Maia"
 
 dwarfmoon	"Susilecho"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Amor"
 	Mass            1.61316508e-10
@@ -674,7 +674,7 @@ dwarfmoon	"Susilecho"
 
 dwarfmoon	"Uiuiyayo"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Atira"
 	Mass            8.86503934e-11
@@ -711,7 +711,7 @@ dwarfmoon	"Uiuiyayo"
 
 dwarfmoon	"Nekioacho"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Apollo"
 	Mass            1.94194695e-8
@@ -748,7 +748,7 @@ dwarfmoon	"Nekioacho"
 
 dwarfmoon	"Yucharioa"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Aten"
 	Mass            1.30995783e-8
@@ -785,7 +785,7 @@ dwarfmoon	"Yucharioa"
 
 dwarfmoon	"Tiricho"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Centaur"
 	Mass            4.53483501e-9
@@ -822,7 +822,7 @@ dwarfmoon	"Tiricho"
 
 dwarfmoon	"Keleru"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Centaur"
 	Mass            3.66373070e-10
@@ -859,7 +859,7 @@ dwarfmoon	"Keleru"
 
 dwarfmoon	"Rachioasa"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Apollo"
 	Mass            1.35296460e-8
@@ -896,7 +896,7 @@ dwarfmoon	"Rachioasa"
 
 dwarfmoon	"Tuchakaya"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Centaur"
 	Mass            8.97887745e-9
@@ -933,7 +933,7 @@ dwarfmoon	"Tuchakaya"
 
 dwarfmoon	"Tacho"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Aten"
 	Mass            5.97946035e-8
@@ -970,7 +970,7 @@ dwarfmoon	"Tacho"
 
 dwarfmoon	"Rele"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Centaur"
 	Mass            7.71724655e-8
@@ -1007,7 +1007,7 @@ dwarfmoon	"Rele"
 
 dwarfmoon	"Poneviaylnuscha"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Apollo"
 	Mass            1.01520657e-11
@@ -1044,7 +1044,7 @@ dwarfmoon	"Poneviaylnuscha"
 
 dwarfmoon	"Neikima"
 {
-	ParentBody     "Scurra"
+	ParentBody     "Tiberius"
 	Class          "Asteroid"
 	AsterType      "Atira"
 	Mass            9.00269902e-8
