@@ -1514,7 +1514,7 @@ Moon	"Chieilo"
 	{
 		RefPlane        "Equator"
 		PeriodDays      438.617114
-		SemiMajorAxisKm 2.28030866e+7
+		SemiMajorAxisKm 1923092
 		Eccentricity    0.0083024628
 		Inclination     -2.08676354
 		AscendingNode   4.96004309
@@ -1653,7 +1653,7 @@ Moon	"Chevial"
 	{
 		RefPlane        "Equator"
 		PeriodDays      527.58269
-		SemiMajorAxisKm 25790728.7
+		SemiMajorAxisKm 2570728.7
 		Eccentricity    0.0309518542
 		Inclination     0.61982554
 		AscendingNode   166.44906
@@ -1738,7 +1738,7 @@ Moon	"Imai"
 	{
 		RefPlane        "Equator"
 		PeriodDays      541.441393
-		SemiMajorAxisKm 2.62404266e+7
+		SemiMajorAxisKm 1403123
 		Eccentricity    0.020116836
 		Inclination     1.35263885
 		AscendingNode   152.6094682
