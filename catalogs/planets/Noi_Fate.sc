@@ -1744,12 +1744,12 @@ Moon	"Imai"
 	{
 		Preset         "terra_wet_rusty_green_plants.cfg"
 		SurfStyle       0.713
-		Randomize      (-1.908, 1.511, 0.656)
+		Randomize      (-1.267, 0.198, -0.840)
 		colorDistMagn   0.0401
 		colorDistFreq   384
 		detailScale     1.27e+04
 		drivenDarkening 0.162
-		seaLevel        0.047
+		seaLevel        -1
 		snowLevel       2
 		tropicLatitude  0.389
 		icecapLatitude  0.748
@@ -1778,11 +1778,11 @@ Moon	"Imai"
 		montesFreq      108
 		montesSpiky     0.907
 		montesFraction  0.949
-		dunesMagn       0.058
-		dunesFreq       18.4
+		dunesMagn       0.992
+		dunesFreq       3.59e+04
 		dunesFraction   0.548
-		hillsMagn       0.1
-		hillsFreq       219
+		hillsMagn       0.687
+		hillsFreq       6.26e+03
 		hillsFraction   0.187
 		hills2Fraction  0
 		riversMagn      69.5
@@ -1885,5 +1885,4 @@ Moon	"Imai"
 		MeanAnomaly     10.163901
 	}
 }
-
 
