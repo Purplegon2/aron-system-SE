@@ -92,7 +92,7 @@ Planet	"Maaya"
 		stripeZones     1.96
 		stripeTwist     0.0976
 		cycloneMagn     2.86
-		cycloneFreq     0.611
+		cycloneFreq     0
 		cycloneDensity  0.376
 		cycloneOctaves  4
 		BumpHeight      14
@@ -113,17 +113,20 @@ Planet	"Maaya"
 
 	Clouds
 	{
-		Height          15
+		Height          85.4
 		Velocity        73.9
 		BumpHeight      4
+		Gamma           1.17
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
+		ModulateColor  (0.859 0.845 0.776)
 		ModulateBright  1
+		Opacity         1.45
 		mainFreq        1.01
 		mainOctaves     10
-		Coverage        0
+		Coverage        0.435
 		stripeZones     1.96
 		stripeTwist     0.0976
 	}
@@ -141,11 +144,11 @@ Planet	"Maaya"
 		Opacity         1.15
 		SkyLight        0
 		Hue             -0.5
-		Saturation      0
+		Saturation      0.351
 
 		Composition
 		{
-			CO        	59.85
+			CO        	59.8
 			N2        	39.5
 			CO2       	0.671
 			Ar        	0.000262
