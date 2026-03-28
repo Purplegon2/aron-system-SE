@@ -1605,7 +1605,7 @@ Moon	"Chevial"
 
 	Surface
 	{
-		Preset         "aquaria_airless_white2.cfg"
+		Preset         "aquaria_airless_triton.cfg"
 		SurfStyle       0.511
 		Randomize      (-0.324, -0.532, -0.405)
 		colorDistMagn   0.0391
