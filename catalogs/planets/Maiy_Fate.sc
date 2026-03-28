@@ -719,7 +719,7 @@ Moon	"Sceiya"
 	ParentBody     "Maiy"
 	Class          "Terra"
 	Mass            0.0105990833
-	Radius          2267.71936
+	Radius          2467.71924
 	InertiaMoment   0.37407589
 	Oblateness      0.00438807392
 	RotationPeriod  15.9968462
@@ -727,6 +727,7 @@ Moon	"Sceiya"
 	Obliquity       0.349958907
 	EqAscendNode    -64.155057
 
+	EndogenousHeating 0
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
 	Brightness      1
@@ -736,7 +737,7 @@ Moon	"Sceiya"
 	{
 		Preset         "terra_airless_vesta_natural.cfg"
 		SurfStyle       0.934
-		Randomize      (0.436, -0.826, 0.040)
+		Randomize      (-1.603, -2.000, -2.000)
 		colorDistMagn   0.0483
 		colorDistFreq   179
 		detailScale     4.1e+03
@@ -783,6 +784,10 @@ Moon	"Sceiya"
 		riftsMagn       70.9
 		riftsFreq       1.92
 		riftsSin        6.04
+		eqridgeMagn     0.402
+		eqridgeWidth    0.0234
+		eqridgeModMagn  2.31
+		eqridgeModFreq  9.08
 		canyonsMagn     0.517
 		canyonsFreq     0.503
 		canyonsFraction 0.744
@@ -790,18 +795,18 @@ Moon	"Sceiya"
 		cracksFreq      0.369
 		cracksOctaves   0
 		craterMagn      0.67
-		craterFreq      3.32
+		craterFreq      3.82
 		craterDensity   0.847
 		craterOctaves   19
 		craterRayedFactor 0.148
 		volcanoMagn     0.178
-		volcanoFreq     0.522
+		volcanoFreq     0
 		volcanoDensity  0.4
 		volcanoOctaves  3
-		volcanoActivity 2
+		volcanoActivity 0
 		volcanoFlows    0.189
 		volcanoRadius   0.152
-		volcanoTemp     1.15e+03
+		volcanoTemp     824
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
@@ -842,14 +847,15 @@ Moon	"Sceiya"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays    0.6665352583333
+		PeriodDays      0.666535258
 		SemiMajorAxisKm 59762.3771
-		Eccentricity    0.100207900745
-		Inclination     5.349958907
+		Eccentricity    0.100207901
+		Inclination     5.34995891
 		AscendingNode   -64.155057
 		ArgOfPericenter -103.249631
 		MeanAnomaly     -91.3273566
 	}
 }
+
 
 
