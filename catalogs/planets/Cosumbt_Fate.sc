@@ -2,7 +2,7 @@ DwarfPlanet	"Cosumbt"
 {
 	ParentBody     "Fate"
 	Class          "Aquaria"
-	Mass            0.0049133373
+	Mass            0.00491333753
 	Radius          1164.01758
 	InertiaMoment   0.329919845
 	Oblateness      0.109923661
@@ -14,7 +14,7 @@ DwarfPlanet	"Cosumbt"
 
 	AlbedoBond      0.603
 	AlbedoGeom      0.36
-	Brightness      2.44
+	Brightness      1.6
 	BrightnessReal  1
 
 	Surface
@@ -93,7 +93,7 @@ DwarfPlanet	"Cosumbt"
 		stripeZones     1.47
 		stripeTwist     0.189
 		cycloneMagn     1.51
-		cycloneFreq     0.595
+		cycloneFreq     0
 		cycloneDensity  0.357
 		cycloneOctaves  4
 		BumpHeight      20
@@ -188,7 +188,7 @@ DwarfPlanet	"Cosumbt"
 		Height          67.6384201
 		Density         1.09621489
 		Pressure        0.323349476
-		Greenhouse      42.04158497
+		Greenhouse      42.041584
 		Bright          10
 		Opacity         1
 		SkyLight        3.33
