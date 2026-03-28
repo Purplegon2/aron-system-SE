@@ -297,7 +297,7 @@ Moon	"Sceiya"
 	ParentBody     "Maiy"
 	Class          "Terra"
 	Mass            0.0105990833
-	Radius          1467.71936
+	Radius          2267.71936
 	InertiaMoment   0.37407589
 	Oblateness      0.00438807392
 	Obliquity       0.349958907
