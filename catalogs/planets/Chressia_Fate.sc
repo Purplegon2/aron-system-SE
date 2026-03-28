@@ -23,11 +23,12 @@ Planet	"Chressia"
 {
 	ParentBody     "Chressia & Entactrius"
 	Class          "Terra"
-	Mass            3.88704003
+	Mass            3.88704014
 	Radius          9654.56738
 	InertiaMoment   0.35393545
 	Oblateness      0.00155683537
 	RotationPeriod  2.2012125
+	RotationEpoch   0
 	Obliquity       -0.119892677
 	EqAscendNode    -123.830841
 
@@ -45,7 +46,7 @@ Planet	"Chressia"
 		colorDistFreq   195
 		detailScale     187
 		drivenDarkening 0
-		seaLevel        0.55
+		seaLevel        0.355
 		snowLevel       -0.542
 		tropicLatitude  0.728
 		icecapLatitude  1
@@ -113,7 +114,17 @@ Planet	"Chressia"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
+		stripeZones     1.96
+		stripeTwist     -0.458
+		cycloneMagn     7.79
+		cycloneFreq     0.107
+		cycloneDensity  0.817
+		cycloneOctaves  5
+		cycloneMagn2     20
+		cycloneFreq2     0.0458
 		BumpHeight      20
+		BumpOffset      7.1
+		DiffMapAlpha   "Water"
 		SpecBrightWater 0.687
 		SpecBrightIce   0.03
 		RoughnessWater  0.35
@@ -129,10 +140,81 @@ Planet	"Chressia"
 		TempMapMaxTemp  1.75e+03
 	}
 
+	Ocean
+	{
+		Depth           7.1
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.06
+		DayAmbient      0.07
+		ModulateBright  1
+
+		Composition
+		{
+			H2O       	83.7
+			SO2       	10.4
+			NH3       	6.08
+		}
+	}
+
+	Clouds
+	{
+		Height          140
+		Velocity        -4.26e+03
+		BumpHeight      4
+		Gamma           1.17
+		Hapke           0
+		SpotBright      5.34
+		SpotWidth       0.0147
+		DayAmbient      0.07
+		ModulateColor  (0.639 0.734 0.298)
+		ModulateBright  0.854
+		Opacity         0.809
+		mainFreq        1.01
+		mainOctaves     10
+		Coverage        0.252
+		stripeZones     1.96
+		stripeTwist     -0.458
+	}
+
+	NoLava          true
+
+	Atmosphere
+	{
+		Model          "Earth"
+		Height          1130.92847
+		Density         1.27088153
+		Pressure        1.11122382
+		Greenhouse      74.6412354
+		Bright          1.68
+		Opacity         0.634
+		SkyLight        0
+		Hue             0.5
+		Saturation      0.794
+
+		Composition
+		{
+			SO2       	75
+			N2        	10.1
+			CH4       	10
+			Kr        	4.68
+			C8H18     	0.206
+			Cl2       	0.0429
+			Xe        	0.00668
+		}
+	}
+
+	Climate
+	{
+		GlobalWindSpeed  2
+	}
+
+	NoAurora        true
+
 	Rings
 	{
-		InnerRadius     21400
-		OuterRadius     26500
+		InnerRadius     2.14e+04
+		OuterRadius     2.65e+04
 		EdgeRadius      2.15e+04
 		MeanRadius      1.34e+04
 		Thickness       0.067
@@ -164,59 +246,6 @@ Planet	"Chressia"
 		BackDustColor   (1.000 0.980 0.880)
 	}
 
-
-	Ocean
-	{
-		Depth           7.1
-		Hapke           0
-		SpotBright      2
-		SpotWidth       0.06
-		DayAmbient      0.07
-		ModulateBright  1
-
-		Composition
-		{
-			H2O       	89.73
-			SO2		10.37
-		}
-	}
-
-	NoClouds        true
-
-	NoLava          true
-
-	Atmosphere
-	{
-		Model          "Earth"
-		Height          1130.92847
-		Density         1.27088156
-		Pressure        1.11122382
-		Greenhouse      74.641235
-		Bright          1.68
-		Opacity         0.634
-		SkyLight        0
-		Hue             0.5
-		Saturation      0.794
-
-		Composition
-		{
-			SO2       	75
-			CH4			10
-			N2			10.1
-			Kr        	4.68
-			C8H18     	0.206
-			Cl2       	0.0429
-			Xe        	0.00668
-		}
-	}
-
-	Climate
-	{
-		GlobalWindSpeed  2
-	}
-
-	NoAurora        true
-
 	NoAccretionDisk true
 
 	NoCometTail     true
@@ -224,8 +253,8 @@ Planet	"Chressia"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      39.907869
-		SemiMajorAxisKm -28962.223
+		Period          0.109264127
+		SemiMajorAxis   -0.000193600503
 		Eccentricity    0.00123931874
 		Inclination     -2.2992788
 		AscendingNode   139.494825
