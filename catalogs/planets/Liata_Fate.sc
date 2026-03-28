@@ -16,7 +16,7 @@ DwarfPlanet	"Liata"
 
 	Surface
 	{
-		Preset         "aquaria_airless_white2.cfg"
+		Preset         "aquaria_airless_white.cfg"
 		SurfStyle       0.799
 		Randomize      (0.743, -0.970, 0.285)
 		colorDistMagn   0.07
