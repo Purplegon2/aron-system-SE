@@ -1666,49 +1666,96 @@ Moon	"Imai"
 {
 	ParentBody     "Noi"
 	Class          "Terra"
-	Mass            0.030090617022
-	Radius          2134.867552
+	Mass            0.030090617
+	Radius          2134.86743
+	InertiaMoment   0.354862094
+	Obliquity       1.35263885
+	EqAscendNode    152.609468
 	TidalLocked     true
-	Obliquity       5.98997026
-	EqAscendNode    149.47414474
 
 	AlbedoBond      0.536
 	AlbedoGeom      0.36
-	Brightness      1
+	Brightness      1.07
 	BrightnessReal  1
 
 	Surface
 	{
 		Preset         "terra_wet_rusty_green_plants.cfg"
 		SurfStyle       0.713
-		Randomize      (-0.602, 0.440, -0.043)
+		Randomize      (-1.908, 1.511, 0.656)
 		colorDistMagn   0.0401
-		colorDistFreq   384.34
-		detailScale     12729.75
+		colorDistFreq   384
+		detailScale     1.27e+04
 		drivenDarkening 0.162
 		seaLevel        0.047
 		snowLevel       2
-		tropicLatitude  0.412
+		tropicLatitude  0.389
+		icecapLatitude  0.748
+		icecapHeight    0.29
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
 		humidity        0.107
-		mainFreq        4.406
+		heightTempGrad  0.625
+		beachWidth      0.00129
+		tropicWidth     0.07
+		mainFreq        4.41
+		venusFreq       1.46
+		venusMagn       0
 		mareFreq        0.004
 		mareDensity     0.176
 		terraceProb     0.399
 		erosion         0.02
+		montesMagn      0.0991
+		montesFreq      108
+		montesSpiky     0.907
+		montesFraction  0.949
+		dunesMagn       0.058
+		dunesFreq       18.4
+		dunesFraction   0.548
+		hillsMagn       0.1
+		hillsFreq       219
+		hillsFraction   0.187
+		hills2Fraction  0
+		riversMagn      69.5
+		riversFreq      2.98
+		riversSin       5.68
 		riftsMagn       3.47
-		riftsFreq       3.054
-		canyonsMagn     0.321
-		canyonsFreq     590.339
+		riftsFreq       3.05
+		riftsSin        5.85
+		eqridgeMagn     0.32
+		eqridgeWidth    0.0307
+		eqridgeModMagn  2.5
+		eqridgeModFreq  10
+		canyonsMagn     5.19
+		canyonsFreq     590
+		canyonsFraction 0.269
+		cracksMagn      0.0325
+		cracksFreq      1.22
+		cracksOctaves   0
 		craterMagn      0.407
-		craterFreq      3.855
+		craterFreq      3.86
 		craterDensity   0.013
 		craterOctaves   5
+		craterRayedFactor 0.091
 		volcanoMagn     0.159
 		volcanoFreq     0.467
 		volcanoDensity  0.269
 		volcanoOctaves  2
-		volcanoActivity 2.201
-		BumpHeight      19.96
+		volcanoActivity 2
+		volcanoFlows    0.204
+		volcanoRadius   0.294
+		volcanoTemp     337
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      20
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.65
 		SpecBrightIce   0.85
@@ -1716,23 +1763,53 @@ Moon	"Imai"
 		RoughnessIce    0.45
 		SpecularScale   1
 		RoughnessBias   0.54
+		Gamma           0.796
 		Hapke           0.5
-		SpotBright      2.07
+		SpotBright      0
 		SpotWidth       0.055
 		DayAmbient      0.07
 	}
 
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
+
 	Atmosphere
 	{
 		Model          "Earth"
-		Height          422.828876
-		Density         4.91426119e-10
-		Pressure        1.60111209e-6
-		Greenhouse      33.243426
+		Height          137.215942
+		Density         4.91426122e-10
+		Pressure        0.00741701247
+		Greenhouse      33.2434273
+		Bright          1.1
 		Opacity         0.852
+		SkyLight        0.366
+		Hue             0.0115
+		Saturation      0.656
+
+		Composition
+		{
+			CO2       	84.2
+			Ar        	15.7
+			Xe        	0.103
+			Kr        	0.0194
+		}
 	}
 
-	NoLava          true
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
 
 	Orbit
 	{
@@ -1741,8 +1818,10 @@ Moon	"Imai"
 		SemiMajorAxisKm 1403123
 		Eccentricity    0.020116836
 		Inclination     1.35263885
-		AscendingNode   152.6094682
+		AscendingNode   152.609468
 		ArgOfPericenter 63.61001
 		MeanAnomaly     10.163901
 	}
 }
+
+
