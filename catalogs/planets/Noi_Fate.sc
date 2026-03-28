@@ -1240,7 +1240,7 @@ Moon	"Nora"
 
 	Surface
 	{
-		Preset         "aquaria_airless_white2.cfg"
+		Preset         "aquaria_airless_triton.cfg"
 		SurfStyle       0.617
 		Randomize      (0.762, -0.417, 0.840)
 		colorDistMagn   0.0494
@@ -1744,16 +1744,16 @@ Moon	"Imai"
 	{
 		Preset         "terra_wet_rusty_green_plants.cfg"
 		SurfStyle       0.713
-		Randomize      (-1.267, 0.198, -0.840)
+		Randomize      (-1.267, -0.718, -0.840)
 		colorDistMagn   0.0401
 		colorDistFreq   384
 		detailScale     1.27e+04
 		drivenDarkening 0.162
-		seaLevel        -1
+		seaLevel        -0.863
 		snowLevel       2
 		tropicLatitude  0.389
 		icecapLatitude  0.748
-		icecapHeight    0.29
+		icecapHeight    0.229
 		climatePole     0.938
 		climateTropic   0.313
 		climateEquator  0.688
@@ -1768,43 +1768,43 @@ Moon	"Imai"
 		beachWidth      0.00129
 		tropicWidth     0.07
 		mainFreq        4.41
-		venusFreq       1.46
+		venusFreq       0.183
 		venusMagn       0
-		mareFreq        0.004
+		mareFreq        0.768
 		mareDensity     0.176
-		terraceProb     0.399
+		terraceProb     0.145
 		erosion         0.02
-		montesMagn      0.0991
-		montesFreq      108
-		montesSpiky     0.907
+		montesMagn      0
+		montesFreq      0
+		montesSpiky     0.00763
 		montesFraction  0.949
 		dunesMagn       0.992
-		dunesFreq       3.59e+04
+		dunesFreq       1.3e+04
 		dunesFraction   0.548
 		hillsMagn       0.687
-		hillsFreq       6.26e+03
+		hillsFreq       2.6e+03
 		hillsFraction   0.187
 		hills2Fraction  0
-		riversMagn      69.5
-		riversFreq      2.98
-		riversSin       5.68
+		riversMagn      12.2
+		riversFreq      0.84
+		riversSin       1.07
 		riftsMagn       3.47
-		riftsFreq       3.05
+		riftsFreq       0.611
 		riftsSin        5.85
-		eqridgeMagn     0.32
-		eqridgeWidth    0.0307
-		eqridgeModMagn  2.5
-		eqridgeModFreq  10
-		canyonsMagn     5.19
-		canyonsFreq     590
+		eqridgeMagn     0
+		eqridgeWidth    0.001
+		eqridgeModMagn  0
+		eqridgeModFreq  0
+		canyonsMagn     0.84
+		canyonsFreq     160
 		canyonsFraction 0.269
 		cracksMagn      0.0325
-		cracksFreq      1.22
+		cracksFreq      0.458
 		cracksOctaves   0
-		craterMagn      0.407
-		craterFreq      3.86
-		craterDensity   0.013
-		craterOctaves   5
+		craterMagn      3.44
+		craterFreq      19.1
+		craterDensity   0.0687
+		craterOctaves   15
 		craterRayedFactor 0.091
 		volcanoMagn     0.159
 		volcanoFreq     0.467
