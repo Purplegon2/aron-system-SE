@@ -1444,15 +1444,16 @@ Moon	"Yokaya"
 	}
 }
 
-Moon	"Chieilo"
+Moon	"Cheillou"
 {
 	ParentBody     "Noi"
 	Class          "Aquaria"
-	Mass            0.019945835855
-	Radius          2301.744572
+	Mass            0.0199458357
+	Radius          2301.74463
+	InertiaMoment   0.361573398
+	Obliquity       -2.08676354
+	EqAscendNode    4.96004309
 	TidalLocked     true
-	Obliquity       6.5282029
-	EqAscendNode    66.99716443
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
@@ -1465,32 +1466,78 @@ Moon	"Chieilo"
 		SurfStyle       0.677
 		Randomize      (-0.349, 0.120, -0.854)
 		colorDistMagn   0.0676
-		colorDistFreq   76.76
-		detailScale     6557.14
+		colorDistFreq   76.8
+		detailScale     6.56e+03
 		drivenDarkening 0.252
 		seaLevel        0.229
 		snowLevel       2
 		tropicLatitude  0.538
+		icecapLatitude  1
+		icecapHeight    0
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
 		humidity        0.118
-		mainFreq        1.931
+		heightTempGrad  0.625
+		beachWidth      0.00121
+		tropicWidth     0.07
+		mainFreq        1.93
+		venusFreq       1.49
+		venusMagn       0
 		mareFreq        0.011
 		mareDensity     0.162
 		terraceProb     0.411
 		erosion         0
+		montesMagn      0.152
+		montesFreq      109
+		montesSpiky     0.862
+		montesFraction  0.404
+		dunesMagn       0.0433
+		dunesFreq       26.6
+		dunesFraction   0.683
+		hillsMagn       0.119
+		hillsFreq       62.5
+		hillsFraction   0.532
+		hills2Fraction  0.2
+		riversMagn      0
+		riversFreq      2.08
+		riversSin       7.68
 		riftsMagn       0.881
-		riftsFreq       2.004
+		riftsFreq       2
+		riftsSin        7.12
+		eqridgeMagn     0.452
+		eqridgeWidth    0.0262
+		eqridgeModMagn  2.43
+		eqridgeModFreq  8.29
 		canyonsMagn     0.432
-		canyonsFreq     112.806
-		craterMagn      0.581
-		craterFreq      18.986
-		craterDensity   0.978
-		craterOctaves   15
+		canyonsFreq     113
+		canyonsFraction 0
+		cracksMagn      0.024
+		cracksFreq      0.94
+		cracksOctaves   1
+		craterMagn      0.611
+		craterFreq      29.8
+		craterDensity   0.756
+		craterOctaves   30
+		craterRayedFactor 0.0916
 		volcanoMagn     0.208
 		volcanoFreq     0.659
 		volcanoDensity  0.148
 		volcanoOctaves  2
 		volcanoActivity 0.488
-		BumpHeight      13.63
+		volcanoFlows    0.239
+		volcanoRadius   0.362
+		volcanoTemp     172
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      13.6
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.03
 		SpecBrightIce   0.03
@@ -1504,11 +1551,26 @@ Moon	"Chieilo"
 		DayAmbient      0.07
 	}
 
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
+
 	NoAtmosphere    true
 
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
 
 	Orbit
 	{
