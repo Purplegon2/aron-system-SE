@@ -20,7 +20,7 @@ if errorlevel 1 (
   goto :error_pause
 )
 
-rem --- Find SpaceEngine Addons folder under any SteamLibrary OR Steam drive root folder ---
+rem --- Find SpaceEngine Addons folder under common Steam install locations ---
 set "ADDONS_DIR="
 set "STEAMROOT="
 
@@ -35,13 +35,25 @@ for %%D in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
     set "ADDONS_DIR=%%D:\Steam\%GAME_REL%"
     goto :found_addons
   )
+  if exist "%%D:\Program Files\Steam\%GAME_REL%\" (
+    set "STEAMROOT=%%D:\Program Files\Steam"
+    set "ADDONS_DIR=%%D:\Program Files\Steam\%GAME_REL%"
+    goto :found_addons
+  )
+  if exist "%%D:\Program Files (x86)\Steam\%GAME_REL%\" (
+    set "STEAMROOT=%%D:\Program Files (x86)\Steam"
+    set "ADDONS_DIR=%%D:\Program Files (x86)\Steam\%GAME_REL%"
+    goto :found_addons
+  )
 )
 
 :found_addons
 if not defined ADDONS_DIR (
-  echo ERROR: Could not find "%GAME_REL%" under either:
+  echo ERROR: Could not find "%GAME_REL%" under any of these:
   echo   ^<Drive^>:\SteamLibrary\%GAME_REL%
   echo   ^<Drive^>:\Steam\%GAME_REL%
+  echo   ^<Drive^>:\Program Files\Steam\%GAME_REL%
+  echo   ^<Drive^>:\Program Files ^(x86^)\Steam\%GAME_REL%
   echo Checked drives C: through Z:.
   goto :error_pause
 )
@@ -123,7 +135,7 @@ if errorlevel 1 (
 
 rem --- Create stars.sc with specified contents ---
 (
-echo StarBarycenter "Hope & Fate System"
+echo StarBarycenter "Hope ^& Fate System"
 echo {
 echo     RA       09 31 14  // right ascension
 echo     Dec      64 16 38  // declination
