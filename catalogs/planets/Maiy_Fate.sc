@@ -297,7 +297,7 @@ Moon	"Sceiya"
 	ParentBody     "Maiy"
 	Class          "Terra"
 	Mass            0.0105990833
-	Radius          2267.71936
+	Radius          2467.71936
 	InertiaMoment   0.37407589
 	Oblateness      0.00438807392
 	RotationPeriod  15.9968462
@@ -421,7 +421,7 @@ Moon	"Sceiya"
 	{
 		RefPlane        "Equator"
 		PeriodDays      1.01150144
-		SemiMajorAxisKm 59762.3771
+		SemiMajorAxisKm 56762.3771
 		Eccentricity    0.100207900745
 		Inclination     5.349958907
 		AscendingNode   -64.155057
