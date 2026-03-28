@@ -300,9 +300,10 @@ Moon	"Sceiya"
 	Radius          2267.71936
 	InertiaMoment   0.37407589
 	Oblateness      0.00438807392
+	RotationPeriod  15.9968462
+	RotationEpoch   0
 	Obliquity       0.349958907
 	EqAscendNode    -64.155057
-	TidalLocked     true
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
