@@ -1213,7 +1213,7 @@ Moon	"Eichana"
 {
 	ParentBody     "Giras"
 	Class          "Terra"
-	Mass            0.0177195711
+	Mass            0.0177195705
 	Radius          1984.7688
 	InertiaMoment   0.378329813
 	Obliquity       2.09588425
@@ -1257,8 +1257,8 @@ Moon	"Eichana"
 		venusMagn       0
 		mareFreq        0.001
 		mareDensity     0.087
-		terraceProb     0.329
-		erosion         0.106
+		terraceProb     0.0229
+		erosion         0.527
 		montesMagn      0.0575
 		montesFreq      64
 		montesSpiky     0.876
@@ -1276,9 +1276,9 @@ Moon	"Eichana"
 		riftsMagn       1.08
 		riftsFreq       2.5
 		riftsSin        6.45
-		canyonsMagn     1.12
-		canyonsFreq     680
-		canyonsFraction 0.886
+		canyonsMagn     0.611
+		canyonsFreq     7.63
+		canyonsFraction 0.0458
 		cracksMagn      0.0273
 		cracksFreq      0.3
 		cracksOctaves   0
@@ -1300,8 +1300,8 @@ Moon	"Eichana"
 		lavaCoverYoung  0
 		stripeZones     1.47
 		stripeTwist     0.16
-		cycloneMagn     2.78
-		cycloneFreq     0.833
+		cycloneMagn     0
+		cycloneFreq     0
 		cycloneDensity  0.342
 		cycloneOctaves  2
 		BumpHeight      18.3
@@ -1351,7 +1351,7 @@ Moon	"Eichana"
 		Opacity         0.963
 		mainFreq        0.75
 		mainOctaves     10
-		Coverage        0.537
+		Coverage        0.786
 		stripeZones     1.47
 		stripeTwist     0.16
 	}
@@ -1363,7 +1363,7 @@ Moon	"Eichana"
 		Model          "Thick"
 		Height          209.223602
 		Density         248.353149
-		Pressure        1.684589
+		Pressure        1.68458903
 		Greenhouse      42.7480927
 		Bright          7.63
 		Opacity         1
