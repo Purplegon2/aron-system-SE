@@ -1,6 +1,27 @@
-Planet	"Maiy"
+Barycenter	"Maiy & Sceiya"
 {
 	ParentBody     "Fate"
+	Mass            0.03230204
+	Radius          23805.6523
+	RotationPeriod  24
+	RotationEpoch   0
+	Obliquity       0
+	EqAscendNode    0
+
+
+	Orbit
+	{
+		RefPlane	"Equator"
+		Period            0.093972
+		SemiMajorAxis    0.1595737
+		Eccentricity    0.0586196817
+		Inclination     -0.0638566811
+	}
+}
+
+Planet	"Maiy"
+{
+	ParentBody     "Maiy & Sceiya"
 	Class          "Aquaria"
 	Mass            1.02072337
 	Radius          6188.54199
@@ -282,10 +303,10 @@ Planet	"Maiy"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period            0.093972
-		SemiMajorAxis    0.1595737
-		Eccentricity    0.0586196817
-		Inclination     -0.0638566811
+		PeriodDays         4.372
+		SemiMajorAxisKm    11928
+		Eccentricity    0.0186196817
+		Inclination     0
 		AscendingNode   31.3334873
 		ArgOfPericenter 157.486302
 		MeanAnomaly     236.034516
@@ -294,7 +315,7 @@ Planet	"Maiy"
 
 Moon	"Sceiya"
 {
-	ParentBody     "Maiy"
+	ParentBody     "Maiy & Sceiya"
 	Class          "Terra"
 	Mass            0.0495990833
 	Radius          2467.71924
