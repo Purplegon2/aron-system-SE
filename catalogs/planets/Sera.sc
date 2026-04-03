@@ -111,15 +111,15 @@ Planet	"Sera"
 	Atmosphere
 	{
 		Model          "Titan"
-		Height          174.467789
+		Height          111.122375
 		Density         0.00507107191
 		Pressure        0.0144651737
 		Greenhouse      15.4678259
-		Bright          6.79
+		Bright          5.95
 		Opacity         1
 		SkyLight        2.26
-		Hue             0
-		Saturation      1
+		Hue             0.385
+		Saturation      0.321
 
 		Composition
 		{
