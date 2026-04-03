@@ -98,7 +98,7 @@ Star	"Hope"
 	{
 		AnalyticModel  "Extrasolar"
 		Period          0
-		SemiMajorAxis	1.93775
+		SemiMajorAxis	437.93775
 		Eccentricity    0
 		Inclination     0
 		AscendingNode   0
