@@ -1728,12 +1728,12 @@ Moon	"Maresia"
 {
 	ParentBody     "Noi"
 	Class          "Terra"
-	Mass            0.110911081
+	Mass            0.110911079
 	Radius          2634.86743
 	InertiaMoment   0.329535395
 	Oblateness      0.00829198956
-	Obliquity       43.46641
-	EqAscendNode    -24.1301254
+	Obliquity       1.35263885
+	EqAscendNode    152.609468
 	TidalLocked     true
 
 	AlbedoBond      0.15
@@ -1854,7 +1854,7 @@ Moon	"Maresia"
 
 	Clouds
 	{
-		Height          21.6
+		Height          15.8
 		Velocity        74.1
 		BumpHeight      2.91
 		Hapke           0
@@ -1874,15 +1874,15 @@ Moon	"Maresia"
 	Atmosphere
 	{
 		Model          "Mars"
-		Height          413.376831
-		Density         0.345887601
-		Pressure        1.13311863
+		Height          89.9908752
+		Density         0.000824196031
+		Pressure        0.0277171191
 		Greenhouse      54.1821632
 		Bright          10
 		Opacity         1
 		SkyLight        3.33
-		Hue             0.00603
-		Saturation      0.871
+		Hue             0.0191
+		Saturation      1.65
 
 		Composition
 		{
@@ -1911,22 +1911,22 @@ Moon	"Maresia"
 
 	Aurora
 	{
-		Height         97.3
+		Height         90
 		NorthLat       73.9
 		NorthLon       -70.6
-		NorthRadius    1.25e+03
-		NorthWidth     256
+		NorthRadius    1.12e+03
+		NorthWidth     229
 		NorthRings     4
-		NorthBright    0.311
+		NorthBright    0
 		NorthFlashFreq 67.4
 		NorthMoveSpeed 0.973
 		NorthParticles 50000
 		SouthLat       -66.2
 		SouthLon       98
-		SouthRadius    1.94e+03
-		SouthWidth     603
+		SouthRadius    1.73e+03
+		SouthWidth     539
 		SouthRings     3
-		SouthBright    0.311
+		SouthBright    0.02
 		SouthFlashFreq 70.3
 		SouthMoveSpeed 1.08
 		SouthParticles 50000
@@ -1952,6 +1952,7 @@ Moon	"Maresia"
 		MeanAnomaly     10.163901
 	}
 }
+
 
 
 
