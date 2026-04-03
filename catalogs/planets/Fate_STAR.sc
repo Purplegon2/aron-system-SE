@@ -2,7 +2,7 @@ Star	"Fate"
 {
 	ParentBody     "Hope & Fate System"
 	Class          "M0.9 V"
-	Luminosity      0.0250620469
+	Luminosity      0.089213
 	LumBol          0.0434726886
 	MassSol         0.456619143
 	RadSol          0.464530766
