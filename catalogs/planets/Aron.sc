@@ -35,8 +35,8 @@ Planet	"Aron"
 		seaLevel        0.466
 		snowLevel       0.85
 		tropicLatitude  0.0501
-		icecapLatitude  0.837
-		icecapHeight    0.0738
+		icecapLatitude  0.718
+		icecapHeight    0.214
 		climatePole     0.938
 		climateTropic   0.313
 		climateEquator  0.688
@@ -187,15 +187,15 @@ Planet	"Aron"
 	Atmosphere
 	{
 		Model          "Earth"
-		Height          70.6595078
+		Height          103.577919
 		Density         1.29289997
-		Pressure        1
+		Pressure        1.02999997
 		Greenhouse      41
 		Bright          10
-		Opacity         1
+		Opacity         1.07
 		SkyLight        3.33
-		Hue             -0.114
-		Saturation      0.819
+		Hue             -0.042
+		Saturation      1.07
 
 		Composition
 		{
@@ -243,7 +243,7 @@ Planet	"Aron"
 		BottomColor (0.000 1.000 0.000)
 	}
 
-	NoRings 		true
+	NoRings         true
 
 	NoAccretionDisk true
 
@@ -252,7 +252,7 @@ Planet	"Aron"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      358.65
+		Period          0.981951182
 		SemiMajorAxis   0.988
 		Eccentricity    0.0860883375
 		Inclination     0.634491329
@@ -261,7 +261,6 @@ Planet	"Aron"
 		MeanAnomaly     27.6325651
 	}
 }
-
 
 Moon	"Nyx"
 {
