@@ -376,27 +376,7 @@ Moon	"Nyx"
 
 	NoLava          true
 
-	Atmosphere
-	{
-		Model          "Pluto"
-		Height          107.595642
-		Density         3.27161433e-06
-		Pressure        3.85830106e-07
-		Greenhouse      0.00128657441
-		Bright          0.827
-		Opacity         0
-		SkyLight        0.276
-		Hue             -0.018
-		Saturation      0.839
-
-		Composition
-		{
-			Kr        	99.3
-			CO2       	0.619
-			Xe        	0.0532
-			SO2       	0.00143
-		}
-	}
+	NoAtmosphere    true
 
 	Climate
 	{
