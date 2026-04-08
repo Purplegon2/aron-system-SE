@@ -1728,7 +1728,7 @@ Moon	"Maresia"
 {
 	ParentBody     "Noi"
 	Class          "Terra"
-	Mass            0.110911079
+	Mass            0.070911079
 	Radius          2634.86743
 	InertiaMoment   0.329535395
 	Oblateness      0.00829198956
