@@ -149,42 +149,6 @@ Planet	"Maiy"
 
 	Clouds
 	{
-		Height          22.2
-		Velocity        102
-		BumpHeight      6.14
-		Hapke           0
-		SpotBright      2
-		SpotWidth       0.03
-		DayAmbient      0.07
-		RingsWinter     0.982
-		ModulateBright  1
-		mainFreq        0.849
-		mainOctaves     10
-		Coverage        0.05
-		stripeZones     2.21
-		stripeTwist     0.124
-	}
-
-	Clouds
-	{
-		Height          22.2
-		Velocity        161
-		BumpHeight      6.14
-		Hapke           0
-		SpotBright      2
-		SpotWidth       0.03
-		DayAmbient      0.07
-		RingsWinter     0.982
-		ModulateBright  1
-		mainFreq        0.849
-		mainOctaves     10
-		Coverage        0.2
-		stripeZones     2.21
-		stripeTwist     0.124
-	}
-
-	Clouds
-	{
 		Height          24.2
 		Velocity        1522
 		BumpHeight      6.14
