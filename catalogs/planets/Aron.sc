@@ -148,40 +148,6 @@ Planet	"Aron"
 		stripeTwist     0.183
 	}
 
-	Clouds
-	{
-		Height          11.1
-		Velocity        51.2
-		BumpHeight      2.89
-		Hapke           0
-		SpotBright      2
-		SpotWidth       0.03
-		DayAmbient      0.07
-		ModulateBright  1
-		mainFreq        0.793
-		mainOctaves     10
-		Coverage        0.117
-		stripeZones     2.28
-		stripeTwist     0.183
-	}
-
-	Clouds
-	{
-		Height          11.1
-		Velocity        98.1
-		BumpHeight      2.89
-		Hapke           0
-		SpotBright      2
-		SpotWidth       0.03
-		DayAmbient      0.07
-		ModulateBright  1
-		mainFreq        0.793
-		mainOctaves     10
-		Coverage        0.117
-		stripeZones     2.28
-		stripeTwist     0.183
-	}
-
 	NoLava          true
 
 	Atmosphere
