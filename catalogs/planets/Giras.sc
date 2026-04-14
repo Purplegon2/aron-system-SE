@@ -1425,7 +1425,7 @@ Moon	"Tyrulious"
 
 	Surface
 	{
-		Preset         "terra_wet_rusty_green_plants.cfg"
+		Preset         "aquaria_arid_triton.cfg"
 		SurfStyle       0.639
 		Randomize      (0.290, 1.450, 0.290)
 		colorDistMagn   0.0386
