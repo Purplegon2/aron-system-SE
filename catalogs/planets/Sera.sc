@@ -18,7 +18,7 @@ Planet	"Sera"
 
 	Surface
 	{
-		Preset         "terra_arid_yellow_green_plants.cfg"
+		Preset         "terra_arid_mars_black_yellow_plants.cfg"
 		SurfStyle       0.965
 		Randomize      (-0.705, -0.837, 0.265)
 		colorDistMagn   0.0403
@@ -111,15 +111,15 @@ Planet	"Sera"
 	Atmosphere
 	{
 		Model          "Titan"
-		Height          111.122375
+		Height          103.577919
 		Density         0.00507107191
 		Pressure        0.0144651737
 		Greenhouse      15.4678259
 		Bright          5.95
-		Opacity         1
+		Opacity         0.687
 		SkyLight        2.26
-		Hue             0.385
-		Saturation      0.321
+		Hue             0.5
+		Saturation      0.122
 
 		Composition
 		{
