@@ -1500,6 +1500,12 @@ Moon	"Tyrulious"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
+		stripeZones     2.28
+		stripeTwist     0.183
+		cycloneMagn     2.3
+		cycloneFreq     0
+		cycloneDensity  0.513
+		cycloneOctaves  4
 		BumpHeight      19.5
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.65
@@ -1517,7 +1523,23 @@ Moon	"Tyrulious"
 
 	NoOcean         true
 
-	NoClouds        true
+	Clouds
+	{
+		Height          19.5
+		Velocity        87.5
+		BumpHeight      2.89
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  3.03
+		Opacity         0.0611
+		mainFreq        0.793
+		mainOctaves     10
+		Coverage        0.0916
+		stripeZones     2.28
+		stripeTwist     0.183
+	}
 
 	NoLava          true
 
