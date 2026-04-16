@@ -232,11 +232,11 @@ Moon	"Nyx"
 {
 	ParentBody     "Aron"
 	Class          "Aquaria"
-	Mass            0.014217791
+	Mass            0.0142177911
 	Radius          1735.12231
 	InertiaMoment   0.34665674
 	Oblateness      0.00151114922
-	Obliquity       -0.884441868
+	Obliquity       -15.8844419
 	EqAscendNode    116.200196
 	TidalLocked     true
 
@@ -275,8 +275,8 @@ Moon	"Nyx"
 		mainFreq        1.68
 		venusFreq       0.599
 		venusMagn       0
-		mareFreq        1.61
-		mareDensity     0.112
+		mareFreq        0.56
+		mareDensity     0.45
 		terraceProb     0.233
 		erosion         0
 		montesMagn      0.211
@@ -304,7 +304,7 @@ Moon	"Nyx"
 		canyonsFreq     0.923
 		canyonsFraction 0
 		cracksMagn      0.0619
-		cracksFreq      1.52
+		cracksFreq      0
 		cracksOctaves   3
 		craterMagn      0.642
 		craterFreq      7.54
@@ -363,7 +363,7 @@ Moon	"Nyx"
 		PeriodDays      20.165
 		SemiMajorAxisKm 304412.642
 		Eccentricity    0.000626302957
-		Inclination     -15.884441868
+		Inclination     -15.8844419
 		AscendingNode   116.200196
 		ArgOfPericenter 23.4052807
 		MeanAnomaly     -63.7410322
