@@ -88,6 +88,12 @@ Planet	"Sera"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
+		stripeZones     2.28
+		stripeTwist     0.183
+		cycloneMagn     3.82
+		cycloneFreq     0.626
+		cycloneDensity  0.319
+		cycloneOctaves  3
 		BumpHeight      20
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.5
@@ -104,7 +110,24 @@ Planet	"Sera"
 
 	NoOcean         true
 
-	NoClouds        true
+	Clouds
+	{
+		Height          20.9
+		Velocity        87.5
+		BumpHeight      2.89
+		Gamma           1.02
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.137
+		ModulateBright  1.21
+		Opacity         1.04
+		mainFreq        0.793
+		mainOctaves     10
+		Coverage        0.107
+		stripeZones     2.28
+		stripeTwist     0.183
+	}
 
 	NoLava          true
 
