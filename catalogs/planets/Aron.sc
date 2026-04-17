@@ -374,142 +374,160 @@ Moon	"Parvus"
 {
 	ParentBody     "Aron"
 	Class          "Terra"
-	Mass            0.0059889849
-	Radius          1337.992
-	InertiaMoment   0.334994197
-	Obliquity       -0.793275735
-	EqAscendNode    -8.77875435
-	TidalLocked     false
+	Mass            0.0203816723
+	Radius          1339.63232
+	InertiaMoment   0.332481474
+	Oblateness      0.00724849897
+	RotationPeriod  17.1588093
+	RotationEpoch   0
+	Obliquity       -53.554576
+	EqAscendNode    75.0247354
 
-	AlbedoBond      0.595
+	AlbedoBond      0.594
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
 
 	Surface
 	{
-		Preset         "terra_arid_sandy_green.cfg"
-		SurfStyle       0.631
-		Randomize      (-0.895, -0.979, -0.432)
-		colorDistMagn   0.0714
-		colorDistFreq   458
-		detailScale     8.19e+03
+		Preset         "terra_wet_earth_green.cfg"
+		SurfStyle       0.241
+		Randomize      (-0.324, 0.169, 0.597)
+		colorDistMagn   0.0748
+		colorDistFreq   614
+		detailScale     1.64e+04
 		drivenDarkening 0
-		seaLevel        0.0817
+		seaLevel        0.191
 		snowLevel       2
-		tropicLatitude  0.551
-		icecapLatitude  0.938
-		icecapHeight    0.0266
-		climatePole     0.938
-		climateTropic   0.313
-		climateEquator  0.688
+		tropicLatitude  0.804
+		icecapLatitude  2
+		icecapHeight    0.47
+		climatePole     0.563
+		climateTropic   0.563
+		climateEquator  0.563
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.144
-		heightTempGrad  0.625
-		beachWidth      0.00132
-		tropicWidth     0.07
-		mainFreq        1.02
-		venusFreq       0.889
+		humidity        0.129
+		heightTempGrad  0.375
+		beachWidth      0.00113
+		tropicWidth     0.5
+		mainFreq        1.22
+		venusFreq       0.994
 		venusMagn       0
-		mareFreq        1.89
-		mareDensity     0.21
-		terraceProb     0.363
-		erosion         0
-		montesMagn      0.217
-		montesFreq      188
-		montesSpiky     0.989
-		montesFraction  0.509
-		dunesMagn       0.0497
-		dunesFreq       30.4
-		dunesFraction   0.516
-		hillsMagn       0.121
-		hillsFreq       375
-		hillsFraction   0
-		hills2Fraction  0
-		riversMagn      0
-		riversFreq      2.64
-		riversSin       5.25
-		riftsMagn       54.7
-		riftsFreq       3.49
-		riftsSin        6.43
-		canyonsMagn     0.00168
-		canyonsFreq     89.3
-		canyonsFraction 0
-		cracksMagn      0.1
-		cracksFreq      0.311
+		mareFreq        3.98
+		mareDensity     0
+		terraceProb     0.101
+		erosion         0.111
+		montesMagn      0.181
+		montesFreq      231
+		montesSpiky     0.909
+		montesFraction  0.763
+		dunesMagn       0.0365
+		dunesFreq       53.6
+		dunesFraction   0.212
+		hillsMagn       0.149
+		hillsFreq       76.3
+		hillsFraction   0.865
+		hills2Fraction  0.265
+		riversMagn      71.8
+		riversFreq      2.37
+		riversSin       5.48
+		riftsMagn       0
+		riftsFreq       2.28
+		riftsSin        6.16
+		canyonsMagn     0.0467
+		canyonsFreq     146
+		canyonsFraction 0.76
+		cracksMagn      0.128
+		cracksFreq      0.335
 		cracksOctaves   0
-		craterMagn      0.649
-		craterFreq      9.93
-		craterDensity   0.377
-		craterOctaves   8
-		volcanoMagn     0.76
-		volcanoFreq     0.665
+		craterMagn      0.584
+		craterFreq      18.9
+		craterDensity   0
+		craterOctaves   0
+		volcanoMagn     0.699
+		volcanoFreq     0.214
 		volcanoDensity  0.4
 		volcanoOctaves  3
 		volcanoActivity 2
-		volcanoFlows    0.287
-		volcanoRadius   0.477
-		volcanoTemp     1.01e+03
+		volcanoFlows    0.85
+		volcanoRadius   0.489
+		volcanoTemp     1.03e+03
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		stripeZones     1
-		stripeTwist     0.329
-		cycloneMagn     2.49
-		cycloneFreq     0.739
-		cycloneDensity  0.278
-		cycloneOctaves  2
+		stripeZones     1.97
+		stripeTwist     0.128
+		cycloneMagn     2.85
+		cycloneFreq     0.794
+		cycloneDensity  0.353
+		cycloneOctaves  3
 		BumpHeight      20
-		DiffMapAlpha   "Ice"
-		SpecBrightWater 0.5
-		SpecBrightIce   0.5
+		BumpOffset      0.0201
+		DiffMapAlpha   "Water"
+		SpecBrightWater 0.65
+		SpecBrightIce   0.85
 		RoughnessWater  0.35
 		RoughnessIce    0.45
 		SpecularScale   1
 		RoughnessBias   0.5
 		Hapke           0.5
-		SpotBright      2.08
+		SpotBright      1.23
 		SpotWidth       0.05
 		DayAmbient      0.07
 	}
 
 	Ocean
 	{
-		Depth           3.31
-		Hapke           0.5
-		SpotBright      0.2
-		SpotWidth       0.3
-		DayAmbient      0.01
-		ModulateBright  0.5
+		Depth           3.82
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.05
+		DayAmbient      0.07
+		ModulateBright  1
 
 		Composition
 		{
-			NH3		95
-			CuCl2       	5
+			NH3       	64
 		}
 	}
 
-
 	Clouds
 	{
-		Height          15.9
-		Velocity        47.3
-		BumpHeight      2.61
+		Height          15
+		Velocity        13.9
+		BumpHeight      2.5
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
-		mainFreq        0.62
+		mainFreq        0.649
 		mainOctaves     10
-		Coverage        0.11
-		stripeZones     1
-		stripeTwist     0.329
+		Coverage        0.1
+		stripeZones     1.97
+		stripeTwist     0.128
+	}
+
+	Clouds
+	{
+		Height          15
+		Velocity        60.6
+		BumpHeight      2.5
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		mainFreq        0.649
+		mainOctaves     10
+		Coverage        0.1
+		stripeZones     1.97
+		stripeTwist     0.128
 	}
 
 	NoLava          true
@@ -517,54 +535,60 @@ Moon	"Parvus"
 	Atmosphere
 	{
 		Model          "Earth"
-		Height          48.6388245
-		Density         0.260352701
-		Pressure        0.0643717796
-		Greenhouse      0.271194518
-		Bright          9.16
-		Opacity         1
-		SkyLight        3.05
-		Hue             -0.00843
-		Saturation      0.976
+		Height          41.5260506
+		Density         5.46349955
+		Pressure        0.0125671448
+		Greenhouse      17.557251
+		Bright          8.85
+		Opacity         0.916
+		SkyLight        2.67
+		Hue             -0.103
+		Saturation      1.65
 
 		Composition
 		{
-			CO2       	98
-			C3H8      	1.43
-			SO2       	0.466
-			Cl2       	0.0854
-			Xe        	0.000536
-			Kr        	0.000534
-			C8H18     	0.000132
-			Ar        	3.53e-05
+			CO2       	44.6
+			C2H4      	5.91
+			SO2       	2.67
+			C2H2      	2.25
+			NH3       	1.54
+			H2S       	0.289
+			C2H6      	0.143
+			CH4       	0.0656
+			CO        	0.0424
+			C3H8      	0.00158
+			C8H18     	0.000215
+			Ar        	7.45e-05
+			Ne        	2.5e-05
+			Xe        	1.03e-05
 		}
 	}
 
 	Climate
 	{
-		GlobalWindSpeed  15.7
+		GlobalWindSpeed  5.68
 	}
 
 	Aurora
 	{
-		Height         33.9
-		NorthLat       66.9
-		NorthLon       -131
-		NorthRadius    796
-		NorthWidth     180
-		NorthRings     4
+		Height         124
+		NorthLat       77.3
+		NorthLon       -15.9
+		NorthRadius    -nan(ind)
+		NorthWidth     592
+		NorthRings     3
 		NorthBright    0.3
-		NorthFlashFreq 73.9
-		NorthMoveSpeed 0.831
+		NorthFlashFreq 72.1
+		NorthMoveSpeed 0.907
 		NorthParticles 50000
-		SouthLat       -53.4
-		SouthLon       39.7
-		SouthRadius    787
-		SouthWidth     304
-		SouthRings     3
+		SouthLat       -74.1
+		SouthLon       167
+		SouthRadius    -nan(ind)
+		SouthWidth     375
+		SouthRings     2
 		SouthBright    0.3
-		SouthFlashFreq 72.6
-		SouthMoveSpeed 1.01
+		SouthFlashFreq 64.4
+		SouthMoveSpeed 1.08
 		SouthParticles 50000
 		TopColor    (1.000 1.000 1.000)
 		BottomColor (0.000 1.000 0.000)
@@ -580,7 +604,7 @@ Moon	"Parvus"
 	{
 		RefPlane        "Equator"
 		PeriodDays      58.927
-		SemiMajorAxisKm	622156.5
+		SemiMajorAxisKm 622156.5
 		Eccentricity    0.00225407367
 		Inclination     -0.793275735
 		AscendingNode   -8.77875435
@@ -588,4 +612,6 @@ Moon	"Parvus"
 		MeanAnomaly     28.8972723
 	}
 }
+
+
 
