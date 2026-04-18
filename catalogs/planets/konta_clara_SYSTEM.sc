@@ -107,7 +107,7 @@ Star	"Konta Clara"
 	}
 }
 
-Planet	"1"
+Planet	"Konta Clara A"
 {
 	ParentBody     "Konta Clara"
 	Class          "Neptune"
@@ -122,6 +122,13 @@ Planet	"1"
 	AlbedoGeom      0.36
 	Brightness      1.5
 	BrightnessReal  1.5
+
+	Life
+	{
+		Class   "Organic"
+		Type    "Unicellular"
+		Biome   "Aerial"
+	}
 
 	Surface
 	{
@@ -199,6 +206,7 @@ Planet	"1"
 		{
 			CO2       	70.7
 			N2        	26.7
+			O2       	3.83
 			H2O       	1.83
 			SO2       	0.743
 			CO        	0.0155
@@ -259,9 +267,9 @@ Planet	"1"
 	}
 }
 
-DwarfMoon	"1.D1"
+DwarfMoon	"Konta Clara A 1"
 {
-	ParentBody     "1"
+	ParentBody     "Konta Clara A"
 	Class          "Asteroid"
 	Mass            1.66715797e-08
 	Radius          19.8976402
@@ -377,9 +385,9 @@ DwarfMoon	"1.D1"
 	}
 }
 
-DwarfMoon	"1.D2"
+DwarfMoon	"Konta Clara A 2"
 {
-	ParentBody     "1"
+	ParentBody     "Konta Clara A"
 	Class          "Asteroid"
 	Mass            2.26469172e-08
 	Radius          22.646204
@@ -495,7 +503,7 @@ DwarfMoon	"1.D2"
 	}
 }
 
-Planet	"2"
+Planet	"Konta Clara B"
 {
 	ParentBody     "Konta Clara"
 	Class          "Jupiter"
@@ -656,9 +664,9 @@ Planet	"2"
 	}
 }
 
-DwarfMoon	"2.D1"
+DwarfMoon	"Konta Clara B 1"
 {
-	ParentBody     "2"
+	ParentBody     "Konta Clara B"
 	Class          "Asteroid"
 	Mass            4.59597686e-07
 	Radius          60.6490822
@@ -774,9 +782,9 @@ DwarfMoon	"2.D1"
 	}
 }
 
-DwarfMoon	"2.D2"
+DwarfMoon	"Konta Clara B 2"
 {
-	ParentBody     "2"
+	ParentBody     "Konta Clara B"
 	Class          "Asteroid"
 	Mass            6.48939704e-07
 	Radius          65.9721375
@@ -892,9 +900,9 @@ DwarfMoon	"2.D2"
 	}
 }
 
-DwarfMoon	"2.D3"
+DwarfMoon	"Konta Clara B 3"
 {
-	ParentBody     "2"
+	ParentBody     "Konta Clara B"
 	Class          "Asteroid"
 	Mass            9.26621226e-07
 	Radius          76.8913803
@@ -1010,9 +1018,9 @@ DwarfMoon	"2.D3"
 	}
 }
 
-DwarfMoon	"2.D4"
+DwarfMoon	"Konta Clara B 4"
 {
-	ParentBody     "2"
+	ParentBody     "Konta Clara B"
 	Class          "Asteroid"
 	Mass            1.34101833e-06
 	Radius          84.6437912
@@ -1127,9 +1135,9 @@ DwarfMoon	"2.D4"
 	}
 }
 
-DwarfMoon	"2.D5"
+DwarfMoon	"Konta Clara B 5"
 {
-	ParentBody     "2"
+	ParentBody     "Konta Clara B"
 	Class          "Asteroid"
 	Mass            1.97232998e-06
 	Radius          99.4456177
@@ -1244,9 +1252,9 @@ DwarfMoon	"2.D5"
 	}
 }
 
-DwarfMoon	"2.D6"
+DwarfMoon	"Konta Clara B 6"
 {
-	ParentBody     "2"
+	ParentBody     "Konta Clara B"
 	Class          "Asteroid"
 	Mass            2.95805603e-06
 	Radius          110.234528
@@ -1361,7 +1369,7 @@ DwarfMoon	"2.D6"
 	}
 }
 
-Planet	"3"
+Planet	"Konta Clara C"
 {
 	ParentBody     "Konta Clara"
 	Class          "Neptune"
@@ -1559,9 +1567,9 @@ Planet	"3"
 	}
 }
 
-DwarfMoon	"3.D1"
+DwarfMoon	"Konta Clara C 1"
 {
-	ParentBody     "3"
+	ParentBody     "Konta Clara C"
 	Class          "Asteroid"
 	Mass            6.10616446e-10
 	Radius          6.39228106
@@ -1677,9 +1685,9 @@ DwarfMoon	"3.D1"
 	}
 }
 
-DwarfMoon	"3.D2"
+DwarfMoon	"Konta Clara C 2"
 {
-	ParentBody     "3"
+	ParentBody     "Konta Clara C"
 	Class          "Asteroid"
 	Mass            8.90863106e-10
 	Radius          7.56623602
@@ -1795,9 +1803,9 @@ DwarfMoon	"3.D2"
 	}
 }
 
-DwarfMoon	"3.D3"
+DwarfMoon	"Konta Clara C 3"
 {
-	ParentBody     "3"
+	ParentBody     "Konta Clara C"
 	Class          "Asteroid"
 	Mass            1.28065558e-09
 	Radius          8.19796658
@@ -1913,9 +1921,9 @@ DwarfMoon	"3.D3"
 	}
 }
 
-DwarfMoon	"3.D4"
+DwarfMoon	"Konta Clara C 4"
 {
-	ParentBody     "3"
+	ParentBody     "Konta Clara C"
 	Class          "Asteroid"
 	Mass            1.8184475e-09
 	Radius          9.59583855
@@ -2031,9 +2039,9 @@ DwarfMoon	"3.D4"
 	}
 }
 
-Moon	"3.1"
+Moon	"Konta Clara C 5"
 {
-	ParentBody     "3"
+	ParentBody     "Konta Clara C"
 	Class          "Ferria"
 	Mass            0.00351802935
 	Radius          906.168945
@@ -2169,9 +2177,9 @@ Moon	"3.1"
 	}
 }
 
-DwarfMoon	"3.D5"
+DwarfMoon	"Konta Clara C 6"
 {
-	ParentBody     "3"
+	ParentBody     "Konta Clara C"
 	Class          "Asteroid"
 	Mass            3.56099106e-09
 	Radius          12.4249182
@@ -2287,9 +2295,9 @@ DwarfMoon	"3.D5"
 	}
 }
 
-DwarfMoon	"3.D6"
+DwarfMoon	"Konta Clara C 7"
 {
-	ParentBody     "3"
+	ParentBody     "Konta Clara C"
 	Class          "Asteroid"
 	Mass            4.92673546e-09
 	Radius          13.6229973
@@ -2405,7 +2413,7 @@ DwarfMoon	"3.D6"
 	}
 }
 
-Planet	"4"
+Planet	"Konta Clara D"
 {
 	ParentBody     "Konta Clara"
 	Class          "Neptune"
@@ -2614,9 +2622,9 @@ Planet	"4"
 	}
 }
 
-DwarfMoon	"4.D1"
+DwarfMoon	"Konta Clara D 1"
 {
-	ParentBody     "4"
+	ParentBody     "Konta Clara D"
 	Class          "Asteroid"
 	Mass            9.46173415e-08
 	Radius          41.6470222
@@ -2732,9 +2740,9 @@ DwarfMoon	"4.D1"
 	}
 }
 
-DwarfMoon	"4.D2"
+DwarfMoon	"Konta Clara D 2"
 {
-	ParentBody     "4"
+	ParentBody     "Konta Clara D"
 	Class          "Asteroid"
 	Mass            1.29330658e-07
 	Radius          41.6192818
@@ -2850,9 +2858,9 @@ DwarfMoon	"4.D2"
 	}
 }
 
-DwarfMoon	"4.D3"
+DwarfMoon	"Konta Clara D 3"
 {
-	ParentBody     "4"
+	ParentBody     "Konta Clara D"
 	Class          "Asteroid"
 	Mass            1.77525564e-07
 	Radius          51.9103966
@@ -2968,9 +2976,9 @@ DwarfMoon	"4.D3"
 	}
 }
 
-DwarfMoon	"4.D4"
+DwarfMoon	"Konta Clara D 4"
 {
-	ParentBody     "4"
+	ParentBody     "Konta Clara D"
 	Class          "Asteroid"
 	Mass            2.44978622e-07
 	Radius          50.6899185
@@ -3085,9 +3093,9 @@ DwarfMoon	"4.D4"
 	}
 }
 
-DwarfMoon	"4.D5"
+DwarfMoon	"Konta Clara D 5"
 {
-	ParentBody     "4"
+	ParentBody     "Konta Clara D"
 	Class          "Asteroid"
 	Mass            3.4028119e-07
 	Radius          59.2104416
@@ -3202,9 +3210,9 @@ DwarfMoon	"4.D5"
 	}
 }
 
-DwarfMoon	"4.D6"
+DwarfMoon	"Konta Clara D 6"
 {
-	ParentBody     "4"
+	ParentBody     "Konta Clara D"
 	Class          "Asteroid"
 	Mass            4.76424162e-07
 	Radius          61.2343407
@@ -3319,9 +3327,9 @@ DwarfMoon	"4.D6"
 	}
 }
 
-DwarfMoon	"4.D7"
+DwarfMoon	"Konta Clara D 7"
 {
-	ParentBody     "4"
+	ParentBody     "Konta Clara D"
 	Class          "Asteroid"
 	Mass            6.73432794e-07
 	Radius          78.8905792
@@ -3436,7 +3444,7 @@ DwarfMoon	"4.D7"
 	}
 }
 
-Planet	"5"
+Planet	"Konta Clara E"
 {
 	ParentBody     "Konta Clara"
 	Class          "Terra"
@@ -3603,9 +3611,9 @@ Planet	"5"
 	}
 }
 
-DwarfMoon	"5.D1"
+DwarfMoon	"Konta Clara E 1"
 {
-	ParentBody     "5"
+	ParentBody     "Konta Clara E"
 	Class          "Asteroid"
 	Mass            1.13626844e-10
 	Radius          3.84997535
@@ -3721,9 +3729,9 @@ DwarfMoon	"5.D1"
 	}
 }
 
-DwarfMoon	"5.D2"
+DwarfMoon	"Konta Clara E 2"
 {
-	ParentBody     "5"
+	ParentBody     "Konta Clara E"
 	Class          "Asteroid"
 	Mass            1.82397444e-10
 	Radius          4.59828758
@@ -3839,9 +3847,9 @@ DwarfMoon	"5.D2"
 	}
 }
 
-DwarfMoon	"5.D3"
+DwarfMoon	"Konta Clara E 3"
 {
-	ParentBody     "5"
+	ParentBody     "Konta Clara E"
 	Class          "Asteroid"
 	Mass            2.83422646e-10
 	Radius          5.23837852
@@ -3957,9 +3965,9 @@ DwarfMoon	"5.D3"
 	}
 }
 
-DwarfMoon	"5.D4"
+DwarfMoon	"Konta Clara E 4"
 {
-	ParentBody     "5"
+	ParentBody     "Konta Clara E"
 	Class          "Asteroid"
 	Mass            4.29079577e-10
 	Radius          5.91123152
@@ -4075,9 +4083,9 @@ DwarfMoon	"5.D4"
 	}
 }
 
-DwarfMoon	"5.1"
+DwarfMoon	"Konta Clara E 5"
 {
-	ParentBody     "5"
+	ParentBody     "Konta Clara E"
 	Class          "Asteroid"
 	Mass            2.54480801e-05
 	Radius          232.864059
@@ -4193,9 +4201,9 @@ DwarfMoon	"5.1"
 	}
 }
 
-DwarfMoon	"5.2"
+DwarfMoon	"Konta Clara E 6"
 {
-	ParentBody     "5"
+	ParentBody     "Konta Clara E"
 	Class          "Asteroid"
 	Mass            4.44078687e-05
 	Radius          275.828888
@@ -4311,9 +4319,9 @@ DwarfMoon	"5.2"
 	}
 }
 
-DwarfMoon	"5.D5"
+DwarfMoon	"Konta Clara E 7"
 {
-	ParentBody     "5"
+	ParentBody     "Konta Clara E"
 	Class          "Asteroid"
 	Mass            1.32967914e-09
 	Radius          8.84532356
@@ -4428,9 +4436,9 @@ DwarfMoon	"5.D5"
 	}
 }
 
-DwarfMoon	"5.D6"
+DwarfMoon	"Konta Clara E 8"
 {
-	ParentBody     "5"
+	ParentBody     "Konta Clara E"
 	Class          "Asteroid"
 	Mass            1.88584104e-09
 	Radius          9.78663254
@@ -4545,9 +4553,9 @@ DwarfMoon	"5.D6"
 	}
 }
 
-DwarfMoon	"5.D7"
+DwarfMoon	"Konta Clara E 9"
 {
-	ParentBody     "5"
+	ParentBody     "Konta Clara E"
 	Class          "Asteroid"
 	Mass            2.64774624e-09
 	Radius          11.2197771
@@ -4662,9 +4670,9 @@ DwarfMoon	"5.D7"
 	}
 }
 
-DwarfMoon	"5.D8"
+DwarfMoon	"Konta Clara E 10"
 {
-	ParentBody     "5"
+	ParentBody     "Konta Clara E"
 	Class          "Asteroid"
 	Mass            3.68632924e-09
 	Radius          12.2823772
@@ -4780,7 +4788,7 @@ DwarfMoon	"5.D8"
 	}
 }
 
-Planet	"6"
+Planet	"Konta Clara F"
 {
 	ParentBody     "Konta Clara"
 	Class          "Aquaria"
@@ -5037,9 +5045,9 @@ Planet	"6"
 	}
 }
 
-DwarfMoon	"6.D1"
+DwarfMoon	"Konta Clara F 1"
 {
-	ParentBody     "6"
+	ParentBody     "Konta Clara F"
 	Class          "Asteroid"
 	Mass            7.17401818e-08
 	Radius          45.95718
@@ -5155,9 +5163,9 @@ DwarfMoon	"6.D1"
 	}
 }
 
-DwarfMoon	"6.D2"
+DwarfMoon	"Konta Clara F 2"
 {
-	ParentBody     "6"
+	ParentBody     "Konta Clara F"
 	Class          "Asteroid"
 	Mass            9.77756187e-08
 	Radius          38.1056328
@@ -5273,9 +5281,9 @@ DwarfMoon	"6.D2"
 	}
 }
 
-Moon	"6.1"
+Moon	"Konta Clara F 3"
 {
-	ParentBody     "6"
+	ParentBody     "Konta Clara F"
 	Class          "Aquaria"
 	Mass            0.000122998666
 	Radius          489.06488
@@ -5445,9 +5453,9 @@ Moon	"6.1"
 	}
 }
 
-Moon	"6.2"
+Moon	"Konta Clara F 4"
 {
-	ParentBody     "6"
+	ParentBody     "Konta Clara F"
 	Class          "Aquaria"
 	Mass            0.000179359587
 	Radius          488.078156
@@ -5584,9 +5592,9 @@ Moon	"6.2"
 	}
 }
 
-Moon	"6.3"
+Moon	"Konta Clara F 5"
 {
-	ParentBody     "6"
+	ParentBody     "Konta Clara F"
 	Class          "Aquaria"
 	Mass            0.00261410396
 	Radius          1232.21094
@@ -5722,9 +5730,9 @@ Moon	"6.3"
 	}
 }
 
-DwarfMoon	"6.D3"
+DwarfMoon	"Konta Clara F 6"
 {
-	ParentBody     "6"
+	ParentBody     "Konta Clara F"
 	Class          "Asteroid"
 	Mass            3.52449746e-07
 	Radius          78.0262222
@@ -5839,9 +5847,9 @@ DwarfMoon	"6.D3"
 	}
 }
 
-DwarfMoon	"6.D4"
+DwarfMoon	"Konta Clara F 7"
 {
-	ParentBody     "6"
+	ParentBody     "Konta Clara F"
 	Class          "Asteroid"
 	Mass            4.93919288e-07
 	Radius          72.569252
@@ -5956,9 +5964,9 @@ DwarfMoon	"6.D4"
 	}
 }
 
-DwarfMoon	"6.D5"
+DwarfMoon	"Konta Clara F 8"
 {
-	ParentBody     "6"
+	ParentBody     "Konta Clara F"
 	Class          "Asteroid"
 	Mass            6.98939346e-07
 	Radius          97.9558258
@@ -6073,9 +6081,9 @@ DwarfMoon	"6.D5"
 	}
 }
 
-DwarfMoon	"6.D6"
+DwarfMoon	"Konta Clara F 9"
 {
-	ParentBody     "6"
+	ParentBody     "Konta Clara F"
 	Class          "Asteroid"
 	Mass            1.00065245e-06
 	Radius          94.3663788
@@ -6190,9 +6198,9 @@ DwarfMoon	"6.D6"
 	}
 }
 
-DwarfMoon	"6.D7"
+DwarfMoon	"Konta Clara F 10"
 {
-	ParentBody     "6"
+	ParentBody     "Konta Clara F"
 	Class          "Asteroid"
 	Mass            1.45274851e-06
 	Radius          124.889999
@@ -6307,9 +6315,9 @@ DwarfMoon	"6.D7"
 	}
 }
 
-DwarfMoon	"6.D8"
+DwarfMoon	"Konta Clara F 11"
 {
-	ParentBody     "6"
+	ParentBody     "Konta Clara F"
 	Class          "Asteroid"
 	Mass            2.14482702e-06
 	Radius          114.134415
@@ -6424,9 +6432,9 @@ DwarfMoon	"6.D8"
 	}
 }
 
-DwarfMoon	"6.D9"
+DwarfMoon	"Konta Clara F 12"
 {
-	ParentBody     "6"
+	ParentBody     "Konta Clara F"
 	Class          "Asteroid"
 	Mass            3.23172367e-06
 	Radius          162.821503
@@ -6541,9 +6549,9 @@ DwarfMoon	"6.D9"
 	}
 }
 
-DwarfMoon	"6.D10"
+DwarfMoon	"Konta Clara F 13"
 {
-	ParentBody     "6"
+	ParentBody     "Konta Clara F"
 	Class          "Asteroid"
 	Mass            4.99235102e-06
 	Radius          153.363098
@@ -6789,7 +6797,7 @@ Comet	"C54"
 	}
 }
 
-Planet	"7"
+Planet	"Konta Clara G"
 {
 	ParentBody     "Konta Clara"
 	Class          "Aquaria"
@@ -6929,9 +6937,9 @@ Planet	"7"
 	}
 }
 
-DwarfMoon	"7.1"
+DwarfMoon	"Konta Clara G 1"
 {
-	ParentBody     "7"
+	ParentBody     "Konta Clara G"
 	Class          "Asteroid"
 	Mass            2.87300873e-06
 	Radius          120.582832
@@ -7047,9 +7055,9 @@ DwarfMoon	"7.1"
 	}
 }
 
-DwarfMoon	"7.2"
+DwarfMoon	"Konta Clara G 2"
 {
-	ParentBody     "7"
+	ParentBody     "Konta Clara G"
 	Class          "Asteroid"
 	Mass            7.28084751e-06
 	Radius          174.468994
@@ -7165,9 +7173,9 @@ DwarfMoon	"7.2"
 	}
 }
 
-Moon	"7.3"
+Moon	"Konta Clara G 3"
 {
-	ParentBody     "7"
+	ParentBody     "Konta Clara G"
 	Class          "Aquaria"
 	Mass            1.91960899e-05
 	Radius          293.659363
@@ -7823,7 +7831,7 @@ Comet	"C29"
 	}
 }
 
-Planet	"8"
+Planet	"Konta Clara H"
 {
 	ParentBody     "Konta Clara"
 	Class          "Aquaria"
@@ -8009,9 +8017,9 @@ Planet	"8"
 	}
 }
 
-DwarfMoon	"8.D1"
+DwarfMoon	"Konta Clara H 1"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Asteroid"
 	Mass            4.01336315e-08
 	Radius          33.5514183
@@ -8127,9 +8135,9 @@ DwarfMoon	"8.D1"
 	}
 }
 
-DwarfMoon	"8.D2"
+DwarfMoon	"Konta Clara H 2"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Asteroid"
 	Mass            5.44968657e-08
 	Radius          41.940239
@@ -8245,9 +8253,9 @@ DwarfMoon	"8.D2"
 	}
 }
 
-DwarfMoon	"8.D3"
+DwarfMoon	"Konta Clara H 3"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Asteroid"
 	Mass            7.41150501e-08
 	Radius          46.4578133
@@ -8363,9 +8371,9 @@ DwarfMoon	"8.D3"
 	}
 }
 
-DwarfMoon	"8.D4"
+DwarfMoon	"Konta Clara H 4"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Asteroid"
 	Mass            1.01042858e-07
 	Radius          41.7740784
@@ -8481,9 +8489,9 @@ DwarfMoon	"8.D4"
 	}
 }
 
-Moon	"8.1"
+Moon	"Konta Clara H 5"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Aquaria"
 	Mass            0.0066856849
 	Radius          1656.60486
@@ -8620,9 +8628,9 @@ Moon	"8.1"
 	}
 }
 
-DwarfMoon	"8.D5"
+DwarfMoon	"Konta Clara H 6"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Asteroid"
 	Mass            1.89928528e-07
 	Radius          53.1583176
@@ -8737,9 +8745,9 @@ DwarfMoon	"8.D5"
 	}
 }
 
-Moon	"8.2"
+Moon	"Konta Clara H 7"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Aquaria"
 	Mass            0.0113174366
 	Radius          1954.67505
@@ -8875,9 +8883,9 @@ Moon	"8.2"
 	}
 }
 
-Moon	"8.3"
+Moon	"Konta Clara H 8"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Aquaria"
 	Mass            0.0116982721
 	Radius          2037.85449
@@ -9013,9 +9021,9 @@ Moon	"8.3"
 	}
 }
 
-DwarfMoon	"8.D6"
+DwarfMoon	"Konta Clara H 9"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Asteroid"
 	Mass            5.12112479e-07
 	Radius          88.3406067
@@ -9130,9 +9138,9 @@ DwarfMoon	"8.D6"
 	}
 }
 
-DwarfMoon	"8.D7"
+DwarfMoon	"Konta Clara H 10"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Asteroid"
 	Mass            7.2550597e-07
 	Radius          79.6399612
@@ -9248,9 +9256,9 @@ DwarfMoon	"8.D7"
 	}
 }
 
-DwarfMoon	"8.D8"
+DwarfMoon	"Konta Clara H 11"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Asteroid"
 	Mass            1.04009769e-06
 	Radius          111.778313
@@ -9366,9 +9374,9 @@ DwarfMoon	"8.D8"
 	}
 }
 
-DwarfMoon	"8.D9"
+DwarfMoon	"Konta Clara H 12"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Asteroid"
 	Mass            1.51247752e-06
 	Radius          105.992538
@@ -9517,9 +9525,9 @@ DwarfMoon	"8.D9"
 	}
 }
 
-DwarfMoon	"8.D10"
+DwarfMoon	"Konta Clara H 13"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Asteroid"
 	Mass            2.23740608e-06
 	Radius          115.75174
@@ -9668,9 +9676,9 @@ DwarfMoon	"8.D10"
 	}
 }
 
-DwarfMoon	"8.D11"
+DwarfMoon	"Konta Clara H 14"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Asteroid"
 	Mass            3.37929964e-06
 	Radius          165.249786
@@ -9819,9 +9827,9 @@ DwarfMoon	"8.D11"
 	}
 }
 
-DwarfMoon	"8.D12"
+DwarfMoon	"Konta Clara H 15"
 {
-	ParentBody     "8"
+	ParentBody     "Konta Clara H"
 	Class          "Asteroid"
 	Mass            5.2357841e-06
 	Radius          156.89946
@@ -31580,7 +31588,7 @@ Comet	"C19"
 	}
 }
 
-Planet	"9"
+Planet	"Konta Clara I"
 {
 	ParentBody     "Konta Clara"
 	Class          "Jupiter"
@@ -31801,7 +31809,7 @@ Planet	"9"
 
 DwarfMoon	"9.D1"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.00088093e-09
 	Radius          8.82738304
@@ -31919,7 +31927,7 @@ DwarfMoon	"9.D1"
 
 DwarfMoon	"9.D2"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.43285839e-09
 	Radius          12.4885263
@@ -32037,7 +32045,7 @@ DwarfMoon	"9.D2"
 
 Moon	"9.1"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Aquaria"
 	Mass            0.000377739518
 	Radius          664.154236
@@ -32176,7 +32184,7 @@ Moon	"9.1"
 
 Moon	"9.2"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Aquaria"
 	Mass            0.00172147725
 	Radius          1023.42529
@@ -32315,7 +32323,7 @@ Moon	"9.2"
 
 Moon	"9.3"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Aquaria"
 	Mass            0.000111004279
 	Radius          454.089508
@@ -32453,7 +32461,7 @@ Moon	"9.3"
 
 Moon	"9.4"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Aquaria"
 	Mass            0.00662196055
 	Radius          1601.9585
@@ -32591,7 +32599,7 @@ Moon	"9.4"
 
 Moon	"9.5"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Aquaria"
 	Mass            0.000616603415
 	Radius          863.521484
@@ -32729,7 +32737,7 @@ Moon	"9.5"
 
 DwarfMoon	"9.6"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            2.66878999e-07
 	Radius          58.5125961
@@ -32846,7 +32854,7 @@ DwarfMoon	"9.6"
 
 DwarfMoon	"9.D3"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.395723e-08
 	Radius          22.4957294
@@ -32964,7 +32972,7 @@ DwarfMoon	"9.D3"
 
 DwarfMoon	"9.D4"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.89775946e-08
 	Radius          29.5229225
@@ -33082,7 +33090,7 @@ DwarfMoon	"9.D4"
 
 DwarfMoon	"9.D5"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            2.57664237e-08
 	Radius          32.6864777
@@ -33200,7 +33208,7 @@ DwarfMoon	"9.D5"
 
 DwarfMoon	"9.D6"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            3.49636124e-08
 	Radius          30.2014236
@@ -33318,7 +33326,7 @@ DwarfMoon	"9.D6"
 
 DwarfMoon	"9.D7"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            4.74571316e-08
 	Radius          40.0537186
@@ -33436,7 +33444,7 @@ DwarfMoon	"9.D7"
 
 DwarfMoon	"9.D8"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            6.44889724e-08
 	Radius          33.8926392
@@ -33554,7 +33562,7 @@ DwarfMoon	"9.D8"
 
 DwarfMoon	"9.D9"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            8.78120119e-08
 	Radius          49.1540031
@@ -33672,7 +33680,7 @@ DwarfMoon	"9.D9"
 
 DwarfMoon	"9.D10"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.19925573e-07
 	Radius          44.2174301
@@ -33823,7 +33831,7 @@ DwarfMoon	"9.D10"
 
 DwarfMoon	"9.D11"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.64433047e-07
 	Radius          60.5575027
@@ -33974,7 +33982,7 @@ DwarfMoon	"9.D11"
 
 DwarfMoon	"9.D12"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            2.26597507e-07
 	Radius          54.9777107
@@ -34125,7 +34133,7 @@ DwarfMoon	"9.D12"
 
 DwarfMoon	"9.D13"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            3.14216578e-07
 	Radius          75.1045837
@@ -34276,7 +34284,7 @@ DwarfMoon	"9.D13"
 
 DwarfMoon	"9.D14"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            4.39032419e-07
 	Radius          75.1378937
@@ -34394,7 +34402,7 @@ DwarfMoon	"9.D14"
 
 DwarfMoon	"9.D15"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            6.19057346e-07
 	Radius          81.1794662
@@ -34512,7 +34520,7 @@ DwarfMoon	"9.D15"
 
 DwarfMoon	"9.D16"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            8.82508232e-07
 	Radius          105.843742
@@ -34663,7 +34671,7 @@ DwarfMoon	"9.D16"
 
 DwarfMoon	"9.D17"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.27468104e-06
 	Radius          96.8284302
@@ -34814,7 +34822,7 @@ DwarfMoon	"9.D17"
 
 DwarfMoon	"9.D18"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.87034664e-06
 	Radius          135.812485
@@ -34965,7 +34973,7 @@ DwarfMoon	"9.D18"
 
 DwarfMoon	"9.D19"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            2.79708593e-06
 	Radius          126.755424
@@ -35116,7 +35124,7 @@ DwarfMoon	"9.D19"
 
 DwarfMoon	"9.D20"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            4.28123349e-06
 	Radius          178.728668
@@ -35234,7 +35242,7 @@ DwarfMoon	"9.D20"
 
 DwarfMoon	"9.D21"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.12064741e-11
 	Radius          2.08424687
@@ -35352,7 +35360,7 @@ DwarfMoon	"9.D21"
 
 DwarfMoon	"9.D22"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            2.31667099e-11
 	Radius          3.15965962
@@ -35470,7 +35478,7 @@ DwarfMoon	"9.D22"
 
 DwarfMoon	"9.D23"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            4.3349286e-11
 	Radius          2.9015801
@@ -35588,7 +35596,7 @@ DwarfMoon	"9.D23"
 
 DwarfMoon	"9.D24"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            7.56549892e-11
 	Radius          4.68727541
@@ -35706,7 +35714,7 @@ DwarfMoon	"9.D24"
 
 DwarfMoon	"9.D25"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.25418329e-10
 	Radius          5.08360958
@@ -35824,7 +35832,7 @@ DwarfMoon	"9.D25"
 
 DwarfMoon	"9.D26"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.99881098e-10
 	Radius          5.32122278
@@ -35942,7 +35950,7 @@ DwarfMoon	"9.D26"
 
 DwarfMoon	"9.D27"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            3.08815695e-10
 	Radius          7.48972368
@@ -36060,7 +36068,7 @@ DwarfMoon	"9.D27"
 
 DwarfMoon	"9.D28"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            4.65358391e-10
 	Radius          7.32382011
@@ -36178,7 +36186,7 @@ DwarfMoon	"9.D28"
 
 DwarfMoon	"9.D29"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            6.87110535e-10
 	Radius          9.77651119
@@ -36296,7 +36304,7 @@ DwarfMoon	"9.D29"
 
 DwarfMoon	"9.D30"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            9.97622429e-10
 	Radius          9.16543484
@@ -36414,7 +36422,7 @@ DwarfMoon	"9.D30"
 
 DwarfMoon	"9.D31"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.42835355e-09
 	Radius          12.4754391
@@ -36532,7 +36540,7 @@ DwarfMoon	"9.D31"
 
 DwarfMoon	"9.D32"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            2.02134842e-09
 	Radius          10.918395
@@ -36650,7 +36658,7 @@ DwarfMoon	"9.D32"
 
 DwarfMoon	"9.D33"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            2.83281398e-09
 	Radius          15.6714678
@@ -36768,7 +36776,7 @@ DwarfMoon	"9.D33"
 
 DwarfMoon	"9.D34"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            3.93801036e-09
 	Radius          14.169961
@@ -36886,7 +36894,7 @@ DwarfMoon	"9.D34"
 
 DwarfMoon	"9.D35"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            5.43789369e-09
 	Radius          19.4728928
@@ -37004,7 +37012,7 @@ DwarfMoon	"9.D35"
 
 DwarfMoon	"9.D36"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            7.46827755e-09
 	Radius          21.6428337
@@ -37122,7 +37130,7 @@ DwarfMoon	"9.D36"
 
 DwarfMoon	"9.D37"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.02124513e-08
 	Radius          19.9296951
@@ -37240,7 +37248,7 @@ DwarfMoon	"9.D37"
 
 DwarfMoon	"9.D38"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.39188643e-08
 	Radius          26.6280155
@@ -37358,7 +37366,7 @@ DwarfMoon	"9.D38"
 
 DwarfMoon	"9.D39"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.89257605e-08
 	Radius          22.658762
@@ -37476,7 +37484,7 @@ DwarfMoon	"9.D39"
 
 DwarfMoon	"9.D40"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            2.56962736e-08
 	Radius          32.6568298
@@ -37594,7 +37602,7 @@ DwarfMoon	"9.D40"
 
 DwarfMoon	"9.D41"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            3.48684601e-08
 	Radius          29.1489906
@@ -37712,7 +37720,7 @@ DwarfMoon	"9.D41"
 
 DwarfMoon	"9.D42"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            4.73276671e-08
 	Radius          40.0173225
@@ -37830,7 +37838,7 @@ DwarfMoon	"9.D42"
 
 DwarfMoon	"9.D43"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            6.43121254e-08
 	Radius          36.7102356
@@ -37948,7 +37956,7 @@ DwarfMoon	"9.D43"
 
 DwarfMoon	"9.D44"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            8.75692905e-08
 	Radius          49.1087456
@@ -38066,7 +38074,7 @@ DwarfMoon	"9.D44"
 
 DwarfMoon	"9.D45"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.19590268e-07
 	Radius          46.1759529
@@ -38217,7 +38225,7 @@ DwarfMoon	"9.D45"
 
 DwarfMoon	"9.D46"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.63966831e-07
 	Radius          60.5003891
@@ -38368,7 +38376,7 @@ DwarfMoon	"9.D46"
 
 DwarfMoon	"9.D47"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            2.25943879e-07
 	Radius          67.3062592
@@ -38519,7 +38527,7 @@ DwarfMoon	"9.D47"
 
 DwarfMoon	"9.D48"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            3.1329094e-07
 	Radius          60.3520813
@@ -38670,7 +38678,7 @@ DwarfMoon	"9.D48"
 
 DwarfMoon	"9.D49"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            4.37706404e-07
 	Radius          83.8505859
@@ -38788,7 +38796,7 @@ DwarfMoon	"9.D49"
 
 DwarfMoon	"9.D50"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            6.17132741e-07
 	Radius          78.0823441
@@ -38906,7 +38914,7 @@ DwarfMoon	"9.D50"
 
 DwarfMoon	"9.D51"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            8.79670836e-07
 	Radius          105.730675
@@ -39057,7 +39065,7 @@ DwarfMoon	"9.D51"
 
 DwarfMoon	"9.D52"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.27041949e-06
 	Radius          99.4022675
@@ -39208,7 +39216,7 @@ DwarfMoon	"9.D52"
 
 DwarfMoon	"9.D53"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            1.8638093e-06
 	Radius          135.6548
@@ -39359,7 +39367,7 @@ DwarfMoon	"9.D53"
 
 DwarfMoon	"9.D54"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            2.78678613e-06
 	Radius          117.280289
@@ -39477,7 +39485,7 @@ DwarfMoon	"9.D54"
 
 DwarfMoon	"9.D55"
 {
-	ParentBody     "9"
+	ParentBody     "Konta Clara I"
 	Class          "Asteroid"
 	Mass            4.26449424e-06
 	Radius          178.496765
@@ -39723,7 +39731,7 @@ Comet	"C72"
 	}
 }
 
-Planet	"10"
+Planet	"Konta Clara J"
 {
 	ParentBody     "Konta Clara"
 	Class          "Ferria"
