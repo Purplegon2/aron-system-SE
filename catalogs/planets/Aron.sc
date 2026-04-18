@@ -422,14 +422,14 @@ Moon	"Parvus"
 		mareDensity     0
 		terraceProb     0.101
 		erosion         0.111
-		montesMagn      0.181
+		montesMagn      0.0923
 		montesFreq      231
 		montesSpiky     0.909
 		montesFraction  0.763
-		dunesMagn       0.0365
+		dunesMagn       0.229
 		dunesFreq       53.6
 		dunesFraction   0.212
-		hillsMagn       0.149
+		hillsMagn       0.382
 		hillsFreq       76.3
 		hillsFraction   0.865
 		hills2Fraction  0.265
@@ -439,14 +439,14 @@ Moon	"Parvus"
 		riftsMagn       0
 		riftsFreq       2.28
 		riftsSin        6.16
-		canyonsMagn     0.0467
+		canyonsMagn     0
 		canyonsFreq     0
 		canyonsFraction 0.76
 		cracksMagn      0.128
 		cracksFreq      0.115
 		cracksOctaves   0
-		craterMagn      0.584
-		craterFreq      18.9
+		craterMagn      0.84
+		craterFreq      12.2
 		craterDensity   0
 		craterOctaves   0
 		volcanoMagn     0.282
@@ -551,7 +551,6 @@ Moon	"Parvus"
 			CO2       	44.6
 			N2        	15.9
 			SO2       	2.67
-			I2      	2.25
 			NH3       	1.54
 			H2S       	0.289
 			C2H6      	0.143
@@ -613,5 +612,6 @@ Moon	"Parvus"
 		MeanAnomaly     28.8972723
 	}
 }
+
 
 
