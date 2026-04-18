@@ -1351,7 +1351,7 @@ Moon	"Eichana"
 		Opacity         0.963
 		mainFreq        0.75
 		mainOctaves     10
-		Coverage        0.786
+		Coverage        0.534
 		stripeZones     1.47
 		stripeTwist     0.16
 	}
@@ -1365,11 +1365,11 @@ Moon	"Eichana"
 		Density         248.353149
 		Pressure        1.68458903
 		Greenhouse      42.7480927
-		Bright          7.63
+		Bright          13.6
 		Opacity         1
 		SkyLight        2.67
 		Hue             -0.5
-		Saturation      1.25
+		Saturation      1.31
 
 		Composition
 		{
