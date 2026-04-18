@@ -3886,7 +3886,7 @@ Moon	"Ise"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      214.088201
+		PeriodDays      1.988201
 		SemiMajorAxisKm 2559139
 		Eccentricity    0.0375550348
 		Inclination     -1.20227261
