@@ -493,6 +493,8 @@ Moon	"Parvus"
 		Composition
 		{
 			NH3       	64
+			H2O			29
+			CuCl2		5
 		}
 	}
 
@@ -534,21 +536,22 @@ Moon	"Parvus"
 
 	Atmosphere
 	{
-		Model          "Earth"
-		Height          41.5260506
+		Model          "Chlorine"
+		Height          96.5456772
 		Density         5.46349955
 		Pressure        0.0125671448
 		Greenhouse      17.557251
-		Bright          8.85
+		Bright          6.72
 		Opacity         0.916
-		SkyLight        2.67
-		Hue             -0.103
-		Saturation      1.65
+		SkyLight        1.22
+		Hue             0.363
+		Saturation      0.992
 
 		Composition
 		{
 			CO2       	44.6
-			C2H4      	5.91
+			Cl			37.3			
+			N2      	15.91
 			SO2       	2.67
 			C2H2      	2.25
 			NH3       	1.54
@@ -574,7 +577,7 @@ Moon	"Parvus"
 		Height         124
 		NorthLat       77.3
 		NorthLon       -15.9
-		NorthRadius    -nan(ind)
+		NorthRadius    402
 		NorthWidth     592
 		NorthRings     3
 		NorthBright    0.3
@@ -583,7 +586,7 @@ Moon	"Parvus"
 		NorthParticles 50000
 		SouthLat       -74.1
 		SouthLon       167
-		SouthRadius    -nan(ind)
+		SouthRadius    410
 		SouthWidth     375
 		SouthRings     2
 		SouthBright    0.3
