@@ -96,7 +96,7 @@ Star	"Fate"
 	Orbit
 	{
 		RefPlane        "Extrasolar"
-		Period          2517.273
+		Period          133665.6
 		SemiMajorAxis   2963.23958
 		Eccentricity    0.12
 		Inclination     100.284081
