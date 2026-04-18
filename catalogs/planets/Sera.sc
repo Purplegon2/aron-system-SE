@@ -18,7 +18,7 @@ Planet	"Sera"
 
 	Surface
 	{
-		Preset         "terra_arid_mars_green_plants.cfg"
+		Preset         "Sera.cfg"
 		SurfStyle       0.965
 		Randomize      (-0.046, -1.023, 0.265)
 		colorDistMagn   0.0403
@@ -106,7 +106,7 @@ Planet	"Sera"
 		SpotBright      2.41
 		SpotWidth       0.05
 		DayAmbient      0.07
-		ModulateColor  (0.941 0.868 0.728)
+		ModulateColor  (0.840 0.738 0.630)
 	}
 
 	NoOcean         true
