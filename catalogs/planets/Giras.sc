@@ -1448,55 +1448,55 @@ Moon	"Tyrulious"
 		climateGrassMax  -1
 		humidity        0.161
 		heightTempGrad  0.625
-		beachWidth      0.000215
+		beachWidth      9.16e-05
 		tropicWidth     0.07
 		mainFreq        3.9
 		venusFreq       1.33
 		venusMagn       0
-		mareFreq        0.005
-		mareDensity     0.117
-		terraceProb     0.219
-		erosion         0.42
-		montesMagn      0.0667
-		montesFreq      405
-		montesSpiky     0.918
-		montesFraction  0.382
-		dunesMagn       0.0304
-		dunesFreq       14
-		dunesFraction   0.563
-		hillsMagn       0.137
-		hillsFreq       151
-		hillsFraction   0.31
+		mareFreq        0.001
+		mareDensity     0
+		terraceProb     0
+		erosion         0
+		montesMagn      1
+		montesFreq      1
+		montesSpiky     0
+		montesFraction  0
+		dunesMagn       0
+		dunesFreq       0
+		dunesFraction   0
+		hillsMagn       0.153
+		hillsFreq       2
+		hillsFraction   0
 		hills2Fraction  0
-		riversMagn      59.9
-		riversFreq      1.32
-		riversSin       6.23
-		riftsMagn       0.484
-		riftsFreq       5.42
-		riftsSin        6.47
-		eqridgeMagn     0.403
-		eqridgeWidth    0.0216
-		eqridgeModMagn  2.41
-		eqridgeModFreq  9.38
-		canyonsMagn     0.153
-		canyonsFreq     817
-		canyonsFraction 0.84
-		cracksMagn      0.0327
-		cracksFreq      0.664
-		cracksOctaves   0
+		riversMagn      0.763
+		riversFreq      0.0763
+		riversSin       0
+		riftsMagn       2.29
+		riftsFreq       0.0763
+		riftsSin        0
+		eqridgeMagn     0
+		eqridgeWidth    0.001
+		eqridgeModMagn  0
+		eqridgeModFreq  0
+		canyonsMagn     0
+		canyonsFreq     0
+		canyonsFraction 0
+		cracksMagn      1.68
+		cracksFreq      7.44
+		cracksOctaves   1
 		craterMagn      0
 		craterFreq      0
-		craterDensity   0.228
-		craterOctaves   2
-		craterRayedFactor 0.0527
+		craterDensity   0
+		craterOctaves   0
+		craterRayedFactor 0
 		volcanoMagn     0
 		volcanoFreq     0
-		volcanoDensity  0.0611
-		volcanoOctaves  3
-		volcanoActivity 1.52
-		volcanoFlows    0.166
-		volcanoRadius   0.135
-		volcanoTemp     296
+		volcanoDensity  0
+		volcanoOctaves  0
+		volcanoActivity 0
+		volcanoFlows    0
+		volcanoRadius   0
+		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
