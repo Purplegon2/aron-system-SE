@@ -1,7 +1,7 @@
 RemoveStar "RS 8513-928-8-5480582-80"
 Star	"Konta Clara"
 {
-	ParentBody     "Konta Clara"
+	ParentBody     "Konta Clara System"
 	Class          "M2.6 V"
 	Luminosity      0.00584662287
 	LumBol          0.0124195283
