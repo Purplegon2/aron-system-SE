@@ -1,3 +1,4 @@
+RemoveStar "RS 8513-928-8-5480582-80"
 Star	"Konta Clara"
 {
 	ParentBody     "Konta Clara"
