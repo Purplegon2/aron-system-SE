@@ -397,7 +397,7 @@ Moon	"Parvus"
 		colorDistFreq   614
 		detailScale     1.64e+04
 		drivenDarkening 0
-		seaLevel        0.191
+		seaLevel        0.341
 		snowLevel       2
 		tropicLatitude  0.804
 		icecapLatitude  2
@@ -433,29 +433,29 @@ Moon	"Parvus"
 		hillsFreq       76.3
 		hillsFraction   0.865
 		hills2Fraction  0.265
-		riversMagn      71.8
-		riversFreq      2.37
+		riversMagn      0.763
+		riversFreq      0.003
 		riversSin       5.48
 		riftsMagn       0
 		riftsFreq       2.28
 		riftsSin        6.16
 		canyonsMagn     0.0467
-		canyonsFreq     146
+		canyonsFreq     0
 		canyonsFraction 0.76
 		cracksMagn      0.128
-		cracksFreq      0.335
+		cracksFreq      0.115
 		cracksOctaves   0
 		craterMagn      0.584
 		craterFreq      18.9
 		craterDensity   0
 		craterOctaves   0
-		volcanoMagn     0.699
-		volcanoFreq     0.214
+		volcanoMagn     0.282
+		volcanoFreq     0.137
 		volcanoDensity  0.4
 		volcanoOctaves  3
 		volcanoActivity 2
 		volcanoFlows    0.85
-		volcanoRadius   0.489
+		volcanoRadius   0.153
 		volcanoTemp     1.03e+03
 		lavaCoverTidal  0
 		lavaCoverSun    0
@@ -483,7 +483,7 @@ Moon	"Parvus"
 
 	Ocean
 	{
-		Depth           3.82
+		Depth           6.82
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.05
@@ -493,8 +493,7 @@ Moon	"Parvus"
 		Composition
 		{
 			NH3       	64
-			H2O			29
-			CuCl2		5
+			H2O       	29
 		}
 	}
 
@@ -508,9 +507,9 @@ Moon	"Parvus"
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
-		mainFreq        0.649
+		mainFreq        0.115
 		mainOctaves     10
-		Coverage        0.1
+		Coverage        0.0763
 		stripeZones     1.97
 		stripeTwist     0.128
 	}
@@ -525,9 +524,9 @@ Moon	"Parvus"
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
-		mainFreq        0.649
+		mainFreq        0.115
 		mainOctaves     10
-		Coverage        0.1
+		Coverage        0.0763
 		stripeZones     1.97
 		stripeTwist     0.128
 	}
@@ -536,24 +535,23 @@ Moon	"Parvus"
 
 	Atmosphere
 	{
-		Model          "Chlorine"
-		Height          96.5456772
-		Density         5.46349955
-		Pressure        0.0125671448
+		Model          "Jupiter"
+		Height          44.5507431
+		Density         0.00062214717
+		Pressure        0.0122372778
 		Greenhouse      17.557251
 		Bright          6.72
-		Opacity         0.916
-		SkyLight        1.22
-		Hue             0.363
-		Saturation      0.992
+		Opacity         1.68
+		SkyLight        0.382
+		Hue             0.156
+		Saturation      1.39
 
 		Composition
 		{
 			CO2       	44.6
-			Cl			37.3			
-			N2      	15.91
+			N2        	15.9
 			SO2       	2.67
-			C2H2      	2.25
+			I2      	2.25
 			NH3       	1.54
 			H2S       	0.289
 			C2H6      	0.143
@@ -574,11 +572,11 @@ Moon	"Parvus"
 
 	Aurora
 	{
-		Height         124
+		Height         158
 		NorthLat       77.3
 		NorthLon       -15.9
-		NorthRadius    402
-		NorthWidth     592
+		NorthRadius    861
+		NorthWidth     568
 		NorthRings     3
 		NorthBright    0.3
 		NorthFlashFreq 72.1
@@ -586,8 +584,8 @@ Moon	"Parvus"
 		NorthParticles 50000
 		SouthLat       -74.1
 		SouthLon       167
-		SouthRadius    410
-		SouthWidth     375
+		SouthRadius    393
+		SouthWidth     360
 		SouthRings     2
 		SouthBright    0.3
 		SouthFlashFreq 64.4
@@ -615,6 +613,5 @@ Moon	"Parvus"
 		MeanAnomaly     28.8972723
 	}
 }
-
 
 
