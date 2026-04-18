@@ -100,8 +100,8 @@ Star	"Hope"
 		Period          133665.6
 		SemiMajorAxis	928.913957518090
 		Eccentricity    0
-		Inclination     0
-		AscendingNode   0
+		Inclination     100.284081
+		AscendingNode   84.9844666
 		ArgOfPericenter 0
 		MeanAnomaly     0
 	}
