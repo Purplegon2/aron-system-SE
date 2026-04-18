@@ -51,7 +51,7 @@ Planet	"Sera"
 		terraceProb     0.29
 		erosion         0
 		montesMagn      0.21
-		montesFreq      366
+		montesFreq      397
 		montesSpiky     0.83
 		montesFraction  0.89
 		dunesMagn       3
