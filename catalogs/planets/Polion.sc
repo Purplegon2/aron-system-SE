@@ -182,6 +182,7 @@ Planet	"Polion"
 		MeanAnomaly     27.6325651
 	}
 }
+
 Moon	"Recluna"
 {
 	ParentBody     "Polion"
@@ -229,23 +230,23 @@ Moon	"Recluna"
 		mainFreq        2.37
 		venusFreq       1.21
 		venusMagn       0
-		mareFreq        0.0839
+		mareFreq        0.33
 		mareDensity     0.176
 		terraceProb     0.121
-		erosion         0.0992
+		erosion         0.0687
 		montesMagn      0.0644
 		montesFreq      0
 		montesSpiky     0
 		montesFraction  0.115
 		dunesMagn       0
-		dunesFreq       7.63e+03
+		dunesFreq       1
 		dunesFraction   0
 		hillsMagn       0
-		hillsFreq       611
+		hillsFreq       1
 		hillsFraction   0.0153
 		hills2Fraction  0
 		riversMagn      16.8
-		riversFreq      4.35
+		riversFreq      0
 		riversSin       5.81
 		riftsMagn       0
 		riftsFreq       1.07
@@ -254,23 +255,23 @@ Moon	"Recluna"
 		eqridgeWidth    0.001
 		eqridgeModMagn  0
 		eqridgeModFreq  0
-		canyonsMagn     0.153
-		canyonsFreq     115
+		canyonsMagn     0.382
+		canyonsFreq     0
 		canyonsFraction 0.115
 		cracksMagn      0.0763
 		cracksFreq      0
 		cracksOctaves   1
 		craterMagn      6.18
-		craterFreq      24.4
+		craterFreq      1.53
 		craterDensity   0.191
 		craterOctaves   11
-		craterRayedFactor 0.191
+		craterRayedFactor 0.687
 		volcanoMagn     0.188
 		volcanoFreq     0
 		volcanoDensity  0.187
 		volcanoOctaves  3
 		volcanoActivity 0.0198
-		volcanoFlows    0.284
+		volcanoFlows    0.0763
 		volcanoRadius   0.151
 		volcanoTemp     253
 		lavaCoverTidal  0.0916
@@ -324,5 +325,6 @@ Moon	"Recluna"
 		MeanAnomaly     -51.9801927
 	}
 }
+
 
 
