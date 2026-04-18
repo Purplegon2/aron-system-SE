@@ -97,7 +97,7 @@ Star	"Hope"
 	Orbit
 	{
 		AnalyticModel  "Extrasolar"
-		Period          0
+		Period          133665.6
 		SemiMajorAxis	928.913957518090
 		Eccentricity    0
 		Inclination     0
