@@ -1,173 +1,184 @@
 @echo off
-setlocal EnableExtensions EnableDelayedExpansion
+setlocal EnableExtensions DisableDelayedExpansion
 
-rem --- Settings ---
+rem Keep installer.bat and space-engine-installer.bat in sync.
 set "REPO_URL=https://github.com/Purplegon2/aron-system-SE.git"
-set "GAME_REL=steamapps\common\SpaceEngine\Addons"
+set "UPDATER_NAME=space-engine-installer.bat"
 
-rem --- Check git ---
+for %%I in ("%~f0") do (
+	set "SELF_PATH=%%~fI"
+	set "SELF_NAME=%%~nxI"
+)
+
+for %%I in ("%~dp0.") do set "INSTALL_DIR=%%~fI"
+
+set "CLONE_DIR=%TEMP%\space-engine-clone-%RANDOM%-%RANDOM%"
+set "UPDATE_PAYLOAD=%TEMP%\space-engine-installer-update-%RANDOM%-%RANDOM%.bat"
+set "APPLY_UPDATE_CMD=%TEMP%\apply-space-engine-installer-update-%RANDOM%-%RANDOM%.cmd"
+
 where git >nul 2>&1
 if errorlevel 1 (
-  echo ERROR: git was not found in PATH.
-  echo Install Git for Windows, then re-run this script.
-  goto :error_pause
+	echo git was not found in PATH.
+	exit /b 1
 )
 
-rem --- Check robocopy ---
-where robocopy >nul 2>&1
+echo Cloning repository...
+git clone "%REPO_URL%" "%CLONE_DIR%"
 if errorlevel 1 (
-  echo ERROR: robocopy was not found.
-  goto :error_pause
+	echo Clone failed.
+	call :cleanup
+	exit /b 1
 )
 
-rem --- Find SpaceEngine Addons folder under common Steam install locations ---
-set "ADDONS_DIR="
-set "STEAMROOT="
-
-for %%D in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
-  if exist "%%D:\SteamLibrary\%GAME_REL%\" (
-    set "STEAMROOT=%%D:\SteamLibrary"
-    set "ADDONS_DIR=%%D:\SteamLibrary\%GAME_REL%"
-    goto :found_addons
-  )
-  if exist "%%D:\Steam\%GAME_REL%\" (
-    set "STEAMROOT=%%D:\Steam"
-    set "ADDONS_DIR=%%D:\Steam\%GAME_REL%"
-    goto :found_addons
-  )
-  if exist "%%D:\Program Files\Steam\%GAME_REL%\" (
-    set "STEAMROOT=%%D:\Program Files\Steam"
-    set "ADDONS_DIR=%%D:\Program Files\Steam\%GAME_REL%"
-    goto :found_addons
-  )
-  if exist "%%D:\Program Files (x86)\Steam\%GAME_REL%\" (
-    set "STEAMROOT=%%D:\Program Files (x86)\Steam"
-    set "ADDONS_DIR=%%D:\Program Files (x86)\Steam\%GAME_REL%"
-    goto :found_addons
-  )
+if not exist "%CLONE_DIR%\catalogs\" (
+	echo The cloned repository does not contain a catalogs folder.
+	call :cleanup
+	exit /b 1
 )
 
-:found_addons
-if not defined ADDONS_DIR (
-  echo ERROR: Could not find "%GAME_REL%" under any of these:
-  echo   ^<Drive^>:\SteamLibrary\%GAME_REL%
-  echo   ^<Drive^>:\Steam\%GAME_REL%
-  echo   ^<Drive^>:\Program Files\Steam\%GAME_REL%
-  echo   ^<Drive^>:\Program Files ^(x86^)\Steam\%GAME_REL%
-  echo Checked drives C: through Z:.
-  goto :error_pause
+if exist "%CLONE_DIR%\%UPDATER_NAME%" (
+	copy /y "%CLONE_DIR%\%UPDATER_NAME%" "%UPDATE_PAYLOAD%" >nul
+	if errorlevel 1 (
+		echo Failed to stage the installer update.
+		call :cleanup
+		exit /b 1
+	)
 )
 
-echo Found Addons folder:
-echo   "%ADDONS_DIR%"
-echo Using Steam root:
-echo   "%STEAMROOT%"
-
-rem --- Timestamp ---
-for /f "usebackq delims=" %%T in (`powershell -NoProfile -Command "Get-Date -Format 'yyyyMMdd_HHmmss'"`) do set "TS=%%T"
-if not defined TS (
-  echo ERROR: Failed to generate timestamp.
-  goto :error_pause
-)
-
-rem --- Archive existing catalogs folder ---
-if exist "%ADDONS_DIR%\catalogs\" (
-  set "ARCHIVE_NAME=catalogs-archive%TS%"
-  echo Archiving existing catalogs as "%ARCHIVE_NAME%"...
-  ren "%ADDONS_DIR%\catalogs" "%ARCHIVE_NAME%" >nul 2>&1
-  if errorlevel 1 (
-    echo ERROR: Failed to rename existing catalogs folder.
-    goto :error_pause
-  )
-)
-
-rem --- Temp workspace ---
-set "TMPROOT=%TEMP%\se_catalogs_pull_%RANDOM%_%TS%"
-mkdir "%TMPROOT%" >nul 2>&1
+echo Installing repo contents into "%INSTALL_DIR%"...
+call :install_repo_contents
 if errorlevel 1 (
-  echo ERROR: Could not create temp folder.
-  goto :error_pause
+	echo Installation failed.
+	call :cleanup
+	exit /b 1
 )
 
-rem --- Clone repo ---
-echo Cloning repo...
-git clone --depth 1 "%REPO_URL%" "%TMPROOT%\repo" >nul 2>&1
-if errorlevel 1 (
-  echo ERROR: Failed to clone repo.
-  goto :error_pause
+if exist "%UPDATE_PAYLOAD%" (
+	fc /b "%SELF_PATH%" "%UPDATE_PAYLOAD%" >nul
+	if errorlevel 2 (
+		echo Failed to compare the installer files.
+		call :cleanup
+		exit /b 1
+	)
+	if errorlevel 1 set "UPDATE_AVAILABLE=1"
 )
 
-rem --- Locate catalogs folder in repo ---
-set "CAT_SRC="
-for /f "delims=" %%P in ('dir /ad /b /s "%TMPROOT%\repo\catalogs" 2^>nul') do (
-  set "CAT_SRC=%%P"
-  goto :got_catalogs
+call :cleanup_clone
+
+if defined UPDATE_AVAILABLE (
+	echo.
+	<nul set /p "=Update current installer y/n "
+	choice /C YN /N >nul
+	echo.
+	if errorlevel 1 if not errorlevel 2 (
+		call :queue_self_update
+		if errorlevel 1 (
+			call :cleanup
+			exit /b 1
+		)
+		echo Installer update queued. Closing.
+		exit /b 0
+	)
 )
 
-:got_catalogs
-if not defined CAT_SRC (
-  echo ERROR: No catalogs folder found in repo.
-  goto :error_pause
-)
+if exist "%UPDATE_PAYLOAD%" del /q "%UPDATE_PAYLOAD%" >nul 2>&1
+if exist "%APPLY_UPDATE_CMD%" del /q "%APPLY_UPDATE_CMD%" >nul 2>&1
 
-rem --- Copy catalogs tree ---
-robocopy "%CAT_SRC%" "%ADDONS_DIR%\catalogs" /E /COPY:DAT /R:1 /W:1 >nul
-set "RC=%ERRORLEVEL%"
-if %RC% GEQ 8 (
-  echo ERROR: robocopy failed with exit code %RC%.
-  goto :error_pause
-)
-
-rem --- Create planets and stars folders ---
-set "CAT_DEST=%ADDONS_DIR%\catalogs"
-
-mkdir "%CAT_DEST%\planets" >nul 2>&1
-if errorlevel 1 (
-  echo ERROR: Failed to create planets folder.
-  goto :error_pause
-)
-
-mkdir "%CAT_DEST%\stars" >nul 2>&1
-if errorlevel 1 (
-  echo ERROR: Failed to create stars folder.
-  goto :error_pause
-)
-
-rem --- Create stars.sc with specified contents ---
-(
-echo StarBarycenter "Hope ^& Fate System"
-echo {
-echo     RA       09 31 14  // right ascension
-echo     Dec      64 16 38  // declination
-echo     Dist     421.0     // distance from the Sun
-echo     Class   "X"        // spectral class - black hole
-echo     Lum      150       // luminosity of the whole system ^(accretion disk^)^^// That's enough, accretion disks will be described in the planets catalog ^(see below^).
-echo }
-) > "%CAT_DEST%\stars\stars.sc"
-
-if errorlevel 1 (
-  echo ERROR: Failed to create stars.sc.
-  goto :error_pause
-)
-
-rem --- Move all other .sc files into planets ---
-for %%F in ("%CAT_DEST%\*.sc") do (
-  move /Y "%%~fF" "%CAT_DEST%\planets\" >nul 2>&1
-  if errorlevel 1 (
-    echo ERROR: Failed to move "%%~nxF" into planets folder.
-    goto :error_pause
-  )
-)
-
-rem --- Cleanup ---
-rmdir /s /q "%TMPROOT%" >nul 2>&1
-
-echo Done successfully.
+echo Install complete.
 exit /b 0
 
-:error_pause
-echo.
-echo Script stopped due to an error.
-echo Press any key to close this window.
-pause >nul
-exit /b 1
+:install_repo_contents
+setlocal EnableDelayedExpansion
+set "FAILED="
+pushd "%CLONE_DIR%" >nul
+if errorlevel 1 (
+	echo Failed to access the cloned repository.
+	endlocal & exit /b 1
+)
+
+for /d %%D in (*) do (
+	if not defined FAILED (
+		set "ITEM_NAME=%%~nxD"
+		if not "!ITEM_NAME:~0,1!"=="." (
+			if /I "!ITEM_NAME!"=="catalogs" (
+				if exist "%INSTALL_DIR%\catalogs\" (
+					echo Replacing existing catalogs folder...
+					rmdir /s /q "%INSTALL_DIR%\catalogs"
+					if exist "%INSTALL_DIR%\catalogs\" (
+						echo Failed to remove the existing catalogs folder.
+						set "FAILED=1"
+					)
+				)
+			)
+
+			if not defined FAILED (
+				echo Copying !ITEM_NAME!...
+				robocopy "%CLONE_DIR%\!ITEM_NAME!" "%INSTALL_DIR%\!ITEM_NAME!" /MIR /R:2 /W:1 /NFL /NDL /NJH /NJS /NP >nul
+				set "ROBOCODE=!ERRORLEVEL!"
+				if !ROBOCODE! GEQ 8 (
+					echo Failed to copy !ITEM_NAME!.
+					set "FAILED=1"
+				)
+			)
+		)
+	)
+)
+
+for %%F in (*) do (
+	if not defined FAILED (
+		set "ITEM_NAME=%%~nxF"
+		if not "!ITEM_NAME:~0,1!"=="." (
+			if /I not "!ITEM_NAME!"=="%UPDATER_NAME%" (
+				if /I not "!ITEM_NAME!"=="%SELF_NAME%" (
+					echo Copying !ITEM_NAME!...
+					copy /y "%CLONE_DIR%\!ITEM_NAME!" "%INSTALL_DIR%\!ITEM_NAME!" >nul
+					if errorlevel 1 (
+						echo Failed to copy !ITEM_NAME!.
+						set "FAILED=1"
+					)
+				)
+			)
+		)
+	)
+)
+
+popd >nul
+
+if defined FAILED (
+	endlocal & exit /b 1
+)
+
+endlocal & exit /b 0
+
+:queue_self_update
+(
+	echo @echo off
+	echo setlocal EnableExtensions
+	echo ping 127.0.0.1 -n 2 ^>nul
+	echo copy /y "%UPDATE_PAYLOAD%" "%SELF_PATH%" ^>nul
+	echo if errorlevel 1 exit /b 1
+	echo del /q "%UPDATE_PAYLOAD%" ^>nul 2^>^&1
+	echo del /q "%%~f0" ^>nul 2^>^&1
+) > "%APPLY_UPDATE_CMD%"
+if errorlevel 1 (
+	echo Failed to create the installer update helper.
+	exit /b 1
+)
+
+start "" cmd /c ""%APPLY_UPDATE_CMD%""
+if errorlevel 1 (
+	echo Failed to launch the installer update helper.
+	exit /b 1
+)
+
+exit /b 0
+
+:cleanup_clone
+if exist "%CLONE_DIR%\" rmdir /s /q "%CLONE_DIR%" >nul 2>&1
+exit /b 0
+
+:cleanup
+call :cleanup_clone
+if exist "%UPDATE_PAYLOAD%" del /q "%UPDATE_PAYLOAD%" >nul 2>&1
+if exist "%APPLY_UPDATE_CMD%" del /q "%APPLY_UPDATE_CMD%" >nul 2>&1
+exit /b 0
