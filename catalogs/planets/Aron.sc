@@ -549,8 +549,9 @@ Moon	"Parvus"
 		Composition
 		{
 			CO2       	44.6
+			Cl2			36.4
 			N2        	15.9
-			SO2       	2.67
+			Ar       	2.67
 			NH3       	1.54
 			H2S       	0.289
 			C2H6      	0.143
@@ -558,7 +559,7 @@ Moon	"Parvus"
 			CO        	0.0424
 			C3H8      	0.00158
 			C8H18     	0.000215
-			Ar        	7.45e-05
+			So2        	7.45e-05
 			Ne        	2.5e-05
 			Xe        	1.03e-05
 		}
