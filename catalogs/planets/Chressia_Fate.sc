@@ -555,7 +555,7 @@ Planet	"Entactrius"
 		canyonsFreq     149
 		canyonsFraction 0.794
 		cracksMagn      0.0982
-		cracksFreq      0.526
+		cracksFreq      0
 		cracksOctaves   0
 		craterMagn      0.55
 		craterFreq      6.87
@@ -704,6 +704,7 @@ Planet	"Entactrius"
 		MeanAnomaly     307.434889
 	}
 }
+
 
 
 
