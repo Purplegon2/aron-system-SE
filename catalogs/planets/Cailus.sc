@@ -700,8 +700,8 @@ Moon	"Alneim"
 {
 	ParentBody     "Cailus"
 	Class          "Terra"
-	Mass            0.06111033584
-	Radius          2912.919983
+	Mass            0.0611103363
+	Radius          2912.91992
 	InertiaMoment   0.399339557
 	Oblateness      0.0206106864
 	Obliquity       -1.07209156
@@ -770,11 +770,11 @@ Moon	"Alneim"
 		cracksMagn      0.382
 		cracksFreq      2.52
 		cracksOctaves   0
-		craterMagn      0.305
-		craterFreq      2.29
+		craterMagn      0.382
+		craterFreq      27.5
 		craterDensity   0.855
 		craterOctaves   18
-		craterRayedFactor 0.534
+		craterRayedFactor 0.107
 		volcanoMagn     0.196
 		volcanoFreq     0.658
 		volcanoDensity  0.273
@@ -798,7 +798,6 @@ Moon	"Alneim"
 		SpotBright      2.5
 		SpotWidth       0.05
 		DayAmbient      0.07
-		ModulateColor  (0.865 0.954 0.988)
 	}
 
 	NoOcean         true
