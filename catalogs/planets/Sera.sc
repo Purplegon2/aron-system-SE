@@ -13,21 +13,21 @@ Planet	"Sera"
 
 	AlbedoBond      0.15
 	AlbedoGeom      0.36
-	Brightness      1
+	Brightness      0.687
 	BrightnessReal  1
 
 	Surface
 	{
-		Preset         "terra_arid_mars_black_yellow_plants.cfg"
+		Preset         "terra_arid_mars_green_plants.cfg"
 		SurfStyle       0.965
-		Randomize      (-0.705, -0.837, 0.265)
+		Randomize      (-0.046, -1.023, 0.265)
 		colorDistMagn   0.0403
 		colorDistFreq   577
 		detailScale     1.64e+04
 		drivenDarkening 0
 		seaLevel        0.103
 		snowLevel       2
-		tropicLatitude  0.871
+		tropicLatitude  1
 		icecapLatitude  2
 		icecapHeight    0.825
 		climatePole     0.563
@@ -51,47 +51,47 @@ Planet	"Sera"
 		terraceProb     0.29
 		erosion         0
 		montesMagn      0.21
-		montesFreq      178
+		montesFreq      366
 		montesSpiky     0.83
 		montesFraction  0.89
-		dunesMagn       0.0736
-		dunesFreq       38.6
+		dunesMagn       3
+		dunesFreq       2
 		dunesFraction   0.754
-		hillsMagn       0.145
-		hillsFreq       448
+		hillsMagn       1.53
+		hillsFreq       76.3
 		hillsFraction   0
 		hills2Fraction  0
-		riversMagn      0
-		riversFreq      2.5
-		riversSin       5.43
-		riftsMagn       52.2
-		riftsFreq       4.12
-		riftsSin        6.9
-		canyonsMagn     0.0352
-		canyonsFreq     122
-		canyonsFraction 0
-		cracksMagn      0.136
-		cracksFreq      0.4
+		riversMagn      3.05
+		riversFreq      0.687
+		riversSin       5.04
+		riftsMagn       14.5
+		riftsFreq       0.0763
+		riftsSin        1.98
+		canyonsMagn     0.153
+		canyonsFreq     2
+		canyonsFraction 0.0992
+		cracksMagn      0
+		cracksFreq      0
 		cracksOctaves   0
-		craterMagn      0.595
-		craterFreq      14.3
-		craterDensity   0.543
-		craterOctaves   13
-		volcanoMagn     0.69
-		volcanoFreq     0.666
-		volcanoDensity  0.4
-		volcanoOctaves  3
-		volcanoActivity 2
-		volcanoFlows    0.543
-		volcanoRadius   0.532
-		volcanoTemp     1.13e+03
+		craterMagn      0.916
+		craterFreq      19.1
+		craterDensity   0.359
+		craterOctaves   6
+		volcanoMagn     0.603
+		volcanoFreq     0.0916
+		volcanoDensity  0.252
+		volcanoOctaves  2
+		volcanoActivity 0
+		volcanoFlows    0
+		volcanoRadius   0.664
+		volcanoTemp     22.9
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
 		stripeZones     2.28
 		stripeTwist     0.183
 		cycloneMagn     3.82
-		cycloneFreq     0.626
+		cycloneFreq     0.962
 		cycloneDensity  0.319
 		cycloneOctaves  3
 		BumpHeight      20
@@ -106,25 +106,26 @@ Planet	"Sera"
 		SpotBright      2.41
 		SpotWidth       0.05
 		DayAmbient      0.07
+		ModulateColor  (0.941 0.868 0.728)
 	}
 
 	NoOcean         true
 
 	Clouds
 	{
-		Height          20.9
+		Height          27.7
 		Velocity        87.5
 		BumpHeight      2.89
 		Gamma           1.02
-		Hapke           0
+		Hapke           0.084
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.137
 		ModulateBright  1.21
-		Opacity         1.04
-		mainFreq        0.793
-		mainOctaves     10
-		Coverage        0.107
+		Opacity         0.183
+		mainFreq        0.252
+		mainOctaves     4
+		Coverage        0.115
 		stripeZones     2.28
 		stripeTwist     0.183
 	}
@@ -133,16 +134,16 @@ Planet	"Sera"
 
 	Atmosphere
 	{
-		Model          "Titan"
-		Height          103.577919
+		Model          "Mars"
+		Height          119.216362
 		Density         0.00507107191
 		Pressure        0.0144651737
 		Greenhouse      15.4678259
-		Bright          5.95
-		Opacity         0.687
-		SkyLight        2.26
-		Hue             0.5
-		Saturation      0.122
+		Bright          6.56
+		Opacity         0.611
+		SkyLight        3.66
+		Hue             -0.00382
+		Saturation      1.59
 
 		Composition
 		{
