@@ -22,3 +22,12 @@ StarBarycenter "Andria System"
     Class   "X"        // spectral class - black hole
     Lum      150       // luminosity of the whole system (accretion disk)^// That's enough, accretion disks will be described in the planets catalog (see below).
 }
+
+StarBarycenter "Homestead Prime System"
+{
+    RA       09 30 13  // right ascension
+    Dec      64 16 38  // declination
+    Dist     423.0     // distance from the Sun
+    Class   "X"        // spectral class - black hole
+    Lum      150       // luminosity of the whole system (accretion disk)^// That's enough, accretion disks will be described in the planets catalog (see below).
+}
