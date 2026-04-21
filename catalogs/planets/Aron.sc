@@ -155,7 +155,7 @@ Planet	"Aron"
 		Model          "Earth"
 		Height          103.577919
 		Density         1.29289997
-		Pressure        1.02999997
+		Pressure        2.32999997
 		Greenhouse      41
 		Bright          10
 		Opacity         1.07
