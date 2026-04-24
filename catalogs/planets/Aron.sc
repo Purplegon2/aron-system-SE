@@ -539,7 +539,7 @@ Moon	"Parvus"
 		Height          44.5507431
 		Density         0.00062214717
 		Pressure        0.0122372778
-		Greenhouse      17.557251
+		Greenhouse      8.34534454
 		Bright          6.72
 		Opacity         1.68
 		SkyLight        0.382
@@ -606,13 +606,15 @@ Moon	"Parvus"
 		RefPlane        "Equator"
 		PeriodDays      58.927
 		SemiMajorAxisKm 622156.5
-		Eccentricity    0.00225407367
+		Eccentricity    0.244274809
 		Inclination     -0.793275735
 		AscendingNode   -8.77875435
 		ArgOfPericenter -2.75980272
 		MeanAnomaly     28.8972723
 	}
 }
+
+
 
 
 
