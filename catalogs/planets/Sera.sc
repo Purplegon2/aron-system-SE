@@ -331,34 +331,35 @@ DwarfMoon	"Beluria"
 	}
 }
 
-DwarfMoon	"Jularia"
+Moon	"Eki"
 {
 	ParentBody     "Sera"
-	Class          "Asteroid"
-	Mass            5.58608437e-10
-	Radius          6.3959651
-	InertiaMoment   0.398651421
-	RotationPeriod  794.52832
-	RotationEpoch   0
-	Obliquity       113.561819
-	EqAscendNode    -86.1509723
+	Class          "Terra"
+	Mass            1.37457005e-06
+	Radius          93.232132
+	InertiaMoment   0.39957273
+	Oblateness     (0.014, 0.000, 0.007)
+	Obliquity       1.35445654
+	EqAscendNode    99.9830836
+	TidalLocked     true
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
-	Brightness      2.25
+	Brightness      1.1
 	BrightnessReal  1
 
 	Surface
 	{
-		Preset         "asteroid_default.cfg"
-		SurfStyle       0.259
-		Randomize      (-0.354, -0.041, 0.615)
-		colorDistMagn   0.861
-		colorDistFreq   0.00546
-		detailScale     16
+		Preset         "terra_airless_io.cfg"
+		SurfStyle       0.302
+		Randomize      (-0.217, -0.357, -0.562)
+		colorDistMagn   0.0851
+		colorDistFreq   68.5
+		detailScale     2.05e+03
 		drivenDarkening 0
+		seaLevel        0.254
 		snowLevel       2
-		tropicLatitude  0.924
+		tropicLatitude  0.759
 		icecapLatitude  1
 		icecapHeight    0
 		climatePole     0.938
@@ -370,38 +371,61 @@ DwarfMoon	"Jularia"
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.478
+		humidity        0.368
 		heightTempGrad  0.625
-		beachWidth      0.000858
+		beachWidth      0.00126
 		tropicWidth     0.07
-		mainFreq        0.368
-		venusFreq       0.694
-		venusMagn       0.622
-		mareDensity     0
-		terraceProb     0.458
+		mainFreq        1.5
+		venusFreq       0.674
+		venusMagn       0
+		mareFreq        0
+		mareDensity     0.174
+		terraceProb     0.125
 		erosion         0
-		montesMagn      0.557
-		montesFreq      3.59
-		montesSpiky     0.876
-		montesFraction  0.415
-		dunesFraction   0
-		hillsMagn       0
-		hillsFreq       0.0937
-		hillsFraction   0.656
+		montesMagn      0.0641
+		montesFreq      31.9
+		montesSpiky     0.972
+		montesFraction  0.0738
+		dunesMagn       0.0429
+		dunesFreq       3.42
+		dunesFraction   0.707
+		hillsMagn       0.106
+		hillsFreq       70.9
+		hillsFraction   0.659
 		hills2Fraction  0
-		canyonsFraction 0
-		craterMagn      0.235
-		craterFreq      0.264
-		craterDensity   0.957
-		craterOctaves   11
-		volcanoActivity 0
-		volcanoFlows    0
-		volcanoRadius   0.495
-		volcanoTemp     197
+		riversMagn      58.3
+		riversFreq      3.74
+		riversSin       5.34
+		riftsMagn       51.9
+		riftsFreq       3.78
+		riftsSin        5.95
+		eqridgeMagn     0.373
+		eqridgeWidth    0.0219
+		eqridgeModMagn  2.5
+		eqridgeModFreq  8.65
+		canyonsMagn     0.588
+		canyonsFreq     0.17
+		canyonsFraction 0.107
+		cracksMagn      0.0413
+		cracksFreq      0.115
+		cracksOctaves   0
+		craterMagn      0.458
+		craterFreq      1.62
+		craterDensity   0.867
+		craterOctaves   17
+		craterRayedFactor 0.205
+		volcanoMagn     0.188
+		volcanoFreq     0.731
+		volcanoDensity  0.24
+		volcanoOctaves  3
+		volcanoActivity 0.396
+		volcanoFlows    0.17
+		volcanoRadius   0.12
+		volcanoTemp     1.34e+03
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      5.76
+		BumpHeight      20
 		SpecBrightWater 0
 		SpecBrightIce   0.03
 		RoughnessWater  0.35
@@ -438,13 +462,14 @@ DwarfMoon	"Jularia"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      8.48491
-		SemiMajorAxisKm 67501.8
-		Eccentricity    0.275072292
-		Inclination     143.344329
-		AscendingNode   -82.5124664
-		ArgOfPericenter 53.3422552
-		MeanAnomaly     -18.2041313
+		PeriodDays      1.1893
+		SemiMajorAxisKm 37467.4776
+		Eccentricity    0.012160947595
+		Inclination     2.35445654
+		AscendingNode   99.9830836
+		ArgOfPericenter 136.457251
+		MeanAnomaly     27.2698647
 	}
 }
+
 
