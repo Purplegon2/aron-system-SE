@@ -535,16 +535,16 @@ Moon	"Parvus"
 
 	Atmosphere
 	{
-		Model          "Jupiter"
-		Height          44.5507431
+		Model          "Mars"
+		Height          72.8778305
 		Density         0.00062214717
-		Pressure        0.0122372778
-		Greenhouse      8.34534454
+		Pressure        0.0138210002
+		Greenhouse      6.34534454
 		Bright          6.72
-		Opacity         1.68
+		Opacity         1.15
 		SkyLight        0.382
 		Hue             0.156
-		Saturation      1.39
+		Saturation      1.31
 
 		Composition
 		{
@@ -572,11 +572,11 @@ Moon	"Parvus"
 
 	Aurora
 	{
-		Height         158
+		Height         169
 		NorthLat       77.3
 		NorthLon       -15.9
-		NorthRadius    861
-		NorthWidth     568
+		NorthRadius    857
+		NorthWidth     565
 		NorthRings     3
 		NorthBright    0.3
 		NorthFlashFreq 72.1
@@ -584,8 +584,8 @@ Moon	"Parvus"
 		NorthParticles 50000
 		SouthLat       -74.1
 		SouthLon       167
-		SouthRadius    393
-		SouthWidth     360
+		SouthRadius    391
+		SouthWidth     358
 		SouthRings     2
 		SouthBright    0.3
 		SouthFlashFreq 64.4
@@ -613,6 +613,7 @@ Moon	"Parvus"
 		MeanAnomaly     28.8972723
 	}
 }
+
 
 
 
