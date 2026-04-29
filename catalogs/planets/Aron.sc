@@ -418,21 +418,21 @@ Moon	"Parvus"
 		mainFreq        1.22
 		venusFreq       0.994
 		venusMagn       0
-		mareFreq        3.98
+		mareFreq        3.74
 		mareDensity     0
 		terraceProb     0.101
 		erosion         0.111
-		montesMagn      0.0923
-		montesFreq      231
-		montesSpiky     0.909
-		montesFraction  0.763
+		montesMagn      0.305
+		montesFreq      130
+		montesSpiky     0.649
+		montesFraction  0.511
 		dunesMagn       0.229
 		dunesFreq       53.6
 		dunesFraction   0.212
-		hillsMagn       0.382
-		hillsFreq       76.3
-		hillsFraction   0.865
-		hills2Fraction  0.265
+		hillsMagn       0.458
+		hillsFreq       763
+		hillsFraction   0.733
+		hills2Fraction  0.45
 		riversMagn      0.763
 		riversFreq      0.003
 		riversSin       5.48
@@ -541,7 +541,7 @@ Moon	"Parvus"
 		Pressure        0.0138210002
 		Greenhouse      6.34534454
 		Bright          6.72
-		Opacity         1.15
+		Opacity         1.07
 		SkyLight        0.382
 		Hue             0.156
 		Saturation      1.31
@@ -613,8 +613,6 @@ Moon	"Parvus"
 		MeanAnomaly     28.8972723
 	}
 }
-
-
 
 
 
