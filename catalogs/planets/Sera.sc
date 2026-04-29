@@ -336,7 +336,7 @@ Moon	"Eki"
 	ParentBody     "Sera"
 	Class          "Terra"
 	Mass            1.37457005e-06
-	Radius          93.232132
+	Radius          263.232132
 	InertiaMoment   0.39957273
 	Oblateness     (0.014, 0.000, 0.007)
 	Obliquity       1.35445654
