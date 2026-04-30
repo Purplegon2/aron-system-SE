@@ -1457,22 +1457,22 @@ Moon	"Tyrulious"
 		mareDensity     0
 		terraceProb     0
 		erosion         0
-		montesMagn      1
-		montesFreq      1
+		montesMagn      0
+		montesFreq      0
 		montesSpiky     0
 		montesFraction  0
 		dunesMagn       0
 		dunesFreq       0
 		dunesFraction   0
-		hillsMagn       0.153
-		hillsFreq       2
+		hillsMagn       0
+		hillsFreq       0
 		hillsFraction   0
 		hills2Fraction  0
-		riversMagn      0.763
-		riversFreq      0.0763
+		riversMagn      0
+		riversFreq      0
 		riversSin       0
-		riftsMagn       2.29
-		riftsFreq       0.0763
+		riftsMagn       0
+		riftsFreq       0
 		riftsSin        0
 		eqridgeMagn     0
 		eqridgeWidth    0.001
