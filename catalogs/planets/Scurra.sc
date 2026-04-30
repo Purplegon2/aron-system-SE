@@ -202,241 +202,266 @@ Moon	"Ikernu"
 {
 	ParentBody     "Scurra"
 	Class          "Terra"
-	Mass            0.191135983
+	Mass            0.196356978
 	Radius          3717.6001
-	InertiaMoment   0.331860512
-	Oblateness      0.00240523578
-	RotationPeriod  27.7977429
-	RotationEpoch   1451545
-	Obliquity       28.2500932
-	EqAscendNode    19.9272691
+	InertiaMoment   0.333269864
+	Oblateness      0.00722601544
+	RotationPeriod  18.0712543
+	RotationEpoch   0
+	Obliquity       -291.02342
+	EqAscendNode    -67.1181967
 
-	AlbedoBond      0.536
+	AlbedoBond      0.151
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
 
 	Surface
 	{
-		Preset         "terra_wet_rusty_green_plants.cfg"
-		SurfStyle       0.779
-		Randomize      (-0.229, 0.957, -0.809)
-		colorDistMagn   0.0554
-		colorDistFreq   1.02e+03
-		detailScale     3.28e+04
+		Preset         "R_terra_arid_desolate_cyan_plants.cfg"
+		SurfStyle       0.549
+		Randomize      (-0.229, 0.473, 0.321)
+		colorDistMagn   0.0753
+		colorDistFreq   793
+		detailScale     1.64e+04
 		drivenDarkening 0
-		seaLevel        -0.725
-		snowLevel       1.29
-		tropicLatitude  0.955
-		icecapLatitude  2
-		icecapHeight    0.0916
-		climatePole     0.626
-		climateTropic   0.563
-		climateEquator  0.672
-		climateSteppeMin -0.847
-		climateSteppeMax -0.496
+		seaLevel        -0.107
+		snowLevel       2
+		tropicLatitude  0.947
+		icecapLatitude  1
+		icecapHeight    0.476
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.233
-		heightTempGrad  0.375
-		beachWidth      0.00138
-		tropicWidth     0.5
-		mainFreq        4.2
-		venusFreq       0.565
-		venusMagn       0.0382
-		mareFreq        0.001
-		mareDensity     0.0916
-		terraceProb     0.42
-		erosion         0.229
-		montesMagn      0.305
-		montesFreq      145
-		montesSpiky     0
-		montesFraction  0
-		dunesMagn       0.01
-		dunesFreq       5.34e+04
-		dunesFraction   0.366
-		hillsMagn       0.03
-		hillsFreq       8.02e+03
-		hillsFraction   0.412
-		hills2Fraction  0.405
-		riversMagn      9.92
-		riversFreq      3.13
-		riversSin       0
-		riftsMagn       2.29
-		riftsFreq       2.52
-		riftsSin        1.07
-		eqridgeModMagn  0.286
-		canyonsMagn     1.07
-		canyonsFreq     573
-		canyonsFraction 0.0611
-		cracksMagn      0.2
-		cracksFreq      1.92
-		cracksOctaves   2
-		craterMagn      0.64
-		craterFreq      25
-		craterDensity   0
-		craterOctaves   0
-		craterRayedFactor 0.174
-		volcanoMagn     0.787
-		volcanoFreq     0.962
-		volcanoDensity  0.359
+		humidity        0.263
+		heightTempGrad  0.625
+		beachWidth      0.000627
+		tropicWidth     0.07
+		mainFreq        0.983
+		venusFreq       0.626
+		venusMagn       0
+		mareFreq        1.51
+		mareDensity     0
+		terraceProb     0.102
+		erosion         0
+		montesMagn      0.174
+		montesFreq      244
+		montesSpiky     0.931
+		montesFraction  0.574
+		dunesMagn       0.037
+		dunesFreq       66.2
+		dunesFraction   0.96
+		hillsMagn       0.109
+		hillsFreq       760
+		hillsFraction   0
+		hills2Fraction  0
+		riversMagn      0
+		riversFreq      2.74
+		riversSin       7.51
+		riftsMagn       61.5
+		riftsFreq       1.99
+		riftsSin        5.29
+		canyonsMagn     0.0188
+		canyonsFreq     151
+		canyonsFraction 0
+		cracksMagn      0.133
+		cracksFreq      0.516
+		cracksOctaves   0
+		craterMagn      0.578
+		craterFreq      19.4
+		craterDensity   0.283
+		craterOctaves   8
+		volcanoMagn     0.722
+		volcanoFreq     0.931
+		volcanoDensity  0.4
 		volcanoOctaves  3
 		volcanoActivity 2
-		volcanoFlows    0.962
-		volcanoRadius   0.924
-		volcanoTemp     3e+03
-		lavaCoverTidal  0.298
+		volcanoFlows    0.518
+		volcanoRadius   0.557
+		volcanoTemp     1.51e+03
+		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		stripeZones     1.47
-		stripeTwist     0.16
-		cycloneMagn     1.07
-		cycloneFreq     0.458
-		cycloneDensity  0.145
-		cycloneOctaves  4
-		BumpHeight      17.8
-		BumpOffset      2.72
-		DiffMapAlpha   "Water"
-		SpecBrightWater 0.65
-		SpecBrightIce   0.85
+		stripeZones     1.74
+		stripeTwist     0.132
+		cycloneMagn     2.52
+		cycloneFreq     0.737
+		cycloneDensity  0.474
+		cycloneOctaves  3
+		BumpHeight      20
+		DiffMapAlpha   "Ice"
+		SpecBrightWater 0.5
+		SpecBrightIce   0.5
 		RoughnessWater  0.35
 		RoughnessIce    0.45
 		SpecularScale   1
 		RoughnessBias   0.5
 		Hapke           0.5
-		SpotBright      2.02
+		SpotBright      2.39
 		SpotWidth       0.05
 		DayAmbient      0.07
-		ModulateColor  (0.684 0.531 0.419)
 	}
 
-	Ocean
-	{
-		Depth           -12.9
-		Hapke           0
-		SpotBright      2
-		SpotWidth       0.05
-		DayAmbient      0.07
-		ModulateBright  1
-
-		Composition
-		{
-			SO2       	99
-			C2H4      	0.372
-			C2H6      	0.201
-			NH3       	0.174
-			C2H2      	0.167
-			H2S       	0.0785
-			C3H8      	0.000647
-		}
-	}
+	NoOcean         true
 
 	Clouds
 	{
-		Height          5.5
-		Velocity        48.7
-		BumpHeight      3.31
-		Gamma           1.09
-		Hapke           0
-		SpotBright      5.95
-		SpotWidth       0.0644
-		DayAmbient      0.07
-		ModulateColor  (0.203 0.146 0.095)
-		ModulateBright  0.486
-		Opacity         0.763
-		mainFreq        0.75
-		mainOctaves     10
-		Coverage        0.458
-		stripeZones     1.47
-		stripeTwist     0.16
-	}
-
-	Clouds
-	{
-		Height          5.5
-		Velocity        79.4
-		BumpHeight      3.31
+		Height          12.9
+		Velocity        134
+		BumpHeight      1.46
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
-		mainFreq        0.75
+		mainFreq        0.723
 		mainOctaves     10
-		Coverage        0.458
-		stripeZones     1.47
-		stripeTwist     0.16
+		Coverage        0.101
+		stripeZones     1.74
+		stripeTwist     0.132
+	}
+
+	Clouds
+	{
+		Height          12.9
+		Velocity        67.8
+		BumpHeight      1.46
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		mainFreq        0.723
+		mainOctaves     10
+		Coverage        0.101
+		stripeZones     1.74
+		stripeTwist     0.132
+	}
+
+	Clouds
+	{
+		Height          12.9
+		Velocity        113
+		BumpHeight      1.46
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		mainFreq        0.723
+		mainOctaves     10
+		Coverage        0.101
+		stripeZones     1.74
+		stripeTwist     0.132
 	}
 
 	NoLava          true
 
 	Atmosphere
 	{
-		Model          "Earth"
-		Height          319.019165
-		Density         1.27899909e-06
-		Pressure        0.0469629876
-		Greenhouse      177.099243
-		Bright          1.07
-		Opacity         0.916
-		SkyLight        8.55
-		Hue             0.5
-		Saturation      0.565
+		Model          "Thin"
+		Height          51.2771263
+		Density         0.150837451
+		Pressure        0.0747535378
+		Greenhouse      3.81060648
+		Bright          9.43
+		Opacity         1
+		SkyLight        3.14
+		Hue             -0.454
+		Saturation      0.84
 
 		Composition
 		{
-			N2        	91.9
-			CO        	4.77
-			CO2       	1.36
-			C2H4      	1.04
-			C2H6      	0.507
-			SO2       	0.243
-			C2H2      	0.0651
-			NH3       	0.0516
-			H2S       	0.0326
-			Ar        	0.0131
-			CH4       	0.00637
-			Ne        	0.00302
-			C3H8      	0.00112
-			He        	0.00084
-			H2O       	0.000144
-			Kr        	8.99e-05
+			SO2			54.23
+			CO2			26.32
+			N2        	12.7
+			H2S      	8.44
+			C2H4       	6.35
+			NH3       	1.65
+			C2H6      	0.312
+			CO        	0.247
+			H2S       	0.168
+			CH4       	0.0594
+			C3H8      	0.0101
+			C2H2      	0.00832
+			SO2       	0.00571
+			Ne        	0.000333
+			Ar        	7.55e-05
+			O2        	4.76e-05
+			H2O       	1.03e-05
 		}
 	}
 
 	Climate
 	{
-		GlobalWindSpeed  1.99
+		GlobalWindSpeed  18.8
 	}
 
 	Aurora
 	{
-		Height         297
-		NorthLat       72.6
-		NorthLon       -82.4
-		NorthRadius    1.33e+03
-		NorthWidth     391
-		NorthRings     2
-		NorthBright    0.687
-		NorthFlashFreq 67.7
-		NorthMoveSpeed 0.901
+		Height         43.7
+		NorthLat       57.9
+		NorthLon       -125
+		NorthRadius    1.25e+03
+		NorthWidth     347
+		NorthRings     5
+		NorthBright    0.3
+		NorthFlashFreq 71.9
+		NorthMoveSpeed 1.35
 		NorthParticles 50000
-		SouthLat       -52.8
-		SouthLon       136
-		SouthRadius    2.21e+03
-		SouthWidth     3.63e+03
-		SouthRings     6
-		SouthBright    0.763
-		SouthFlashFreq 64.2
-		SouthMoveSpeed 0.965
+		SouthLat       -62
+		SouthLon       31.1
+		SouthRadius    1.51e+03
+		SouthWidth     407
+		SouthRings     4
+		SouthBright    0.3
+		SouthFlashFreq 75.2
+		SouthMoveSpeed 0.948
 		SouthParticles 50000
-		TopColor    (0.310 0.684 0.605)
-		BottomColor (0.236 0.637 0.468)
+		TopColor    (1.000 1.000 1.000)
+		BottomColor (0.000 1.000 0.000)
 	}
 
-	NoRings         true
+	Rings
+	{
+		InnerRadius     1.55e+04
+		OuterRadius     1.07e+04
+		EdgeRadius      1.55e+04
+		MeanRadius      1.61e+05
+		Thickness       0.319
+		RocksMaxSize    0.00151
+		RocksSpacing    4.08
+		DustDrawDist    113
+		ChartRadius     1.48e+04
+		RotationPeriod  4.02
+		Brightness      5.8
+		FrontBright     3.74
+		BackBright      1.3
+		Density         0.00182
+		Opacity         0.013
+		SelfShadow      0.916
+		PlanetShadow    0.71
+		Hapke           1
+		SpotBright      2.3
+		SpotWidth       0.0311
+		SpotBrightCB    0
+		SpotWidthCB     0.001
+		frequency       1.88
+		densityScale    1.64
+		densityOffset   -0.33
+		densityPower    0.993
+		colorContrast   0.0763
+		FrontColor      (0.750 0.670 0.533)
+		BackThickColor  (0.800 0.600 0.400)
+		BackIceColor    (0.300 0.700 1.000)
+		BackDustColor   (1.000 0.980 0.880)
+	}
 
 	NoAccretionDisk true
 
@@ -454,6 +479,8 @@ Moon	"Ikernu"
 		MeanAnomaly     -94.9656029
 	}
 }
+
+
 
 Moon	"Malia"
 {
