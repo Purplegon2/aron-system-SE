@@ -1213,8 +1213,8 @@ Moon	"Eichana"
 {
 	ParentBody     "Giras"
 	Class          "Terra"
-	Mass            0.0177195705
-	Radius          1984.7688
+	Mass            0.0187195705
+	Radius          2384.32007
 	InertiaMoment   0.378329813
 	Obliquity       2.09588425
 	EqAscendNode    143.354448
@@ -1270,13 +1270,13 @@ Moon	"Eichana"
 		hillsFreq       119
 		hillsFraction   0.758
 		hills2Fraction  0
-		riversMagn      66.6
-		riversFreq      3.13
-		riversSin       7.58
+		riversMagn      16
+		riversFreq      0.0763
+		riversSin       1.37
 		riftsMagn       1.08
-		riftsFreq       2.5
-		riftsSin        6.45
-		canyonsMagn     0.611
+		riftsFreq       0.916
+		riftsSin        1.37
+		canyonsMagn     0.382
 		canyonsFreq     7.63
 		canyonsFraction 0.0458
 		cracksMagn      0.0273
@@ -1307,7 +1307,7 @@ Moon	"Eichana"
 		BumpHeight      18.3
 		BumpOffset      4
 		DiffMapAlpha   "Water"
-		SpecBrightWater 0.65
+		SpecBrightWater 0.168
 		SpecBrightIce   0.85
 		RoughnessWater  0.35
 		RoughnessIce    0.45
@@ -1351,7 +1351,7 @@ Moon	"Eichana"
 		Opacity         0.963
 		mainFreq        0.75
 		mainOctaves     10
-		Coverage        0.534
+		Coverage        0.397
 		stripeZones     1.47
 		stripeTwist     0.16
 	}
@@ -1361,20 +1361,21 @@ Moon	"Eichana"
 	Atmosphere
 	{
 		Model          "Thick"
-		Height          209.223602
+		Height          127.89991
 		Density         248.353149
 		Pressure        1.68458903
-		Greenhouse      42.7480927
+		Greenhouse      25.9541988
 		Bright          13.6
-		Opacity         1
-		SkyLight        2.67
+		Opacity         1.07
+		SkyLight        0
 		Hue             -0.5
-		Saturation      1.31
+		Saturation      1.22
 
 		Composition
 		{
-			N2        	96
+			N2        	95.3
 			CH4       	3.8
+			CO2			0.7
 			Ar        	0.2
 		}
 	}
@@ -1593,10 +1594,10 @@ Moon	"Radonus"
 {
 	ParentBody     "Giras"
 	Class          "Aquaria"
-	Mass            0.0116718253
-	Radius          1843
+	Mass            0.00716718253
+	Radius          899.908752
 	InertiaMoment   0.373757631
-	Obliquity       -0.90306703
+	Obliquity       8.24427481
 	EqAscendNode    38.4507081
 	TidalLocked     true
 
@@ -1725,4 +1726,5 @@ Moon	"Radonus"
 		MeanAnomaly     72.564411
 	}
 }
+
 
