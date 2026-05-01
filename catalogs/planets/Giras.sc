@@ -1595,7 +1595,7 @@ Moon	"Radonus"
 	ParentBody     "Giras"
 	Class          "Aquaria"
 	Mass            0.00716718253
-	Radius          899.908752
+	Radius          867.908752
 	InertiaMoment   0.373757631
 	Obliquity       8.24427481
 	EqAscendNode    38.4507081
