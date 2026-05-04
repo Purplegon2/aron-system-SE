@@ -1449,7 +1449,7 @@ Moon	"Cheillou"
 	ParentBody     "Noi"
 	Class          "Aquaria"
 	Mass            0.0199458357
-	Radius          2301.74463
+	Radius          1873
 	InertiaMoment   0.361573398
 	Obliquity       -2.08676354
 	EqAscendNode    4.96004309
@@ -1459,13 +1459,6 @@ Moon	"Cheillou"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-
-	Life
-	{
-		Class   "Exotic"
-		Type    "Unicellular"
-		Panspermia true
-	}
 
 	Surface
 	{
@@ -1582,8 +1575,8 @@ Moon	"Cheillou"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      3.32801972
-		SemiMajorAxisKm 869623.259
+		PeriodDays      4.32726773
+		SemiMajorAxisKm 1035976.09
 		Eccentricity    0
 		Inclination     0.034
 		AscendingNode   4.96004309
