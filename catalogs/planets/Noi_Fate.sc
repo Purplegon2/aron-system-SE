@@ -1460,6 +1460,13 @@ Moon	"Cheillou"
 	Brightness      1
 	BrightnessReal  1
 
+	Life
+	{
+		Class   "Exotic"
+		Type    "Unicellular"
+		Panspermia true
+	}
+
 	Surface
 	{
 		Preset         "aquaria_airless_white2.cfg"
@@ -1575,10 +1582,10 @@ Moon	"Cheillou"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      438.617114
-		SemiMajorAxisKm 1923092
-		Eccentricity    0.0083024628
-		Inclination     -2.08676354
+		PeriodDays      3.32801972
+		SemiMajorAxisKm 869623.259
+		Eccentricity    0
+		Inclination     0.034
 		AscendingNode   4.96004309
 		ArgOfPericenter -50.473017
 		MeanAnomaly     30.597098
@@ -1728,7 +1735,7 @@ Moon	"Maresia"
 {
 	ParentBody     "Noi"
 	Class          "Terra"
-	Mass            0.070911079
+	Mass            0.0709110796
 	Radius          2634.86743
 	InertiaMoment   0.329535395
 	Oblateness      0.00829198956
@@ -1943,8 +1950,8 @@ Moon	"Maresia"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      541.441393
-		SemiMajorAxisKm 1403123
+		PeriodDays      7.77034635
+		SemiMajorAxisKm 1530535.82
 		Eccentricity    0.020116836
 		Inclination     1.35263885
 		AscendingNode   152.609468
@@ -1952,6 +1959,7 @@ Moon	"Maresia"
 		MeanAnomaly     10.163901
 	}
 }
+
 
 
 
