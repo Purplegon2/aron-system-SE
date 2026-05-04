@@ -137,7 +137,7 @@ DwarfPlanet	"Cuenive"
 	}
 }
 
-dwarfmoon	"Chevimonusche"
+DwarfMoon	"Chevimonusche"
 {
 	ParentBody     "Cuenive"
 	Class          "Asteroid"
@@ -174,7 +174,7 @@ dwarfmoon	"Chevimonusche"
 	}
 }
 
-dwarfmoon	"Nise"
+DwarfMoon	"Nise"
 {
 	ParentBody     "Cuenive"
 	Class          "Asteroid"
@@ -211,7 +211,7 @@ dwarfmoon	"Nise"
 	}
 }
 
-dwarfmoon	"Oatu"
+DwarfMoon	"Oatu"
 {
 	ParentBody     "Cuenive"
 	Class          "Asteroid"
@@ -248,7 +248,7 @@ dwarfmoon	"Oatu"
 	}
 }
 
-dwarfmoon	"Snus"
+DwarfMoon	"Snus"
 {
 	ParentBody     "Cuenive"
 	Class          "Asteroid"
