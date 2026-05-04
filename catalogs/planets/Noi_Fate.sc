@@ -1449,7 +1449,7 @@ Moon	"Cheillou"
 	ParentBody     "Noi"
 	Class          "Aquaria"
 	Mass            0.0199458357
-	Radius          1773.8382
+	Radius          1873.8382
 	InertiaMoment   0.361573398
 	Obliquity       -2.08676354
 	EqAscendNode    4.96004309
