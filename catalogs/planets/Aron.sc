@@ -604,10 +604,10 @@ Moon	"Parvus"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      58.927
+		Period		    58.927
 		SemiMajorAxisKm 622156.5
-		Eccentricity    0.244274809
-		Inclination     -0.793275735
+		Eccentricity    0.412274809
+		Inclination     -181.793275735
 		AscendingNode   -8.77875435
 		ArgOfPericenter -2.75980272
 		MeanAnomaly     28.8972723
