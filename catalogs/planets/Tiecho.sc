@@ -2,12 +2,14 @@ DwarfPlanet	"Tiecho"
 {
 	ParentBody     "Hope"
 	Class          "Ferria"
-	Mass            0.00513904323
+	Mass            0.00513904309
 	Radius          1270.07532
 	InertiaMoment   0.354743063
+	Oblateness      0.00165194413
+	RotationPeriod  44.1237029
+	RotationEpoch   0
 	Obliquity       2.78580983
 	EqAscendNode    -35.4327412
-	TidalLocked     false
 
 	AlbedoBond      0.07
 	AlbedoGeom      0.36
@@ -26,8 +28,8 @@ DwarfPlanet	"Tiecho"
 		seaLevel        0.28
 		snowLevel       2
 		tropicLatitude  0.000744
-		icecapLatitude  2
-		icecapHeight    0.423
+		icecapLatitude  1.73
+		icecapHeight    0
 		climatePole     0.438
 		climateTropic   0.313
 		climateEquator  0.688
@@ -37,53 +39,53 @@ DwarfPlanet	"Tiecho"
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.459
-		heightTempGrad  0.625
-		beachWidth      0.0011
-		tropicWidth     0.07
+		humidity        0
+		heightTempGrad  0
+		beachWidth      0
+		tropicWidth     0
 		mainFreq        1.66
 		venusFreq       1.39
-		venusMagn       0
-		mareFreq        0.797
-		mareDensity     0.178
-		terraceProb     0.427
+		venusMagn       0.0763
+		mareFreq        0.00824
+		mareDensity     0.0229
+		terraceProb     0
 		erosion         0
-		montesMagn      0.0903
-		montesFreq      98.8
-		montesSpiky     0.802
-		montesFraction  0.946
-		dunesMagn       0.0388
-		dunesFreq       12.9
-		dunesFraction   0.599
-		hillsMagn       0.14
-		hillsFreq       243
-		hillsFraction   0.217
+		montesMagn      0.153
+		montesFreq      2
+		montesSpiky     0
+		montesFraction  0.0534
+		dunesMagn       1
+		dunesFreq       2
+		dunesFraction   0.00763
+		hillsMagn       0.687
+		hillsFreq       4
+		hillsFraction   0
 		hills2Fraction  0
-		riversMagn      60.6
-		riversFreq      3.19
-		riversSin       5.53
-		riftsMagn       60.6
-		riftsFreq       3.16
-		riftsSin        6.25
-		canyonsMagn     0.322
-		canyonsFreq     0.67
-		canyonsFraction 0.211
-		cracksMagn      0.0396
-		cracksFreq      0.861
+		riversMagn      0
+		riversFreq      0
+		riversSin       0
+		riftsMagn       1.53
+		riftsFreq       0.382
+		riftsSin        0.153
+		canyonsMagn     0.611
+		canyonsFreq     2
+		canyonsFraction 0
+		cracksMagn      0
+		cracksFreq      0
 		cracksOctaves   0
-		craterMagn      0.633
-		craterFreq      5.24
-		craterDensity   0.772
-		craterOctaves   19
-		craterRayedFactor 0.106
-		volcanoMagn     0.295
-		volcanoFreq     0.785
-		volcanoDensity  0.4
-		volcanoOctaves  3
-		volcanoActivity 1.53
-		volcanoFlows    0.151
-		volcanoRadius   0.238
-		volcanoTemp     1.26e+03
+		craterMagn      0.763
+		craterFreq      11.5
+		craterDensity   0.145
+		craterOctaves   16
+		craterRayedFactor 0.0763
+		volcanoMagn     0
+		volcanoFreq     0
+		volcanoDensity  0
+		volcanoOctaves  0
+		volcanoActivity 0
+		volcanoFlows    0
+		volcanoRadius   0
+		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
@@ -95,9 +97,10 @@ DwarfPlanet	"Tiecho"
 		SpecularScale   1
 		RoughnessBias   0.8
 		Hapke           1
-		SpotBright      2.5
+		SpotBright      0.458
 		SpotWidth       0.05
 		DayAmbient      0.07
+		RingsWinter     0
 	}
 
 	NoOcean         true
