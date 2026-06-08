@@ -208,7 +208,7 @@ Planet	"Tiberius"
 {
 	ParentBody     "Tiberius & Polion"
 	Class          "Neptune"
-	Mass            6.444271
+	Mass            7.444271
 	Radius          19543.6484
 	InertiaMoment   0.194705158
 	Oblateness      0.0302526616
@@ -420,7 +420,7 @@ Planet	"Tiberius"
 	{
 		RefPlane        "Equator"
 		Period            0.051893
-		SemiMajorAxisKm   342462
+		SemiMajorAxisKm   -242462
 		Eccentricity    0.0610687023
 		Inclination     4.34232
 		AscendingNode   -165.642303
