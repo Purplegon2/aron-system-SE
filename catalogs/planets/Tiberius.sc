@@ -337,7 +337,7 @@ Moon	"Recluna"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      0.0028191
+		Period      	0.0028191
 		SemiMajorAxisKm 49123.19293
 		Eccentricity    0.0203225632
 		Inclination     1.32813977
