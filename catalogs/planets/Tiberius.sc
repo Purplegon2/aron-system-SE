@@ -26,7 +26,7 @@ Planet	"Polion"
 	Mass            1.483
 	Radius          7272.195
 	InertiaMoment   0.332695425
-	Oblateness      0.0119051058
+	Oblateness      0.0319051058
 	RotationPeriod  0.13474
 	RotationEpoch   0
 	Obliquity       70.9596754
@@ -337,8 +337,8 @@ Moon	"Recluna"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      23.8142059
-		SemiMajorAxisKm 239485.998
+		PeriodDays      0.0028191
+		SemiMajorAxisKm 49123.19293
 		Eccentricity    0.0203225632
 		Inclination     1.32813977
 		AscendingNode   9.55788771
