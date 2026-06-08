@@ -195,7 +195,7 @@ Planet	"Polion"
 	{
 		RefPlane        "Equator"
 		Period            0.051893
-		SemiMajorAxisKm   -1293934
+		SemiMajorAxisKm   1493934
 		Eccentricity    0.1860883375
 		Inclination     0
 		AscendingNode   161.116099
@@ -420,7 +420,7 @@ Planet	"Tiberius"
 	{
 		RefPlane        "Equator"
 		Period            0.051893
-		SemiMajorAxisKm   342462
+		SemiMajorAxisKm   -342462
 		Eccentricity    0.0610687023
 		Inclination     4.34232
 		AscendingNode   -165.642303
