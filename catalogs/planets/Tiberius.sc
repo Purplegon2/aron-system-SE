@@ -421,7 +421,7 @@ Planet	"Tiberius"
 		RefPlane        "Equator"
 		Period            0.051893
 		SemiMajorAxisKm   -242462
-		Eccentricity    0.0610687023
+		Eccentricity    0
 		Inclination     4.34232
 		AscendingNode   -165.642303
 		ArgOfPericenter 75.5421467
