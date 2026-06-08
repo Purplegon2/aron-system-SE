@@ -155,7 +155,7 @@ Planet	"Aron"
 		Model          "Earth"
 		Height          103.577919
 		Density         1.29289997
-		Pressure        1.26460004
+		Pressure        1.96460004
 		Greenhouse      41
 		Bright          10
 		Opacity         1.07
@@ -165,10 +165,11 @@ Planet	"Aron"
 
 		Composition
 		{
-			N2        	77.8
+			N2        	74.8
 			O2        	20.9
 			Ar        	0.93
 			H2O       	0.4
+			NH3			0.124
 			CO2       	0.042
 			Ne        	0.00182
 			He        	0.00046
@@ -374,7 +375,7 @@ Moon	"Parvus"
 {
 	ParentBody     "Aron"
 	Class          "Terra"
-	Mass            0.0203816723
+	Mass            0.0083816723
 	Radius          1339.63232
 	InertiaMoment   0.332481474
 	Oblateness      0.00724849897
@@ -544,7 +545,7 @@ Moon	"Parvus"
 		Opacity         1.07
 		SkyLight        0.382
 		Hue             0.156
-		Saturation      1.31
+		Saturation      0.921
 
 		Composition
 		{
