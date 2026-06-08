@@ -470,13 +470,13 @@ Moon	"Ikernu"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      15.9883009
-		SemiMajorAxisKm 1138265.61
-		Eccentricity    0.0459930403
-		Inclination     -1.17193275
-		AscendingNode   16.0924829
-		ArgOfPericenter -135.159235
-		MeanAnomaly     -94.9656029
+		PeriodDays      0.68844
+		SemiMajorAxisKm 142506.707
+		Eccentricity    0.00021459288
+		Inclination     1.38022411
+		AscendingNode   -129.482077
+		ArgOfPericenter -154.662292
+		MeanAnomaly     170.957168
 	}
 }
 
@@ -614,13 +614,13 @@ Moon	"Malia"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      0.68844
-		SemiMajorAxisKm 142506.707
-		Eccentricity    0.00021459288
-		Inclination     1.38022411
-		AscendingNode   -129.482077
-		ArgOfPericenter -154.662292
-		MeanAnomaly     170.957168
+		PeriodDays      15.9883009
+		SemiMajorAxisKm 1138265.61
+		Eccentricity    0.0459930403
+		Inclination     -1.17193275
+		AscendingNode   16.0924829
+		ArgOfPericenter -135.159235
+		MeanAnomaly     -94.9656029
 	}
 }
 
