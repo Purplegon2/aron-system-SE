@@ -235,7 +235,7 @@ Moon	"Matha"
 {
 	ParentBody     "Giras"
 	Class          "Aquaria"
-	Mass            0.000096038569
+	Mass            0.000066038569
 	Radius          264.911499
 	InertiaMoment   0.397296816
 	Oblateness      0.00249899435
