@@ -194,7 +194,7 @@ Planet	"Polion"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period            0.13474
+		Period              0.18283
 		SemiMajorAxisKm   1293934
 		Eccentricity    0.1860883375
 		Inclination     0
@@ -419,7 +419,7 @@ Planet	"Tiberius"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period            0.0088013
+		Period            0.051893
 		SemiMajorAxisKm   342462
 		Eccentricity    0.0610687023
 		Inclination     4.34232
