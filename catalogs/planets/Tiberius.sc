@@ -27,7 +27,7 @@ Planet	"Polion"
 	Radius          7272.195
 	InertiaMoment   0.332695425
 	Oblateness      0.0119051058
-	RotationPeriod  613.0881324
+	RotationPeriod  0.13474
 	RotationEpoch   0
 	Obliquity       70.9596754
 	EqAscendNode    158.986341
