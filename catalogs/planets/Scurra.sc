@@ -470,8 +470,8 @@ Moon	"Ikernu"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      0.68844
-		SemiMajorAxisKm 142506.707
+		PeriodDays      1.94
+		SemiMajorAxisKm 242506.707
 		Eccentricity    0.00021459288
 		Inclination     1.38022411
 		AscendingNode   -129.482077
