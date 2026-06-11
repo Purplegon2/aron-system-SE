@@ -375,7 +375,7 @@ Moon	"Parvus"
 {
 	ParentBody     "Aron"
 	Class          "Terra"
-	Mass            0.0083816723
+	Mass            0.0083816722
 	Radius          1339.63232
 	InertiaMoment   0.332481474
 	Oblateness      0.00724849897
@@ -423,26 +423,26 @@ Moon	"Parvus"
 		mareDensity     0
 		terraceProb     0.101
 		erosion         0.111
-		montesMagn      0.305
-		montesFreq      130
-		montesSpiky     0.649
-		montesFraction  0.511
-		dunesMagn       0.229
-		dunesFreq       53.6
-		dunesFraction   0.212
-		hillsMagn       0.458
-		hillsFreq       763
-		hillsFraction   0.733
-		hills2Fraction  0.45
+		montesMagn      0.0763
+		montesFreq      1
+		montesSpiky     0.145
+		montesFraction  0.0611
+		dunesMagn       0
+		dunesFreq       0
+		dunesFraction   0
+		hillsMagn       0
+		hillsFreq       0
+		hillsFraction   0
+		hills2Fraction  0
 		riversMagn      0.763
 		riversFreq      0.003
-		riversSin       5.48
+		riversSin       0.687
 		riftsMagn       0
 		riftsFreq       2.28
 		riftsSin        6.16
-		canyonsMagn     0
-		canyonsFreq     0
-		canyonsFraction 0.76
+		canyonsMagn     0.0763
+		canyonsFreq     30.5
+		canyonsFraction 0.0916
 		cracksMagn      0.128
 		cracksFreq      0.115
 		cracksOctaves   0
@@ -605,16 +605,15 @@ Moon	"Parvus"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period		    58.927
+		PeriodDays      21522.6265
 		SemiMajorAxisKm 622156.5
 		Eccentricity    0.412274809
-		Inclination     -181.793275735
+		Inclination     -181.793276
 		AscendingNode   -8.77875435
 		ArgOfPericenter -2.75980272
 		MeanAnomaly     28.8972723
 	}
 }
-
 
 
 
