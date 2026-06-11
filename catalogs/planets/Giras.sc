@@ -1482,8 +1482,8 @@ Moon	"Tyrulious"
 		canyonsMagn     0
 		canyonsFreq     0
 		canyonsFraction 0
-		cracksMagn      1.68
-		cracksFreq      7.44
+		cracksMagn      0.1
+		cracksFreq      4.24
 		cracksOctaves   1
 		craterMagn      0
 		craterFreq      0
