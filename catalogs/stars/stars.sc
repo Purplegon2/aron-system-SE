@@ -1,33 +1,35 @@
 StarBarycenter "Hope & Fate System"
 {
-    RA       09 31 14  // right ascension
-    Dec      64 16 38  // declination
-    Dist     421.0     // distance from the Sun
+    RA       12 54 02  // right ascension
+    Dec      56 57 35  // declination
+    Dist     4000.0    // distance from the Sun, light-years
     Class   "X"        // spectral class - black hole
-    Lum      150       // luminosity of the whole system (accretion disk)// That's enough, accretion disks will be described in the planets catalog (see below).
+    Lum      150       // luminosity of the whole system (accretion disk)
 }
+
 StarBarycenter "Konta Clara System"
 {
-    RA       09 31 14  // right ascension
-    Dec      64 16 37  // declination
-    Dist     422     // distance from the Sun
-    Class   "X"        // spectral class - black hole
-    Lum      150       // luminosity of the whole system (accretion disk)^// That's enough, accretion disks will be described in the planets catalog (see below).
+    RA       12 54 02  // same RA as Hope & Fate
+    Dec      56 57 34  // 1 arcsecond south of Hope & Fate
+    Dist     4001.0    // 1 light-year farther
+    Class   "X"
+    Lum      150
 }
+
 StarBarycenter "Andria System"
 {
-    RA       09 33 14  // right ascension
-    Dec      64 15 38  // declination
-    Dist     421     // distance from the Sun
-    Class   "X"        // spectral class - black hole
-    Lum      150       // luminosity of the whole system (accretion disk)^// That's enough, accretion disks will be described in the planets catalog (see below).
+    RA       12 56 02  // 2 minutes east of Hope & Fate
+    Dec      56 56 35  // 1 arcminute south of Hope & Fate
+    Dist     4000.0    // same distance as Hope & Fate
+    Class   "X"
+    Lum      150
 }
 
 StarBarycenter "Homestead Prime System"
 {
-    RA       09 30 13  // right ascension
-    Dec      64 16 38  // declination
-    Dist     423.0     // distance from the Sun
-    Class   "X"        // spectral class - black hole
-    Lum      150       // luminosity of the whole system (accretion disk)^// That's enough, accretion disks will be described in the planets catalog (see below).
+    RA       12 53 01  // 1 minute 1 second west of Hope & Fate
+    Dec      56 57 35  // same declination as Hope & Fate
+    Dist     4002.0    // 2 light-years farther
+    Class   "X"
+    Lum      150
 }
