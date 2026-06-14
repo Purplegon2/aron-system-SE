@@ -138,7 +138,7 @@ Planet	"Sera"
 		Height          119.216362
 		Density         0.00507107191
 		Pressure        0.7834651737
-		Greenhouse      15.4678259
+		Greenhouse      67.9478259
 		Bright          6.56
 		Opacity         0.611
 		SkyLight        3.66
