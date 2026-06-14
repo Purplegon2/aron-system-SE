@@ -137,7 +137,7 @@ Planet	"Sera"
 		Model          "Mars"
 		Height          119.216362
 		Density         0.00507107191
-		Pressure        1.2234651737
+		Pressure        0.7834651737
 		Greenhouse      15.4678259
 		Bright          6.56
 		Opacity         0.611
