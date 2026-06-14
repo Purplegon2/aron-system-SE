@@ -2,7 +2,7 @@ Planet	"Aron"
 {
 	ParentBody     "Hope"
 	Class          "Terra"
-	Mass            0.829705656
+	Mass            0.804
 	Radius          6128.58105
 	InertiaMoment   0.329813719
 	Oblateness      0.00129414746
