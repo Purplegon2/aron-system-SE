@@ -20,7 +20,7 @@ Planet	"Aron"
 	{
 		Class   "Organic"
 		Type    "Multicellular"
-		Biome   "Marine/Terrestrial"
+		Biome   "Marine/Terrestrial/Aerial"
 	}
 
 	Surface
