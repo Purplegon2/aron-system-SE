@@ -16,6 +16,13 @@ Planet	"Sera"
 	Brightness      0.687
 	BrightnessReal  1
 
+	Life
+	{
+		Class   "Organic"
+		Type    "Multicellular"
+		Biome   "Aerial/Terrestrial"
+	}
+
 	Surface
 	{
 		Preset         "Sera.cfg"
