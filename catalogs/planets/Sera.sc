@@ -128,11 +128,11 @@ Planet	"Sera"
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.137
-		ModulateBright  1.21
-		Opacity         0.183
+		ModulateBright  1.45
+		Opacity         0.366
 		mainFreq        0.252
 		mainOctaves     4
-		Coverage        0.115
+		Coverage        0.282
 		stripeZones     2.28
 		stripeTwist     0.183
 	}
