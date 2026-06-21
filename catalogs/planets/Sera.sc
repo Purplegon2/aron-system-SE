@@ -11,8 +11,8 @@ Planet	"Sera"
 	Obliquity       118.946023
 	EqAscendNode    177.314033
 
-	AlbedoBond      0.15
-	AlbedoGeom      0.36
+	AlbedoBond      0.275
+	AlbedoGeom      0.321
 	Brightness      0.687
 	BrightnessReal  1
 
@@ -20,7 +20,7 @@ Planet	"Sera"
 	{
 		Class   "Organic"
 		Type    "Multicellular"
-		Biome   "Aerial/Terrestrial"
+		Biome   "Terrestrial/Aerial"
 	}
 
 	Surface
@@ -67,14 +67,14 @@ Planet	"Sera"
 		hillsMagn       1.53
 		hillsFreq       76.3
 		hillsFraction   0
-		hills2Fraction  0
+		hills2Fraction  0.00763
 		riversMagn      3.05
-		riversFreq      0.687
+		riversFreq      1.22
 		riversSin       5.04
 		riftsMagn       14.5
 		riftsFreq       0.0763
 		riftsSin        1.98
-		canyonsMagn     0.153
+		canyonsMagn     0.534
 		canyonsFreq     2
 		canyonsFraction 0.0992
 		cracksMagn      0
@@ -142,10 +142,10 @@ Planet	"Sera"
 	Atmosphere
 	{
 		Model          "Mars"
-		Height          119.216362
+		Height          147.210556
 		Density         0.00507107191
-		Pressure        0.7834651737
-		Greenhouse      67.9478259
+		Pressure        0.783500016
+		Greenhouse      59.5419846
 		Bright          6.56
 		Opacity         0.611
 		SkyLight        3.66
@@ -211,8 +211,8 @@ Planet	"Sera"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.400561485466
-		SemiMajorAxis   0.495887523537
+		Period          0.399294856
+		SemiMajorAxis   0.494842343
 		Eccentricity    0
 		Inclination     0
 		AscendingNode   179.395568
@@ -342,7 +342,7 @@ Moon	"Eki"
 {
 	ParentBody     "Sera"
 	Class          "Terra"
-	Mass            1.37457005e-06
+	Mass            0.0000123
 	Radius          263.232132
 	InertiaMoment   0.39957273
 	Oblateness     (0.014, 0.000, 0.007)
