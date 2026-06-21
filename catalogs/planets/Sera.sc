@@ -11,7 +11,7 @@ Planet	"Sera"
 	Obliquity       118.946023
 	EqAscendNode    177.314033
 
-	AlbedoBond      0.275
+	AlbedoBond      0.252
 	AlbedoGeom      0.321
 	Brightness      0.687
 	BrightnessReal  1
@@ -145,7 +145,7 @@ Planet	"Sera"
 		Height          147.210556
 		Density         0.00507107191
 		Pressure        0.783500016
-		Greenhouse      59.5419846
+		Greenhouse      67.9389343
 		Bright          6.56
 		Opacity         0.611
 		SkyLight        3.66
