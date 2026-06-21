@@ -539,7 +539,7 @@ Moon	"Parvus"
 		Model          "Mars"
 		Height          72.8778305
 		Density         0.00062214717
-		Pressure        0.0138210002
+		Pressure        0.0938210002
 		Greenhouse      6.34534454
 		Bright          6.72
 		Opacity         1.07
