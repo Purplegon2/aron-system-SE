@@ -1213,7 +1213,7 @@ Moon	"Eichana"
 {
 	ParentBody     "Giras"
 	Class          "Terra"
-	Mass            0.0187195705
+	Mass            0.0187195707
 	Radius          2384.32007
 	InertiaMoment   0.378329813
 	Obliquity       2.09588425
@@ -1234,7 +1234,7 @@ Moon	"Eichana"
 		colorDistFreq   1.14e+03
 		detailScale     6.08e+05
 		drivenDarkening 0.068
-		seaLevel        0.219
+		seaLevel        0.0992
 		snowLevel       2
 		tropicLatitude  0.913
 		icecapLatitude  1
@@ -1322,7 +1322,7 @@ Moon	"Eichana"
 
 	Ocean
 	{
-		Depth           4
+		Depth           1.82
 		Hapke           0
 		SpotBright      1.9
 		SpotWidth       0.06
@@ -1351,7 +1351,7 @@ Moon	"Eichana"
 		Opacity         0.963
 		mainFreq        0.75
 		mainOctaves     10
-		Coverage        0.397
+		Coverage        0.999
 		stripeZones     1.47
 		stripeTwist     0.16
 	}
@@ -1365,17 +1365,17 @@ Moon	"Eichana"
 		Density         248.353149
 		Pressure        1.68458903
 		Greenhouse      25.9541988
-		Bright          13.6
+		Bright          14.4
 		Opacity         1.07
 		SkyLight        0
 		Hue             -0.5
-		Saturation      1.22
+		Saturation      1.21
 
 		Composition
 		{
 			N2        	95.3
 			CH4       	3.8
-			CO2			0.7
+			CO2       	0.7
 			Ar        	0.2
 		}
 	}
@@ -1396,7 +1396,7 @@ Moon	"Eichana"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      16.8849745595
+		PeriodDays      16.8849746
 		SemiMajorAxisKm 645539.541
 		Eccentricity    0.0374724166
 		Inclination     2.09588425
