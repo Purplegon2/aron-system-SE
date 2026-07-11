@@ -1583,10 +1583,10 @@ Moon	"Cheillou"
 {
 	ParentBody     "Noi"
 	Class          "Aquaria"
-	Mass            0.0199458357
-	Radius          1873.8382
+	Mass            7.83200012e-05
+	Radius          407.432343
 	InertiaMoment   0.361573398
-	Obliquity       -2.08676354
+	Obliquity       0.034
 	EqAscendNode    4.96004309
 	TidalLocked     true
 
@@ -1646,8 +1646,8 @@ Moon	"Cheillou"
 		riftsMagn       0.881
 		riftsFreq       2
 		riftsSin        7.12
-		eqridgeMagn     0.452
-		eqridgeWidth    0.0262
+		eqridgeMagn     0.0229
+		eqridgeWidth    0.00188
 		eqridgeModMagn  2.43
 		eqridgeModFreq  8.29
 		canyonsMagn     0.432
@@ -1657,7 +1657,7 @@ Moon	"Cheillou"
 		cracksFreq      0.94
 		cracksOctaves   1
 		craterMagn      0.611
-		craterFreq      29.8
+		craterFreq      0.763
 		craterDensity   0.756
 		craterOctaves   30
 		craterRayedFactor 0.0916
