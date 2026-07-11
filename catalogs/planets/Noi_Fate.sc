@@ -201,35 +201,35 @@ Moon	"Sotrre"
 {
 	ParentBody     "Noi"
 	Class          "Terra"
-	Mass            0.0009712758
-	Radius          829.22998
-	InertiaMoment   0.328328669
-	Oblateness     (0.000, 0.300, 0.300)
-	Obliquity       0.2723881
-	EqAscendNode    -48.177359
+	Mass            0.000603964261
+	Radius          789.43335
+	InertiaMoment   0.398474246
+	Oblateness     (0.000, 0.240, 0.103)
+	Obliquity       -0.942502765
+	EqAscendNode    120.483266
 	TidalLocked     true
 
-	AlbedoBond      0.536
+	AlbedoBond      0.3
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
 
 	Surface
 	{
-		Preset         "terra_arid_rocky_black.cfg"
-		SurfStyle       0.58
-		Randomize      (0.872, 0.139, -0.880)
-		colorDistMagn   0.0392
-		colorDistFreq   344
-		detailScale     1.05e+09
-		drivenDarkening 0.096
-		seaLevel        -1
-		snowLevel       -1
-		tropicLatitude  0.429
-		icecapLatitude  0.948
-		icecapHeight    0.0394
+		Preset         "terra_airless_default.cfg"
+		SurfStyle       0.0165
+		Randomize      (-0.421, -0.963, -0.566)
+		colorDistMagn   0.0741
+		colorDistFreq   85.8
+		detailScale     2.05e+03
+		drivenDarkening 0
+		seaLevel        0.122
+		snowLevel       2
+		tropicLatitude  0.986
+		icecapLatitude  1
+		icecapHeight    0
 		climatePole     0.938
-		climateTropic   0.313
+		climateTropic   0.312
 		climateEquator  0.688
 		climateSteppeMin -1
 		climateSteppeMax -1
@@ -237,67 +237,70 @@ Moon	"Sotrre"
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.513
+		humidity        0.252
 		heightTempGrad  0.625
-		beachWidth      0.000701
+		beachWidth      0.000897
 		tropicWidth     0.07
-		mainFreq        3.29
-		venusFreq       0.88
+		mainFreq        2.08
+		venusFreq       1.75
 		venusMagn       0
-		mareFreq        0.003
-		mareDensity     0.175
-		terraceProb     0.175
-		erosion         0.022
-		montesMagn      0.216
-		montesFreq      203
-		montesSpiky     0.945
-		montesFraction  0.845
-		dunesMagn       0.0378
-		dunesFreq       30.5
-		dunesFraction   0.87
-		hillsMagn       0.127
-		hillsFreq       416
-		hillsFraction   0.716
+		mareFreq        0.0667
+		mareDensity     0.146
+		terraceProb     0.284
+		erosion         0
+		montesMagn      0.0704
+		montesFreq      41.2
+		montesSpiky     0.887
+		montesFraction  0.107
+		dunesMagn       0.0382
+		dunesFreq       4.89
+		dunesFraction   0.967
+		hillsMagn       0.15
+		hillsFreq       83.3
+		hillsFraction   0.601
 		hills2Fraction  0
-		riversMagn      56.2
-		riversFreq      2.44
-		riversSin       7.23
-		riftsMagn       3.53
-		riftsFreq       1.85
-		riftsSin        5.05
-		canyonsMagn     0.403
-		canyonsFreq     767
-		canyonsFraction 0.444
-		cracksMagn      0.0653
-		cracksFreq      1.9
+		riversMagn      53.4
+		riversFreq      2.94
+		riversSin       7.05
+		riftsMagn       64.5
+		riftsFreq       1.99
+		riftsSin        5.63
+		eqridgeMagn     0.122
+		eqridgeWidth    0.0317
+		eqridgeModMagn  2.5
+		eqridgeModFreq  9.31
+		canyonsMagn     0.517
+		canyonsFreq     0.312
+		canyonsFraction 0.291
+		cracksMagn      0.0672
+		cracksFreq      0.206
 		cracksOctaves   0
-		craterMagn      0.283
-		craterFreq      21.6
-		craterDensity   0.155
-		craterOctaves   6
-		craterRayedFactor 0.105
-		volcanoMagn     0.681
-		volcanoFreq     2
-		volcanoDensity  0.285
-		volcanoOctaves  2
-		volcanoActivity 2
-		volcanoFlows    0.112
-		volcanoRadius   0.492
-		volcanoTemp     369
-		lavaCoverTidal  0.107
+		craterMagn      0.556
+		craterFreq      1.86
+		craterDensity   0.883
+		craterOctaves   18
+		craterRayedFactor 0.128
+		volcanoMagn     0.184
+		volcanoFreq     0.663
+		volcanoDensity  0.246
+		volcanoOctaves  3
+		volcanoActivity 0.516
+		volcanoFlows    0.0775
+		volcanoRadius   0.134
+		volcanoTemp     316
+		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      12.5
-		DiffMapAlpha   "Water"
-		SpecBrightWater 0.65
-		SpecBrightIce   0.85
+		BumpHeight      20
+		SpecBrightWater 0
+		SpecBrightIce   0.03
 		RoughnessWater  0.35
 		RoughnessIce    0.45
 		SpecularScale   1
-		RoughnessBias   0.55
-		Hapke           0.5
-		SpotBright      2.95
-		SpotWidth       0.043
+		RoughnessBias   0.8
+		Hapke           1
+		SpotBright      2.5
+		SpotWidth       0.05
 		DayAmbient      0.07
 	}
 
