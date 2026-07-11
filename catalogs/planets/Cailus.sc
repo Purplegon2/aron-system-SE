@@ -509,6 +509,7 @@ Moon	"Kiethe"
 	Mass            0.00017140081
 	Radius          472.535187
 	InertiaMoment   0.399502963
+	Oblateness      0.144274801
 	Obliquity       0.0762410075
 	EqAscendNode    -29.0579609
 	TidalLocked     true
@@ -629,8 +630,8 @@ Moon	"Kiethe"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      0.728385023898
-		SemiMajorAxis	0.0015
+		PeriodDays      0.728385024
+		SemiMajorAxisKm 224396.806
 		Eccentricity    0.0192017898
 		Inclination     0.0762410075
 		AscendingNode   -29.0579609
