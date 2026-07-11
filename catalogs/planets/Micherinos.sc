@@ -2,7 +2,7 @@ DwarfPlanet	"Micherinos"
 {
 	ParentBody     "Hope"
 	Class          "Terra"
-	Mass            0.000408261222
+	Mass            0.000408261229
 	Radius          687.382874
 	InertiaMoment   0.397417963
 	Oblateness      0.185496181
@@ -18,7 +18,7 @@ DwarfPlanet	"Micherinos"
 
 	Surface
 	{
-		Preset         "terra_airless_ganymede.cfg"
+		Preset         "carbonia_wet_graphite_blue.cfg"
 		SurfStyle       0.236
 		Randomize      (0.216, 0.271, 0.174)
 		colorDistMagn   0.0462
@@ -130,87 +130,13 @@ DwarfPlanet	"Micherinos"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          1033.96960913
-		SemiMajorAxis   93.3129579311
+		Period          1033.96961
+		SemiMajorAxis   93.3129579
 		Eccentricity    0.575685073
 		Inclination     -19.4012427
 		AscendingNode   145.123031
 		ArgOfPericenter -80.748021
 		MeanAnomaly     -81.9958161
-	}
-}
-
-DwarfMoon	"Tiachale"
-{
-	ParentBody     "Micherinos"
-	Class          "Asteroid"
-	AsterType      "Atira"
-	Mass            1.77315062e-10
-	Radius          4.69
-	InertiaMoment   0.37050976
-	Oblateness      0.110149426
-	RotationPeriod  10.14292
-	Obliquity       306.028047
-	EqAscendNode    -166.236225
-
-	AbsMagn         17.4
-	SlopeParam      0.21
-	Albedo          0.22
-	Brightness      1.64
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      0.884397795327
-		SemiMajorAxisKm 2887.224
-		Eccentricity    0.2197504859
-		Inclination     -0.732777
-		AscendingNode   -108.178819
-		ArgOfPericenter -12.808101
-		MeanAnomaly     132.028427
-	}
-}
-
-DwarfMoon	"Kiavia"
-{
-	ParentBody     "Micherinos"
-	Class          "Asteroid"
-	AsterType      "Centaur"
-	Mass            6.91607811e-8
-	Radius          36.13
-	InertiaMoment   0.373201741
-	Oblateness      0.078537846
-	RotationPeriod  16.13703
-	Obliquity       254.749737
-	EqAscendNode    111.526004
-
-	AbsMagn         17
-	SlopeParam      0.14
-	Albedo          0.13
-	Brightness      1.73
-	BrightnessReal  1
-
-	NoOcean         true
-	NoClouds        true
-	NoLava          true
-	NoAtmosphere    true
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		PeriodDays      1.71450093487
-		SemiMajorAxisKm 4489.159
-		Eccentricity    0.154602468
-		Inclination     -0.614234
-		AscendingNode   -63.50306
-		ArgOfPericenter 136.616689
-		MeanAnomaly     39.000675
 	}
 }
 
