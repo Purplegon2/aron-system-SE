@@ -421,7 +421,7 @@ Moon	"Nyx"
 		Model          "Biogenic"
 		Height          95.2709732
 		Density         27.2341919
-		Pressure        0.943234682
+		Pressure        0.893234682
 		Greenhouse      51.1450386
 		Bright          10
 		Opacity         1
