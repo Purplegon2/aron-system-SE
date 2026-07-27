@@ -231,126 +231,250 @@ Planet	"Aron"
 
 Moon	"Nyx"
 {
-	ParentBody     "Aron"
+	ParentBody     "Aron System Barycenter"
 	Class          "Aquaria"
-	Mass            0.0142177911
-	Radius          1735.12231
-	InertiaMoment   0.34665674
+	Mass            0.0768752322
+	Radius          3125.4502
+	InertiaMoment   0.32966429
 	Oblateness      0.00151114922
 	Obliquity       -15.8844419
 	EqAscendNode    116.200196
 	TidalLocked     true
 
-	AlbedoBond      0.43
+	AlbedoBond      0.526
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
 
+	Life
+	{
+		Class   "Organic"
+		Type    "Multicellular"
+		Biome   "Marine/Terrestrial"
+	}
+
 	Surface
 	{
-		Preset         "aquaria_airless_white.cfg"
-		SurfStyle       0.799
-		Randomize      (0.562, 0.227, -0.009)
-		colorDistMagn   0.0582
-		colorDistFreq   391
-		detailScale     8.19e+03
+		Preset         "ferria_wet_sand_green.cfg"
+		SurfStyle       0.468
+		Randomize      (-0.016, 0.402, -0.329)
+		colorDistMagn   0.0638
+		colorDistFreq   767
+		detailScale     3.28e+04
 		drivenDarkening 0
-		seaLevel        0.125
+		seaLevel        0.511
 		snowLevel       2
-		tropicLatitude  0.743
-		icecapLatitude  1
-		icecapHeight    0
-		climatePole     0.438
-		climateTropic   0.313
-		climateEquator  0.688
-		climateSteppeMin -1
-		climateSteppeMax -1
-		climateForestMin -1
-		climateForestMax -1
-		climateGrassMin  -1
-		climateGrassMax  -1
-		humidity        0.396
-		heightTempGrad  0.625
-		beachWidth      0.00135
-		tropicWidth     0.07
-		mainFreq        1.68
-		venusFreq       0.599
-		venusMagn       0
-		mareFreq        0.56
-		mareDensity     0.45
-		terraceProb     0.233
-		erosion         0
-		montesMagn      0.211
-		montesFreq      97.7
-		montesSpiky     0.861
-		montesFraction  0.712
-		dunesMagn       0.0419
-		dunesFreq       27.1
-		dunesFraction   0.0759
-		hillsMagn       0.135
-		hillsFreq       292
-		hillsFraction   0.941
-		hills2Fraction  0.0718
-		riversMagn      0
-		riversFreq      1.59
-		riversSin       6.52
+		tropicLatitude  0
+		icecapLatitude  2
+		icecapHeight    0.517
+		climatePole     0.562
+		climateTropic   0.562
+		climateEquator  0.562
+		climateSteppeMin 0.312
+		climateSteppeMax 0.562
+		climateForestMin 0.5
+		climateForestMax 0.688
+		climateGrassMin  0.625
+		climateGrassMax  0.812
+		humidity        0.988
+		heightTempGrad  0.375
+		beachWidth      0.000934
+		tropicWidth     0.5
+		mainFreq        0.927
+		venusFreq       0.909
+		venusMagn       0.761
+		mareFreq        6.49
+		mareDensity     0
+		terraceProb     0.836
+		erosion         0.112
+		montesMagn      0.169
+		montesFreq      215
+		montesSpiky     0.928
+		montesFraction  0.247
+		dunesMagn       0.0655
+		dunesFreq       56.7
+		dunesFraction   0.655
+		hillsMagn       0.112
+		hillsFreq       82.5
+		hillsFraction   0.0559
+		hills2Fraction  0.411
+		riversMagn      56.8
+		riversFreq      4.19
+		riversSin       6.48
 		riftsMagn       0
-		riftsFreq       2.68
-		riftsSin        8.16
-		eqridgeMagn     0.281
-		eqridgeWidth    0.0232
-		eqridgeModMagn  2.5
-		eqridgeModFreq  10
-		canyonsMagn     0.436
-		canyonsFreq     0.923
-		canyonsFraction 0
-		cracksMagn      0.0619
-		cracksFreq      0
-		cracksOctaves   3
-		craterMagn      0.642
-		craterFreq      7.54
-		craterDensity   0.809
-		craterOctaves   20
-		craterRayedFactor 0.195
-		volcanoMagn     0.707
-		volcanoFreq     0.558
+		riftsFreq       3.54
+		riftsSin        5.43
+		canyonsMagn     0.0564
+		canyonsFreq     183
+		canyonsFraction 0.577
+		cracksMagn      0.0931
+		cracksFreq      0.577
+		cracksOctaves   0
+		craterMagn      0.67
+		craterFreq      23
+		craterDensity   0
+		craterOctaves   0
+		craterRayedFactor 0
+		volcanoMagn     0.668
+		volcanoFreq     0.706
 		volcanoDensity  0.4
 		volcanoOctaves  3
 		volcanoActivity 2
-		volcanoFlows    0.221
-		volcanoRadius   0.465
-		volcanoTemp     275
+		volcanoFlows    0.602
+		volcanoRadius   0.443
+		volcanoTemp     1.17e+03
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      20
-		DiffMapAlpha   "Ice"
-		SpecBrightWater 0.03
-		SpecBrightIce   0.03
+		stripeZones     1
+		stripeTwist     3.5
+		cycloneMagn     1.12
+		cycloneFreq     0.642
+		cycloneDensity  0.34
+		cycloneOctaves  0
+		BumpHeight      17.5
+		BumpOffset      4.55
+		DiffMapAlpha   "Water"
+		SpecBrightWater 0.65
+		SpecBrightIce   0.85
 		RoughnessWater  0.35
 		RoughnessIce    0.45
 		SpecularScale   1
-		RoughnessBias   0.2
+		RoughnessBias   0.5
 		Hapke           0.5
-		SpotBright      2.5
+		SpotBright      1.5
 		SpotWidth       0.05
 		DayAmbient      0.07
 	}
 
-	NoOcean         true
+	Ocean
+	{
+		Depth           8.95
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.05
+		DayAmbient      0.07
+		ModulateBright  1
 
-	NoClouds        true
+		Composition
+		{
+			H2O       	100
+			NaCl      	3.18e-05
+		}
+	}
+
+	Clouds
+	{
+		Height          11.9
+		Velocity        80
+		BumpHeight      3.99
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		mainFreq        0.838
+		mainOctaves     10
+		Coverage        0.169
+		stripeZones     1
+		stripeTwist     3.5
+	}
+
+	Clouds
+	{
+		Height          11.9
+		Velocity        156
+		BumpHeight      3.99
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		mainFreq        0.838
+		mainOctaves     10
+		Coverage        0.169
+		stripeZones     1
+		stripeTwist     3.5
+	}
+
+	Clouds
+	{
+		Height          11.9
+		Velocity        116
+		BumpHeight      3.99
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		mainFreq        0.838
+		mainOctaves     10
+		Coverage        0.169
+		stripeZones     1
+		stripeTwist     3.5
+	}
 
 	NoLava          true
 
-	NoAtmosphere    true
+	Atmosphere
+	{
+		Model          "Biogenic"
+		Height          95.2709732
+		Density         27.2341919
+		Pressure        0.943234682
+		Greenhouse      51.1450386
+		Bright          10
+		Opacity         1
+		SkyLight        3.33
+		Hue             -0.0496
+		Saturation      1.02
+
+		Composition
+		{
+			N2        	84.8
+			O2        	13.1
+			CO2       	1.04
+			Ar        	0.93
+			H2O       	0.4
+			NH3       	0.124
+			Ne        	0.00182
+			He        	0.00046
+			CH4       	0.00019
+			Kr        	0.000114
+			H2        	5e-05
+			Xe        	8.7e-06
+		}
+	}
 
 	Climate
 	{
-		GlobalWindSpeed  0
+		GlobalWindSpeed  3.5
 	}
 
-	NoAurora        true
+	Aurora
+	{
+		Height         53.7
+		NorthLat       52.8
+		NorthLon       -83.1
+		NorthRadius    1.96e+03
+		NorthWidth     356
+		NorthRings     4
+		NorthBright    0.339
+		NorthFlashFreq 78.9
+		NorthMoveSpeed 0.769
+		NorthParticles 50000
+		SouthLat       -30
+		SouthLon       91.2
+		SouthRadius    2e+03
+		SouthWidth     702
+		SouthRings     3
+		SouthBright    0.339
+		SouthFlashFreq 66.4
+		SouthMoveSpeed 0.848
+		SouthParticles 50000
+		TopColor    (1.000 1.000 1.000)
+		BottomColor (0.000 1.000 0.000)
+	}
 
 	NoRings         true
 
@@ -361,9 +485,9 @@ Moon	"Nyx"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      21.3872851498
-		SemiMajorAxisKm 304412.642
-		Eccentricity    0.000626302957
+		PeriodDays      20.6126068
+		SemiMajorAxisKm 277846.119
+		Eccentricity    0
 		Inclination     -15.8844419
 		AscendingNode   116.200196
 		ArgOfPericenter 23.4052807
