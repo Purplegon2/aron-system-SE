@@ -23,7 +23,7 @@ Planet	"Aron"
 	ParentBody     "Aron System Barycenter"
 	Class          "Terra"
 	Mass            0.80400002
-	Radius          6128.58105
+	Radius          5728.58105
 	InertiaMoment   0.329813719
 	Oblateness      0.00129414746
 	RotationPeriod  39.7227859
