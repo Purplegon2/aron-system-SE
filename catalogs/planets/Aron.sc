@@ -576,7 +576,7 @@ Moon	"Parvus"
 		RefPlane        "Equator"
 		PeriodDays      84.0769149408
 		SemiMajorAxisKm 780238.044055
-		Eccentricity    0.005
+		Eccentricity    0.1374
 		Inclination     178.206724
 		AscendingNode   351.22124565
 		ArgOfPericenter 357.24019728
