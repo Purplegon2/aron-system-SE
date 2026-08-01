@@ -143,10 +143,9 @@ Moon	"Nomata"
 	Mass            3.18769037e-06
 	Radius          122.819717
 	InertiaMoment   0.396737576
-	RotationPeriod  176.403536
-	RotationEpoch   0
 	Obliquity       -5.69644195
 	EqAscendNode    -53.5083694
+	TidalLocked     true
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
