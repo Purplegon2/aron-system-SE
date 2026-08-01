@@ -136,3 +136,122 @@ DwarfPlanet	"Setria"
 	}
 }
 
+Moon	"Nomata"
+{
+	ParentBody     "Setria"
+	Class          "Asteroid"
+	Mass            3.18769037e-06
+	Radius          122.819717
+	InertiaMoment   0.396737576
+	RotationPeriod  176.403536
+	RotationEpoch   0
+	Obliquity       -5.69644195
+	EqAscendNode    -53.5083694
+
+	AlbedoBond      0.3
+	AlbedoGeom      0.36
+	Brightness      2.25
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "asteroid_default.cfg"
+		SurfStyle       0.183
+		Randomize      (0.327, -0.359, -0.075)
+		colorDistMagn   0.139
+		colorDistFreq   11.8
+		detailScale     512
+		drivenDarkening 0
+		snowLevel       2
+		tropicLatitude  0.984
+		icecapLatitude  1
+		icecapHeight    0
+		climatePole     0.938
+		climateTropic   0.312
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
+		humidity        0.171
+		heightTempGrad  0.625
+		beachWidth      0.00139
+		tropicWidth     0.07
+		mainFreq        0.492
+		venusFreq       0.623
+		venusMagn       0.844
+		mareDensity     0
+		terraceProb     0.231
+		erosion         0
+		montesMagn      0.553
+		montesFreq      3.18
+		montesSpiky     0.911
+		montesFraction  0.421
+		dunesFraction   0
+		hillsMagn       0
+		hillsFreq       29.5
+		hillsFraction   0.709
+		hills2Fraction  0
+		canyonsFraction 0
+		craterMagn      0.221
+		craterFreq      0.557
+		craterDensity   0.854
+		craterOctaves   16
+		volcanoActivity 0
+		volcanoFlows    0
+		volcanoRadius   0.549
+		volcanoTemp     152
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      20
+		SpecBrightWater 0
+		SpecBrightIce   0.03
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.8
+		Hapke           1
+		SpotBright      2.5
+		SpotWidth       0.05
+		DayAmbient      0.07
+	}
+
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
+
+	NoAtmosphere    true
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      35.37
+		SemiMajorAxisKm 32191
+		Eccentricity    0.219246474
+		Inclination     5.51907525
+		AscendingNode   -53.9328494
+		ArgOfPericenter -72.7690576
+		MeanAnomaly     -11.088231
+	}
+}
+
+
+
