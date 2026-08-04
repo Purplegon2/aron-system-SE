@@ -180,7 +180,7 @@ Moon	"Nyx"
 {
 	ParentBody     "Aron System Barycenter"
 	Class          "Aquaria"
-	Mass            0.0768752322
+	Mass            0.0879752322
 	Radius          3125.4502
 	InertiaMoment   0.32966429
 	Oblateness      0.00151114922
