@@ -2,7 +2,7 @@ Planet	"Sera"
 {
 	ParentBody     "Hope"
 	Class          "Terra"
-	Mass            0.493258327
+	Mass            0.413258327
 	Radius          4817.58105
 	InertiaMoment   0.331164718
 	Oblateness      0.00615430111
