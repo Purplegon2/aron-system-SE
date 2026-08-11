@@ -5,7 +5,7 @@ Planet	"Cailus"
 	Mass            282.56601
 	Radius          69985.7969
 	InertiaMoment   0.221257299
-	Oblateness      0.034351144
+	Oblateness      0.0961832032
 	RotationPeriod  9.28961041
 	RotationOffset  -321.526714
 	RotationEpoch   1451545
@@ -88,10 +88,10 @@ Planet	"Cailus"
 		Height          2360.17163
 		Density         0.00544297788
 		Pressure        1
-		Bright          5.496
+		Bright          5.5
 		Opacity         0.229
 		SkyLight        1
-		Hue             -0.01145
+		Hue             -0.0115
 		Saturation      2
 
 		Composition
@@ -159,8 +159,8 @@ Planet	"Cailus"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          32.8841682879
-		SemiMajorAxis   9.37035931627
+		Period          32.8841683
+		SemiMajorAxis   9.37035932
 		Eccentricity    0.0468576972
 		Inclination     0
 		AscendingNode   95.9152441
