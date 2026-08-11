@@ -6,7 +6,7 @@ Planet	"Giras"
 	Radius          25362.6992
 	InertiaMoment   0.190386653
 	Oblateness      0.0312461052
-	RotationPeriod  8.54682398
+	RotationPeriod  15.54682398
 	RotationEpoch   0
 	Obliquity       39.2554946
 	EqAscendNode    28.5351968
