@@ -178,7 +178,7 @@ Planet	"Maiy"
 		Height          87.7483597
 		Density         1.464249
 		Pressure        1.26091
-		Greenhouse      80.098236
+		Greenhouse      89.098236
 		Bright          10
 		Opacity         1
 		SkyLight        3.33
