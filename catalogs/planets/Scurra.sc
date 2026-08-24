@@ -428,40 +428,7 @@ Moon	"Ikernu"
 		BottomColor (0.000 1.000 0.000)
 	}
 
-	Rings
-	{
-		InnerRadius     1.55e+04
-		OuterRadius     1.07e+04
-		EdgeRadius      1.55e+04
-		MeanRadius      1.61e+05
-		Thickness       0.319
-		RocksMaxSize    0.00151
-		RocksSpacing    4.08
-		DustDrawDist    113
-		ChartRadius     1.48e+04
-		RotationPeriod  4.02
-		Brightness      5.8
-		FrontBright     3.74
-		BackBright      1.3
-		Density         0.00182
-		Opacity         0.013
-		SelfShadow      0.916
-		PlanetShadow    0.71
-		Hapke           1
-		SpotBright      2.3
-		SpotWidth       0.0311
-		SpotBrightCB    0
-		SpotWidthCB     0.001
-		frequency       1.88
-		densityScale    1.64
-		densityOffset   -0.33
-		densityPower    0.993
-		colorContrast   0.0763
-		FrontColor      (0.750 0.670 0.533)
-		BackThickColor  (0.800 0.600 0.400)
-		BackIceColor    (0.300 0.700 1.000)
-		BackDustColor   (1.000 0.980 0.880)
-	}
+	NoRings			true
 
 	NoAccretionDisk true
 
