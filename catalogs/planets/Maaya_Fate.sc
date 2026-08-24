@@ -6,10 +6,9 @@ Planet	"Maaya"
 	Radius          12115.5703
 	InertiaMoment   0.330715209
 	Oblateness      0.0154729551
-	RotationPeriod  27.532
-	RotationEpoch   0
 	Obliquity       -30.1427347
 	EqAscendNode    27.9401029
+	TidalLocked     true
 
 	AlbedoBond      0.6
 	AlbedoGeom      0.36
