@@ -12,10 +12,10 @@ Barycenter	"Chressia & Entactrius"
 	Orbit
 	{
 		RefPlane	"Equator"
-		Period		0.36204
-		SemiMajorAxis	0.39216366
+		PeriodDays		66.922
+		SemiMajorAxis	0.24843214
 		Eccentricity	0.0939481028
-		Inclination	0
+		Inclination	0.13
 	}
 }
 
