@@ -10,13 +10,16 @@ Barycenter	"Maiy & Sceiya"
 
 
 	Orbit
-	{
-		RefPlane	"Equator"
-		Period            0.093972
-		SemiMajorAxis    0.1595737
-		Eccentricity    0.0586196817
-		Inclination     -0.0638566811
-	}
+    {
+        RefPlane        "Equator"
+        Period          0.23045
+        SemiMajorAxis   0.290190706
+        Eccentricity    0.0327229392
+        Inclination     -1.67281318
+        AscendingNode   24.7044535
+        ArgOfPericenter 94.8236642
+        MeanAnomaly     346.992619
+    }
 }
 
 Planet	"Maiy"
