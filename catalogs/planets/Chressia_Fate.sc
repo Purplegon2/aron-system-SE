@@ -12,8 +12,8 @@ Barycenter	"Chressia & Entactrius"
 	Orbit
 	{
 		RefPlane	"Equator"
-		PeriodDays		66.922
-		SemiMajorAxis	0.24843214
+		PeriodDays		64.114
+		SemiMajorAxis	0.24143214
 		Eccentricity	0.0939481028
 		Inclination	0.13
 	}
@@ -184,8 +184,8 @@ Planet	"Chressia"
 		Model          "Earth"
 		Height          1130.92847
 		Density         1.27088153
-		Pressure        1.11122382
-		Greenhouse      74.6412354
+		Pressure        4.2832382
+		Greenhouse      79.6412354
 		Bright          1.68
 		Opacity         0.634
 		SkyLight        0
@@ -636,7 +636,7 @@ Planet	"Entactrius"
 		Height          59.0190697
 		Density         1.71691537
 		Pressure        0.853685081
-		Greenhouse      126.099243
+		Greenhouse      75.099243
 		Bright          10.4
 		Opacity         2.21
 		SkyLight        3.33
