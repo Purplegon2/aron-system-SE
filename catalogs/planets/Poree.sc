@@ -353,10 +353,10 @@ DwarfMoon	"Paite"
 	{
 		RefPlane        "Ecliptic"
 		Epoch           2457400.5
-		PeriodDays      0.8159
-		SemiMajorAxisKm 21741.9754
-		Eccentricity    0.1586428
-		Inclination     2.18187
+		PeriodDays      0.82718
+		SemiMajorAxisKm 21941.9754
+		Eccentricity    0.0586428
+		Inclination     0.18187
 		AscendingNode   261.45418
 		ArgOfPericenter 126.33098
 		MeanAnomaly     67.34618
