@@ -247,8 +247,8 @@ DwarfMoon	"Paite"
 	ParentBody     "Poree"
 	Class          "Asteroid"
 	AsterType      "Amor"
-	Mass            1.38439274
-	Radius          0.5
+	Mass            5.73223922e-08
+	Radius          36.9123421
 	InertiaMoment   0.39936468
 	Oblateness      0.231208667
 	RotationPeriod  4.42601
@@ -303,6 +303,10 @@ DwarfMoon	"Paite"
 		hillsFreq       0.000752
 		hillsFraction   0.674
 		hills2Fraction  0
+		eqridgeMagn     0.434
+		eqridgeWidth    0.111
+		eqridgeModMagn  0.518
+		eqridgeModFreq  0.276
 		canyonsFraction 0
 		craterMagn      0.253
 		craterFreq      0.213
@@ -353,8 +357,8 @@ DwarfMoon	"Paite"
 	{
 		RefPlane        "Ecliptic"
 		Epoch           2457400.5
-		PeriodDays	0.41
-		SemiMajorAxiskm   36934.97
+		PeriodDays      0.41
+		SemiMajorAxisKm 13741.9754
 		Eccentricity    0.4586428
 		Inclination     2.18187
 		AscendingNode   261.45418
