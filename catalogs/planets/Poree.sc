@@ -246,8 +246,8 @@ DwarfMoon	"Paite"
 {
 	ParentBody     "Poree"
 	Class          "Asteroid"
-	Mass            3.26487734e-08
-	Radius          18.2852325
+	Mass            1.26487734e-07
+	Radius          38.2852325
 	InertiaMoment   0.39844203
 	RotationPeriod  830.830605
 	Obliquity       133.225178
