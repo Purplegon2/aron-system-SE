@@ -701,7 +701,7 @@ Moon	"Alneim"
 {
 	ParentBody     "Cailus"
 	Class          "Terra"
-	Mass            0.03411103363
+	Mass            0.02711103363
 	Radius          2912.91992
 	InertiaMoment   0.399339557
 	Oblateness      0.0206106864
