@@ -192,6 +192,7 @@ Planet	"Poree"
 
 	Rings
 	{
+		Texture        "Saturn-rings.*"
 		InnerRadius     2.54e+04
 		OuterRadius     2.15e+04
 		EdgeRadius      2.15e+04
