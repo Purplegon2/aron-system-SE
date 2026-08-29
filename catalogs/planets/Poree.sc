@@ -356,9 +356,9 @@ DwarfMoon	"Paite"
 		PeriodDays      0.82718
 		SemiMajorAxisKm 21941.9754
 		Eccentricity    0.0586428
-		Inclination     0.18187
-		AscendingNode   261.45418
-		ArgOfPericenter 126.33098
-		MeanAnomaly     67.34618
+		Inclination     30.85
+		AscendingNode   277.557252
+		ArgOfPericenter 156.641221
+		MeanAnomaly     63.2061069
 	}
 }
