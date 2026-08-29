@@ -136,7 +136,7 @@ Planet	"Poree"
 		Model          "Mars"
 		Height          60
 		Density         3.64319038
-		Pressure        0.371713793
+		Pressure        0.771713793
 		Greenhouse      3.97504401
 		Bright          10
 		Opacity         1
