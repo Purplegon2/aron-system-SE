@@ -246,8 +246,8 @@ DwarfMoon	"Paite"
 {
 	ParentBody     "Poree"
 	Class          "Asteroid"
-	Mass            1.26487734e-07
-	Radius          40.2852325
+	Mass            3.26487734e-08
+	Radius          18.2852325
 	InertiaMoment   0.39844203
 	RotationPeriod  830.830605
 	Obliquity       133.225178
@@ -349,9 +349,9 @@ DwarfMoon	"Paite"
 	{
 		RefPlane        "Ecliptic"
 		Epoch           2457400.5
-		PeriodDays      0.41
-		SemiMajorAxisKm 13741.9754
-		Eccentricity    0.4586428
+		PeriodDays      0.8159
+		SemiMajorAxisKm 21741.9754
+		Eccentricity    0.1586428
 		Inclination     2.18187
 		AscendingNode   261.45418
 		ArgOfPericenter 126.33098
