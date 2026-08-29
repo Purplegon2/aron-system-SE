@@ -242,4 +242,123 @@ Planet	"Poree"
 	}
 }
 
+DwarfMoon	"Paite"
+{
+	ParentBody     "Poree"
+	Class          "Asteroid"
+	AsterType      "Amor"
+	Mass            1.38439274
+	Radius          0.5
+	InertiaMoment   0.39936468
+	Oblateness      0.231208667
+	RotationPeriod  4.42601
+	RotationEpoch   0
+	Obliquity       356.829943
+	EqAscendNode    263.288006
 
+	AbsMagn         17.3
+	SlopeParam      0.15
+	Albedo          0.23
+	Brightness      2.25
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "aquaria_airless_white2.cfg"
+		SurfStyle       0.746
+		Randomize      (0.383, -0.287, 0.863)
+		colorDistMagn   0.49
+		colorDistFreq   0.000204
+		detailScale     8
+		drivenDarkening 0
+		snowLevel       2
+		tropicLatitude  0.0933
+		icecapLatitude  2
+		icecapHeight    0.807
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
+		humidity        0.101
+		heightTempGrad  0.625
+		beachWidth      0.00111
+		tropicWidth     0.07
+		mainFreq        0.534
+		venusFreq       0.561
+		venusMagn       0.702
+		mareDensity     0
+		terraceProb     0.324
+		erosion         0
+		montesMagn      0.657
+		montesFreq      3.4
+		montesSpiky     0.93
+		montesFraction  0.725
+		dunesFraction   0
+		hillsMagn       0
+		hillsFreq       0.000752
+		hillsFraction   0.674
+		hills2Fraction  0
+		canyonsFraction 0
+		craterMagn      0.253
+		craterFreq      0.213
+		craterDensity   0.917
+		craterOctaves   6
+		volcanoActivity 0
+		volcanoFlows    0
+		volcanoRadius   0.466
+		volcanoTemp     245
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      0.504
+		SpecBrightWater 0
+		SpecBrightIce   0.03
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.8
+		Hapke           1
+		SpotBright      2.5
+		SpotWidth       0.05
+		DayAmbient      0.07
+	}
+
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
+
+	NoAtmosphere    true
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
+
+	Orbit
+	{
+		RefPlane        "Ecliptic"
+		Epoch           2457400.5
+		PeriodDays      0.8159
+		SemiMajorAxisKm 21741.9754
+		Eccentricity    0.1586428
+		Inclination     2.18187
+		AscendingNode   261.45418
+		ArgOfPericenter 126.33098
+		MeanAnomaly     67.34618
+	}
+}
