@@ -136,7 +136,7 @@ Planet	"Poree"
 		Model          "Mars"
 		Height          60
 		Density         3.64319038
-		Pressure        0.771713793
+		Pressure        0.171713793
 		Greenhouse      3.97504401
 		Bright          10
 		Opacity         1
@@ -242,120 +242,4 @@ Planet	"Poree"
 	}
 }
 
-DwarfMoon	"Paite"
-{
-	ParentBody     "Poree"
-	Class          "Asteroid"
-	Mass            1.26487734e-07
-	Radius          38.2852325
-	InertiaMoment   0.39844203
-	RotationPeriod  830.830605
-	Obliquity       133.225178
-	EqAscendNode    91.9229947
-
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
-	Brightness      2.25
-	BrightnessReal  1
-
-	Surface
-	{
-		Preset         "asteroid_red.cfg"
-		SurfStyle       0.845
-		Randomize      (0.076, 0.309, -0.617)
-		colorDistMagn   0.0552
-		colorDistFreq   1.07
-		detailScale     128
-		drivenDarkening 0
-		snowLevel       2
-		tropicLatitude  0.741
-		icecapLatitude  2
-		icecapHeight    0.575
-		climatePole     0.438
-		climateTropic   0.312
-		climateEquator  0.688
-		climateSteppeMin -1
-		climateSteppeMax -1
-		climateForestMin -1
-		climateForestMax -1
-		climateGrassMin  -1
-		climateGrassMax  -1
-		humidity        0.198
-		heightTempGrad  0.625
-		beachWidth      0.00104
-		tropicWidth     0.07
-		mainFreq        0.615
-		venusFreq       0.658
-		venusMagn       0.577
-		mareDensity     0
-		terraceProb     0.269
-		erosion         0
-		montesMagn      0.537
-		montesFreq      2.87
-		montesSpiky     0.94
-		montesFraction  0.443
-		dunesFraction   0
-		hillsMagn       0
-		hillsFreq       2.91
-		hillsFraction   0.673
-		hills2Fraction  0
-		canyonsFraction 0
-		craterMagn      0.219
-		craterFreq      0.229
-		craterDensity   1
-		craterOctaves   14
-		volcanoActivity 0
-		volcanoFlows    0
-		volcanoRadius   0.556
-		volcanoTemp     1.07e+03
-		lavaCoverTidal  0
-		lavaCoverSun    0
-		lavaCoverYoung  0
-		BumpHeight      20
-		SpecBrightWater 0
-		SpecBrightIce   0.03
-		RoughnessWater  0.35
-		RoughnessIce    0.45
-		SpecularScale   1
-		RoughnessBias   0.8
-		Hapke           1
-		SpotBright      2.5
-		SpotWidth       0.05
-		DayAmbient      0.07
-	}
-
-	NoOcean         true
-
-	NoClouds        true
-
-	NoLava          true
-
-	NoAtmosphere    true
-
-	Climate
-	{
-		GlobalWindSpeed  0
-	}
-
-	NoAurora        true
-
-	NoRings         true
-
-	NoAccretionDisk true
-
-	NoCometTail     true
-
-	Orbit
-	{
-		RefPlane        "Ecliptic"
-		Epoch           2457400.5
-		PeriodDays      0.8159
-		SemiMajorAxisKm 21741.9754
-		Eccentricity    0.1586428
-		Inclination     2.18187
-		AscendingNode   261.45418
-		ArgOfPericenter 126.33098
-		MeanAnomaly     67.34618
-	}
-}
 
