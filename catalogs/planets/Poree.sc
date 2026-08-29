@@ -246,37 +246,33 @@ DwarfMoon	"Paite"
 {
 	ParentBody     "Poree"
 	Class          "Asteroid"
-	AsterType      "Amor"
-	Mass            5.73223922e-08
-	Radius          36.9123421
-	InertiaMoment   0.39936468
-	Oblateness      0.231208667
-	RotationPeriod  4.42601
-	RotationEpoch   0
-	Obliquity       356.829943
-	EqAscendNode    263.288006
+	Mass            1.26487734e-07
+	Radius          40.2852325
+	InertiaMoment   0.39844203
+	RotationPeriod  830.830605
+	Obliquity       133.225178
+	EqAscendNode    91.9229947
 
-	AbsMagn         17.3
-	SlopeParam      0.15
-	Albedo          0.23
+	AlbedoBond      0.3
+	AlbedoGeom      0.36
 	Brightness      2.25
 	BrightnessReal  1
 
 	Surface
 	{
-		Preset         "aquaria_airless_white2.cfg"
-		SurfStyle       0.746
-		Randomize      (0.383, -0.287, 0.863)
-		colorDistMagn   0.49
-		colorDistFreq   0.000204
-		detailScale     8
+		Preset         "asteroid_red.cfg"
+		SurfStyle       0.845
+		Randomize      (0.076, 0.309, -0.617)
+		colorDistMagn   0.0552
+		colorDistFreq   1.07
+		detailScale     128
 		drivenDarkening 0
 		snowLevel       2
-		tropicLatitude  0.0933
+		tropicLatitude  0.741
 		icecapLatitude  2
-		icecapHeight    0.807
-		climatePole     0.938
-		climateTropic   0.313
+		icecapHeight    0.575
+		climatePole     0.438
+		climateTropic   0.312
 		climateEquator  0.688
 		climateSteppeMin -1
 		climateSteppeMax -1
@@ -284,42 +280,38 @@ DwarfMoon	"Paite"
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.101
+		humidity        0.198
 		heightTempGrad  0.625
-		beachWidth      0.00111
+		beachWidth      0.00104
 		tropicWidth     0.07
-		mainFreq        0.534
-		venusFreq       0.561
-		venusMagn       0.702
+		mainFreq        0.615
+		venusFreq       0.658
+		venusMagn       0.577
 		mareDensity     0
-		terraceProb     0.324
+		terraceProb     0.269
 		erosion         0
-		montesMagn      0.657
-		montesFreq      3.4
-		montesSpiky     0.93
-		montesFraction  0.725
+		montesMagn      0.537
+		montesFreq      2.87
+		montesSpiky     0.94
+		montesFraction  0.443
 		dunesFraction   0
 		hillsMagn       0
-		hillsFreq       0.000752
-		hillsFraction   0.674
+		hillsFreq       2.91
+		hillsFraction   0.673
 		hills2Fraction  0
-		eqridgeMagn     0.434
-		eqridgeWidth    0.111
-		eqridgeModMagn  0.518
-		eqridgeModFreq  0.276
 		canyonsFraction 0
-		craterMagn      0.253
-		craterFreq      0.213
-		craterDensity   0.917
-		craterOctaves   6
+		craterMagn      0.219
+		craterFreq      0.229
+		craterDensity   1
+		craterOctaves   14
 		volcanoActivity 0
 		volcanoFlows    0
-		volcanoRadius   0.466
-		volcanoTemp     245
+		volcanoRadius   0.556
+		volcanoTemp     1.07e+03
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      0.504
+		BumpHeight      20
 		SpecBrightWater 0
 		SpecBrightIce   0.03
 		RoughnessWater  0.35
