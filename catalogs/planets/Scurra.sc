@@ -718,8 +718,8 @@ Moon	"Radus"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      11.2045379152
-		SemiMajorAxis	0.006
+		PeriodDays      11.2045379
+		SemiMajorAxisKm 897587.224
 		Eccentricity    0.0192017898
 		Inclination     0.0762410075
 		AscendingNode   -29.0579609
