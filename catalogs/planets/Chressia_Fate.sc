@@ -46,7 +46,7 @@ Planet	"Chressia"
 		colorDistFreq   195
 		detailScale     187
 		drivenDarkening 0
-		seaLevel        0.355
+		seaLevel        0.718
 		snowLevel       -0.542
 		tropicLatitude  0.728
 		icecapLatitude  1
@@ -70,15 +70,15 @@ Planet	"Chressia"
 		mareFreq        1.33
 		mareDensity     0.116
 		terraceProb     0.372
-		erosion         0
-		montesMagn      0.0962
+		erosion         0.0458
+		montesMagn      0.153
 		montesFreq      93.7
 		montesSpiky     0.969
 		montesFraction  0.85
 		dunesMagn       0.0402
-		dunesFreq       23.5
+		dunesFreq       763
 		dunesFraction   0.0637
-		hillsMagn       0.121
+		hillsMagn       0.84
 		hillsFreq       188
 		hillsFraction   0.0626
 		hills2Fraction  0
@@ -116,7 +116,7 @@ Planet	"Chressia"
 		lavaCoverYoung  0
 		stripeZones     1.96
 		stripeTwist     -0.458
-		cycloneMagn     7.79
+		cycloneMagn     7.33
 		cycloneFreq     0.107
 		cycloneDensity  0.817
 		cycloneOctaves  5
@@ -142,7 +142,7 @@ Planet	"Chressia"
 
 	Ocean
 	{
-		Depth           7.1
+		Depth           14.4
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.06
@@ -151,9 +151,10 @@ Planet	"Chressia"
 
 		Composition
 		{
-			H2O       	83.7
+			H2O       	81.7
 			SO2       	10.4
 			NH3       	6.08
+			NaCl		1.03
 		}
 	}
 
@@ -172,7 +173,7 @@ Planet	"Chressia"
 		Opacity         0.809
 		mainFreq        1.01
 		mainOctaves     10
-		Coverage        0.252
+		Coverage        0.565
 		stripeZones     1.96
 		stripeTwist     -0.458
 	}
@@ -182,12 +183,12 @@ Planet	"Chressia"
 	Atmosphere
 	{
 		Model          "Earth"
-		Height          1130.92847
+		Height          1054.146
 		Density         1.27088153
-		Pressure        4.2832382
+		Pressure        7.36199999
 		Greenhouse      79.6412354
-		Bright          1.68
-		Opacity         0.634
+		Bright          1.83
+		Opacity         0.84
 		SkyLight        0
 		Hue             0.5
 		Saturation      0.794
