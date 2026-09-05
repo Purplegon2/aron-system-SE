@@ -2,12 +2,12 @@ Planet	"Hadea"
 {
 	ParentBody     "Fate"
 	Class          "Terra"
-	Mass            8.29617186
+	Mass            8.29617214
 	Radius          8750.58887
 	InertiaMoment   0.330291718
-	Obliquity       0.496464778
+	Obliquity       2.69646478
 	EqAscendNode    148.02263
-  	TidalLocked     true
+	TidalLocked     true
 
 	AbsMagn         -4.5
 	SlopeParam      2.97
@@ -77,6 +77,7 @@ Planet	"Hadea"
 		craterFreq      26.6
 		craterDensity   0
 		craterOctaves   0
+		craterRayedFactor 0.0553
 		volcanoMagn     0
 		volcanoFreq     1
 		volcanoDensity  0.4
@@ -110,10 +111,12 @@ Planet	"Hadea"
 
 	NoOcean         true
 
+	NoClouds        true
+
 	NoLava          true
 
-	NoAtmosphere	true
-	
+	NoAtmosphere    true
+
 	Climate
 	{
 		GlobalWindSpeed  12.6
@@ -148,24 +151,15 @@ Planet	"Hadea"
 
 	NoAccretionDisk true
 
-	CometTail
-	{
-		MaxLength   1.147
-		GasToDust   0
-		Particles   3166
-		GasBright   0.0876
-		DustBright  0.122
-		GasColor   (0.002 0.006 0.010)
-		DustColor  (0.050 0.050 0.050)
-	}
+	NoCometTail     true
 
 	Orbit
 	{
 		RefPlane        "Equator"
 		Period          0.0036722
 		SemiMajorAxis   0.018330651
-		Eccentricity    0.2503157627
-		Inclination     2.696464778
+		Eccentricity    0.250315763
+		Inclination     2.69646478
 		AscendingNode   148.02263
 		ArgOfPericenter 265.470908
 		MeanAnomaly     309.843962
