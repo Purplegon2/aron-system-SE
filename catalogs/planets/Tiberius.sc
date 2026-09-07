@@ -390,11 +390,11 @@ Planet	"Tiberius"
 {
 	ParentBody     "Tiberius & Polion"
 	Class          "Neptune"
-	Mass            7.444271
+	Mass            7.44427109
 	Radius          19543.6484
 	InertiaMoment   0.194705158
 	Oblateness      0.0302526616
-	RotationPeriod  19.85036311
+	RotationPeriod  19.8503631
 	RotationEpoch   0
 	Obliquity       -68.1207531
 	EqAscendNode    -102.378115
@@ -562,9 +562,9 @@ Planet	"Tiberius"
 	Rings
 	{
 		InnerRadius     2.54e+04
-		OuterRadius     1.02e+05
+		OuterRadius     9.83e+04
 		EdgeRadius      6.02e+04
-		MeanRadius      3.9e+04
+		MeanRadius      3.67e+04
 		Thickness       0.367
 		RocksMaxSize    0.00316
 		RocksSpacing    1
@@ -574,8 +574,8 @@ Planet	"Tiberius"
 		Brightness      0.916
 		FrontBright     2.9
 		BackBright      6.03
-		Density         0.964
-		Opacity         0.964
+		Density         0.361
+		Opacity         0.00111
 		SelfShadow      0.964
 		PlanetShadow    0.473
 		Hapke           1
@@ -601,8 +601,8 @@ Planet	"Tiberius"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period            0.241501411626
-		SemiMajorAxisKm   -288450.442246
+		Period          0.241501412
+		SemiMajorAxis   -0.00192817211
 		Eccentricity    0
 		Inclination     4.34232
 		AscendingNode   -165.642303
