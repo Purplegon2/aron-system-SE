@@ -23,15 +23,14 @@ Planet	"Polion"
 {
 	ParentBody     "Tiberius & Polion"
 	Class          "Aquaria"
-	Mass            1.483
-	Radius          7272.195
+	Mass            1.48300004
+	Radius          7272.19482
 	InertiaMoment   0.332695425
-	Oblateness      0.0319051058
+	Oblateness      0.0068702288
 	RotationPeriod  4.864
 	RotationEpoch   0
 	Obliquity       2.34645234
 	EqAscendNode    158.986341
-	
 
 	AlbedoBond      0.619
 	AlbedoGeom      0.36
@@ -47,7 +46,7 @@ Planet	"Polion"
 		colorDistFreq   1.08e+03
 		detailScale     3.28e+04
 		drivenDarkening 0
-		seaLevel        0.00249
+		seaLevel        0.122
 		snowLevel       0.85
 		tropicLatitude  0
 		icecapLatitude  2
@@ -71,9 +70,9 @@ Planet	"Polion"
 		mareFreq        5.56
 		mareDensity     0
 		terraceProb     0.434
-		erosion         0.124
-		montesMagn      0.228
-		montesFreq      336
+		erosion         0.313
+		montesMagn      0.382
+		montesFreq      412
 		montesSpiky     0.863
 		montesFraction  0.657
 		dunesMagn       0.0414
@@ -99,6 +98,7 @@ Planet	"Polion"
 		craterFreq      18.2
 		craterDensity   0
 		craterOctaves   0
+		craterRayedFactor 0
 		volcanoMagn     0.693
 		volcanoFreq     0.64
 		volcanoDensity  0.4
@@ -113,6 +113,7 @@ Planet	"Polion"
 		stripeZones     1
 		stripeTwist     3.5
 		cycloneMagn     0.885
+		cycloneFreq     0.797
 		cycloneDensity  0.405
 		cycloneOctaves  0
 		BumpHeight      15.1
@@ -132,7 +133,7 @@ Planet	"Polion"
 
 	Ocean
 	{
-		Depth           0.0375
+		Depth           1.84
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.05
@@ -142,23 +143,24 @@ Planet	"Polion"
 		Composition
 		{
 			CH4       	98.8
-			C2H6       	1.16
+			C2H6      	1.16
 		}
 	}
 
 	Clouds
 	{
-		Height          12.8
+		Height          29.7
 		Velocity        116
 		BumpHeight      2.68
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
+		ModulateColor  (0.527 0.441 0.210)
 		ModulateBright  1
 		mainFreq        0.738
 		mainOctaves     10
-		Coverage        0.1
+		Coverage        0.794
 		stripeZones     1
 		stripeTwist     3.5
 	}
@@ -167,16 +169,16 @@ Planet	"Polion"
 
 	Atmosphere
 	{
-		Model          "Earth"
-		Height          38.7537003
+		Model          "Titan"
+		Height          691.344727
 		Density         6.16147089
 		Pressure        4.49789286
-		Greenhouse      6.11600733
-		Bright          10
+		Greenhouse      9.16030502
+		Bright          7.63
 		Opacity         1
-		SkyLight        3.33
-		Hue             -0.0169
-		Saturation      0.885
+		SkyLight        1.15
+		Hue             -0.5
+		Saturation      0.931
 
 		Composition
 		{
@@ -207,8 +209,8 @@ Planet	"Polion"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period            0.241501411626
-		SemiMajorAxisKm   1447945.55775
+		Period          0.241501412
+		SemiMajorAxis   0.00967891823
 		Eccentricity    0.012331
 		Inclination     2.12312333
 		AscendingNode   161.116099
