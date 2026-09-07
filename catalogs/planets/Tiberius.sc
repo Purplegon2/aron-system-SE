@@ -31,159 +31,172 @@ Planet	"Polion"
 	RotationEpoch   0
 	Obliquity       70.9596754
 	EqAscendNode    158.986341
+	
 
-	AlbedoBond      0.6
+	AlbedoBond      0.619
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
 
 	Surface
 	{
-		Preset         "aquaria_arid_white.cfg"
-		SurfStyle       0.851
-		Randomize      (0.371, 0.369, 0.646)
-		colorDistMagn   0.0669
-		colorDistFreq   1.21e+03
+		Preset         "terra_wet_LB_green.cfg"
+		SurfStyle       0.0559
+		Randomize      (-0.528, 0.163, 0.507)
+		colorDistMagn   0.0614
+		colorDistFreq   1.08e+03
 		detailScale     3.28e+04
 		drivenDarkening 0
-		seaLevel        0.197
-		snowLevel       2
-		tropicLatitude  0.908
-		icecapLatitude  0.991
-		icecapHeight    0.00638
-		climatePole     0.938
-		climateTropic   0.313
-		climateEquator  0.688
+		seaLevel        0.00249
+		snowLevel       0.85
+		tropicLatitude  0
+		icecapLatitude  2
+		icecapHeight    0.543
+		climatePole     0.823
+		climateTropic   0.562
+		climateEquator  0.562
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.426
-		heightTempGrad  0.625
-		beachWidth      0.00123
-		tropicWidth     0.07
-		mainFreq        1.8
-		venusFreq       0.59
-		venusMagn       0
-		mareFreq        1.7
+		humidity        0.153
+		heightTempGrad  0.375
+		beachWidth      0.00109
+		tropicWidth     0.5
+		mainFreq        0.858
+		venusFreq       0.624
+		venusMagn       0.614
+		mareFreq        5.56
 		mareDensity     0
-		terraceProb     0.129
-		erosion         0
-		montesMagn      0.258
-		montesFreq      439
-		montesSpiky     0.795
-		montesFraction  0.0505
-		dunesMagn       0.027
-		dunesFreq       92.7
-		dunesFraction   0.0681
-		hillsMagn       0.101
-		hillsFreq       1.18e+03
-		hillsFraction   0.462
-		hills2Fraction  0.0799
-		riversMagn      0
-		riversFreq      2.47
-		riversSin       6.79
+		terraceProb     0.434
+		erosion         0.124
+		montesMagn      0.228
+		montesFreq      336
+		montesSpiky     0.863
+		montesFraction  0.657
+		dunesMagn       0.0414
+		dunesFreq       56.8
+		dunesFraction   0.956
+		hillsMagn       0.112
+		hillsFreq       142
+		hillsFraction   0.00957
+		hills2Fraction  0.68
+		riversMagn      57.9
+		riversFreq      1.8
+		riversSin       6.51
 		riftsMagn       0
-		riftsFreq       3.22
-		riftsSin        4.25
-		canyonsMagn     0.535
-		canyonsFreq     3.93
-		canyonsFraction 0
-		cracksMagn      0.066
-		cracksFreq      3.77
-		cracksOctaves   7
-		craterMagn      0.658
-		craterFreq      31.1
-		craterDensity   0.456
-		craterOctaves   11
-		craterRayedFactor 0
-		volcanoMagn     0.587
-		volcanoFreq     0.606
+		riftsFreq       3.59
+		riftsSin        4.77
+		canyonsMagn     0.0254
+		canyonsFreq     215
+		canyonsFraction 0.326
+		cracksMagn      0.117
+		cracksFreq      0.937
+		cracksOctaves   0
+		craterMagn      0.695
+		craterFreq      18.2
+		craterDensity   0
+		craterOctaves   0
+		volcanoMagn     0.693
+		volcanoFreq     0.64
 		volcanoDensity  0.4
 		volcanoOctaves  3
-		volcanoActivity 2
-		volcanoFlows    0.202
-		volcanoRadius   0.534
-		volcanoTemp     248
+		volcanoActivity 1.17
+		volcanoFlows    0.493
+		volcanoRadius   0.524
+		volcanoTemp     1.23e+03
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      19.6
-		DiffMapAlpha   "Ice"
-		SpecBrightWater 0.03
-		SpecBrightIce   0.1
+		stripeZones     1
+		stripeTwist     3.5
+		cycloneMagn     0.885
+		cycloneDensity  0.405
+		cycloneOctaves  0
+		BumpHeight      15.1
+		BumpOffset      0.0375
+		DiffMapAlpha   "Water"
+		SpecBrightWater 0.65
+		SpecBrightIce   0.85
 		RoughnessWater  0.35
 		RoughnessIce    0.45
 		SpecularScale   1
-		RoughnessBias   0.2
+		RoughnessBias   0.5
 		Hapke           0.5
-		SpotBright      2.32
+		SpotBright      1.87
 		SpotWidth       0.05
 		DayAmbient      0.07
 	}
 
-	NoOcean         true
+	Ocean
+	{
+		Depth           0.0375
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.05
+		DayAmbient      0.07
+		ModulateBright  1
 
-	NoClouds        true
+		Composition
+		{
+			CH4       	98.8
+			C2H6       	1.16
+		}
+	}
+
+	Clouds
+	{
+		Height          12.8
+		Velocity        116
+		BumpHeight      2.68
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		mainFreq        0.738
+		mainOctaves     10
+		Coverage        0.1
+		stripeZones     1
+		stripeTwist     3.5
+	}
 
 	NoLava          true
 
 	Atmosphere
 	{
-		Model          "Mars"
-		Height          80.065712
-		Density         0.0325720236
-		Pressure        0.0316064805
-		Greenhouse      1.55810964
-		Bright          7.94
+		Model          "Earth"
+		Height          38.7537003
+		Density         6.16147089
+		Pressure        4.49789286
+		Greenhouse      6.11600733
+		Bright          10
 		Opacity         1
-		SkyLight        2.65
-		Hue             0.0148
-		Saturation      0.977
+		SkyLight        3.33
+		Hue             -0.0169
+		Saturation      0.885
 
 		Composition
 		{
-			H2        	98.4
-			N2        	1.24
-			Ne        	0.228
-			CH4       	0.0627
-			He        	0.0575
-			CO        	0.0197
-			Ar        	0.00523
+			N2        	75.8
+			SO2       	14.7
+			CO2       	8.18
+			H2O       	1.28
+			CO        	0.0606
+			Ar        	0.00169
+			Ne        	7.53e-05
+			He        	4.43e-05
 		}
 	}
 
 	Climate
 	{
-		GlobalWindSpeed  31.3
+		GlobalWindSpeed  5.45
 	}
 
-	Aurora
-	{
-		Height         74.7
-		NorthLat       78.5
-		NorthLon       -20.6
-		NorthRadius    1.77e+03
-		NorthWidth     586
-		NorthRings     4
-		NorthBright    0.618
-		NorthFlashFreq 79
-		NorthMoveSpeed 1.22
-		NorthParticles 50000
-		SouthLat       -90
-		SouthLon       166
-		SouthRadius    2.44e+03
-		SouthWidth     735
-		SouthRings     3
-		SouthBright    0.618
-		SouthFlashFreq 68.5
-		SouthMoveSpeed 0.956
-		SouthParticles 50000
-		TopColor    (1.000 1.000 1.000)
-		BottomColor (0.000 1.000 0.000)
-	}
+	NoAurora        true
 
 	NoRings         true
 
