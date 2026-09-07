@@ -571,11 +571,11 @@ Planet	"Tiberius"
 		DustDrawDist    1.1e+03
 		ChartRadius     6.02e+04
 		RotationPeriod  5.46
-		Brightness      0.916
+		Brightness      1.68
 		FrontBright     2.9
 		BackBright      6.03
-		Density         0.361
-		Opacity         0.00111
+		Density         0.461
+		Opacity         0.0055
 		SelfShadow      0.964
 		PlanetShadow    0.473
 		Hapke           1
