@@ -247,7 +247,7 @@ Moon	"Recluna"
 {
 	ParentBody     "Polion"
 	Class          "Aquaria"
-	Mass            0.00363233895
+	Mass            0.00893233895
 	Radius          1463.38
 	InertiaMoment   0.399066538
 	Oblateness     (0.007, 0.000, 0.000)
