@@ -170,27 +170,23 @@ Planet	"Polion"
 
 	Atmosphere
 	{
-		Model          "Titan"
-		Height          691.344727
-		Density         6.16147089
-		Pressure        4.49789286
-		Greenhouse      9.16030502
-		Bright          7.63
-		Opacity         1
-		SkyLight        1.15
+		Model          "Thick"
+		Height          127.89991
+		Density         248.353149
+		Pressure        4.8332423421
+		Greenhouse      9.9541988
+		Bright          14.4
+		Opacity         1.07
+		SkyLight        0
 		Hue             -0.5
-		Saturation      1.31
+		Saturation      1.21
 
 		Composition
 		{
-			N2        	75.8
-			SO2       	14.7
-			CO2       	8.18
-			H2O       	1.28
-			CO        	0.0606
-			Ar        	0.00169
-			Ne        	7.53e-05
-			He        	4.43e-05
+			N2        	95.3
+			CH4       	3.8
+			CO2       	0.7
+			Ar        	0.2
 		}
 	}
 
