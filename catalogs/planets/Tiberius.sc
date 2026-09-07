@@ -46,7 +46,7 @@ Planet	"Polion"
 		colorDistFreq   1.08e+03
 		detailScale     3.28e+04
 		drivenDarkening 0
-		seaLevel        0.122
+		seaLevel        0.138
 		snowLevel       0.85
 		tropicLatitude  0
 		icecapLatitude  2
@@ -70,21 +70,21 @@ Planet	"Polion"
 		mareFreq        5.56
 		mareDensity     0
 		terraceProb     0.434
-		erosion         0.313
+		erosion         0.107
 		montesMagn      0.382
 		montesFreq      412
-		montesSpiky     0.863
+		montesSpiky     0.771
 		montesFraction  0.657
 		dunesMagn       0.0414
 		dunesFreq       56.8
 		dunesFraction   0.956
-		hillsMagn       0.112
-		hillsFreq       142
-		hillsFraction   0.00957
-		hills2Fraction  0.68
-		riversMagn      57.9
-		riversFreq      1.8
-		riversSin       6.51
+		hillsMagn       0.153
+		hillsFreq       153
+		hillsFraction   0.0611
+		hills2Fraction  0.534
+		riversMagn      10
+		riversFreq      7.75
+		riversSin       6
 		riftsMagn       0
 		riftsFreq       3.59
 		riftsSin        4.77
@@ -113,7 +113,7 @@ Planet	"Polion"
 		stripeZones     1
 		stripeTwist     3.5
 		cycloneMagn     0.885
-		cycloneFreq     0.797
+		cycloneFreq     1.21
 		cycloneDensity  0.405
 		cycloneOctaves  0
 		BumpHeight      15.1
@@ -133,7 +133,7 @@ Planet	"Polion"
 
 	Ocean
 	{
-		Depth           1.84
+		Depth           2.08
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.05
@@ -156,11 +156,12 @@ Planet	"Polion"
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		ModulateColor  (0.527 0.441 0.210)
-		ModulateBright  1
+		ModulateColor  (0.516 0.462 0.115)
+		ModulateBright  1.05
+		Opacity         0.58
 		mainFreq        0.738
 		mainOctaves     10
-		Coverage        0.794
+		Coverage        0.947
 		stripeZones     1
 		stripeTwist     3.5
 	}
@@ -178,7 +179,7 @@ Planet	"Polion"
 		Opacity         1
 		SkyLight        1.15
 		Hue             -0.5
-		Saturation      0.931
+		Saturation      1.31
 
 		Composition
 		{
