@@ -199,7 +199,30 @@ Planet	"Polion"
 		GlobalWindSpeed  5.45
 	}
 
-	NoAurora        true
+	Aurora
+	{
+		Height         77.2
+		NorthLat       53.2
+		NorthLon       140
+		NorthRadius    1.58e+03
+		NorthWidth     566
+		NorthRings     4
+		NorthBright    0.3
+		NorthFlashFreq 66.5
+		NorthMoveSpeed 1.03
+		NorthParticles 50000
+		SouthLat       -32.3
+		SouthLon       -43.2
+		SouthRadius    1.8e+03
+		SouthWidth     401
+		SouthRings     3
+		SouthBright    0.3
+		SouthFlashFreq 67.2
+		SouthMoveSpeed 1.15
+		SouthParticles 50000
+		TopColor    (1.000 1.000 1.000)
+		BottomColor (0.000 1.000 0.000)
+	}
 
 	NoRings         true
 
