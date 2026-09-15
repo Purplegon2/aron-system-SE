@@ -182,10 +182,10 @@ Planet	"Ketal"
 	ParentBody     "Astet & Ketal"
 	Class          "Ferria"
 	Mass            0.0313904323
-	Radius          2200.41532
+	Radius          2100.41528
 	InertiaMoment   0.354743063
-	Obliquity       2.78580983
-	EqAscendNode    -35.4327412
+	Obliquity       0
+	EqAscendNode    -74.9892964
 	TidalLocked     true
 
 	AlbedoBond      0.07
@@ -195,7 +195,7 @@ Planet	"Ketal"
 
 	Surface
 	{
-		Preset         "R_terra_airless__Ttemp_earth.cfg"
+		Preset         "ferria_airless_grey.cfg"
 		SurfStyle       0.0969
 		Randomize      (0.915, 0.570, -0.411)
 		colorDistMagn   0.0679
@@ -247,11 +247,11 @@ Planet	"Ketal"
 		canyonsMagn     0.547
 		canyonsFreq     0.59
 		canyonsFraction 0.896
-		cracksMagn      0.0611
+		cracksMagn      0.305
 		cracksFreq      0.703
 		cracksOctaves   0
-		craterMagn      0.616
-		craterFreq      4.46
+		craterMagn      2.67
+		craterFreq      16.8
 		craterDensity   0.754
 		craterOctaves   19
 		craterRayedFactor 0.23
@@ -303,8 +303,8 @@ Planet	"Ketal"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays       2.45871838069
-		SemiMajorAxis   9.3192816779E-05
+		Period          0.006731748
+		SemiMajorAxis   9.31928168e-05
 		Eccentricity    0
 		Inclination     0
 		AscendingNode   -74.9892964
@@ -312,3 +312,5 @@ Planet	"Ketal"
 		MeanAnomaly     149.970672
 	}
 }
+
+
