@@ -169,6 +169,148 @@ Planet	"Cailus"
 	}
 }
 
+Moon	"Farecelo"
+{
+	ParentBody     "Cailus"
+	Class          "Aquaria"
+	Mass            2.58401347e-05
+	Radius          280.257202
+	InertiaMoment   0.397336215
+	Oblateness      0.00499715097
+	Obliquity       0.137212071
+	EqAscendNode    3.89043303
+	TidalLocked     true
+
+	AlbedoBond      0.3
+	AlbedoGeom      0.36
+	Brightness      1
+	BrightnessReal  1
+
+	Surface
+	{
+		Preset         "aquaria_airless_default.cfg"
+		SurfStyle       0.34
+		Randomize      (-0.523, 0.989, -0.416)
+		colorDistMagn   0.0764
+		colorDistFreq   40.9
+		detailScale     1.02e+03
+		drivenDarkening 0
+		seaLevel        0.443
+		snowLevel       2
+		tropicLatitude  0.991
+		icecapLatitude  1
+		icecapHeight    0
+		climatePole     0.438
+		climateTropic   0.312
+		climateEquator  0.688
+		climateSteppeMin -1
+		climateSteppeMax -1
+		climateForestMin -1
+		climateForestMax -1
+		climateGrassMin  -1
+		climateGrassMax  -1
+		humidity        0.356
+		heightTempGrad  0.625
+		beachWidth      0.00113
+		tropicWidth     0.07
+		mainFreq        1.91
+		venusFreq       0.947
+		venusMagn       0
+		mareFreq        0.0213
+		mareDensity     0.138
+		terraceProb     0.254
+		erosion         0
+		montesMagn      0
+		montesFreq      0
+		montesSpiky     0
+		montesFraction  0
+		dunesMagn       0
+		dunesFreq       0
+		dunesFraction   0
+		hillsMagn       0.126
+		hillsFreq       6.58
+		hillsFraction   0.00763
+		hills2Fraction  0
+		riversMagn      0
+		riversFreq      0
+		riversSin       0
+		riftsMagn       0
+		riftsFreq       0
+		riftsSin        0.611
+		eqridgeMagn     0
+		eqridgeWidth    0.001
+		eqridgeModMagn  0
+		eqridgeModFreq  0
+		canyonsMagn     0
+		canyonsFreq     0.0968
+		canyonsFraction 0
+		cracksMagn      0.305
+		cracksFreq      2.63
+		cracksOctaves   0
+		craterMagn      0.153
+		craterFreq      7.63
+		craterDensity   0.886
+		craterOctaves   16
+		craterRayedFactor 0.0688
+		volcanoMagn     0
+		volcanoFreq     0
+		volcanoDensity  0
+		volcanoOctaves  0
+		volcanoActivity 0
+		volcanoFlows    0
+		volcanoRadius   0
+		volcanoTemp     0
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		BumpHeight      14
+		DiffMapAlpha   "Ice"
+		SpecBrightWater 0.03
+		SpecBrightIce   0.03
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.2
+		Hapke           0.5
+		SpotBright      2.5
+		SpotWidth       0.05
+		DayAmbient      0.07
+	}
+
+	NoOcean         true
+
+	NoClouds        true
+
+	NoLava          true
+
+	NoAtmosphere    true
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	NoAurora        true
+
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      1.6679
+		SemiMajorAxisKm 389862
+		Eccentricity    0.00305744091
+		Inclination     0.137212071
+		AscendingNode   3.89043303
+		ArgOfPericenter -11.0918499
+		MeanAnomaly     128.027169
+	}
+}
+
 Moon	"Charayl"
 {
 	ParentBody     "Cailus"
