@@ -440,7 +440,7 @@ Moon	"Charayl"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      0.872902974
+		PeriodDays      8.1918
 		SemiMajorAxisKm 1126471.97
 		Eccentricity    0.000260206178
 		Inclination     0.0327196321
