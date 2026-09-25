@@ -5,9 +5,8 @@ Planet	"Maaya"
 	Mass            7.35754728
 	Radius          12115.5703
 	InertiaMoment   0.330715209
-	Oblateness      0.0154729551
-	Obliquity       -30.1427347
-	EqAscendNode    27.9401029
+	Obliquity       -0.0638566811
+	EqAscendNode    -0.243837533
 	TidalLocked     true
 
 	AlbedoBond      0.6
@@ -88,8 +87,8 @@ Planet	"Maaya"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		stripeZones     1.96
-		stripeTwist     0.0976
+		stripeZones     1.66
+		stripeTwist     0.287
 		cycloneMagn     2.86
 		cycloneFreq     0
 		cycloneDensity  0.376
@@ -112,7 +111,7 @@ Planet	"Maaya"
 
 	Clouds
 	{
-		Height          18.6
+		Height          13.7
 		Velocity        69.8
 		BumpHeight      5.42
 		Hapke           0
@@ -132,7 +131,7 @@ Planet	"Maaya"
 	Atmosphere
 	{
 		Model          "Jupiter"
-		Height          691.344727
+		Height          169.436752
 		Density         342.256073
 		Pressure        75.4853363
 		Greenhouse      436.641235
@@ -192,11 +191,14 @@ Planet	"Maaya"
 
 	Orbit
 	{
-		RefPlane	"Equator"
-		PeriodDays		  27.532
-		SemiMajorAxis    0.1374212
+		RefPlane        "Equator"
+		Period          0.0753801197
+		SemiMajorAxis   0.1374212
 		Eccentricity    0.0586196817
 		Inclination     -0.0638566811
+		AscendingNode   -0.243837533
+		ArgOfPericenter 0
+		MeanAnomaly     0
 	}
 }
 
