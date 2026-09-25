@@ -301,8 +301,8 @@ Moon	"Farecelo"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      1.6679
-		SemiMajorAxisKm 389862
+		PeriodDays      1.931
+		SemiMajorAxisKm 429862
 		Eccentricity    0.00305744091
 		Inclination     0.137212071
 		AscendingNode   3.89043303
