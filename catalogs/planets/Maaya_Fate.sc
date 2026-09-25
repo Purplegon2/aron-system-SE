@@ -112,22 +112,19 @@ Planet	"Maaya"
 
 	Clouds
 	{
-		Height          85.4
-		Velocity        73.9
-		BumpHeight      4
-		Gamma           1.17
+		Height          18.6
+		Velocity        69.8
+		BumpHeight      5.42
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		ModulateColor  (0.859 0.845 0.776)
 		ModulateBright  1
-		Opacity         1.45
-		mainFreq        1.01
+		mainFreq        0.779
 		mainOctaves     10
-		Coverage        0.435
-		stripeZones     1.96
-		stripeTwist     0.0976
+		Coverage        1
+		stripeZones     1.66
+		stripeTwist     0.287
 	}
 
 	NoLava          true
