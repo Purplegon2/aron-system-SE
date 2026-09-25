@@ -151,7 +151,16 @@ Planet	"Hadea"
 
 	NoAccretionDisk true
 
-	NoCometTail     true
+	CometTail
+	{
+		MaxLength   0.147
+		GasToDust   0
+		Particles   3166
+		GasBright   0.0876
+		DustBright  0.122
+		GasColor   (0.002 0.006 0.010)
+		DustColor  (0.050 0.050 0.050)
+	}
 
 	Orbit
 	{
