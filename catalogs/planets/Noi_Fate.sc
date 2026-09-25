@@ -1975,7 +1975,7 @@ Moon	"Maresia"
 
 	Clouds
 	{
-		Height          15.8
+		Height          20.92
 		Velocity        126
 		BumpHeight      2.91
 		Hapke           0
@@ -1992,7 +1992,7 @@ Moon	"Maresia"
 
 	Clouds
 	{
-		Height          15.8
+		Height          20.92
 		Velocity        74.1
 		BumpHeight      2.91
 		Hapke           0
