@@ -153,7 +153,7 @@ Planet	"Hadea"
 
 	CometTail
 	{
-		MaxLength   0.142
+		MaxLength   0.148
 		GasToDust   0
 		Particles   3100
 		GasBright   0.0876
