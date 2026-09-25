@@ -701,7 +701,7 @@ Moon	"Alneim"
 {
 	ParentBody     "Cailus"
 	Class          "Terra"
-	Mass            0.02711103363
+	Mass            0.027111033
 	Radius          2912.91992
 	InertiaMoment   0.399339557
 	Oblateness      0.0206106864
@@ -759,11 +759,11 @@ Moon	"Alneim"
 		hillsFreq       124
 		hillsFraction   0.11
 		hills2Fraction  0
-		riversMagn      57.3
-		riversFreq      2.15
+		riversMagn      0
+		riversFreq      0
 		riversSin       0
-		riftsMagn       61.3
-		riftsFreq       4.5
+		riftsMagn       3.05
+		riftsFreq       0.305
 		riftsSin        7.28
 		canyonsMagn     0.422
 		canyonsFreq     0.366
@@ -825,7 +825,7 @@ Moon	"Alneim"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      4.64488000441
+		PeriodDays      4.64488
 		SemiMajorAxisKm 771714.894
 		Eccentricity    0.0793737529
 		Inclination     -1.07209156
