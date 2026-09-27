@@ -1441,8 +1441,8 @@ Moon	"Reione"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      1.14023627397
-		SemiMajorAxisKm 90024.3109
+		PeriodDays      0.54344529
+		SemiMajorAxisKm 54930.1656
 		Eccentricity    0.000392803918
 		Inclination     1.24574789
 		AscendingNode   -87.8291338
@@ -1450,6 +1450,7 @@ Moon	"Reione"
 		MeanAnomaly     136.102999
 	}
 }
+
 
 
 
