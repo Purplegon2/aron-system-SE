@@ -462,19 +462,19 @@ Moon	"Parvus"
 
 	Surface
 	{
-		Preset         "terra_airless_vesta_enhanced.cfg"
-		SurfStyle       0.305
-		Randomize      (-0.683, -0.575, -0.948)
-		colorDistMagn   0.0684
-		colorDistFreq   107
+		Preset         "terra_airless_mercury.cfg"
+		SurfStyle       0.748
+		Randomize      (-0.918, -0.439, -0.069)
+		colorDistMagn   0.0787
+		colorDistFreq   129
 		detailScale     4.1e+03
 		drivenDarkening 0
-		seaLevel        0.204
+		seaLevel        0.247
 		snowLevel       2
-		tropicLatitude  0.837
-		icecapLatitude  1
-		icecapHeight    0
-		climatePole     0.938
+		tropicLatitude  0.103
+		icecapLatitude  2
+		icecapHeight    0.552
+		climatePole     0.438
 		climateTropic   0.312
 		climateEquator  0.688
 		climateSteppeMin -1
@@ -483,57 +483,53 @@ Moon	"Parvus"
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.42
+		humidity        0.305
 		heightTempGrad  0.625
-		beachWidth      0.000302
+		beachWidth      0.000629
 		tropicWidth     0.07
 		mainFreq        1.9
-		venusFreq       1.17
+		venusFreq       0.417
 		venusMagn       0
-		mareFreq        0.267
-		mareDensity     0.194
-		terraceProb     0.143
-		erosion         0.214
-		montesMagn      0.077
-		montesFreq      47.8
-		montesSpiky     0.918
-		montesFraction  0.337
-		dunesMagn       0.0277
-		dunesFreq       9.82
-		dunesFraction   0.871
-		hillsMagn       0.124
-		hillsFreq       111
-		hillsFraction   0.623
+		mareFreq        0.52
+		mareDensity     0.167
+		terraceProb     0.379
+		erosion         0
+		montesMagn      0.0513
+		montesFreq      38.9
+		montesSpiky     0.955
+		montesFraction  0.811
+		dunesMagn       0.047
+		dunesFreq       12.9
+		dunesFraction   0.203
+		hillsMagn       0.141
+		hillsFreq       162
+		hillsFraction   0.792
 		hills2Fraction  0
-		riversMagn      35.1
-		riversFreq      2.45
-		riversSin       5.85
-		riftsMagn       0
-		riftsFreq       0.687
-		riftsSin        5.92
-		eqridgeMagn     0
-		eqridgeWidth    0.001
-		eqridgeModMagn  0.0573
-		eqridgeModFreq  0.84
-		canyonsMagn     10
-		canyonsFreq     878
-		canyonsFraction 0.147
-		cracksMagn      0.06
-		cracksFreq      1.15
+		riversMagn      59.4
+		riversFreq      3.74
+		riversSin       4.8
+		riftsMagn       53.5
+		riftsFreq       2.22
+		riftsSin        4.61
+		canyonsMagn     0.571
+		canyonsFreq     0.508
+		canyonsFraction 0.361
+		cracksMagn      0.0576
+		cracksFreq      0
 		cracksOctaves   0
-		craterMagn      0.534
-		craterFreq      24.4
-		craterDensity   0.153
-		craterOctaves   1
-		craterRayedFactor 0.176
-		volcanoMagn     0.195
-		volcanoFreq     0
-		volcanoDensity  0.4
+		craterMagn      0.687
+		craterFreq      13.7
+		craterDensity   0.588
+		craterOctaves   23
+		craterRayedFactor 0.0992
+		volcanoMagn     0.18
+		volcanoFreq     0.737
+		volcanoDensity  0.212
 		volcanoOctaves  3
-		volcanoActivity 0.87
-		volcanoFlows    0.493
-		volcanoRadius   0.142
-		volcanoTemp     942
+		volcanoActivity 0
+		volcanoFlows    0.278
+		volcanoRadius   0.137
+		volcanoTemp     1.13e+03
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
@@ -583,4 +579,5 @@ Moon	"Parvus"
 		MeanAnomaly     28.8972723
 	}
 }
+
 
