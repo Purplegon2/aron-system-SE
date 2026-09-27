@@ -494,14 +494,14 @@ Planet	"Tiberius"
 	Atmosphere
 	{
 		Model          "Jupiter"
-		Height          390.780975
+		Height          644.407104
 		Density         0.00645037275
 		Pressure        1
 		Bright          3
 		Opacity         1
 		SkyLight        1
-		Hue             -0.0145
-		Saturation      1.02
+		Hue             0.462
+		Saturation      0.153
 
 		Composition
 		{
@@ -564,7 +564,7 @@ Planet	"Tiberius"
 		InnerRadius     2.54e+04
 		OuterRadius     9.83e+04
 		EdgeRadius      6.02e+04
-		MeanRadius      3.67e+04
+		MeanRadius      3.7e+04
 		Thickness       0.367
 		RocksMaxSize    0.00316
 		RocksSpacing    1
