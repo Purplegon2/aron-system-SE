@@ -561,17 +561,17 @@ Planet	"Tiberius"
 
 	Rings
 	{
-		InnerRadius     2.54e+04
-		OuterRadius     1.02e+05
-		EdgeRadius      6.02e+04
-		MeanRadius      3.9e+04
-		Thickness       0.367
+		InnerRadius     2.87e+04
+		OuterRadius     8.69e+04
+		EdgeRadius      4.94e+04
+		MeanRadius      3.67e+04
+		Thickness       0.644
 		RocksMaxSize    0.00316
 		RocksSpacing    1
 		DustDrawDist    1.1e+03
 		ChartRadius     6.02e+04
 		RotationPeriod  5.46
-		Brightness      0.916
+		Brightness      2.06
 		FrontBright     2.9
 		BackBright      6.03
 		Density         0.964
