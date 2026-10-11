@@ -18,8 +18,8 @@ StarBarycenter "Konta Clara System"
 
 StarBarycenter "Andria System"
 {
-    RA       05 41 20 
-    Dec     -68 59 30 
+    RA       05 39 42 
+    Dec     -69 58 32  
     Dist   50000.0  
     Class   "X"
     Lum      150
@@ -27,8 +27,8 @@ StarBarycenter "Andria System"
 
 StarBarycenter "Homestead Prime System"
 {
-    RA       05 38 19 
-    Dec     -68 58 30 
+     RA       05 38 42 
+    Dec     -68 59 31  
     Dist   50000.0
     Class   "X"
     Lum      150
