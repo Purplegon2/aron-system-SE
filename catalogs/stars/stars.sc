@@ -18,8 +18,8 @@ StarBarycenter "Konta Clara System"
 
 StarBarycenter "Andria System"
 {
-    RA       05 39 42 
-    Dec     -69 58 32  
+    RA       05 38 42 
+    Dec     -69 59 30  
     Dist   50000.0  
     Class   "X"
     Lum      150
