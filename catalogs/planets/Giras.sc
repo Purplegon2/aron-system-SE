@@ -2,7 +2,7 @@ Planet	"Giras"
 {
 	ParentBody     "Hope"
 	Class          "Neptune"
-	Mass            12.5
+	Mass            16.937431
 	Radius          25362.6992
 	InertiaMoment   0.190386653
 	Oblateness      0.0312461052
