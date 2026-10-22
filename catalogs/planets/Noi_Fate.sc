@@ -1723,125 +1723,222 @@ Moon	"Cheillou"
 	}
 }
 
-Moon	"Chevial"
+Moon	"Cheival"
 {
 	ParentBody     "Noi"
-	Class          "Aquaria"
-	Mass            0.081269972
-	Radius          4390.97266
-	InertiaMoment   0.334297866
-	Oblateness      0.0480078273
-	RotationPeriod  12.7418673
-	RotationEpoch   0
-	Obliquity       26.6150586
-	EqAscendNode    -62.6128749
+	Class          "Terra"
+	Mass            0.175613984
+	Radius          4246.80322
+	InertiaMoment   0.33069253
+	Obliquity       0.127313727
+	EqAscendNode    7.16320764
+	TidalLocked     true
 
-	AlbedoBond      0.3
+	AlbedoBond      0.58
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
 
 	Surface
 	{
-		Preset         "aquaria_airless_triton.cfg"
-		SurfStyle       0.511
-		Randomize      (-0.324, -0.532, -0.405)
-		colorDistMagn   0.0391
-		colorDistFreq   52.2
-		detailScale     7.68e+03
-		drivenDarkening 0.373
-		seaLevel        0.114
-		snowLevel       2
-		tropicLatitude  0.587
-		icecapLatitude  1
-		icecapHeight    0
-		climatePole     0.938
-		climateTropic   0.313
-		climateEquator  0.688
+		Preset         "terra_wet_rocky_blue.cfg"
+		SurfStyle       0.604
+		Randomize      (0.015, -0.410, 0.871)
+		colorDistMagn   0.0503
+		colorDistFreq   378
+		detailScale     1.64e+04
+		drivenDarkening 0
+		seaLevel        0.0367
+		snowLevel       0.85
+		tropicLatitude  0.11
+		icecapLatitude  2
+		icecapHeight    0.519
+		climatePole     0.925
+		climateTropic   0.562
+		climateEquator  0.562
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.304
-		heightTempGrad  0.625
-		beachWidth      0.000955
-		tropicWidth     0.07
-		mainFreq        1.75
-		venusFreq       0.642
+		humidity        0.325
+		heightTempGrad  0.375
+		beachWidth      0.00131
+		tropicWidth     0.5
+		mainFreq        0.815
+		venusFreq       0.397
 		venusMagn       0
-		mareFreq        0.006
-		mareDensity     0.158
-		terraceProb     0.229
-		erosion         0
-		montesMagn      0.186
-		montesFreq      167
-		montesSpiky     0.994
-		montesFraction  0.289
-		dunesMagn       0.0506
-		dunesFreq       52.1
-		dunesFraction   0.287
-		hillsMagn       0.132
-		hillsFreq       142
-		hillsFraction   0.696
-		hills2Fraction  0.11
-		riversMagn      0
-		riversFreq      2.69
-		riversSin       6.29
-		riftsMagn       0.693
-		riftsFreq       3
-		riftsSin        4.78
-		canyonsMagn     1
-		canyonsFreq     117
-		canyonsFraction 0
-		cracksMagn      0.0583
-		cracksFreq      2.6
-		cracksOctaves   4
-		craterMagn      0.465
-		craterFreq      0.988
-		craterDensity   0.8
-		craterOctaves   2
-		craterRayedFactor 0.236
-		volcanoMagn     0.469
-		volcanoFreq     0.898
-		volcanoDensity  0.187
-		volcanoOctaves  4
-		volcanoActivity 0.276
-		volcanoFlows    0.303
-		volcanoRadius   0.524
-		volcanoTemp     367
-		lavaCoverTidal  0
+		mareFreq        5.47
+		mareDensity     0.0498
+		terraceProb     0.57
+		erosion         0.118
+		montesMagn      0.212
+		montesFreq      207
+		montesSpiky     0.992
+		montesFraction  0.839
+		dunesMagn       0.0431
+		dunesFreq       38.4
+		dunesFraction   0.281
+		hillsMagn       0.113
+		hillsFreq       57.1
+		hillsFraction   0.281
+		hills2Fraction  0.0394
+		riversMagn      61.3
+		riversFreq      1.93
+		riversSin       6.81
+		riftsMagn       0
+		riftsFreq       3.49
+		riftsSin        5
+		canyonsMagn     0.0165
+		canyonsFreq     108
+		canyonsFraction 0.414
+		cracksMagn      0.108
+		cracksFreq      0.44
+		cracksOctaves   0
+		craterMagn      0.578
+		craterFreq      10.1
+		craterDensity   0
+		craterOctaves   0
+		volcanoMagn     0.703
+		volcanoFreq     0.638
+		volcanoDensity  0.4
+		volcanoOctaves  3
+		volcanoActivity 2
+		volcanoFlows    0.371
+		volcanoRadius   0.509
+		volcanoTemp     247
+		lavaCoverTidal  0.0619
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      14.5
-		DiffMapAlpha   "Ice"
-		SpecBrightWater 0.03
-		SpecBrightIce   0.03
+		stripeZones     1.86
+		stripeTwist     0.26
+		cycloneMagn     1.49
+		cycloneFreq     0.825
+		cycloneDensity  0.363
+		cycloneOctaves  2
+		BumpHeight      20
+		BumpOffset      0.734
+		DiffMapAlpha   "Water"
+		SpecBrightWater 0.65
+		SpecBrightIce   0.85
 		RoughnessWater  0.35
 		RoughnessIce    0.45
 		SpecularScale   1
-		RoughnessBias   0.11
+		RoughnessBias   0.5
 		Hapke           0.5
-		SpotBright      2.62
-		SpotWidth       0.04
+		SpotBright      1.39
+		SpotWidth       0.05
 		DayAmbient      0.07
 	}
 
-	NoOcean         true
+	Ocean
+	{
+		Depth           0.734
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.05
+		DayAmbient      0.07
+		ModulateBright  1
 
-	NoClouds        true
+		Composition
+		{
+			C2H4      	84.6
+			C2H6      	13.2
+			C3H8      	2.16
+		}
+	}
+
+	Clouds
+	{
+		Height          14.6
+		Velocity        76.3
+		BumpHeight      2.67
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		mainFreq        0.784
+		mainOctaves     10
+		Coverage        0.1
+		stripeZones     1.86
+		stripeTwist     0.26
+	}
+
+	Clouds
+	{
+		Height          19.9
+		Velocity        130
+		BumpHeight      2.67
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		mainFreq        0.784
+		mainOctaves     10
+		Coverage        0.1
+		stripeZones     1.86
+		stripeTwist     0.26
+	}
 
 	NoLava          true
 
-	NoAtmosphere    true
+	Atmosphere
+	{
+		Model          "Titan"
+		Height          70.6801529
+		Density         4.46286964
+		Pressure        1.48677933
+		Greenhouse      8.30407143
+		Bright          10
+		Opacity         1
+		SkyLight        3.33
+		Hue             -0.111
+		Saturation      0.967
+
+		Composition
+		{
+			N2        	97
+			CO        	1.66
+			C2H4      	1.3
+			C2H6      	0.076
+			C2H2      	0.000815
+			CO2       	0.000664
+			Ar        	8e-05
+		}
+	}
 
 	Climate
 	{
-		GlobalWindSpeed  0
+		GlobalWindSpeed  6.07
 	}
 
-	NoAurora        true
+	Aurora
+	{
+		Height         31.1
+		NorthLat       59.2
+		NorthLon       44.7
+		NorthRadius    1.32e+03
+		NorthWidth     420
+		NorthRings     4
+		NorthBright    0.3
+		NorthFlashFreq 59.6
+		NorthMoveSpeed 1.81
+		NorthParticles 50000
+		SouthLat       -70.6
+		SouthLon       -134
+		SouthRadius    1.27e+03
+		SouthWidth     339
+		SouthRings     3
+		SouthBright    0.3
+		SouthFlashFreq 62.2
+		SouthMoveSpeed 0.97
+		SouthParticles 50000
+		TopColor    (1.000 1.000 1.000)
+		BottomColor (0.000 1.000 0.000)
+	}
 
 	NoRings         true
 
