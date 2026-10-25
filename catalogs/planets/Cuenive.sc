@@ -7,9 +7,9 @@ DwarfPlanet	"Cuenive"
 	InertiaMoment   0.397296816
 	Oblateness      0.00249899435
 	RotationPeriod  66.0982844
+	RotationEpoch   0
 	Obliquity       0.887225691
 	EqAscendNode    -107.027698
-	TidalLocked     false
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
@@ -18,7 +18,7 @@ DwarfPlanet	"Cuenive"
 
 	Surface
 	{
-		Preset         "aquaria_airless_triton.cfg"
+		Preset         "custom-temp_aquaria_airless_sedna.cfg"
 		SurfStyle       0.465
 		Randomize      (-0.738, -0.975, 0.054)
 		colorDistMagn   0.0695
@@ -127,8 +127,8 @@ DwarfPlanet	"Cuenive"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period		    167.382975273
-		SemiMajorAxis	27.7168770812
+		Period          167.382975
+		SemiMajorAxis   27.7168771
 		Eccentricity    0.00243081901
 		Inclination     0.887225691
 		AscendingNode   -107.027698
