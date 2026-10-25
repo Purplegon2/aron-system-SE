@@ -2,11 +2,12 @@ DwarfPlanet	"Liaka"
 {
 	ParentBody     "Hope"
 	Class          "Aquaria"
-	Mass            0.000576038569
+	Mass            0.000576038554
 	Radius          664.911499
 	InertiaMoment   0.397296816
 	Oblateness      0.00249899435
 	RotationPeriod  27.0982844
+	RotationEpoch   0
 	Obliquity       0.887225691
 	EqAscendNode    -107.027698
 
@@ -126,9 +127,9 @@ DwarfPlanet	"Liaka"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period		155.213762679
-		SemiMajorAxis	26.356652982
-		Eccentricity    0.20243081901
+		Period          155.213763
+		SemiMajorAxis   26.356653
+		Eccentricity    0.202430819
 		Inclination     0.887225691
 		AscendingNode   -107.027698
 		ArgOfPericenter -7.81802589
