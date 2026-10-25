@@ -7,9 +7,9 @@ DwarfPlanet	"Setria"
 	InertiaMoment   0.399109244
 	Oblateness     (0.000, 0.007, 0.014)
 	RotationPeriod  16.9982844
+	RotationEpoch   0
 	Obliquity       -0.680506983
 	EqAscendNode    -116.434222
-	TidalLocked     false
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
@@ -18,7 +18,7 @@ DwarfPlanet	"Setria"
 
 	Surface
 	{
-		Preset         "terra_airless_mercury.cfg"
+		Preset         "terra_airless_vesta_natural.cfg"
 		SurfStyle       0.573
 		Randomize      (0.250, 0.247, 0.380)
 		colorDistMagn   0.052
@@ -126,10 +126,10 @@ DwarfPlanet	"Setria"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period      	465.508489625
-		SemiMajorAxis   54.8136233075
-		Eccentricity    0.378217692773
-		Inclination     -9.680506983
+		Period          465.50849
+		SemiMajorAxis   54.8136233
+		Eccentricity    0.378217693
+		Inclination     -9.68050698
 		AscendingNode   -116.434222
 		ArgOfPericenter -82.7188695
 		MeanAnomaly     -148.845375
