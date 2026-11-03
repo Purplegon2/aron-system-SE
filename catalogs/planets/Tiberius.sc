@@ -174,7 +174,7 @@ Planet	"Polion"
 		Height          691.344727
 		Density         6.16147089
 		Pressure        4.49789286
-		Greenhouse      9.16030502
+		Greenhouse      15.1
 		Bright          7.63
 		Opacity         1
 		SkyLight        1.15
