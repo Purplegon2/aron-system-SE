@@ -330,20 +330,20 @@ Moon	"Charayl"
 
 	Surface
 	{
-		Preset         "aquaria_arid_triton.cfg"
-		SurfStyle       0.788
-		Randomize      (0.875, 0.347, 0.192)
-		colorDistMagn   0.0598
-		colorDistFreq   69.3
-		detailScale     2.05e+03
-		drivenDarkening 0
-		seaLevel        0.257
+		Preset         "aquaria_airless_triton.cfg"
+		SurfStyle       0.191
+		Randomize      (0.755, -0.246, 0.352)
+		colorDistMagn   0.0799
+		colorDistFreq   134
+		detailScale     4.1e+03
+		drivenDarkening 0.618
+		seaLevel        0.156
 		snowLevel       2
-		tropicLatitude  0.998
-		icecapLatitude  1
-		icecapHeight    0.397
-		climatePole     0.938
-		climateTropic   0.313
+		tropicLatitude  0.422
+		icecapLatitude  0.976
+		icecapHeight    0.00454
+		climatePole     0.438
+		climateTropic   0.312
 		climateEquator  0.688
 		climateSteppeMin -1
 		climateSteppeMax -1
@@ -351,53 +351,57 @@ Moon	"Charayl"
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.205
+		humidity        0.419
 		heightTempGrad  0.625
-		beachWidth      0.000552
+		beachWidth      0.000958
 		tropicWidth     0.07
-		mainFreq        1.72
-		venusFreq       1.07
+		mainFreq        1.62
+		venusFreq       1.43
 		venusMagn       0
-		mareFreq        0.001
-		mareDensity     0
-		terraceProb     0.299
-		erosion         0.13
-		montesMagn      0
-		montesFreq      0
-		montesSpiky     0
-		montesFraction  0
-		dunesMagn       0
-		dunesFreq       0
-		dunesFraction   0
-		hillsMagn       0
-		hillsFreq       0
-		hillsFraction   0
-		hills2Fraction  0
-		riversMagn      2.29
-		riversFreq      0
-		riversSin       7.7
+		mareFreq        0.421
+		mareDensity     0.158
+		terraceProb     0.481
+		erosion         0
+		montesMagn      0.0533
+		montesFreq      41.8
+		montesSpiky     0.959
+		montesFraction  0.85
+		dunesMagn       0.0398
+		dunesFreq       11.2
+		dunesFraction   0.894
+		hillsMagn       0.112
+		hillsFreq       33.4
+		hillsFraction   0.795
+		hills2Fraction  0.0585
+		riversMagn      0
+		riversFreq      3.21
+		riversSin       6.32
 		riftsMagn       0
-		riftsFreq       0
-		riftsSin        4.78
-		canyonsMagn     0.453
-		canyonsFreq     168
-		canyonsFraction 0.748
-		cracksMagn      0.0763
-		cracksFreq      15
+		riftsFreq       2.29
+		riftsSin        6.31
+		eqridgeMagn     0
+		eqridgeWidth    0.001
+		eqridgeModMagn  0
+		eqridgeModFreq  0
+		canyonsMagn     0.622
+		canyonsFreq     0.429
+		canyonsFraction 0
+		cracksMagn      0.0277
+		cracksFreq      0.229
 		cracksOctaves   0
-		craterMagn      0
-		craterFreq      0
-		craterDensity   0
-		craterOctaves   0
-		craterRayedFactor 0
-		volcanoMagn     0
-		volcanoFreq     0.0153
-		volcanoDensity  0
-		volcanoOctaves  0
-		volcanoActivity 0
-		volcanoFlows    0
-		volcanoRadius   0
-		volcanoTemp     0
+		craterMagn      0.305
+		craterFreq      2.29
+		craterDensity   0.784
+		craterOctaves   19
+		craterRayedFactor 0.0517
+		volcanoMagn     0.179
+		volcanoFreq     0.883
+		volcanoDensity  0.183
+		volcanoOctaves  3
+		volcanoActivity 0.0122
+		volcanoFlows    0.272
+		volcanoRadius   0.145
+		volcanoTemp     284
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
@@ -413,7 +417,6 @@ Moon	"Charayl"
 		SpotBright      2.5
 		SpotWidth       0.05
 		DayAmbient      0.07
-		ModulateColor  (0.954 0.970 0.977)
 	}
 
 	NoOcean         true
