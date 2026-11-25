@@ -25,83 +25,83 @@ Planet	"Sera"
 
 	Surface
 	{
-		Preset         "Sera.cfg"
-		SurfStyle       0.965
-		Randomize      (-0.046, -1.023, 0.265)
-		colorDistMagn   0.0403
-		colorDistFreq   577
-		detailScale     1.64e+04
+		Preset         "terra_arid_earth_black.cfg"
+		SurfStyle       0.0956
+		Randomize      (0.109, 0.102, -0.181)
+		colorDistMagn   0.0517
+		colorDistFreq   1.2e+03
+		detailScale     3.28e+04
 		drivenDarkening 0
-		seaLevel        0.103
+		seaLevel        0.0999
 		snowLevel       2
-		tropicLatitude  1
+		tropicLatitude  0.711
 		icecapLatitude  2
-		icecapHeight    0.825
-		climatePole     0.563
-		climateTropic   0.563
-		climateEquator  0.563
+		icecapHeight    0.614
+		climatePole     0.562
+		climateTropic   0.562
+		climateEquator  0.562
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.383
+		humidity        0.178
 		heightTempGrad  0.375
-		beachWidth      0.000893
+		beachWidth      0.00107
 		tropicWidth     0.5
-		mainFreq        1.07
-		venusFreq       1.6
-		venusMagn       0
-		mareFreq        1.87
+		mainFreq        1.08
+		venusFreq       1.26
+		venusMagn       0.757
+		mareFreq        1.86
 		mareDensity     0
-		terraceProb     0.29
+		terraceProb     0.135
 		erosion         0
-		montesMagn      0.21
-		montesFreq      397
-		montesSpiky     0.83
-		montesFraction  0.89
-		dunesMagn       3
-		dunesFreq       2
-		dunesFraction   0.754
-		hillsMagn       1.53
-		hillsFreq       76.3
+		montesMagn      0.158
+		montesFreq      423
+		montesSpiky     0.971
+		montesFraction  0.542
+		dunesMagn       0.058
+		dunesFreq       76.2
+		dunesFraction   0.0677
+		hillsMagn       0.123
+		hillsFreq       1.24e+03
 		hillsFraction   0
-		hills2Fraction  0.00763
-		riversMagn      3.05
-		riversFreq      1.22
-		riversSin       5.04
-		riftsMagn       14.5
-		riftsFreq       0.0763
-		riftsSin        1.98
-		canyonsMagn     0.534
-		canyonsFreq     2
-		canyonsFraction 0.0992
-		cracksMagn      0
-		cracksFreq      0
+		hills2Fraction  0
+		riversMagn      0
+		riversFreq      2.64
+		riversSin       3.59
+		riftsMagn       63.9
+		riftsFreq       3.04
+		riftsSin        6.81
+		canyonsMagn     0.0695
+		canyonsFreq     197
+		canyonsFraction 0
+		cracksMagn      0.0809
+		cracksFreq      0.502
 		cracksOctaves   0
-		craterMagn      0.916
-		craterFreq      19.1
-		craterDensity   0.359
-		craterOctaves   6
-		volcanoMagn     0.603
-		volcanoFreq     0.0916
-		volcanoDensity  0.252
-		volcanoOctaves  2
-		volcanoActivity 0
-		volcanoFlows    0
-		volcanoRadius   0.664
-		volcanoTemp     22.9
+		craterMagn      0.633
+		craterFreq      18.6
+		craterDensity   0
+		craterOctaves   0
+		volcanoMagn     0.655
+		volcanoFreq     0.812
+		volcanoDensity  0.4
+		volcanoOctaves  3
+		volcanoActivity 2
+		volcanoFlows    0.998
+		volcanoRadius   0.471
+		volcanoTemp     1.11e+03
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		stripeZones     2.28
-		stripeTwist     0.183
-		cycloneMagn     3.82
-		cycloneFreq     0.962
-		cycloneDensity  0.319
-		cycloneOctaves  3
-		BumpHeight      20
+		stripeZones     2.34
+		stripeTwist     0.109
+		cycloneMagn     3.24
+		cycloneFreq     0.827
+		cycloneDensity  0.308
+		cycloneOctaves  4
+		BumpHeight      16.8
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.5
 		SpecBrightIce   0.5
@@ -109,32 +109,46 @@ Planet	"Sera"
 		RoughnessIce    0.45
 		SpecularScale   1
 		RoughnessBias   0.5
-		Hapke           0.638
-		SpotBright      2.41
+		Hapke           0.5
+		SpotBright      1.9
 		SpotWidth       0.05
 		DayAmbient      0.07
-		ModulateColor  (0.840 0.738 0.630)
 	}
 
 	NoOcean         true
 
 	Clouds
 	{
-		Height          27.7
-		Velocity        87.5
-		BumpHeight      2.89
-		Gamma           1.02
-		Hapke           0.084
+		Height          36.3
+		Velocity        7.61
+		BumpHeight      6.72
+		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
-		DayAmbient      0.137
-		ModulateBright  1.45
-		Opacity         0.366
-		mainFreq        0.252
-		mainOctaves     4
-		Coverage        0.282
-		stripeZones     2.28
-		stripeTwist     0.183
+		DayAmbient      0.07
+		ModulateBright  1
+		mainFreq        0.755
+		mainOctaves     10
+		Coverage        0.214
+		stripeZones     2.34
+		stripeTwist     0.109
+	}
+
+	Clouds
+	{
+		Height          64.3
+		Velocity        74
+		BumpHeight      7.88
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		mainFreq        0.755
+		mainOctaves     10
+		Coverage        0.214
+		stripeZones     2.34
+		stripeTwist     0.109
 	}
 
 	NoLava          true
@@ -201,6 +215,7 @@ Planet	"Sera"
 		TopColor    (1.000 1.000 1.000)
 		BottomColor (0.000 1.000 0.000)
 	}
+
 
 	NoRings         true
 
